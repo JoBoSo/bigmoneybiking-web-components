@@ -155,7 +155,6 @@ const timelines = {
       "photobar_imgs": [
         "ptit-train/river.jpg",
         "ptit-train/church.jpg",
-        //"ptit-train/IMG_2559.jpg",
         "ptit-train/IMG_2577.jpg",
       ]
     }
