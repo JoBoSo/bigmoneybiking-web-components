@@ -24,9 +24,10 @@
     <script defer src="../components/Header.js"></script>
     <script defer src="../components/Navbar.js"></script>
     <script defer src="../components/Timeline.js"></script>
+    <script defer src="../components/Map.js"></script>
     <script defer src="../components/Footer.js"></script>
 
-    <title>Schomberg to Montreal</title>
+    <title>P'tit Train du Nord</title>
 </head>
 <body>
     <div class="container">
@@ -50,14 +51,7 @@
         </div>
 
         <my-timeline data_id="ptit-train"></my-timeline>
-
-        <h2 class="text-center">Bike Route</h2>
-        <div class="row no-gutters">
-            <div class="myMap">
-                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1VJNTSZyRypR02pVd6nGhmGGHv_c3gy8&ehbc=2E312F" width="100%" height="480"></iframe>
-            </div>
-        </div>
-        <br>
+        <my-map data_id="ptit-train"></my-map>
 
         <h2 class="text-center">Pictures</h2>
         <div class="row no-gutters">
