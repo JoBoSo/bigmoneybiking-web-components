@@ -120,7 +120,7 @@ const timelines = {
       ],
       "photobar_imgs": [
         "ptit-train/IMG_2537.jpg",
-        "ptit-train/poutine.jpg",
+        "ptit-train/poutine.JPG",
         "ptit-train/IMG_2538.jpg",
       ]
     },
@@ -154,7 +154,7 @@ const timelines = {
       ],
       "photobar_imgs": [
         "ptit-train/river.jpg",
-        "ptit-train/church.jpg",
+        "ptit-train/church.JPG",
         "ptit-train/IMG_2577.jpg",
       ]
     }
