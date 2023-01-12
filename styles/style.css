@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&family=Quicksand:wght@400;600&display=swap');
+
 body {
     font-family: 'Quicksand', Helvetica, sans-serif;
     color: white;
@@ -6,6 +8,10 @@ body {
     background: linear-gradient(to right, #28574c, #01796f);
     margin: 0;
     padding: 0;
+}
+
+p {
+    margin: 0;
 }
 
 /* BMB Header */
@@ -390,19 +396,6 @@ body {
     text-align: center;
 }
 
-.photoBar {
-    padding: 3px; 
-    background-color: #dedcdc;
-    border-radius: 5px;
-}
-
-.photoBar img {
-    width: 100%; 
-    height: auto;
-    padding: 3px;
-    border-radius: 10px;
-}
-
 .report {
     color: white;
 }
@@ -428,6 +421,7 @@ body {
     border-top: 2px solid black;
     border-radius: 10px;
 }
+
 .myMap iframe {
     margin-top:-69px; 
     border:2px solid black;
@@ -476,58 +470,79 @@ body {
 }
 
 
-/* start timeline */
-
-/* Timeline holder */
-ul.timeline {
+.my-timeline ul {
     list-style-type: none;
     position: relative;
-    padding-left: 1.5rem;
+    padding-left: 6px; 
 }
 
- /* Timeline vertical line */
-ul.timeline:before {
+ /* vertical line */
+.my-timeline ul:before {
     content: ' ';
-    background: #fff;
+    background: white;
     display: inline-block;
     position: absolute;
-    left: 16px;
-    width: 4px;
-    height: 100%;
+    left: 6px;
+    width: 1.5px;
+    height: auto; /*auto for line on top dot*/
+    top: 16px; /*16px for on the top dot*/
+    bottom: 20px; 
     z-index: 400;
-    border-radius: 1rem;
+    border-radius: 50%;
 }
 
-li.timeline-item {
-    margin: 20px 0;
-}
-
-/* Timeline item arrow */
-.timeline-arrow {
-    border-top: 0.5rem solid transparent;
-    border-right: 0.5rem solid #fff;
-    border-bottom: 0.5rem solid transparent;
-    display: block;
-    position: absolute;
-    left: 2rem;
+.my-timeline-item {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* Timeline item circle marker */
-li.timeline-item::before {
+.my-timeline-item::before {
     content: ' ';
-    background: #ddd;
+    background: red;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #fff;
-    left: 11px;
+    border: 1.5px solid white;
+    left: 0px;
     width: 14px;
     height: 14px;
     z-index: 400;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+    margin-top: 11px;
 }
 
-.text-gray {
-    color: #999 !important;
+.my-timeline-header {
+    font-size: 18pt;
+    margin-left: 20px;
 }
-/* end timeline */
+
+.my-timeline-bullets {
+    list-style-type: circle !important;
+    padding-left: 46px !important;
+    background: none !important;
+}
+
+.my-timeline-bullets::before {
+    background: none !important;
+}
+
+.photoBar {
+    /* padding-top: 10px;  */
+    padding-left: 25px;
+    padding-right: 5px;
+    border-radius: 12px;
+}
+
+.photoBar img {
+    width: 100%; 
+    height: auto;
+    padding: 6px;
+    border-radius: 15px;
+}
