@@ -1,6 +1,6 @@
 const pictures = [
   {
-    path: "../images/to-mtrl/58774621490__9612BD0A-3DA7-4FAD-87D0-507760B9EB60.JPG",
+    path: "../images/to-mtrl/field_to_lake.JPG",
     caption: ""
   },
   {
