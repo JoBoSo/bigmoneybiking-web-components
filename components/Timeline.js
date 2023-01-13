@@ -500,7 +500,11 @@ const timelines = {
       "start": "Courtenay",
       "end": "Comox Lake",
       "description": [],
-      "photobar_imgs": []
+      "photobar_imgs": [
+        "comox-lake/IMG_6300.JPG",
+        "comox-lake/IMG_6302.JPG",
+        "comox-lake/IMG_6310.JPG",
+      ]
     },
     {
       "day": 2,
@@ -508,8 +512,14 @@ const timelines = {
       "distance": 66,
       "start": "Comox Lake",
       "end": "Courtenay",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "The shadow of the mountains across the lake was cast up on those on my side of the lake as the sun rose.",
+      ],
+      "photobar_imgs": [
+        "comox-lake/IMG_6325.JPG",
+        "comox-lake/IMG_6331.JPG",
+        "comox-lake/IMG_6336.JPG",
+      ]
     },
   ],
 
