@@ -21,7 +21,6 @@ class Map extends HTMLElement {
               <iframe src=${maps[this.data_id]} width="100%" height="480"></iframe>
           </div>
         </div>
-      <br></br>
     `;
   }
 }

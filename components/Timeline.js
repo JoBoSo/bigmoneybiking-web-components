@@ -226,8 +226,17 @@ const timelines = {
       "distance": 116,
       "start": "Kitwanga",
       "end": "Dragon Lake Campground",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "In the morning, the campground attendant in Kitwanaga invited me to park in his driveway.",
+        "A coytoe standing on a logging road that intersected the Stewart-Cassiar Highway watched me ride by.",
+        "A serial killer with rubbermaid bins full of bodies strapped to his eroding Forester offered me a drink.",
+        "Camped at Dragon Lake Campground."
+      ],
+      "photobar_imgs": [
+        "nass-valley/IMG_9673.jpg",
+        "nass-valley/IMG_9651.jpg",
+        "nass-valley/IMG_9658.jpg",
+      ]
     },
     {
       "day": 2,
@@ -235,8 +244,22 @@ const timelines = {
       "distance": 107,
       "start": "Dragon Lake Campground",
       "end": "Gingolx",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Explored the lava beds in the nass valley.",
+        "A massive moose ran through the thick forest next to me on the road into Gingolx",
+        "I saw a grizzly bear eating a procepine on the highway.",
+        "Eagles soared above Gingolx.",
+        "I camped next to a gravel pit outside of town."
+
+      ],
+      "photobar_imgs": [
+        "nass-valley/IMG_9714.jpg",
+        "nass-valley/IMG_9750.jpg",
+        "nass-valley/IMG_9753.jpg",
+        "nass-valley/IMG_9766.jpg",
+        "nass-valley/IMG_9787.jpg",
+        "nass-valley/IMG_9819.jpg",
+      ]
     },
     {
       "day": 3,
@@ -244,8 +267,16 @@ const timelines = {
       "distance": 124,
       "start": "Gingolx",
       "end": "Kitsumkalum Provincial Park",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Checked out a couple of water falls and rode alongside the Sunken Forest.",
+        "Scared a bear that wasn't moving off the highway with a banger and felt mighty.",
+        "Relaxed on the beach next to a fire at my campsite on Kitsumkalum Lake."
+      ],
+      "photobar_imgs": [
+        "nass-valley/IMG_9823.jpg",
+        "nass-valley/IMG_0083.jpg",
+        "nass-valley/IMG_0102.jpg",
+      ]
     },
     {
       "day": 4,
@@ -253,8 +284,14 @@ const timelines = {
       "distance": 127,
       "start": "Kitsumkalum Provincial Park",
       "end": "Kitwanga",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Got a cappicino and sandwich at Bert's Deli in Terrace.",
+        "Had a short conversation about my trip with a woman at Bert's who I coincidentally met at a party in Telkwa a few weeks later.",
+        "Returned to Kitwanaga a complete man."
+      ],
+      "photobar_imgs": [
+        "nass-valley/IMG_0117.jpg"
+      ]
     }
   ],
 
@@ -290,8 +327,15 @@ const timelines = {
       "distance": 42,
       "start": "Revelstoke",
       "end": "Carnes Creek Rec Site",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Was held up on the highway for over an hour because the crumbling mountain-side was being repaired.",
+        "My neighbours at Carnes Creek Rec Site gave be a load of fire wood for the night."
+      ],
+      "photobar_imgs": [
+        "downie-creek/IMG_8490.JPG",
+        "downie-creek/IMG_8491.JPG",
+        "downie-creek/IMG_8500.JPG",
+      ]
     },
     {
       "day": 2,
@@ -299,8 +343,16 @@ const timelines = {
       "distance": 74,
       "start": "Carnes Creek Rec Site",
       "end": "Carnes Creek Rec Site",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Sunbeams shot through the clouds and the landscape had a glassy shine despite the clouds.",
+        "The mist and fog was moving around me all day. It brought the river to life.",
+        "I decided to turn around a Downie Creek. If the forecast wasn't cold rain, I would have continued to Mica Creek."
+      ],
+      "photobar_imgs": [
+        "downie-creek/IMG_8521.JPG",
+        "downie-creek/IMG_8602.JPG",
+        "downie-creek/IMG_8628.JPG",
+      ]
     },
     {
       "day": 3,
@@ -308,8 +360,15 @@ const timelines = {
       "distance": 42,
       "start": "Carnes Creek Rec Site",
       "end": "Revelstoke",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "There are lots of pull-offs along the river. It's a dream for camping.",
+        "this is the kind of road that you won't find unless you look for it. I want to ride it all the way to it's end when I'm back."
+      ],
+      "photobar_imgs": [
+        "downie-creek/IMG_8634.JPG",
+        "downie-creek/IMG_8647.JPG",
+        "downie-creek/IMG_8648.JPG",
+      ]
     },
   ],
 
@@ -400,8 +459,16 @@ const timelines = {
       "distance": 34,
       "start": "Courtenay",
       "end": "Dinner Rock",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Took the ferry from Comox to Powell River.",
+        "On my way down the road to Dinner Rock, I saw a bear with two cubs run through the forest.",
+        "Someone left a homemade fire-starter in the pit and I needed no more convincing. It felt like a gift."
+      ],
+      "photobar_imgs": [
+        "texada/IMG_5788.JPG",
+        "texada/IMG_5800.JPG",
+        "texada/IMG_5797.JPG",
+      ]
     },
     {
       "day": 2,
@@ -409,8 +476,16 @@ const timelines = {
       "distance": 69,
       "start": "Dinner Rock",
       "end": "Shingle Beach",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Took the ferry from Powell River to Texada Island",
+        "Napped on some spongy bluffs and watched and eagle fly above me. It was so quite I could hear the eagle's wings cutting the air.",
+        "Camped at Single Beach. The host was really on the ball with an iPad for registation and a tagged truck."
+      ],
+      "photobar_imgs": [
+        "texada/IMG_5848.JPG",
+        "texada/IMG_5862.JPG",
+        "texada/IMG_5855.JPG",
+      ]
     },
     {
       "day": 3,
@@ -418,8 +493,19 @@ const timelines = {
       "distance": 40,
       "start": "Shingle Beach",
       "end": "Bob's Lake",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "I followed some hydo lines as far south as I could go before the trail became too rough.",
+        "There were tiny strawberries growing that tasted unbelievably sweet.",
+        "I hiked around Bob's Lake and saw an old horse campsite and a variety of mushrooms."
+      ],
+      "photobar_imgs": [
+        "texada/IMG_6103.JPG",
+        "texada/IMG_5893.JPG",
+        "texada/IMG_5941.JPG",
+        "texada/IMG_5944.JPG",
+        "texada/IMG_5974.JPG",
+        "texada/IMG_6021.JPG",
+      ]
     },
     {
       "day": 4,
@@ -427,8 +513,14 @@ const timelines = {
       "distance": 52,
       "start": "Bob's Lake",
       "end": "Courtenay",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "I had a meal on the colourful patio at Mary Mary Cafe in Van Anda before getting on the ferry."
+      ],
+      "photobar_imgs": [
+        "texada/IMG_6107.JPG",
+        "texada/IMG_6110.JPG",
+        "texada/IMG_6113.JPG",
+      ]
     }
   ],
 
@@ -474,7 +566,11 @@ const timelines = {
       "start": "Courtenay",
       "end": "Burnt Beach",
       "description": [],
-      "photobar_imgs": []
+      "photobar_imgs": [
+        "san-josef-bay/IMG_5236.JPG",
+        "san-josef-bay/IMG_5254.JPG",
+        "san-josef-bay/IMG_5293.JPG",
+      ]
     },
     {
       "day": 2,
@@ -483,7 +579,11 @@ const timelines = {
       "start": "Burnt Beach",
       "end": "Elk Creek",
       "description": [],
-      "photobar_imgs": []
+      "photobar_imgs": [
+        "san-josef-bay/IMG_5307.JPG",
+        "san-josef-bay/IMG_5296.JPG",
+        "san-josef-bay/IMG_5313.JPG",
+      ]
     },
     {
       "day": 3,
@@ -492,7 +592,9 @@ const timelines = {
       "start": "Elk Creek",
       "end": "Elk Creek",
       "description": [],
-      "photobar_imgs": []
+      "photobar_imgs": [
+        "san-josef-bay/IMG_5333.JPG",
+      ]
     },
     {
       "day": 4,
@@ -501,7 +603,11 @@ const timelines = {
       "start": "Elk Creek",
       "end": "Nimpkish Lake",
       "description": [],
-      "photobar_imgs": []
+      "photobar_imgs": [
+        "san-josef-bay/IMG_5352.JPG",
+        "san-josef-bay/IMG_5353.JPG",
+        "san-josef-bay/IMG_5363.JPG",
+      ]
     },
     {
       "day": 5,
@@ -510,7 +616,11 @@ const timelines = {
       "start": "Nimpkish Lake",
       "end": "Nahwitti Lake",
       "description": [],
-      "photobar_imgs": []
+      "photobar_imgs": [
+        "san-josef-bay/IMG_5387.JPG",
+        "san-josef-bay/IMG_5400.JPG",
+        "san-josef-bay/IMG_5406.JPG",
+      ]
     },
     {
       "day": 6,
@@ -519,7 +629,11 @@ const timelines = {
       "start": "Nahwitti Lake",
       "end": "San Josef Bay",
       "description": [],
-      "photobar_imgs": []
+      "photobar_imgs": [
+        "san-josef-bay/IMG_5469.JPG",
+        "san-josef-bay/IMG_5472.JPG",
+        "san-josef-bay/IMG_5473.JPG",
+      ]
     },
     {
       "day": 7,
@@ -528,7 +642,11 @@ const timelines = {
       "start": "San Josef Bay",
       "end": "Nimpkish Lake",
       "description": [],
-      "photobar_imgs": []
+      "photobar_imgs": [
+        "san-josef-bay/IMG_5495.JPG",
+        "san-josef-bay/IMG_5497.JPG",
+        "san-josef-bay/IMG_5515.JPG",
+      ]
     },
     {
       "day": 8,
@@ -537,7 +655,9 @@ const timelines = {
       "start": "Nimpkish Lake",
       "end": "Courtenay",
       "description": [],
-      "photobar_imgs": []
+      "photobar_imgs": [
+        "san-josef-bay/IMG_5519.JPG",
+      ]
     }
   ],
 
