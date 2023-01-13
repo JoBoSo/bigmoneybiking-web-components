@@ -304,8 +304,20 @@ const timelines = {
       "distance": 125,
       "start": "Tyhee Lake Provincial Park",
       "end": "Red Bluff Provincial Park",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "I went south on the Yellowhead from Telkwa and turned off toward Babine Lake in Wiley.",
+        "I ate some Chicken Tikka from Indian Curry House in Houston.",
+        "The gently rolling hills of interior BC made for a ride that was easy on the old knees.",
+        "I camped on the edge of Babine Lake in Red Bluff Provincial Park."
+      ],
+      "photobar_imgs": [
+        "babine-lake/IMG_9497.jpg",
+        "babine-lake/IMG_9504.jpg",
+        "babine-lake/IMG_9506.jpg",
+        "babine-lake/IMG_9511.jpg",
+        "babine-lake/IMG_9517.jpg",
+        "babine-lake/IMG_9525.jpg",
+      ]
     },
     {
       "day": 2,
@@ -313,8 +325,16 @@ const timelines = {
       "distance": 62,
       "start": "Red Bluff Provincial Park",
       "end": "Tyhee Lake Provincial Park",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "I took the more-direct logging road back toward Smithers. It had great view of the Babine Mountains.",
+        "Before I reached Telkwa High Road, where the logging road ended, a local guy picked me up after driving ahead of me because a grizzly was on the road and wouldn't budge when he honked. So, he brought me and by bike to the edge of Telkwa.",
+        "I returned to Tyhee Lake Provincial Park."
+      ],
+      "photobar_imgs": [
+        "babine-lake/IMG_9527.jpg",
+        "babine-lake/IMG_9529.jpg",
+        "babine-lake/IMG_9533.jpg",
+      ]
     },
   ],
 
@@ -380,18 +400,33 @@ const timelines = {
       "date": "September 26, 2020",
       "distance": 15,
       "start": "Revelstoke",
-      "end": "Begbie Falls Rec Site",
-      "description": [],
-      "photobar_imgs": []
+      "end": "Begbie Falls",
+      "description": [
+        "We biked from our place in Revelstoke to Begbie Falls Rec Site to camp."
+      ],
+      "photobar_imgs": [
+        "begbie-falls/IMG_8346.JPG",
+        "begbie-falls/IMG_3717.jpg",
+        "begbie-falls/IMG_3712.jpg",
+      ]
     },
     {
       "day": 2,
       "date": "September 27, 2020",
       "distance": 19,
-      "start": "Begbie Falls Rec Site",
+      "start": "Begbie Falls",
       "end": "Revelstoke",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "We hiked a little more than half way up Mt. Begbie the next morning."
+      ],
+      "photobar_imgs": [
+        "begbie-falls/IMG_8353.JPG",
+        "begbie-falls/IMG_8359.JPG",
+        "begbie-falls/IMG_8360.JPG",
+        "begbie-falls/IMG_8374.JPG",
+        "begbie-falls/IMG_3779.JPG",
+        "begbie-falls/IMG_8371.JPG",
+      ]
     },
   ],
 
@@ -404,8 +439,15 @@ const timelines = {
       "distance": 64,
       "start": "Courtenay",
       "end": "Quadra Island",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Got some salmon from Dockside Fish & Chips before getting on the ferry from Campbell River to Quadra.",
+        "Pushed my bike along a trail to Morte Lake where I camped."
+      ],
+      "photobar_imgs": [
+        "quadra-cortes/IMG_6780.JPG",
+        "quadra-cortes/IMG_6819.JPG",
+        "quadra-cortes/IMG_6791.JPG",
+      ]
     },
     {
       "day": 2,
@@ -413,8 +455,16 @@ const timelines = {
       "distance": 49,
       "start": "Quadra Island",
       "end": "Quadra Island",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Hiked up beeches mountain which led to big views of the ocean and Sunshine Coast.",
+        "Went to Surge Narrows Provincial Park where the ocean gets squeezed between Quadra and it's neighbour, Maurelle Island.",
+        "Camped in a lushious opening in the forest."
+      ],
+      "photobar_imgs": [
+        "quadra-cortes/IMG_6813.JPG",
+        "quadra-cortes/IMG_6824.JPG",
+        "quadra-cortes/IMG_6835.JPG",
+      ]
     },
     {
       "day": 3,
@@ -422,8 +472,21 @@ const timelines = {
       "distance": 144,
       "start": "Quadra Island",
       "end": "Courtenay",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Took the ferry from Quadra to Cortes.",
+        "Sat on white, sandy the beach at Smelt Bay and watched the sea birds.",
+        "Walked around the rocky beach and dock in Squirrel Cove and watched sailors replenish their liquor supplies.",
+        "Looked at the garden behind Cortes Natural Food Co-op.",
+        "Was confused when I found pontoon boats sitting in a pit with cottages on cliffs above them. But I figured out what was going on when the tide came in to fill it up."
+      ],
+      "photobar_imgs": [
+        "quadra-cortes/IMG_6856.JPG",
+        "quadra-cortes/IMG_6848.JPG",
+        "quadra-cortes/IMG_6861.JPG",
+        "quadra-cortes/IMG_6903.JPG",
+        "quadra-cortes/IMG_6950.JPG",
+        "quadra-cortes/IMG_6954.JPG",
+      ]
     },
   ],
 
@@ -534,7 +597,11 @@ const timelines = {
       "start": "Courtenay",
       "end": "Brewster Lake",
       "description": [],
-      "photobar_imgs": []
+      "photobar_imgs": [
+        "brewster-lake/IMG_5585.JPG",
+        "brewster-lake/IMG_5594.JPG",
+        "brewster-lake/IMG_5570.JPG",
+      ]
     },
     {
       "day": 2,
@@ -542,8 +609,15 @@ const timelines = {
       "distance": 22,
       "start": "Brewster Lake",
       "end": "Campbell Lake",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Made a small fire on the shore and watched bats zip in and out of the forest behind me."
+      ],
+      "photobar_imgs": [
+        "brewster-lake/IMG_5603.JPG",
+        "brewster-lake/IMG_5631.JPG",
+        "brewster-lake/IMG_5637.JPG",
+
+      ]
     },
     {
       "day": 3,
@@ -552,7 +626,11 @@ const timelines = {
       "start": "Campbell Lake",
       "end": "Courtenay",
       "description": [],
-      "photobar_imgs": []
+      "photobar_imgs": [
+        "brewster-lake/IMG_5610.JPG",
+        "brewster-lake/IMG_5628.JPG",
+        "brewster-lake/IMG_5619.JPG",
+      ]
     },
   ],
 
@@ -670,8 +748,16 @@ const timelines = {
       "distance": 92,
       "start": "Nanaimo",
       "end": "Port Alberni",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Dropped my rental car off in Nanaimo after driving west from Ontario.",
+        "Arrived in Port Alberni around 10pm where I setup camp without a tent on the bank of the river on the edge of town.",
+        "Awoke at midnight when I rolled over and found myself in a puddle. The river was tidal and my air mattress had been floating on a shallow layer of water. Life in Southern Ontario doesn't prepare you for these situations."
+      ],
+      "photobar_imgs": [
+        "nanaimo-courtenay/IMG_5120.JPG",
+        "nanaimo-courtenay/IMG_5121.JPG",
+        "nanaimo-courtenay/IMG_5142.JPG",
+      ]
     },
     {
       "day": 2,
@@ -679,8 +765,19 @@ const timelines = {
       "distance": 88,
       "start": "Port Alberni",
       "end": "Courtenay",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Now that my sleeping bag was wet and I was cold, I continued riding to Courtenay in the dark.",
+        "My camera lense was now foggy after it got wet in the river.",
+        "When I got to the edge of civilization, the road ahead was very dark. I sat out front of a lit gas station while I built up the courage to keep riding in the dark.",
+        "I had to take logging roads. I didn't realize that the route I had mapped out would be as rough and steep as it was. I figured the roads would be just like dirt roads in Ontario, but in some cases, the roads on the map were inactive. They were blocked off with mounds of dirt and overgrown.", 
+        "My brake pads wore down as a result of riding my loaded, rigid bike down steep, rocky roads.",
+        "I saw three bears, all near Comox Lake after the sun had risen."
+      ],
+      "photobar_imgs": [
+        "nanaimo-courtenay/IMG_5145.JPG",
+        "nanaimo-courtenay/IMG_5160.JPG",
+        "nanaimo-courtenay/IMG_5154.JPG",
+      ]
     },
   ],
 
@@ -693,7 +790,10 @@ const timelines = {
       "distance": 116,
       "start": "Schomberg",
       "end": "Darlington Provincial Park",
-      "description": [],
+      "description": [
+        "Spent the day riding on busy roads through dreary Toronto suburbs.",
+        "Camped at Darlington Provincial Park for 50 precious dollars, but it put me right beside the Waterfront Trail."
+      ],
       "photobar_imgs": []
     },
     {
@@ -702,8 +802,17 @@ const timelines = {
       "distance": 161,
       "start": "Darlington Provincial Park",
       "end": "Picton",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Passed through many nice towns on Lake Ontario, like Port Hope.",
+        "My favorite section of the day was the marshy landscape around Presqu’ile Provincial Park.",
+        "Rode through corn fields in Prince Edward County.",
+        "Camped at a conservation area in Picton."
+      ],
+      "photobar_imgs": [
+        "to-mtrl/field_to_lake.JPG",
+        "to-mtrl/IMG_4209.jpg",
+        "to-mtrl/IMG_4221.JPG",
+      ]
     },
     {
       "day": 3,
@@ -711,8 +820,16 @@ const timelines = {
       "distance": 44,
       "start": "Picton",
       "end": "Kingston",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "Awoke from a poor sleep. I could hear alot of road traffic and people were biking by my tent early in the morning. Provincial Parks are the best option for camping in Ontario, but they are too expensive.",
+        "Took the ferry in Glenora.",
+        "Stayed at a motel in Kingston."
+      ],
+      "photobar_imgs": [
+        "to-mtrl/IMG_4224.JPG",
+        "to-mtrl/IMG_4225.jpg",
+        "to-mtrl/IMG_4226.jpg",
+      ]
     },
     {
       "day": 4,
@@ -720,8 +837,18 @@ const timelines = {
       "distance": 152,
       "start": "Kingston",
       "end": "Crysler Park Marina",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "The Southern Ontario/Toronto flavour completely fades past Kingston.",
+        "Watched a ferry float into the Gananoque port."
+      ],
+      "photobar_imgs": [
+        "to-mtrl/IMG_4234.JPG",
+        "to-mtrl/IMG_4238.JPG",
+        "to-mtrl/IMG_4240.JPG",
+        "to-mtrl/IMG_4246.JPG",
+        "to-mtrl/IMG_4281.JPG",
+        "to-mtrl/IMG_4258.jpg",
+      ]
     },
     {
       "day": 5,
@@ -729,8 +856,14 @@ const timelines = {
       "distance": 66,
       "start": "Crysler Park Marina",
       "end": "Glengarry Campground",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "My favorite day on the tour because I rode acros Long Sault Parkway, which spans little forested islands on the edge of the St. Lawrence.",
+      ],
+      "photobar_imgs": [
+        "to-mtrl/IMG_4267.JPG",
+        "to-mtrl/IMG_4281.JPG",
+        "to-mtrl/IMG_4292.jpg",
+      ]
     },
     {
       "day": 6,
@@ -738,8 +871,17 @@ const timelines = {
       "distance": 103,
       "start": "Glengarry Campground",
       "end": "Montreal",
-      "description": [],
-      "photobar_imgs": []
+      "description": [
+        "The trail led into Montreal seamlessly. I wasn't pushed to the sides of busy roads and the it took me through nice areas.",
+        "I loved riding through Sainte-Anne-de-Bellevue.",
+        "After I arrived at my AirBnb in Montreal, I went to three bars."
+
+      ],
+      "photobar_imgs": [
+        "to-mtrl/IMG_4301.JPG",
+        "to-mtrl/IMG_4304.JPG",
+        "to-mtrl/IMG_4312.jpg",
+      ]
     }
   ],
 
