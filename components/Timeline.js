@@ -349,7 +349,7 @@ const timelines = {
         "I decided to turn around a Downie Creek. If the forecast wasn't cold rain, I would have continued to Mica Creek."
       ],
       "photobar_imgs": [
-        "downie-creek/IMG_8521.JPG",
+        "downie-creek/IMG_8521.jpg",
         "downie-creek/IMG_8602.JPG",
         "downie-creek/IMG_8628.JPG",
       ]
@@ -484,7 +484,7 @@ const timelines = {
       "photobar_imgs": [
         "texada/IMG_5848.JPG",
         "texada/IMG_5862.JPG",
-        "texada/IMG_5855.JPG",
+        "texada/IMG_5855.jpg",
       ]
     },
     {
