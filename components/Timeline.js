@@ -424,7 +424,7 @@ const timelines = {
         "begbie-falls/IMG_8359.JPG",
         "begbie-falls/IMG_8360.JPG",
         "begbie-falls/IMG_8374.JPG",
-        "begbie-falls/IMG_3779.JPG",
+        "begbie-falls/IMG_3779.jpg",
         "begbie-falls/IMG_8371.JPG",
       ]
     },
@@ -485,7 +485,7 @@ const timelines = {
         "quadra-cortes/IMG_6861.JPG",
         "quadra-cortes/IMG_6903.JPG",
         "quadra-cortes/IMG_6950.JPG",
-        "quadra-cortes/IMG_6954.JPG",
+        "quadra-cortes/IMG_6954.jpg",
       ]
     },
   ],
