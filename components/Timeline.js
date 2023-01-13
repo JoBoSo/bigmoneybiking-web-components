@@ -845,9 +845,9 @@ const timelines = {
         "to-mtrl/IMG_4234.JPG",
         "to-mtrl/IMG_4238.JPG",
         "to-mtrl/IMG_4240.JPG",
-        "to-mtrl/IMG_4246.JPG",
+        "to-mtrl/IMG_4246.jpg",
         "to-mtrl/IMG_4281.JPG",
-        "to-mtrl/IMG_4258.jpg",
+        "to-mtrl/IMG_4258.JPG",
       ]
     },
     {
@@ -862,7 +862,7 @@ const timelines = {
       "photobar_imgs": [
         "to-mtrl/IMG_4267.JPG",
         "to-mtrl/IMG_4281.JPG",
-        "to-mtrl/IMG_4292.jpg",
+        "to-mtrl/IMG_4292.JPG",
       ]
     },
     {
