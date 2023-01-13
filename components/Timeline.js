@@ -513,7 +513,8 @@ const timelines = {
       "start": "Comox Lake",
       "end": "Courtenay",
       "description": [
-        "The shadow of the mountains across the lake was cast up on those on my side of the lake as the sun rose.",
+        "The shadow of the mountains across the lake was cast upon those on my side of the lake as the sun rose.",
+        "I tried biking around the lake, thinking it might connect to Cumberland on the otherside, but a could who lived on the otherside of the lake told me it didn't."
       ],
       "photobar_imgs": [
         "comox-lake/IMG_6325.JPG",
@@ -837,7 +838,7 @@ const timelines = {
       ],
       "photobar_imgs": [
         "to-mtrl/IMG_4224.JPG",
-        "to-mtrl/IMG_4225.jpg",
+        "to-mtrl/IMG_4225.JPG",
         "to-mtrl/IMG_4226.jpg",
       ]
     },
@@ -852,11 +853,11 @@ const timelines = {
         "Watched a ferry float into the Gananoque port."
       ],
       "photobar_imgs": [
+        "to-mtrl/IMG_4230.JPG",
         "to-mtrl/IMG_4234.JPG",
         "to-mtrl/IMG_4238.JPG",
         "to-mtrl/IMG_4240.JPG",
         "to-mtrl/IMG_4246.jpg",
-        "to-mtrl/IMG_4281.JPG",
         "to-mtrl/IMG_4258.JPG",
       ]
     },
