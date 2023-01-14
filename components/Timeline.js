@@ -205,7 +205,7 @@ const timelines = {
       "start": "Queen Charlotte",
       "end": "Skidgate Landing",
       "description": [
-        "Awoke after an uncomfortably damp and sleepless night in my tent, having regretted not returning to a quiet, sandy beach.",
+        "Awoke after an uncomfortably damp and sleepless night in my tent having regretted not returning to a quiet, sandy beach.",
         "Hung out in Queen Charlotte for the day before returning to Skidgate Landing.",
         "Took the night ferry back to Prince Rupert."
       ],
@@ -285,8 +285,8 @@ const timelines = {
       "start": "Kitsumkalum Provincial Park",
       "end": "Kitwanga",
       "description": [
-        "Got a cappicino and sandwich at Bert's Deli in Terrace.",
-        "Had a short conversation about my trip with a woman at Bert's who I coincidentally met at a party in Telkwa a few weeks later.",
+        "Got a cappuccino and sandwich at Bert's Deli in Terrace.",
+        "Had a short conversation about my trip with a woman at Bert's who I coincidentally met at a party in Telkwa a few weeks later. Northwestern BC has a scattering of small towns connected by the same highways and surrounded by a lot of wild, tall mountains. The human world is small and the natural world is massive. It adds to the magic of the region.",
         "Returned to Kitwanaga a complete man."
       ],
       "photobar_imgs": [
@@ -307,7 +307,7 @@ const timelines = {
       "description": [
         "I went south on the Yellowhead from Telkwa and turned off toward Babine Lake in Wiley.",
         "I ate some Chicken Tikka from Indian Curry House in Houston.",
-        "The gently rolling hills of interior BC made for a ride that was easy on the old knees.",
+        "The gently rolling hills of interior BC made for a ride that was easy on the knees.",
         "I camped on the edge of Babine Lake in Red Bluff Provincial Park."
       ],
       "photobar_imgs": [
@@ -349,7 +349,7 @@ const timelines = {
       "end": "Carnes Creek Rec Site",
       "description": [
         "Was held up on the highway for over an hour because the crumbling mountain-side was being repaired.",
-        "My neighbours at Carnes Creek Rec Site gave be a load of fire wood for the night."
+        "My neighbours at Carnes Creek Rec Site gave me a load of fire wood for the night."
       ],
       "photobar_imgs": [
         "downie-creek/IMG_8490.JPG",
@@ -364,9 +364,9 @@ const timelines = {
       "start": "Carnes Creek Rec Site",
       "end": "Carnes Creek Rec Site",
       "description": [
-        "Sunbeams shot through the clouds and the landscape had a glassy shine despite the clouds.",
+        "Sunbeams shot through the clouds and the landscape had a glassy shine.",
         "The mist and fog was moving around me all day. It brought the river to life.",
-        "I decided to turn around a Downie Creek. If the forecast wasn't cold rain, I would have continued to Mica Creek."
+        "I decided to turn around at Downie Creek. If the forecast wasn't cold rain, I would have continued to Mica Creek."
       ],
       "photobar_imgs": [
         "downie-creek/IMG_8521.jpg",
@@ -382,7 +382,7 @@ const timelines = {
       "end": "Revelstoke",
       "description": [
         "There are lots of pull-offs along the river. It's a dream for camping.",
-        "this is the kind of road that you won't find unless you look for it. I want to ride it all the way to it's end when I'm back."
+        "This is the kind of road that you won't find unless you look for it. I want to ride it all the way to it's end when I'm back."
       ],
       "photobar_imgs": [
         "downie-creek/IMG_8634.JPG",
@@ -499,7 +499,12 @@ const timelines = {
       "distance": 14,
       "start": "Courtenay",
       "end": "Comox Lake",
-      "description": [],
+      "description": [
+        "It was a short afternoon trip from my apartment above Delicado's in Courtenay to Comox Lake.",
+        "The north side of the lake is lined with rustic cottages that extend out over the water.",
+        "The lake is surrounded by vibrant greenery and organe arbutus trees.",
+        "I camped on some mossy bluffs overlooking the lake."
+      ],
       "photobar_imgs": [
         "comox-lake/IMG_6300.JPG",
         "comox-lake/IMG_6302.JPG",
@@ -513,8 +518,8 @@ const timelines = {
       "start": "Comox Lake",
       "end": "Courtenay",
       "description": [
-        "The shadow of the mountains across the lake was cast upon those on my side of the lake as the sun rose.",
-        "I tried biking around the lake, thinking it might connect to Cumberland on the otherside, but a could who lived on the otherside of the lake told me it didn't."
+        "The shadow of the mountains across the lake was cast upon those on my side of the lake as the sun rose at 6am.",
+        "I tried biking around the lake, thinking it might connect to Cumberland on the otherside, but an old couple who lived on the otherside of the lake told me it didn't."
       ],
       "photobar_imgs": [
         "comox-lake/IMG_6325.JPG",
@@ -552,7 +557,7 @@ const timelines = {
       "end": "Shingle Beach",
       "description": [
         "Took the ferry from Powell River to Texada Island",
-        "Napped on some spongy bluffs and watched and eagle fly above me. It was so quite I could hear the eagle's wings cutting the air.",
+        "Napped on some spongy bluffs and watched an eagle fly above me. It was so quite I could hear the eagle's wings cutting the air.",
         "Camped at Single Beach. The host was really on the ball with an iPad for registation and a tagged truck."
       ],
       "photobar_imgs": [
@@ -570,7 +575,7 @@ const timelines = {
       "description": [
         "I followed some hydo lines as far south as I could go before the trail became too rough.",
         "There were tiny strawberries growing that tasted unbelievably sweet.",
-        "I hiked around Bob's Lake and saw an old horse campsite and a variety of mushrooms."
+        "I hiked around Bob's Lake and saw an old horse campsite and a variety of perfectly content mushrooms."
       ],
       "photobar_imgs": [
         "texada/IMG_6103.JPG",
@@ -588,6 +593,7 @@ const timelines = {
       "start": "Bob's Lake",
       "end": "Courtenay",
       "description": [
+        "The Lake was misty in the morning.",
         "I had a meal on the colourful patio at Mary Mary Cafe in Van Anda before getting on the ferry."
       ],
       "photobar_imgs": [
@@ -607,7 +613,9 @@ const timelines = {
       "distance": 83,
       "start": "Courtenay",
       "end": "Brewster Lake",
-      "description": [],
+      "description": [
+        "Brewster Lake had a real beachy feel, like Tofino does, with it's swooping cedar trees and vibrant greenery."
+      ],
       "photobar_imgs": [
         "brewster-lake/IMG_5585.JPG",
         "brewster-lake/IMG_5594.JPG",
@@ -636,7 +644,9 @@ const timelines = {
       "distance": 72,
       "start": "Campbell Lake",
       "end": "Courtenay",
-      "description": [],
+      "description": [
+        "I rode home to Courtenay."
+      ],
       "photobar_imgs": [
         "brewster-lake/IMG_5610.JPG",
         "brewster-lake/IMG_5628.JPG",
@@ -782,7 +792,8 @@ const timelines = {
         "When I got to the edge of civilization, the road ahead was very dark. I sat out front of a lit gas station while I built up the courage to keep riding in the dark.",
         "I had to take logging roads. I didn't realize that the route I had mapped out would be as rough and steep as it was. I figured the roads would be just like dirt roads in Ontario, but in some cases, the roads on the map were inactive. They were blocked off with mounds of dirt and overgrown.", 
         "My brake pads wore down as a result of riding my loaded, rigid bike down steep, rocky roads.",
-        "I saw three bears, all near Comox Lake after the sun had risen."
+        "I saw three bears, all near Comox Lake after the sun had risen.",
+        "Much was learned. My confidence as a bicycle tourist developed."
       ],
       "photobar_imgs": [
         "nanaimo-courtenay/IMG_5145.JPG",
@@ -883,10 +894,10 @@ const timelines = {
       "start": "Glengarry Campground",
       "end": "Montreal",
       "description": [
-        "The trail led into Montreal seamlessly. I wasn't pushed to the sides of busy roads and the it took me through nice areas.",
+        "The trail led into Montreal seamlessly. I wasn't pushed to the sides of busy roads and it guided me through nice areas.",
         "I loved riding through Sainte-Anne-de-Bellevue.",
-        "After I arrived at my AirBnb in Montreal, I went to three bars."
-
+        "After I arrived at my AirBnb in Montreal, I went to three bars.",
+        "I prepared to take the train home the next morning."
       ],
       "photobar_imgs": [
         "to-mtrl/IMG_4301.JPG",
