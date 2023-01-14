@@ -24,12 +24,13 @@
     <script defer src="../components/Header.js"></script>
     <script defer src="../components/Navbar.js"></script>
     <script defer src="../components/Timeline.js"></script>
+    <script defer src="../components/Slideshow.js"></script>
     <script defer src="../components/Map.js"></script>
     <script defer src="../components/Footer.js"></script>
 
     <title>Babine Lake</title>
 </head>
-<body>
+<body onload="showSlides(1)">
     
     <div class="container">
         <div class="row row-full no-gutters">
@@ -53,122 +54,7 @@
 
         <my-timeline data_id="babine-lake"></my-timeline>
         <my-map data_id="babine-lake"></my-map>
-
-        <h2 class="text-center">Pictures</h2>
-        <div class="row no-gutters">
-            <div class="col-12">
-                <div class="slideshow-container">
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">1 / 17</div>
-                        <img src="../images/babine-lake/64169084518__22C58F39-BA0E-4811-968D-82934B76049F.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">2 / 17</div>
-                        <img src="../images/babine-lake/IMG_9497.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">3 / 17</div>
-                        <img src="../images/babine-lake/IMG_9500.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">4 / 17</div>
-                        <img src="../images/babine-lake/IMG_9503.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">5 / 17</div>
-                        <img src="../images/babine-lake/IMG_9504.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">6 / 17</div>
-                        <img src="../images/babine-lake/IMG_9506.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">7 / 17</div>
-                        <img src="../images/babine-lake/IMG_9509.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">8 / 17</div>
-                        <img src="../images/babine-lake/IMG_9510.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">9 / 17</div>
-                        <img src="../images/babine-lake/IMG_9511.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">10 / 17</div>
-                        <img src="../images/babine-lake/IMG_9519.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">11 / 17</div>
-                        <img src="../images/babine-lake/IMG_9520.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">12 / 17</div>
-                        <img src="../images/babine-lake/IMG_9525.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">13 / 17</div>
-                        <img src="../images/babine-lake/IMG_9527.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">14 / 17</div>
-                        <img src="../images/babine-lake/IMG_9532.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">15 / 17</div>
-                        <img src="../images/babine-lake/IMG_9533.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">16 / 17</div>
-                        <img src="../images/babine-lake/IMG_9538.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <div class="mySlides my-fade">
-                        <div class="slide-number">17 / 17</div>
-                        <img src="../images/babine-lake/IMG_9540.jpg">
-                        <div class="caption"></div>
-                    </div>
-
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)">❯</a>
-
-                </div>
-                <br>
-
-            </div>
-        </div>
-
+        <my-slideshow data_id="babine-lake"></my-slideshow>
         <my-footer root='../'></my-footer>
     </div>
 
