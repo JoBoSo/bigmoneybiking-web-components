@@ -1908,14 +1908,2228 @@ const pictures = {
       image: "to-mtrl/IMG_4304.JPG",
       caption: "Sainte-Anne-de-Bellevue"
     }
+  ],
+
+
+
+  "bourgeau": [
+    {
+      image: "bourgeau/IMG_1151.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1140.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1142.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1144.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1150.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1161.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1164.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1167.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1168.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1171.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1173.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1174.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1177.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1180.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1181.jpg", 
+      caption: ""
+    },
+    {
+      image: "bourgeau/IMG_1183.jpg", 
+      caption: ""
+    },   
+  ],
+
+
+
+  "cory-pass": [
+    {
+      image: "cory-pass/IMG_1125.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1086.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1088.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1095.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1097.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1099.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1103.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1104.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1110.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1112.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1114.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1117.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1119.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1120.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1121.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1122.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1123.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1124.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1126.jpg", 
+      caption: ""
+    },
+    {
+      image: "cory-pass/IMG_1132.jpg", 
+      caption: ""
+    },
+  ],
+
+
+
+  "grotto-mtn": [
+    {
+      image: "grotto-mtn/IMG_1301.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1302.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1305.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1306.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1308.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1310.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1313.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1314.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1317.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1320.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1321.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1322.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1324.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1325.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1326.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1327.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1332.jpg", 
+      caption: ""
+    },
+    {
+      image: "grotto-mtn/IMG_1334.jpg", 
+      caption: ""
+    },
+  ],
+
+
+
+  "gunsight": [
+    {
+      image: "gunsight/IMG_0353.jpg", 
+      caption: ""
+    },
+    {
+      image: "gunsight/IMG_0355.jpg", 
+      caption: ""
+    },
+    {
+      image: "gunsight/IMG_0356.jpg", 
+      caption: ""
+    },
+    {
+      image: "gunsight/IMG_0359.jpg", 
+      caption: ""
+    },
+    {
+      image: "gunsight/IMG_0362.jpg", 
+      caption: ""
+    },
+    {
+      image: "gunsight/IMG_0370.jpg", 
+      caption: ""
+    },
+    {
+      image: "gunsight/IMG_0372.jpg", 
+      caption: ""
+    },
+    {
+      image: "gunsight/IMG_0375.jpg", 
+      caption: ""
+    },
+    {
+      image: "gunsight/IMG_0376.jpg", 
+      caption: ""
+    },
+    {
+      image: "gunsight/IMG_0379.jpg", 
+      caption: ""
+    },
+    {
+      image: "gunsight/IMG_0380.jpg", 
+      caption: ""
+    },
+    {
+      image: "gunsight/IMG_0382.jpg", 
+      caption: ""
+    },
+    {
+      image: "gunsight/IMG_0389.jpg", 
+      caption: ""
+    },
+    {
+      image: "gunsight/IMG_0393.jpg", 
+      caption: ""
+    },
+  ],
+
+
+
+  "ha-ling": [
+    {
+      image: "ha-ling/IMG_1071.jpg", 
+      caption: ""
+    },
+    {
+      image: "ha-ling/IMG_1073.jpg", 
+      caption: ""
+    },
+    {
+      image: "ha-ling/IMG_1075.jpg", 
+      caption: ""
+    },
+    {
+      image: "ha-ling/IMG_1076.jpg", 
+      caption: ""
+    },
+    {
+      image: "ha-ling/IMG_1077.jpg", 
+      caption: ""
+    },
+    {
+      image: "ha-ling/IMG_1079.jpg", 
+      caption: ""
+    },
+    {
+      image: "ha-ling/IMG_1080.jpg", 
+      caption: ""
+    },
+    {
+      image: "ha-ling/IMG_1082.jpg", 
+      caption: ""
+    },
+    {
+      image: "ha-ling/IMG_1083.jpg", 
+      caption: ""
+    },
+    {
+      image: "ha-ling/IMG_1084.jpg", 
+      caption: ""
+    },   
+  ],
+
+
+
+  "jasper": [
+    {
+      image: "jasper/IMG_1031.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_0979.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_0980.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_0984.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_0985.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_0987.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_0989.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_0990.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_0997.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1005.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1006.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1007.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1008.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1011.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1014.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1016.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1017.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1019.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1020.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1025.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1026.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1028.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1030.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1032.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1034.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1039.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1040.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1043.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1044.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1045.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1046.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1049.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1050.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1051.jpg",
+      caption: ""
+    },
+    {
+      image: "jasper/IMG_1055.jpg",
+      caption: ""
+    },
+  ],
+
+
+
+  "maroon-mtn": [
+    {
+      image: "maroon-mtn/IMG_0667.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0668.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0669.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0670.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0671.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0672.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0674.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0680.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0685.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0689.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0691.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0696.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0698.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0702.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0703.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0704.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0708.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0709.jpg",
+      caption: ""
+    },
+    {
+      image: "maroon-mtn/IMG_0710.jpg",
+      caption: ""
+    },    
+  ],
+
+
+
+  "mont-nixon": [
+    {
+      image: "../images/mont-nixon/IMG_2303.jpg",
+      caption: ""
+    },
+    {
+      image: "../images/mont-nixon/IMG_2304.jpg",
+      caption: ""
+    },
+    {
+      image: "../images/mont-nixon/IMG_2305.jpg",
+      caption: ""
+    },
+    {
+      image: "../images/mont-nixon/IMG_2307.jpg",
+      caption: ""
+    },
+    {
+      image: "../images/mont-nixon/IMG_2312.jpg",
+      caption: ""
+    },
+    {
+      image: "../images/mont-nixon/IMG_2317.jpg",
+      caption: ""
+    },
+    {
+      image: "../images/mont-nixon/IMG_2319.jpg",
+      caption: ""
+    },
+    {
+      image: "../images/mont-nixon/IMG_2322.jpg",
+      caption: ""
+    },
+    {
+      image: "mont-nixon/IMG_2325.jpg",
+      caption: ""
+    },
+    {
+      image: "mont-nixon/IMG_2329.jpg",
+      caption: ""
+    },
+    {
+      image: "mont-nixon/IMG_2335.jpg",
+      caption: ""
+    },
+    {
+      image: "mont-nixon/IMG_2339.jpg",
+      caption: ""
+    },   
+  ],
+
+
+
+  "montagne-noire": [
+    {
+      image: "montagne-noire/IMG_2342.jpg",
+      caption: ""
+    },
+    {
+      image: "montagne-noire/IMG_2343.jpg",
+      caption: ""
+    },
+    {
+      image: "montagne-noire/IMG_2344.jpg",
+      caption: ""
+    },
+    {
+      image: "montagne-noire/IMG_2345.jpg",
+      caption: ""
+    },
+    {
+      image: "montagne-noire/IMG_2347.jpg",
+      caption: ""
+    },
+    {
+      image: "montagne-noire/IMG_2351.jpg",
+      caption: ""
+    },
+    {
+      image: "montagne-noire/IMG_2354.jpg",
+      caption: ""
+    },
+    {
+      image: "montagne-noire/IMG_2356.jpg",
+      caption: ""
+    },
+    {
+      image: "montagne-noire/IMG_2361.jpg",
+      caption: ""
+    },
+    {
+      image: "montagne-noire/IMG_2366.jpg",
+      caption: ""
+    },
+  ],
+
+
+
+  "mt-albert-edward": [
+    {
+      image: "mt-albert-edward/IMG_6639.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6649.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6652.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6653.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6655.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6657.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6659.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6661.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6665.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6668.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6669.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6670.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6671.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6672.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6674.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6677.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6682.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6684.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6685.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6687.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6688.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6693.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6695.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6696.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6697.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6701.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6702.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6703.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6705.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6713.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6715.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6717.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6719.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6721.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6727.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6728.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6731.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6732.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6733.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6734.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6735.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6740.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6743.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6748.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6750.JPG",
+      caption: ""
+    },         
+  ],
+
+
+
+  "mt-begbie": [
+    {
+      image: "mt-begbie/IMG_7932.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7934.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7944.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7949.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7955.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7959.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7967.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7972.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7973.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7975.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7978.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7983.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7987.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7989.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7992.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7996.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7997.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7998.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_7999.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8002.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8009.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8010.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8013.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8014.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8018.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8019.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8022.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8027.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8029.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8034.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8035.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8036.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8038.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-begbie/IMG_8040.JPG",
+      caption: ""
+    },      
+  ],
+
+
+
+  "mt-cartier": [
+    {
+      image: "mt-cartier/IMG_8069.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8070.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8074.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8075.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8076.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8077.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8080.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8081.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8083.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8084.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8085.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8088.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8090.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8092.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8094.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8095.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8096.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8097.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8099.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8103.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8105.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8106.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8108.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8109.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8111.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8113.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8116.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8119.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8123.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8124.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8125.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8126.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8128.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8130.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8132.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8133.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8134.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8136.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8139.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8140.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8141.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8144.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8145.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-cartier/IMG_8148.JPG",
+      caption: ""
+    },  
+  ],
+
+
+
+  "mt-revelstoke": [
+    {
+      image: "mt-revelstoke/62448168733__019AEA98-30A7-4F2E-AC5C-E82CE8F4E054.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8708.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8713.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8714.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8715.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8718.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8720.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8723.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8725.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8727.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8728.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8729.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8734.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8739.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8741.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8746.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8747.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8748.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8751.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8753.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8759.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8762.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8765.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8774.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8780.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8782.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8786.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8800.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8808.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8810.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8813.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8818.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8820.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8821.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8824.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8826.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8831.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8833.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8834.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8837.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8838.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8839.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8842.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8843.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8845.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8848.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8851.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8852.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8854.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8855.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8856.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8857.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8858.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8859.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8860.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8861.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8865.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8866.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8869.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8871.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8874.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8875.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8876.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8878.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8883.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8884.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8885.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8886.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8889.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8890.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8891.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8892.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8894.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8903.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8904.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8909.JPG",
+      caption: ""
+    },
+    {
+      image: "mt-revelstoke/IMG_8912.JPG",
+      caption: ""
+    },
+  ],
+
+
+
+  "mt-temple": [
+    {
+      image: "mt-temple/IMG_1235.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1187.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1188.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1190.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1191.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1192.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1193.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1195.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1200.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1202.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1204.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1211.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1212.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1213.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1215.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1216.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1219.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1233.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1237.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1238.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1239.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1240.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1241.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1242.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1243.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1244.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1245.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1248.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1249.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1250.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1252.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1253.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1255.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1257.jpg",
+      caption: ""
+    }, 
+  ],
+
+
+
+  "oliver-creek": [
+    {
+      image: "oliver-creek/IMG_0254.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0257.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0262.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0263.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0269.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0280.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0289.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0290.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0291.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0293.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0295.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0296.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0307.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0308.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0310.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0317.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0322.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0324.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0325.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0326.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0332.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0336.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0343.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0344.jpg",
+      caption: ""
+    },
+    {
+      image: "oliver-creek/IMG_0350.jpg",
+      caption: ""
+    },      
+  ],
+
+
+
+  "phillips-ridge": [
+    {
+      image: "phillips-ridge/IMG_7095.JPG",
+      caption: ""
+    },
+    {
+      image: "phillips-ridge/IMG_7097.JPG",
+      caption: ""
+    },
+    {
+      image: "phillips-ridge/IMG_7098.JPG",
+      caption: ""
+    },
+    {
+      image: "phillips-ridge/IMG_7099.JPG",
+      caption: ""
+    },
+    {
+      image: "phillips-ridge/IMG_7101.JPG",
+      caption: ""
+    },
+    {
+      image: "phillips-ridge/IMG_7102.JPG",
+      caption: ""
+    },
+    {
+      image: "phillips-ridge/IMG_7108.JPG",
+      caption: ""
+    },
+    {
+      image: "phillips-ridge/IMG_7112.JPG",
+      caption: ""
+    },
+    {
+      image: "phillips-ridge/IMG_7117.JPG",
+      caption: ""
+    },
+    {
+      image: "phillips-ridge/IMG_7119.JPG",
+      caption: ""
+    },
+    {
+      image: "phillips-ridge/IMG_7122.JPG",
+      caption: ""
+    },
+    {
+      image: "phillips-ridge/IMG_7123.JPG",
+      caption: ""
+    },
+  ],
+
+
+
+  "seaton-ridge": [
+    {
+      image: "seaton-ridge/IMG_0715.jpg",
+      caption: ""
+    },
+    {
+      image: "seaton-ridge/IMG_0717.jpg",
+      caption: ""
+    },
+    {
+      image: "seaton-ridge/IMG_0718.jpg",
+      caption: ""
+    },
+    {
+      image: "seaton-ridge/IMG_0721.jpg",
+      caption: ""
+    },
+    {
+      image: "seaton-ridge/IMG_0722.jpg",
+      caption: ""
+    },
+    {
+      image: "seaton-ridge/IMG_0727.jpg",
+      caption: ""
+    },
+    {
+      image: "seaton-ridge/IMG_0728.jpg",
+      caption: ""
+    },
+    {
+      image: "seaton-ridge/IMG_0729.jpg",
+      caption: ""
+    },
+    {
+      image: "seaton-ridge/IMG_0730.jpg",
+      caption: ""
+    },
+    {
+      image: "seaton-ridge/IMG_0731.jpg",
+      caption: ""
+    },
+  ],
+
+
+
+  "silver-king": [
+    {
+      image: "silver-king/IMG_0467.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0470.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0482.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0484.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0487.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0488.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0491.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0493.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0494.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0495.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0496.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0498.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0502.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0505.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0506.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0507.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0508.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0509.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0762.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0764.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0765.jpg",
+      caption: ""
+    },
+    {
+      image: "silver-king/IMG_0767.jpg",
+      caption: ""
+    },
+  ],
+
+
+
+  "silvern-lake": [
+    {
+      image: "silvern-lake/IMG_0164.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0119.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0519.JPG",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0126.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0527.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0142.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0528.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0139.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0140.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0152.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0161.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0162.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0523.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0529.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0540.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0542.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0557.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0559.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0565.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0568.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0587.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0574.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0576.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0585.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0586.jpg",
+      caption: ""
+    },
+    {
+      image: "silvern-lake/IMG_0588.jpg",
+      caption: ""
+    },
+  ],
+
+
+
+  "six-glaciers": [
+    {
+      image: "six-glaciers/IMG_2110.jpg",
+      caption: ""
+    },
+    {
+      image: "six-glaciers/IMG_2112.jpg",
+      caption: ""
+    },
+    {
+      image: "six-glaciers/IMG_2115.jpg",
+      caption: ""
+    },
+    {
+      image: "six-glaciers/IMG_2117.jpg",
+      caption: ""
+    },
+    {
+      image: "six-glaciers/IMG_2120.jpg",
+      caption: ""
+    },
+    {
+      image: "six-glaciers/IMG_2123.jpg",
+      caption: ""
+    },
+    {
+      image: "six-glaciers/IMG_2124.jpg",
+      caption: ""
+    },        
+  ],
+
+
+
+  "tin-hat": [
+    {
+      image: "tin-hat/IMG_7658.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7664.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7668.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7672.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7676.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7677.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7680.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7685.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7689.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7690.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7695.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7696.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7699.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7700.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7707.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7713.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7714.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7715.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7721.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7725.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7727.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7728.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7730.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7731.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7732.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7735.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7738.jpg",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7746.JPG",
+      caption: ""
+    },
+    {
+      image: "tin-hat/IMG_7748.JPG",
+      caption: ""
+    },
+  ],
+
+  "viking-ridge": [
+    {
+      image: "viking-ridge/IMG_0921.jpg",
+      caption: ""
+    },
+    {
+      image: "viking-ridge/IMG_0926.jpg",
+      caption: ""
+    },
+    {
+      image: "viking-ridge/IMG_0928.jpg",
+      caption: ""
+    },
+    {
+      image: "viking-ridge/IMG_0931.jpg",
+      caption: ""
+    },
+    {
+      image: "viking-ridge/IMG_0935.jpg",
+      caption: ""
+    },
+    {
+      image: "viking-ridge/IMG_0938.jpg",
+      caption: ""
+    },
+    {
+      image: "viking-ridge/IMG_0943.jpg",
+      caption: ""
+    },
+    {
+      image: "viking-ridge/IMG_0948.jpg",
+      caption: ""
+    },
+    {
+      image: "viking-ridge/IMG_0952.jpg",
+      caption: ""
+    },
   ]
 
 }
-
-
-                        
-
-
-                        
 
 customElements.define('my-slideshow', Slideshow);
