@@ -1165,7 +1165,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "ptit-train/church.jpg",
+      image: "ptit-train/church.JPG",
       caption: ""
     }
   ],
