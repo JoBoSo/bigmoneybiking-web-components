@@ -371,7 +371,7 @@ const timelines = {
       "photobar_imgs": [
         "downie-creek/IMG_8521.jpg",
         "downie-creek/IMG_8602.JPG",
-        "downie-creek/IMG_8628.JPG",
+        "downie-creek/IMG_8560.JPG",
       ]
     },
     {

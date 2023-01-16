@@ -500,31 +500,15 @@ const pictures = {
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8502.JPG", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8503.JPG", 
-      caption: ""
-    },
-    {
       image: "downie-creek/IMG_8505.JPG", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8509.JPG", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8514.JPG", 
+      image: "downie-creek/IMG_8507.JPG", 
       caption: ""
     },
     {
       image: "downie-creek/IMG_8521.jpg", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8524.JPG", 
       caption: ""
     },
     {
@@ -536,35 +520,11 @@ const pictures = {
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8530.JPG", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8532.JPG", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8540.JPG", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8541.JPG", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8547.JPG", 
-      caption: ""
-    },
-    {
       image: "downie-creek/IMG_8551.JPG", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8555.JPG", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8558.JPG", 
+      image: "downie-creek/IMG_8560.JPG", 
       caption: ""
     },
     {
@@ -572,31 +532,15 @@ const pictures = {
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8568.JPG", 
+      image: "downie-creek/IMG_8588.JPG", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8573.JPG", 
+      image: "downie-creek/IMG_8602.JPG", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8575.JPG", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8579.JPG", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8586.JPG", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8603.JPG", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8610.JPG", 
+      image: "downie-creek/IMG_8615.JPG", 
       caption: ""
     },
     {
@@ -604,19 +548,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8619.JPG", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8620.JPG", 
-      caption: ""
-    },
-    {
       image: "downie-creek/IMG_8621.JPG", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8628.JPG", 
       caption: ""
     },
     {
@@ -624,15 +556,11 @@ const pictures = {
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8639.JPG", 
+      image: "downie-creek/IMG_8638.JPG", 
       caption: ""
     },
     {
       image: "downie-creek/IMG_8644.JPG", 
-      caption: ""
-    },
-    {
-      image: "downie-creek/IMG_8646.JPG", 
       caption: ""
     },
     {
@@ -648,17 +576,17 @@ const pictures = {
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8655.JPG", 
-      caption: ""
-    },
-    {
       image: "downie-creek/IMG_8657.JPG", 
       caption: ""
     },
     {
       image: "downie-creek/IMG_8658.JPG", 
       caption: ""
-    }
+    },
+    {
+      image: "downie-creek/IMG_8661.JPG", 
+      caption: ""
+    },
   ],
 
 
@@ -669,7 +597,7 @@ const pictures = {
       caption: "Roadside stop on the way to the Prince Rupert ferry"
     },
     {
-      image: "./images/haida-gwaii/IMG_0822.jpg",
+      image: "haida-gwaii/IMG_0822.jpg",
       caption: "Entry"
     },
     {
@@ -693,15 +621,11 @@ const pictures = {
       caption: "On the beach"
     },
     {
-      image: "haida-gwaii/IMG_0839.jpg",
-      caption: "Driftwood"
-    },
-    {
       image: "haida-gwaii/IMG_0841.jpg",
       caption: "Sea bank"
     },
     {
-      image: "haida-gwaii/IMG_0848.jpg",
+      image: "haida-gwaii/IMG_0847.jpg",
       caption: "Mystical clouds"
     },
     {
@@ -709,7 +633,7 @@ const pictures = {
       caption: "The Madill Steel Spar in Port Clements"
     },
     {
-      image: "haida-gwaii/IMG_0855.jpg",
+      image: "haida-gwaii/IMG_0856.jpg",
       caption: "Forest with a view"
     },
     {
@@ -735,6 +659,10 @@ const pictures = {
     {
       image: "haida-gwaii/IMG_0866.jpg",
       caption: "Toasted marshmallow"
+    },
+    {
+      image: "haida-gwaii/IMG_0867.jpg",
+      caption: "Entry"
     },
     {
       image: "haida-gwaii/IMG_0868.jpg",
@@ -1004,7 +932,7 @@ const pictures = {
 
   "nass-valley": [
     {
-      image: "nass-valley/IMG_9590.jpg", 
+      image: "nass-valley/IMG_9592.jpg", 
       caption: "Cranberry Connector FSR"
     },
     {
@@ -1012,16 +940,12 @@ const pictures = {
       caption: "Kiteen River"
     },
     {
-      image: "nass-valley/IMG_9600.jpg", 
-      caption: "Kiteen River"
+      image: "nass-valley/IMG_9618.jpg", 
+      caption: "Dragon Lake"
     },
     {
       image: "nass-valley/IMG_9625.jpg", 
       caption: "Dragon Lake"
-    },
-    {
-      image: "nass-valley/IMG_9629.jpg", 
-      caption: "Better half"
     },
     {
       image: "nass-valley/IMG_9636.jpg", 
@@ -1029,6 +953,10 @@ const pictures = {
     },
     {
       image: "nass-valley/IMG_9647.jpg", 
+      caption: "Dragon Lake Campground"
+    },
+    {
+      image: "nass-valley/IMG_9650.jpg", 
       caption: "Dragon Lake Campground"
     },
     {
@@ -1052,15 +980,23 @@ const pictures = {
       caption: "Jungle creek"
     },
     {
+      image: "nass-valley/IMG_9685.jpg",
+      caption: "Jungle creek"
+    },
+    {
       image: "nass-valley/IMG_9690.jpg",
       caption: "Lava"
     },
     {
-      image: "nass-valley/IMG_9691.jpg",
-      caption: "Life returning to the lava beds"
+      image: "nass-valley/IMG_9692.jpg",
+      caption: ""
     },
     {
       image: "nass-valley/IMG_9700.jpg",
+      caption: "Ksi Sii Aks River"
+    },
+    {
+      image: "nass-valley/IMG_9706.jpg",
       caption: "Ksi Sii Aks River"
     },
     {
@@ -1072,7 +1008,7 @@ const pictures = {
       caption: "Red Columbine"
     },
     {
-      image: "nass-valley/IMG_9730.jpg",
+      image: "nass-valley/IMG_9727.jpg",
       caption: "Nass Valley"
     },
     {
@@ -1096,19 +1032,11 @@ const pictures = {
       caption: "Nass River"
     },
     {
-      image: "nass-valley/IMG_9764.jpg",
-      caption: "Nass River"
-    },
-    {
       image: "nass-valley/IMG_9766.jpg",
       caption: "Nass River"
     },
     {
-      image: "nass-valley/IMG_9772.jpg",
-      caption: "Nass River"
-    },
-    {
-      image: "nass-valley/IMG_9774.jpg",
+      image: "nass-valley/IMG_9773.jpg",
       caption: "Nass River"
     },
     {
@@ -1148,11 +1076,15 @@ const pictures = {
       caption: "Bear Prints"
     },
     {
+      image: "nass-valley/IMG_0080.jpg",
+      caption: "Vetter Falls"
+    },
+    {
       image: "nass-valley/IMG_0083.jpg",
       caption: "Vetter Falls"
     },
     {
-      image: "nass-valley/IMG_0085.jpg",
+      image: "nass-valley/IMG_0086.jpg",
       caption: "Beaupre Falls"
     },
     {
@@ -1160,8 +1092,8 @@ const pictures = {
       caption: "Drowned Forest"
     },
     {
-      image: "nass-valley/IMG_0089.jpg",
-      caption: "Lava Lake"
+      image: "nass-valley/IMG_0092.jpg",
+      caption: "Kitsumkalum Lake"
     },
     {
       image: "nass-valley/IMG_0096.jpg",
@@ -1172,20 +1104,8 @@ const pictures = {
       caption: "Kisumkalum Lake"
     },
     {
-      image: "nass-valley/IMG_0106.jpg",
-      caption: "Kitsumkalum Lake"
-    },
-    {
-      image: "nass-valley/IMG_0107.jpg",
-      caption: "Kitsumkalum Lake"
-    },
-    {
       image: "nass-valley/IMG_0117.jpg",
       caption: "Jesus was here"
-    },
-    {
-      image: "nass-valley/RenderedImage.jpg",
-      caption: "Money"
     }
   ],
 
@@ -1217,16 +1137,8 @@ const pictures = {
       caption: "A campsite next to the river"
     },
     {
-      image: "ptit-train/IMG_2545.jpg",
-      caption: "Sittin' on the bench"
-    },
-    {
       image: "ptit-train/IMG_2546.jpg",
       caption: "'Train stops' have water and washrooms"
-    },
-    {
-      image: "ptit-train/IMG_2548.jpg",
-      caption: "Straight and narrow"
     },
     {
       image: "ptit-train/IMG_2550.jpg",
@@ -1235,6 +1147,26 @@ const pictures = {
     {
       image: "ptit-train/IMG_2551.jpg",
       caption: "Marsh eats forest"
+    },
+    {
+      image: "ptit-train/IMG_2553.jpg",
+      caption: ""
+    },
+    {
+      image: "ptit-train/IMG_2559.jpg",
+      caption: ""
+    },
+    {
+      image: "ptit-train/IMG_2571.jpg",
+      caption: ""
+    },
+    {
+      image: "ptit-train/IMG_2577.jpg",
+      caption: ""
+    },
+    {
+      image: "ptit-train/church.jpg",
+      caption: ""
     }
   ],
 
