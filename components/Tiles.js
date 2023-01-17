@@ -232,43 +232,43 @@ const tiles = {
     {
       title: "Mt. Revelstoke",
       subtitle: "Inside The Shroom Lagoon",
-      image: "mt-revelstoke/IMG_8845.JPG",
+      image: "mt-revelstoke/IMG_8845.jpg",
       page: "hikes/mt-revelstoke.html"
     },
     {
       title: "McCrae Peak",
       subtitle: "Sunbeam City",
-      image: "mccrae-peak/IMG_8307.JPG",
+      image: "mccrae-peak/IMG_8307.jpg",
       page: "hikes/mccrae-peak.html"
     },
     {
       title: "Mt. Cartier",
       subtitle: "Mountains Upon Mountains",
-      image: "mt-cartier/IMG_8090.JPG",
+      image: "mt-cartier/IMG_8090.jpg",
       page: "hikes/mt-cartier.html"
     },
     {
       title: "Mt. Begbie",
       subtitle: "A Walk in the Garden",
-      image: "mt-begbie/IMG_7959.JPG",
+      image: "mt-begbie/IMG_7959.jpg",
       page: "hikes/mt-begbie.html"
     },
     {
       title: "Tin Hat Mountain",
       subtitle: "There's Some Tin Up Here",
-      image: "tin-hat/IMG_7721.JPG",
+      image: "tin-hat/IMG_7721.jpg",
       page: "hikes/tin-hat.html"
     },
     {
       title: "Phillips Ridge",
       subtitle: "Who Put That Mountain There?",
-      image: "phillips-ridge/IMG_7102.JPG",
+      image: "phillips-ridge/IMG_7102.jpg",
       page: "hikes/phillips-ridge.html"
     },
     {
       title: "Mt. Albert Edward",
       subtitle: "A Walk Up A Mountain",
-      image: "mt-albert-edward/IMG_6713.JPG",
+      image: "mt-albert-edward/IMG_6713.jpg",
       page: "hikes/mt-albert-edward.html"
     },
   ]
