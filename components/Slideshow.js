@@ -1171,15 +1171,15 @@ const pictures = {
     },
     {
       image: "quadra-cortes/IMG_6830.jpg",
-      caption: "Surge Narrows"
+      caption: ""
     },
     {
       image: "quadra-cortes/IMG_6833.JPG",
-      caption: "Surge Narrows"
+      caption: ""
     },
     {
       image: "quadra-cortes/IMG_6834.JPG",
-      caption: "Surge Narrows"
+      caption: ""
     },
     {
       image: "quadra-cortes/IMG_6835.JPG",
