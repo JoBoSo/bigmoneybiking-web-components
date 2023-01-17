@@ -77,13 +77,13 @@ const tiles = {
     {
       title: "Downie Creek",
       subtitle: "A Ride Along the Columbia River",
-      image: "downie-creek/IMG_8505.JPG",
+      image: "downie-creek/IMG_8505.jpg",
       page: "tours/downie-creek.html"
     },
     {
       title: "Begbie Falls",
       subtitle: "Heavenly Revelstoke",
-      image: "begbie-falls/IMG_8360.JPG",
+      image: "begbie-falls/IMG_8360.jpg",
       page: "tours/begbie-falls.html"
     },
     {
@@ -95,7 +95,7 @@ const tiles = {
     {
       title: "Comox Lake",
       subtitle: "Tucked Behind the Comox Valley",
-      image: "comox-lake/IMG_6328.JPG",
+      image: "comox-lake/IMG_6328.jpg",
       page: "tours/comox-lake.html"
     },
     {
@@ -107,7 +107,7 @@ const tiles = {
     {
       title: "Brewster & Campbell Lakes",
       subtitle: "Two Fine Lakes",
-      image: "brewster-lake/IMG_5594.JPG",
+      image: "brewster-lake/IMG_5594.jpg",
       page: "tours/brewster-lake.html"
     },
     {

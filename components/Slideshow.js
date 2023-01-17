@@ -415,47 +415,47 @@ const pictures = {
 
   "comox-lake": [
     {
-      image: "comox-lake/IMG_6286.JPG",
+      image: "comox-lake/IMG_6286.jpg",
       caption: ""
     },
     {
-      image: "comox-lake/IMG_6289.JPG",
+      image: "comox-lake/IMG_6289.jpg",
       caption: ""
     },
     {
-      image: "comox-lake/IMG_6292.JPG",
+      image: "comox-lake/IMG_6292.jpg",
       caption: ""
     },
     {
-      image: "comox-lake/IMG_6300.JPG",
+      image: "comox-lake/IMG_6300.jpg",
       caption: ""
     },
     {
-      image: "comox-lake/IMG_6302.JPG",
+      image: "comox-lake/IMG_6302.jpg",
       caption: "The view from my campsite"
     },
     {
-      image: "comox-lake/IMG_6305.JPG",
+      image: "comox-lake/IMG_6305.jpg",
       caption: ""
     },
     {
-      image: "comox-lake/IMG_6310.JPG",
+      image: "comox-lake/IMG_6310.jpg",
       caption: ""
     },
     {
-      image: "comox-lake/IMG_6325.JPG",
+      image: "comox-lake/IMG_6325.jpg",
       caption: ""
     },
     {
-      image: "comox-lake/IMG_6328.JPG",
+      image: "comox-lake/IMG_6328.jpg",
       caption: ""
     },
     {
-      image: "comox-lake/IMG_6331.JPG",
+      image: "comox-lake/IMG_6331.jpg",
       caption: ""
     },
     {
-      image: "comox-lake/IMG_6336.JPG",
+      image: "comox-lake/IMG_6336.jpg",
       caption: ""
     }   
   ],
@@ -464,35 +464,35 @@ const pictures = {
 
   "downie-creek": [
     {
-      image: "downie-creek/IMG_8487.JPG", 
+      image: "downie-creek/IMG_8487.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8488.JPG", 
+      image: "downie-creek/IMG_8488.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8490.JPG", 
+      image: "downie-creek/IMG_8490.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8491.JPG", 
+      image: "downie-creek/IMG_8491.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8495.JPG", 
+      image: "downie-creek/IMG_8495.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8500.JPG", 
+      image: "downie-creek/IMG_8500.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8505.JPG", 
+      image: "downie-creek/IMG_8505.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8507.JPG", 
+      image: "downie-creek/IMG_8507.jpg", 
       caption: ""
     },
     {
@@ -500,79 +500,79 @@ const pictures = {
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8525.JPG", 
+      image: "downie-creek/IMG_8525.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8527.JPG", 
+      image: "downie-creek/IMG_8527.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8551.JPG", 
+      image: "downie-creek/IMG_8551.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8560.JPG", 
+      image: "downie-creek/IMG_8560.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8564.JPG", 
+      image: "downie-creek/IMG_8564.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8588.JPG", 
+      image: "downie-creek/IMG_8588.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8602.JPG", 
+      image: "downie-creek/IMG_8602.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8615.JPG", 
+      image: "downie-creek/IMG_8615.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8618.JPG", 
+      image: "downie-creek/IMG_8618.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8621.JPG", 
+      image: "downie-creek/IMG_8621.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8634.JPG", 
+      image: "downie-creek/IMG_8634.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8638.JPG", 
+      image: "downie-creek/IMG_8638.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8644.JPG", 
+      image: "downie-creek/IMG_8644.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8647.JPG", 
+      image: "downie-creek/IMG_8647.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8648.JPG", 
+      image: "downie-creek/IMG_8648.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8650.JPG", 
+      image: "downie-creek/IMG_8650.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8657.JPG", 
+      image: "downie-creek/IMG_8657.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8658.JPG", 
+      image: "downie-creek/IMG_8658.jpg", 
       caption: ""
     },
     {
-      image: "downie-creek/IMG_8661.JPG", 
+      image: "downie-creek/IMG_8661.jpg", 
       caption: ""
     },
   ],
@@ -827,27 +827,27 @@ const pictures = {
 
   "nanaimo-courtenay": [
     {
-      image: "nanaimo-courtenay/IMG_5119.JPG",
+      image: "nanaimo-courtenay/IMG_5119.jpg",
       caption: "Bicycle repair"
     },
     {
-      image: "nanaimo-courtenay/IMG_5120.JPG",
+      image: "nanaimo-courtenay/IMG_5120.jpg",
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5121.JPG",
+      image: "nanaimo-courtenay/IMG_5121.jpg",
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5122.JPG",
+      image: "nanaimo-courtenay/IMG_5122.jpg",
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5123.JPG",
+      image: "nanaimo-courtenay/IMG_5123.jpg",
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5131.JPG",
+      image: "nanaimo-courtenay/IMG_5131.jpg",
       caption: ""
     },
     {
@@ -855,43 +855,43 @@ const pictures = {
       caption: "The river was tidal"
     },
     {
-      image: "nanaimo-courtenay/IMG_5142.JPG",
+      image: "nanaimo-courtenay/IMG_5142.jpg",
       caption: "And I got wet"
     },
     {
-      image: "nanaimo-courtenay/IMG_5145.JPG", 
+      image: "nanaimo-courtenay/IMG_5145.jpg", 
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5149.JPG", 
+      image: "nanaimo-courtenay/IMG_5149.jpg", 
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5150.JPG", 
+      image: "nanaimo-courtenay/IMG_5150.jpg", 
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5154.JPG", 
+      image: "nanaimo-courtenay/IMG_5154.jpg", 
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5157.JPG", 
+      image: "nanaimo-courtenay/IMG_5157.jpg", 
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5158.JPG", 
+      image: "nanaimo-courtenay/IMG_5158.jpg", 
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5160.JPG", 
+      image: "nanaimo-courtenay/IMG_5160.jpg", 
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5162.JPG",
+      image: "nanaimo-courtenay/IMG_5162.jpg",
       caption: "Comox Lake"
     },
     {
-      image: "nanaimo-courtenay/IMG_5221.JPG",
+      image: "nanaimo-courtenay/IMG_5221.jpg",
       caption: "The corner I lived on in Courtenay"
     }
   ],
@@ -1133,7 +1133,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "ptit-train/church.JPG",
+      image: "ptit-train/church.jpg",
       caption: ""
     }
   ],
@@ -1275,67 +1275,67 @@ const pictures = {
 
   "san-josef-bay": [
     {
-      image: "san-josef-bay/IMG_5234.JPG", 
+      image: "san-josef-bay/IMG_5234.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5236.JPG", 
+      image: "san-josef-bay/IMG_5236.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5243.JPG", 
+      image: "san-josef-bay/IMG_5243.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5245.JPG", 
+      image: "san-josef-bay/IMG_5245.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5254.JPG", 
+      image: "san-josef-bay/IMG_5254.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5296.JPG", 
+      image: "san-josef-bay/IMG_5296.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5300.JPG", 
+      image: "san-josef-bay/IMG_5300.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5303.JPG", 
+      image: "san-josef-bay/IMG_5303.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5309.JPG", 
+      image: "san-josef-bay/IMG_5309.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5313.JPG", 
+      image: "san-josef-bay/IMG_5313.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5326.JPG", 
+      image: "san-josef-bay/IMG_5326.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5333.JPG", 
+      image: "san-josef-bay/IMG_5333.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5340.JPG", 
+      image: "san-josef-bay/IMG_5340.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5352.JPG", 
+      image: "san-josef-bay/IMG_5352.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5353.JPG", 
+      image: "san-josef-bay/IMG_5353.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5363.JPG", 
+      image: "san-josef-bay/IMG_5363.jpg", 
       caption: ""
     },
     {
@@ -1343,59 +1343,59 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5387.JPG", 
+      image: "san-josef-bay/IMG_5387.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5396.JPG", 
+      image: "san-josef-bay/IMG_5396.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5400.JPG", 
+      image: "san-josef-bay/IMG_5400.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5406.JPG", 
+      image: "san-josef-bay/IMG_5406.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5411.JPG", 
+      image: "san-josef-bay/IMG_5411.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5416.JPG", 
+      image: "san-josef-bay/IMG_5416.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5421.JPG", 
+      image: "san-josef-bay/IMG_5421.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5422.JPG", 
+      image: "san-josef-bay/IMG_5422.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5425.JPG", 
+      image: "san-josef-bay/IMG_5425.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5434.JPG", 
+      image: "san-josef-bay/IMG_5434.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5441.JPG", 
+      image: "san-josef-bay/IMG_5441.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5454.JPG", 
+      image: "san-josef-bay/IMG_5454.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5459.JPG", 
+      image: "san-josef-bay/IMG_5459.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5461.JPG", 
+      image: "san-josef-bay/IMG_5461.jpg", 
       caption: ""
     },
     {
@@ -1403,7 +1403,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5469.JPG", 
+      image: "san-josef-bay/IMG_5469.jpg", 
       caption: ""
     },
     {
@@ -1411,31 +1411,31 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5472.JPG", 
+      image: "san-josef-bay/IMG_5472.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5473.JPG", 
+      image: "san-josef-bay/IMG_5473.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5475.JPG", 
+      image: "san-josef-bay/IMG_5475.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5477.JPG", 
+      image: "san-josef-bay/IMG_5477.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5481.JPG", 
+      image: "san-josef-bay/IMG_5481.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5484.JPG", 
+      image: "san-josef-bay/IMG_5484.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5485.JPG", 
+      image: "san-josef-bay/IMG_5485.jpg", 
       caption: ""
     },
     {
@@ -1447,31 +1447,31 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5495.JPG", 
+      image: "san-josef-bay/IMG_5495.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5497.JPG", 
+      image: "san-josef-bay/IMG_5497.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5499.JPG", 
+      image: "san-josef-bay/IMG_5499.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5509.JPG", 
+      image: "san-josef-bay/IMG_5509.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5510.JPG", 
+      image: "san-josef-bay/IMG_5510.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5515.JPG", 
+      image: "san-josef-bay/IMG_5515.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5519.JPG", 
+      image: "san-josef-bay/IMG_5519.jpg", 
       caption: ""
     }
   ],
@@ -1657,23 +1657,23 @@ const pictures = {
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4213.JPG",
+      image: "to-mtrl/IMG_4213.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4216.JPG",
+      image: "to-mtrl/IMG_4216.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4221.JPG",
+      image: "to-mtrl/IMG_4221.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4222.JPG",
+      image: "to-mtrl/IMG_4222.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4224.JPG",
+      image: "to-mtrl/IMG_4224.jpg",
       caption: ""
     },
     {
@@ -1685,27 +1685,27 @@ const pictures = {
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4229.JPG",
+      image: "to-mtrl/IMG_4229.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4230.JPG",
+      image: "to-mtrl/IMG_4230.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4234.JPG",
+      image: "to-mtrl/IMG_4234.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4235.JPG",
+      image: "to-mtrl/IMG_4235.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4238.JPG",
+      image: "to-mtrl/IMG_4238.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4240.JPG",
+      image: "to-mtrl/IMG_4240.jpg",
       caption: ""
     },
     {
@@ -1713,7 +1713,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4258.JPG",
+      image: "to-mtrl/IMG_4258.jpg",
       caption: ""
     },
     {
@@ -1721,23 +1721,23 @@ const pictures = {
       caption: ""
     },
     {
-      path: "to-mtrl/IMG_4277.JPG",
+      path: "to-mtrl/IMG_4277.jpg",
       caption: ""
     },
     {
-      path: "to-mtrl/IMG_4278.JPG",
+      path: "to-mtrl/IMG_4278.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4281.JPG",
+      image: "to-mtrl/IMG_4281.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4284.JPG",
+      image: "to-mtrl/IMG_4284.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4290.JPG",
+      image: "to-mtrl/IMG_4290.jpg",
       caption: ""
     },
     {
@@ -1745,23 +1745,23 @@ const pictures = {
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4292.JPG",
+      image: "to-mtrl/IMG_4292.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4301.JPG",
+      image: "to-mtrl/IMG_4301.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4303.JPG",
+      image: "to-mtrl/IMG_4303.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4304.JPG",
+      image: "to-mtrl/IMG_4304.jpg",
       caption: "Sainte-Anne-de-Bellevue"
     },
     {
-      image: "to-mtrl/IMG_4307.JPG",
+      image: "to-mtrl/IMG_4307.jpg",
       caption: ""
     },
     {
@@ -1769,7 +1769,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4313.JPG",
+      image: "to-mtrl/IMG_4313.jpg",
       caption: ""
     },
   ],
