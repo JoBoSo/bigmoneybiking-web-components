@@ -289,10 +289,6 @@ const pictures = {
       caption: ""
     },
     {
-      image: "begbie-falls/IMG_3713.jpg",
-      caption: ""
-    },
-    {
       image: "begbie-falls/IMG_3717.jpg",
       caption: ""
     },
@@ -301,23 +297,11 @@ const pictures = {
       caption: ""
     },
     {
-      image: "begbie-falls/IMG_3733.jpg",
+      image: "begbie-falls/IMG_3778.jpg",
       caption: ""
     },
     {
-      image: "begbie-falls/IMG_3762.jpg",
-      caption: ""
-    },
-    {
-      image: "begbie-falls/IMG_3779.jpg",
-      caption: ""
-    },
-    {
-      image: "begbie-falls/IMG_3781.jpg",
-      caption: ""
-    },
-    {
-      image: "begbie-falls/IMG_3792.jpg",
+      image: "begbie-falls/IMG_3791.jpg",
       caption: ""
     },
     {
@@ -325,48 +309,48 @@ const pictures = {
       caption: ""
     },
     {
-      image: "begbie-falls/IMG_8341.JPG",
-      caption: "So Fast You Can't See Me"
-    },
-    {
       image: "begbie-falls/IMG_8346.JPG",
       caption: "Form Is Everything"
-    },
-    {
-      image: "begbie-falls/IMG_8347.JPG",
-      caption: "120km/hr"
     },
     {
       image: "begbie-falls/IMG_8348.JPG",
       caption: "Aerodynamics"
     },
     {
+      image: "begbie-falls/IMG_8358.JPG",
+      caption: ""
+    },
+    {
       image: "begbie-falls/IMG_8359.JPG",
-      caption: "Not All Birds Can Fly"
+      caption: ""
+    },
+    {
+      image: "begbie-falls/IMG_8360.JPG",
+      caption: ""
     },
     {
       image: "begbie-falls/IMG_8371.JPG",
-      caption: "The Top*"
-    },
-    {
-      image: "begbie-falls/IMG_8373.JPG",
-      caption: "Natural Spring Water"
-    },
-    {
-      image: "begbie-falls/IMG_8377.JPG",
       caption: "Take one step forward"
     },
     {
-      image: "begbie-falls/IMG_8378.JPG",
+      image: "begbie-falls/IMG_8374.JPG",
       caption: "... and don't look back"
-    }
+    },
+    {
+      image: "begbie-falls/IMG_8377.JPG",
+      caption: ""
+    },
+    {
+      image: "begbie-falls/IMG_8378.JPG",
+      caption: ""
+    },
   ],
 
 
 
   "brewster-lake": [
     {
-      image: "brewster-lake/IMG_5557.JPG",
+      image: "brewster-lake/IMG_5557.jpg",
       caption: "Brewster Lake"
     },
     {
@@ -390,11 +374,11 @@ const pictures = {
       caption: ""
     },
     {
-      image: "brewster-lake/IMG_5603.JPG",
+      image: "brewster-lake/IMG_5603.jpg",
       caption: ""
     },
     {
-      image: "brewster-lake/IMG_5604.JPG",
+      image: "brewster-lake/IMG_5605.JPG",
       caption: ""
     },
     {
@@ -402,19 +386,15 @@ const pictures = {
       caption: ""
     },
     {
+      image: "brewster-lake/IMG_5618.JPG",
+      caption: ""
+    },
+    {
       image: "brewster-lake/IMG_5619.JPG",
       caption: "Bend in the Road"
     },
     {
-      image: "brewster-lake/IMG_5621.JPG",
-      caption: "Campbell Lake"
-    },
-    {
-      image: "brewster-lake/IMG_5624.JPG",
-      caption: ""
-    },
-    {
-      image: "brewster-lake/IMG_5628.JPG",
+      image: "brewster-lake/IMG_5628.jpg",
       caption: ""
     },
     {
@@ -426,8 +406,8 @@ const pictures = {
       caption: "My Campsite on Campbell Lake"
     },
     {
-      image: "brewster-lake/IMG_5641.JPG",
-      caption: "Bats flew overhead as I sat by the fire"
+      image: "brewster-lake/IMG_5635.jpg",
+      caption: ""
     }
   ],
 
@@ -435,7 +415,7 @@ const pictures = {
 
   "comox-lake": [
     {
-      image: "comox-lake/IMG_6284.JPG",
+      image: "comox-lake/IMG_6286.JPG",
       caption: ""
     },
     {
@@ -459,11 +439,19 @@ const pictures = {
       caption: ""
     },
     {
+      image: "comox-lake/IMG_6310.JPG",
+      caption: ""
+    },
+    {
       image: "comox-lake/IMG_6325.JPG",
       caption: ""
     },
     {
       image: "comox-lake/IMG_6328.JPG",
+      caption: ""
+    },
+    {
+      image: "comox-lake/IMG_6331.JPG",
       caption: ""
     },
     {
@@ -859,19 +847,11 @@ const pictures = {
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5125.JPG",
-      caption: "Cameron Lake"
-    },
-    {
-      image: "nanaimo-courtenay/IMG_5129.JPG",
-      caption: "The road to Port Alberni"
-    },
-    {
       image: "nanaimo-courtenay/IMG_5131.JPG",
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5140.JPG",
+      image: "nanaimo-courtenay/IMG_5140.jpg",
       caption: "The river was tidal"
     },
     {
@@ -883,14 +863,6 @@ const pictures = {
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5146.JPG", 
-      caption: ""
-    },
-    {
-      image: "nanaimo-courtenay/IMG_5147.JPG", 
-      caption: ""
-    },
-    {
       image: "nanaimo-courtenay/IMG_5149.JPG", 
       caption: ""
     },
@@ -899,23 +871,19 @@ const pictures = {
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5151.JPG", 
-      caption: ""
-    },
-    {
-      image: "nanaimo-courtenay/IMG_5152.JPG", 
-      caption: ""
-    },
-    {
       image: "nanaimo-courtenay/IMG_5154.JPG", 
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5160.JPG", 
+      image: "nanaimo-courtenay/IMG_5157.JPG", 
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5161.JPG", 
+      image: "nanaimo-courtenay/IMG_5158.JPG", 
+      caption: ""
+    },
+    {
+      image: "nanaimo-courtenay/IMG_5160.JPG", 
       caption: ""
     },
     {
@@ -1174,11 +1142,15 @@ const pictures = {
 
   "quadra-cortes": [
     {
-      image: "quadra-cortes/IMG_6781.JPG",
+      image: "quadra-cortes/IMG_6782.jpg",
       caption: "Fisherman's Wharf, Campbell River"
     },
     {
-      image: "quadra-cortes/IMG_6791.JPG",
+      image: "quadra-cortes/IMG_6787.JPG",
+      caption: ""
+    },
+    {
+      image: "quadra-cortes/IMG_6791.jpg",
       caption: "Morte Lake"
     },
     {
@@ -1194,23 +1166,27 @@ const pictures = {
       caption: "The beach at the end of Valdez Road"
     },
     {
-      image: "quadra-cortes/IMG_6824.JPG",
-      caption: "Valdez Road Beach"
-    },
-    {
       image: "quadra-cortes/IMG_6829.JPG",
       caption: "Surge Narrows Trail"
     },
     {
+      image: "quadra-cortes/IMG_6830.jpg",
+      caption: ""
+    },
+    {
+      image: "quadra-cortes/IMG_6833.JPG",
+      caption: ""
+    },
+    {
       image: "quadra-cortes/IMG_6834.JPG",
-      caption: "Surge Narrows"
+      caption: ""
     },
     {
       image: "quadra-cortes/IMG_6835.JPG",
       caption: "My campsite"
     },
     {
-      image: "quadra-cortes/IMG_6839.JPG",
+      image: "quadra-cortes/IMG_6839.jpg",
       caption: "Ferry to Cortes Island"
     },
     {
@@ -1218,8 +1194,8 @@ const pictures = {
       caption: "Cortes Island Signage"
     },
     {
-      image: "quadra-cortes/IMG_6855.JPG",
-      caption: "Squirrel Cove"
+      image: "quadra-cortes/IMG_6851.JPG",
+      caption: ""
     },
     {
       image: "quadra-cortes/IMG_6856.JPG",
@@ -1230,7 +1206,7 @@ const pictures = {
       caption: "Eroding Car"
     },
     {
-      image: "quadra-cortes/IMG_6866.JPG",
+      image: "quadra-cortes/IMG_6866.jpg",
       caption: "Squirrel Cove Beach"
     },
     {
@@ -1250,23 +1226,19 @@ const pictures = {
       caption: "Pollinator on Smelt Bay"
     },
     {
-      image: "quadra-cortes/IMG_6912.JPG",
-      caption: "Smelt Bay Ecological Restoration"
-    },
-    {
-      image: "quadra-cortes/IMG_6920.JPG",
-      caption: "Sweet Peas"
+      image: "quadra-cortes/IMG_6913.jpg",
+      caption: "Smelt Bay"
     },
     {
       image: "quadra-cortes/IMG_6932.JPG",
       caption: "Wal-De-Mark"
     },
     {
-      image: "quadra-cortes/IMG_6936.JPG",
+      image: "quadra-cortes/IMG_6936.jpg",
       caption: "Mansons Landing"
     },
     {
-      image: "quadra-cortes/IMG_6950.JPG",
+      image: "quadra-cortes/IMG_6950.jpg",
       caption: "Mansons Landing"
     },
     {
@@ -1282,25 +1254,21 @@ const pictures = {
       caption: "Masons Landing"
     },
     {
-      image: "quadra-cortes/IMG_6970.JPG",
-      caption: "Rebecca Spit"
+      image: "quadra-cortes/IMG_6969.JPG",
+      caption: ""
     },
     {
-      image:"quadra-cortes/IMG_6974.JPG",
+      image: "quadra-cortes/IMG_6970.jpg",
+      caption: ""
+    },
+    {
+      image: "quadra-cortes/IMG_6972.JPG",
       caption: ""
     },
     {
         image: "quadra-cortes/IMG_6975.JPG",
       caption: "Financial District, Quadra Island"
     },
-    {
-      image: "quadra-cortes/IMG_6977.JPG",
-      caption: "Her Majesty, The Queen of England, protects every ferry"
-    },
-    {
-      image: "quadra-cortes/IMG_6978.JPG",
-      caption: "Two-Piece Ling-Cod Dinner"
-    }
   ],
 
 
@@ -1319,7 +1287,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5244.JPG", 
+      image: "san-josef-bay/IMG_5245.JPG", 
       caption: ""
     },
     {
@@ -1327,19 +1295,11 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5263.JPG", 
-      caption: ""
-    },
-    {
-      image: "san-josef-bay/IMG_5290.JPG", 
-      caption: ""
-    },
-    {
-      image: "san-josef-bay/IMG_5293.JPG", 
-      caption: ""
-    },
-    {
       image: "san-josef-bay/IMG_5296.JPG", 
+      caption: ""
+    },
+    {
+      image: "san-josef-bay/IMG_5300.JPG", 
       caption: ""
     },
     {
@@ -1347,11 +1307,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5307.JPG", 
-      caption: ""
-    },
-    {
-      image: "san-josef-bay/IMG_5311.JPG", 
+      image: "san-josef-bay/IMG_5309.JPG", 
       caption: ""
     },
     {
@@ -1359,19 +1315,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5319.JPG", 
-      caption: ""
-    },
-    {
-      image: "san-josef-bay/IMG_5321.JPG", 
-      caption: ""
-    },
-    {
-      image: "san-josef-bay/IMG_5323.JPG", 
-      caption: ""
-    },
-    {
-      image: "san-josef-bay/IMG_5330.JPG", 
+      image: "san-josef-bay/IMG_5326.JPG", 
       caption: ""
     },
     {
@@ -1391,19 +1335,35 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5354.JPG", 
-      caption: ""
-    },
-    {
       image: "san-josef-bay/IMG_5363.JPG", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5384.JPG", 
+      image: "san-josef-bay/IMG_5384.jpg", 
       caption: ""
     },
     {
       image: "san-josef-bay/IMG_5387.JPG", 
+      caption: ""
+    },
+    {
+      image: "san-josef-bay/IMG_5396.JPG", 
+      caption: ""
+    },
+    {
+      image: "san-josef-bay/IMG_5400.JPG", 
+      caption: ""
+    },
+    {
+      image: "san-josef-bay/IMG_5406.JPG", 
+      caption: ""
+    },
+    {
+      image: "san-josef-bay/IMG_5411.JPG", 
+      caption: ""
+    },
+    {
+      image: "san-josef-bay/IMG_5416.JPG", 
       caption: ""
     },
     {
@@ -1415,7 +1375,15 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5426.JPG", 
+      image: "san-josef-bay/IMG_5425.JPG", 
+      caption: ""
+    },
+    {
+      image: "san-josef-bay/IMG_5434.JPG", 
+      caption: ""
+    },
+    {
+      image: "san-josef-bay/IMG_5441.JPG", 
       caption: ""
     },
     {
@@ -1427,7 +1395,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5460.JPG", 
+      image: "san-josef-bay/IMG_5461.JPG", 
       caption: ""
     },
     {
@@ -1439,7 +1407,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5471.JPG", 
+      image: "san-josef-bay/IMG_5471.jpg", 
       caption: ""
     },
     {
@@ -1455,7 +1423,15 @@ const pictures = {
       caption: ""
     },
     {
+      image: "san-josef-bay/IMG_5477.JPG", 
+      caption: ""
+    },
+    {
       image: "san-josef-bay/IMG_5481.JPG", 
+      caption: ""
+    },
+    {
+      image: "san-josef-bay/IMG_5484.JPG", 
       caption: ""
     },
     {
@@ -1463,7 +1439,11 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5486.JPG", 
+      image: "san-josef-bay/IMG_5486.jpg", 
+      caption: ""
+    },
+    {
+      image: "san-josef-bay/IMG_5492.jpg", 
       caption: ""
     },
     {
@@ -1472,6 +1452,10 @@ const pictures = {
     },
     {
       image: "san-josef-bay/IMG_5497.JPG", 
+      caption: ""
+    },
+    {
+      image: "san-josef-bay/IMG_5499.JPG", 
       caption: ""
     },
     {
@@ -1512,11 +1496,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "texada/IMG_5808.jpg", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_5815.JPG", 
+      image: "texada/IMG_5806.jpg", 
       caption: ""
     },
     {
@@ -1536,14 +1516,6 @@ const pictures = {
       caption: ""
     },
     {
-      image: "texada/IMG_5854.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_5855.jpg", 
-      caption: ""
-    },
-    {
       image: "texada/IMG_5856.jpg", 
       caption: ""
     },
@@ -1552,19 +1524,15 @@ const pictures = {
       caption: ""
     },
     {
-      image: "texada/IMG_5867.JPG", 
-      caption: ""
-    },
-    {
       image: "texada/IMG_5871.JPG", 
       caption: ""
     },
     {
-      image: "texada/IMG_5872.JPG", 
+      image: "texada/IMG_5872.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5873.JPG", 
+      image: "texada/IMG_5873.jpg", 
       caption: ""
     },
     {
@@ -1584,39 +1552,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "texada/IMG_5896.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_5898.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_5919.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_5921.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_5927.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_5938.JPG", 
-      caption: ""
-    },
-    {
       image: "texada/IMG_5941.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_5944.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_5953.JPG", 
       caption: ""
     },
     {
@@ -1632,7 +1568,11 @@ const pictures = {
       caption: ""
     },
     {
-      image: "texada/IMG_5988.JPG", 
+      image: "texada/IMG_5974.JPG", 
+      caption: ""
+    },
+    {
+      image: "texada/IMG_5992.JPG", 
       caption: ""
     },
     {
@@ -1644,7 +1584,15 @@ const pictures = {
       caption: ""
     },
     {
-      image: "texada/IMG_6021.JPG", 
+      image: "texada/IMG_6015.JPG", 
+      caption: ""
+    },
+    {
+      image: "texada/IMG_6027.JPG", 
+      caption: ""
+    },
+    {
+      image: "texada/IMG_6029.JPG", 
       caption: ""
     },
     {
@@ -1656,35 +1604,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "texada/IMG_6048.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_6050.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_6052.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_6055.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_6059.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_6061.JPG", 
-      caption: ""
-    },
-    {
       image: "texada/IMG_6069.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_6072.JPG", 
       caption: ""
     },
     {
@@ -1692,7 +1612,15 @@ const pictures = {
       caption: ""
     },
     {
+      image: "texada/IMG_6084.JPG", 
+      caption: ""
+    },
+    {
       image: "texada/IMG_6090.JPG", 
+      caption: ""
+    },
+    {
+      image: "texada/IMG_6099.jpg", 
       caption: ""
     },
     {
@@ -1700,15 +1628,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "texada/IMG_6106.JPG", 
-      caption: ""
-    },
-    {
       image: "texada/IMG_6107.JPG", 
-      caption: ""
-    },
-    {
-      image: "texada/IMG_6108.JPG", 
       caption: ""
     },
     {
@@ -1725,11 +1645,23 @@ const pictures = {
 
   "to-mtrl": [
     {
-      image: "to-mtrl/field_to_lake.JPG",
+      image: "to-mtrl/IMG_4208.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4210.JPG",
+      image: "to-mtrl/IMG_4209.jpg",
+      caption: ""
+    },
+    {
+      image: "to-mtrl/IMG_4210.jpg",
+      caption: ""
+    },
+    {
+      image: "to-mtrl/IMG_4213.JPG",
+      caption: ""
+    },
+    {
+      image: "to-mtrl/IMG_4216.JPG",
       caption: ""
     },
     {
@@ -1745,11 +1677,11 @@ const pictures = {
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4225.JPG",
+      image: "to-mtrl/IMG_4225.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4228.JPG",
+      image: "to-mtrl/IMG_4226.jpg",
       caption: ""
     },
     {
@@ -1769,10 +1701,6 @@ const pictures = {
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4237.JPG",
-      caption: ""
-    },
-    {
       image: "to-mtrl/IMG_4238.JPG",
       caption: ""
     },
@@ -1781,23 +1709,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4242.JPG",
-      caption: ""
-    },
-    {
-      image: "to-mtrl/IMG_4243.JPG",
-      caption: ""
-    },
-    {
       image: "to-mtrl/IMG_4246.jpg",
-      caption: ""
-    },
-    {
-      image: "to-mtrl/IMG_4247.JPG",
-      caption: ""
-    },
-    {
-      image: "to-mtrl/IMG_4252.JPG",
       caption: ""
     },
     {
@@ -1805,15 +1717,15 @@ const pictures = {
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4267.JPG",
+      image: "to-mtrl/IMG_4267.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4275.JPG",
+      path: "to-mtrl/IMG_4277.JPG",
       caption: ""
     },
     {
-      path: "../images/to-mtrl/IMG_4277.JPG",
+      path: "to-mtrl/IMG_4278.JPG",
       caption: ""
     },
     {
@@ -1821,7 +1733,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4282.JPG",
+      image: "to-mtrl/IMG_4284.JPG",
       caption: ""
     },
     {
@@ -1829,7 +1741,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4291.JPG",
+      image: "to-mtrl/IMG_4291.jpg",
       caption: ""
     },
     {
@@ -1837,9 +1749,29 @@ const pictures = {
       caption: ""
     },
     {
+      image: "to-mtrl/IMG_4301.JPG",
+      caption: ""
+    },
+    {
+      image: "to-mtrl/IMG_4303.JPG",
+      caption: ""
+    },
+    {
       image: "to-mtrl/IMG_4304.JPG",
       caption: "Sainte-Anne-de-Bellevue"
-    }
+    },
+    {
+      image: "to-mtrl/IMG_4307.JPG",
+      caption: ""
+    },
+    {
+      image: "to-mtrl/IMG_4312.jpg",
+      caption: ""
+    },
+    {
+      image: "to-mtrl/IMG_4313.JPG",
+      caption: ""
+    },
   ],
 
 
