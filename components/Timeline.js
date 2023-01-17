@@ -560,7 +560,7 @@ const timelines = {
       "photobar_imgs": [
         "texada/IMG_5848.JPG",
         "texada/IMG_5862.JPG",
-        "texada/IMG_5871.jpg",
+        "texada/IMG_5871.JPG",
       ]
     },
     {
@@ -578,7 +578,7 @@ const timelines = {
         "texada/IMG_6103.JPG",
         "texada/IMG_5893.JPG",
         "texada/IMG_5941.JPG",
-        "texada/IMG_6011.JPG",
+        "texada/IMG_6011.jpg",
         "texada/IMG_5974.JPG",
         "texada/IMG_6021.JPG",
       ]

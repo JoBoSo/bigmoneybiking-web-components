@@ -1520,15 +1520,19 @@ const pictures = {
       caption: ""
     },
     {
+      image: "texada/IMG_5862.JPG", 
+      caption: ""
+    },
+    {
       image: "texada/IMG_5871.JPG", 
       caption: ""
     },
     {
-      image: "texada/IMG_5872.JPG", 
+      image: "texada/IMG_5872.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5873.JPG", 
+      image: "texada/IMG_5873.jpg", 
       caption: ""
     },
     {
@@ -1616,7 +1620,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "texada/IMG_6099.JPG", 
+      image: "texada/IMG_6099.jpg", 
       caption: ""
     },
     {
