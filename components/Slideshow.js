@@ -1480,19 +1480,19 @@ const pictures = {
 
   "texada": [
     {
-      image: "texada/IMG_5777.JPG", 
+      image: "texada/IMG_5777.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5788.JPG", 
+      image: "texada/IMG_5788.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5797.JPG", 
+      image: "texada/IMG_5797.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5800.JPG", 
+      image: "texada/IMG_5800.jpg", 
       caption: ""
     },
     {
@@ -1500,19 +1500,19 @@ const pictures = {
       caption: ""
     },
     {
-      image: "texada/IMG_5832.JPG", 
+      image: "texada/IMG_5832.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5839.JPG", 
+      image: "texada/IMG_5839.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5841.JPG", 
+      image: "texada/IMG_5841.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5848.JPG", 
+      image: "texada/IMG_5848.jpg", 
       caption: ""
     },
     {
@@ -1520,11 +1520,11 @@ const pictures = {
       caption: ""
     },
     {
-      image: "texada/IMG_5862.JPG", 
+      image: "texada/IMG_5862.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5871.JPG", 
+      image: "texada/IMG_5871.jpg", 
       caption: ""
     },
     {
@@ -1536,87 +1536,87 @@ const pictures = {
       caption: ""
     },
     {
-      image: "texada/IMG_5878.JPG", 
+      image: "texada/IMG_5878.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5885.JPG", 
+      image: "texada/IMG_5885.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5890.JPG", 
+      image: "texada/IMG_5890.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5893.JPG", 
+      image: "texada/IMG_5893.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5941.JPG", 
+      image: "texada/IMG_5941.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5960.JPG", 
+      image: "texada/IMG_5960.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5963.JPG", 
+      image: "texada/IMG_5963.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5966.JPG", 
+      image: "texada/IMG_5966.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5974.JPG", 
+      image: "texada/IMG_5974.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5992.JPG", 
+      image: "texada/IMG_5992.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_5994.JPG", 
+      image: "texada/IMG_5994.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_6010.JPG", 
+      image: "texada/IMG_6010.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_6015.JPG", 
+      image: "texada/IMG_6015.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_6027.JPG", 
+      image: "texada/IMG_6027.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_6029.JPG", 
+      image: "texada/IMG_6029.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_6032.JPG", 
+      image: "texada/IMG_6032.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_6040.JPG", 
+      image: "texada/IMG_6040.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_6069.JPG", 
+      image: "texada/IMG_6069.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_6080.JPG", 
+      image: "texada/IMG_6080.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_6084.JPG", 
+      image: "texada/IMG_6084.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_6090.JPG", 
+      image: "texada/IMG_6090.jpg", 
       caption: ""
     },
     {
@@ -1624,19 +1624,19 @@ const pictures = {
       caption: ""
     },
     {
-      image: "texada/IMG_6103.JPG", 
+      image: "texada/IMG_6103.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_6107.JPG", 
+      image: "texada/IMG_6107.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_6110.JPG", 
+      image: "texada/IMG_6110.jpg", 
       caption: ""
     },
     {
-      image: "texada/IMG_6113.JPG", 
+      image: "texada/IMG_6113.jpg", 
       caption: ""
     }
   ],

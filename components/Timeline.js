@@ -541,9 +541,9 @@ const timelines = {
         "Someone left a homemade fire-starter in the pit and I needed no more convincing. It felt like a gift."
       ],
       "photobar_imgs": [
-        "texada/IMG_5788.JPG",
-        "texada/IMG_5800.JPG",
-        "texada/IMG_5797.JPG",
+        "texada/IMG_5788.jpg",
+        "texada/IMG_5800.jpg",
+        "texada/IMG_5797.jpg",
       ]
     },
     {
@@ -558,9 +558,9 @@ const timelines = {
         "Camped at Single Beach. The host was really on the ball with an iPad for registation and a tagged truck."
       ],
       "photobar_imgs": [
-        "texada/IMG_5848.JPG",
-        "texada/IMG_5862.JPG",
-        "texada/IMG_5871.JPG",
+        "texada/IMG_5848.jpg",
+        "texada/IMG_5862.jpg",
+        "texada/IMG_5871.jpg",
       ]
     },
     {
@@ -575,12 +575,12 @@ const timelines = {
         "I hiked around Bob's Lake and saw an old horse campsite and a variety of perfectly content mushrooms."
       ],
       "photobar_imgs": [
-        "texada/IMG_6103.JPG",
-        "texada/IMG_5893.JPG",
-        "texada/IMG_5941.JPG",
+        "texada/IMG_6103.jpg",
+        "texada/IMG_5893.jpg",
+        "texada/IMG_5941.jpg",
         "texada/IMG_6011.jpg",
-        "texada/IMG_5974.JPG",
-        "texada/IMG_6021.JPG",
+        "texada/IMG_5974.jpg",
+        "texada/IMG_6021.jpg",
       ]
     },
     {
@@ -594,9 +594,9 @@ const timelines = {
         "I had a meal on the colourful patio at Mary Mary Cafe in Van Anda before getting on the ferry."
       ],
       "photobar_imgs": [
-        "texada/IMG_6107.JPG",
-        "texada/IMG_6110.JPG",
-        "texada/IMG_6113.JPG",
+        "texada/IMG_6107.jpg",
+        "texada/IMG_6110.jpg",
+        "texada/IMG_6113.jpg",
       ]
     }
   ],
