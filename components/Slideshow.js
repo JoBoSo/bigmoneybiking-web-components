@@ -1339,7 +1339,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5384.JPG", 
+      image: "san-josef-bay/IMG_5384.jpg", 
       caption: ""
     },
     {
@@ -1407,7 +1407,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5471.JPG", 
+      image: "san-josef-bay/IMG_5471.jpg", 
       caption: ""
     },
     {
@@ -1439,11 +1439,11 @@ const pictures = {
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5486.JPG", 
+      image: "san-josef-bay/IMG_5486.jpg", 
       caption: ""
     },
     {
-      image: "san-josef-bay/IMG_5492.JPG", 
+      image: "san-josef-bay/IMG_5492.jpg", 
       caption: ""
     },
     {
