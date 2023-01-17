@@ -89,7 +89,7 @@ const tiles = {
     {
       title: "Quadra & Cortes",
       subtitle: "Psychedelic Sailors",
-      image: "quadra-cortes/IMG_6877.JPG",
+      image: "quadra-cortes/IMG_6877.jpg",
       page: "tours/quadra-cortes.html"
     },
     {
@@ -101,7 +101,7 @@ const tiles = {
     {
       title: "Texada Island",
       subtitle: "The Largest Island in the Strait of Georgia",
-      image: "texada/IMG_5873.JPG",
+      image: "texada/IMG_5873.jpg",
       page: "tours/texada.html"
     },
     {
@@ -113,19 +113,19 @@ const tiles = {
     {
       title: "North Vancouver Island",
       subtitle: "All Paths Lead to a Beach",
-      image: "san-josef-bay/IMG_5485.JPG",
+      image: "san-josef-bay/IMG_5485.jpg",
       page: "tours/san-josef-bay.html"
     },
     {
       title: "Nanaimo to Courtenay",
       subtitle: "Via Logging Roads",
-      image: "nanaimo-courtenay/IMG_5149.JPG",
+      image: "nanaimo-courtenay/IMG_5149.jpg",
       page: "tours/nanaimo-courtenay.html"
     },
     {
       title: "Schomberg to Montreal",
       subtitle: "Riding the Waterfront Trail",
-      image: "to-mtrl/IMG_4290.JPG",
+      image: "to-mtrl/IMG_4290.jpg",
       page: "tours/to-mtrl.html"
     },
   ],
