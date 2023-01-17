@@ -2,7 +2,7 @@ class Header extends HTMLElement {
   constructor() {
     super();
     this.title = 'Big Money Bicycle Touring';
-    this.subtitle = "Leisure gives room for thought.";
+    this.subtitle = "Adventure creates space for thought.";
   }
 
   connectedCallback() {
