@@ -1721,14 +1721,6 @@ const pictures = {
       caption: ""
     },
     {
-      path: "to-mtrl/IMG_4277.jpg",
-      caption: ""
-    },
-    {
-      path: "to-mtrl/IMG_4278.jpg",
-      caption: ""
-    },
-    {
       image: "to-mtrl/IMG_4281.jpg",
       caption: ""
     },
