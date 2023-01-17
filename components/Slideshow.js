@@ -305,43 +305,43 @@ const pictures = {
       caption: ""
     },
     {
-      image: "begbie-falls/IMG_8340.JPG",
+      image: "begbie-falls/IMG_8340.jpg",
       caption: ""
     },
     {
-      image: "begbie-falls/IMG_8346.JPG",
+      image: "begbie-falls/IMG_8346.jpg",
       caption: "Form Is Everything"
     },
     {
-      image: "begbie-falls/IMG_8348.JPG",
+      image: "begbie-falls/IMG_8348.jpg",
       caption: "Aerodynamics"
     },
     {
-      image: "begbie-falls/IMG_8358.JPG",
+      image: "begbie-falls/IMG_8358.jpg",
       caption: ""
     },
     {
-      image: "begbie-falls/IMG_8359.JPG",
+      image: "begbie-falls/IMG_8359.jpg",
       caption: ""
     },
     {
-      image: "begbie-falls/IMG_8360.JPG",
+      image: "begbie-falls/IMG_8360.jpg",
       caption: ""
     },
     {
-      image: "begbie-falls/IMG_8371.JPG",
+      image: "begbie-falls/IMG_8371.jpg",
       caption: "Take one step forward"
     },
     {
-      image: "begbie-falls/IMG_8374.JPG",
+      image: "begbie-falls/IMG_8374.jpg",
       caption: "... and don't look back"
     },
     {
-      image: "begbie-falls/IMG_8377.JPG",
+      image: "begbie-falls/IMG_8377.jpg",
       caption: ""
     },
     {
-      image: "begbie-falls/IMG_8378.JPG",
+      image: "begbie-falls/IMG_8378.jpg",
       caption: ""
     },
   ],
@@ -354,23 +354,23 @@ const pictures = {
       caption: "Brewster Lake"
     },
     {
-      image: "brewster-lake/IMG_5561.JPG",
+      image: "brewster-lake/IMG_5561.jpg",
       caption: ""
     },
     {
-      image: "brewster-lake/IMG_5565.JPG",
+      image: "brewster-lake/IMG_5565.jpg",
       caption: "My campsite on Brewster Lake"
     },
     {
-      image: "brewster-lake/IMG_5570.JPG",
+      image: "brewster-lake/IMG_5570.jpg",
       caption: ""
     },
     {
-      image: "brewster-lake/IMG_5585.JPG",
+      image: "brewster-lake/IMG_5585.jpg",
       caption: ""
     },
     {
-      image: "brewster-lake/IMG_5594.JPG",
+      image: "brewster-lake/IMG_5594.jpg",
       caption: ""
     },
     {
@@ -378,19 +378,19 @@ const pictures = {
       caption: ""
     },
     {
-      image: "brewster-lake/IMG_5605.JPG",
+      image: "brewster-lake/IMG_5605.jpg",
       caption: ""
     },
     {
-      image: "brewster-lake/IMG_5610.JPG",
+      image: "brewster-lake/IMG_5610.jpg",
       caption: ""
     },
     {
-      image: "brewster-lake/IMG_5618.JPG",
+      image: "brewster-lake/IMG_5618.jpg",
       caption: ""
     },
     {
-      image: "brewster-lake/IMG_5619.JPG",
+      image: "brewster-lake/IMG_5619.jpg",
       caption: "Bend in the Road"
     },
     {
@@ -398,11 +398,11 @@ const pictures = {
       caption: ""
     },
     {
-      image: "brewster-lake/IMG_5631.JPG",
+      image: "brewster-lake/IMG_5631.jpg",
       caption: ""
     },
     {
-      image: "brewster-lake/IMG_5634.JPG",
+      image: "brewster-lake/IMG_5634.jpg",
       caption: "My Campsite on Campbell Lake"
     },
     {
