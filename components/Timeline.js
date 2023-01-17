@@ -116,7 +116,7 @@ const timelines = {
       ],
       "photobar_imgs": [
         "ptit-train/IMG_2537.jpg",
-        "ptit-train/poutine.JPG",
+        "ptit-train/poutine.jpg",
         "ptit-train/IMG_2538.jpg",
       ]
     },
@@ -150,7 +150,7 @@ const timelines = {
       ],
       "photobar_imgs": [
         "ptit-train/river.jpg",
-        "ptit-train/church.JPG",
+        "ptit-train/church.jpg",
         "ptit-train/IMG_2577.jpg",
       ]
     }
@@ -352,9 +352,9 @@ const timelines = {
         "My neighbours at Carnes Creek Rec Site gave me a load of fire wood for the night."
       ],
       "photobar_imgs": [
-        "downie-creek/IMG_8490.JPG",
-        "downie-creek/IMG_8491.JPG",
-        "downie-creek/IMG_8500.JPG",
+        "downie-creek/IMG_8490.jpg",
+        "downie-creek/IMG_8491.jpg",
+        "downie-creek/IMG_8500.jpg",
       ]
     },
     {
@@ -370,8 +370,8 @@ const timelines = {
       ],
       "photobar_imgs": [
         "downie-creek/IMG_8521.jpg",
-        "downie-creek/IMG_8602.JPG",
-        "downie-creek/IMG_8560.JPG",
+        "downie-creek/IMG_8602.jpg",
+        "downie-creek/IMG_8560.jpg",
       ]
     },
     {
@@ -385,9 +385,9 @@ const timelines = {
         "This is the kind of road that you won't find unless you look for it. I want to ride it all the way to it's end when I'm back."
       ],
       "photobar_imgs": [
-        "downie-creek/IMG_8634.JPG",
-        "downie-creek/IMG_8647.JPG",
-        "downie-creek/IMG_8648.JPG",
+        "downie-creek/IMG_8634.jpg",
+        "downie-creek/IMG_8647.jpg",
+        "downie-creek/IMG_8648.jpg",
       ]
     },
   ],
@@ -405,7 +405,7 @@ const timelines = {
         "We biked from our place in Revelstoke to Begbie Falls Rec Site to camp."
       ],
       "photobar_imgs": [
-        "begbie-falls/IMG_8346.JPG",
+        "begbie-falls/IMG_8346.jpg",
         "begbie-falls/IMG_3717.jpg",
         "begbie-falls/IMG_3712.jpg",
       ]
@@ -420,9 +420,9 @@ const timelines = {
         "We hiked a little more than half way up Mt. Begbie the next morning."
       ],
       "photobar_imgs": [
-        "begbie-falls/IMG_8377.JPG",
-        "begbie-falls/IMG_8374.JPG",
-        "begbie-falls/IMG_8371.JPG",
+        "begbie-falls/IMG_8377.jpg",
+        "begbie-falls/IMG_8374.jpg",
+        "begbie-falls/IMG_8371.jpg",
       ]
     },
   ],
@@ -442,8 +442,8 @@ const timelines = {
       ],
       "photobar_imgs": [
         "quadra-cortes/IMG_6782.jpg",
-        "quadra-cortes/IMG_6819.JPG",
-        "quadra-cortes/IMG_6791.JPG",
+        "quadra-cortes/IMG_6819.jpg",
+        "quadra-cortes/IMG_6791.jpg",
       ]
     },
     {
@@ -458,9 +458,9 @@ const timelines = {
         "Camped in a lushious opening in the forest."
       ],
       "photobar_imgs": [
-        "quadra-cortes/IMG_6813.JPG",
-        "quadra-cortes/IMG_6834.JPG",
-        "quadra-cortes/IMG_6835.JPG",
+        "quadra-cortes/IMG_6813.jpg",
+        "quadra-cortes/IMG_6834.jpg",
+        "quadra-cortes/IMG_6835.jpg",
       ]
     },
     {
@@ -477,11 +477,11 @@ const timelines = {
         "Was confused when I found pontoon boats sitting in a pit with cottages on cliffs above them. But I figured out what was going on when the tide came in to fill it up."
       ],
       "photobar_imgs": [
-        "quadra-cortes/IMG_6856.JPG",
-        "quadra-cortes/IMG_6848.JPG",
-        "quadra-cortes/IMG_6861.JPG",
+        "quadra-cortes/IMG_6856.jpg",
+        "quadra-cortes/IMG_6848.jpg",
+        "quadra-cortes/IMG_6861.jpg",
         "quadra-cortes/IMG_6904.jpg",
-        "quadra-cortes/IMG_6950.JPG",
+        "quadra-cortes/IMG_6950.jpg",
         "quadra-cortes/IMG_6954.jpg",
       ]
     },
@@ -503,9 +503,9 @@ const timelines = {
         "I camped on some mossy bluffs overlooking the lake."
       ],
       "photobar_imgs": [
-        "comox-lake/IMG_6300.JPG",
-        "comox-lake/IMG_6302.JPG",
-        "comox-lake/IMG_6310.JPG",
+        "comox-lake/IMG_6300.jpg",
+        "comox-lake/IMG_6302.jpg",
+        "comox-lake/IMG_6310.jpg",
       ]
     },
     {
@@ -519,9 +519,9 @@ const timelines = {
         "I tried biking around the lake, thinking it might connect to Cumberland on the otherside, but an old couple who lived on the otherside of the lake told me it didn't."
       ],
       "photobar_imgs": [
-        "comox-lake/IMG_6325.JPG",
-        "comox-lake/IMG_6331.JPG",
-        "comox-lake/IMG_6336.JPG",
+        "comox-lake/IMG_6325.jpg",
+        "comox-lake/IMG_6331.jpg",
+        "comox-lake/IMG_6336.jpg",
       ]
     },
   ],
@@ -541,9 +541,9 @@ const timelines = {
         "Someone left a homemade fire-starter in the pit and I needed no more convincing. It felt like a gift."
       ],
       "photobar_imgs": [
-        "texada/IMG_5788.JPG",
-        "texada/IMG_5800.JPG",
-        "texada/IMG_5797.JPG",
+        "texada/IMG_5788.jpg",
+        "texada/IMG_5800.jpg",
+        "texada/IMG_5797.jpg",
       ]
     },
     {
@@ -558,9 +558,9 @@ const timelines = {
         "Camped at Single Beach. The host was really on the ball with an iPad for registation and a tagged truck."
       ],
       "photobar_imgs": [
-        "texada/IMG_5848.JPG",
-        "texada/IMG_5862.JPG",
-        "texada/IMG_5871.JPG",
+        "texada/IMG_5848.jpg",
+        "texada/IMG_5862.jpg",
+        "texada/IMG_5871.jpg",
       ]
     },
     {
@@ -575,12 +575,12 @@ const timelines = {
         "I hiked around Bob's Lake and saw an old horse campsite and a variety of perfectly content mushrooms."
       ],
       "photobar_imgs": [
-        "texada/IMG_6103.JPG",
-        "texada/IMG_5893.JPG",
-        "texada/IMG_5941.JPG",
+        "texada/IMG_6103.jpg",
+        "texada/IMG_5893.jpg",
+        "texada/IMG_5941.jpg",
         "texada/IMG_6011.jpg",
-        "texada/IMG_5974.JPG",
-        "texada/IMG_6021.JPG",
+        "texada/IMG_5974.jpg",
+        "texada/IMG_6021.jpg",
       ]
     },
     {
@@ -594,9 +594,9 @@ const timelines = {
         "I had a meal on the colourful patio at Mary Mary Cafe in Van Anda before getting on the ferry."
       ],
       "photobar_imgs": [
-        "texada/IMG_6107.JPG",
-        "texada/IMG_6110.JPG",
-        "texada/IMG_6113.JPG",
+        "texada/IMG_6107.jpg",
+        "texada/IMG_6110.jpg",
+        "texada/IMG_6113.jpg",
       ]
     }
   ],
@@ -614,9 +614,9 @@ const timelines = {
         "Brewster Lake had a real beachy feel, like Tofino does, with it's swooping cedar trees and vibrant greenery."
       ],
       "photobar_imgs": [
-        "brewster-lake/IMG_5594.JPG",
-        "brewster-lake/IMG_5557.JPG",
-        "brewster-lake/IMG_5570.JPG",
+        "brewster-lake/IMG_5594.jpg",
+        "brewster-lake/IMG_5557.jpg",
+        "brewster-lake/IMG_5570.jpg",
       ]
     },
     {
@@ -629,9 +629,9 @@ const timelines = {
         "Made a small fire on the shore and watched bats zip in and out of the forest behind me."
       ],
       "photobar_imgs": [
-        "brewster-lake/IMG_5585.JPG",
-        "brewster-lake/IMG_5603.JPG",
-        "brewster-lake/IMG_5631.JPG",
+        "brewster-lake/IMG_5585.jpg",
+        "brewster-lake/IMG_5603.jpg",
+        "brewster-lake/IMG_5631.jpg",
 
       ]
     },
@@ -645,9 +645,9 @@ const timelines = {
         "I rode home to Courtenay."
       ],
       "photobar_imgs": [
-        "brewster-lake/IMG_5610.JPG",
-        "brewster-lake/IMG_5628.JPG",
-        "brewster-lake/IMG_5619.JPG",
+        "brewster-lake/IMG_5610.jpg",
+        "brewster-lake/IMG_5628.jpg",
+        "brewster-lake/IMG_5619.jpg",
       ]
     },
   ],
@@ -663,9 +663,9 @@ const timelines = {
       "end": "Burnt Beach",
       "description": [],
       "photobar_imgs": [
-        "san-josef-bay/IMG_5236.JPG",
-        "san-josef-bay/IMG_5254.JPG",
-        "san-josef-bay/IMG_5245.JPG",
+        "san-josef-bay/IMG_5236.jpg",
+        "san-josef-bay/IMG_5254.jpg",
+        "san-josef-bay/IMG_5245.jpg",
       ]
     },
     {
@@ -676,9 +676,9 @@ const timelines = {
       "end": "Elk Creek",
       "description": [],
       "photobar_imgs": [
-        "san-josef-bay/IMG_5307.JPG",
-        "san-josef-bay/IMG_5296.JPG",
-        "san-josef-bay/IMG_5313.JPG",
+        "san-josef-bay/IMG_5307.jpg",
+        "san-josef-bay/IMG_5296.jpg",
+        "san-josef-bay/IMG_5313.jpg",
       ]
     },
     {
@@ -689,7 +689,7 @@ const timelines = {
       "end": "Elk Creek",
       "description": [],
       "photobar_imgs": [
-        "san-josef-bay/IMG_5333.JPG",
+        "san-josef-bay/IMG_5333.jpg",
       ]
     },
     {
@@ -700,9 +700,9 @@ const timelines = {
       "end": "Nimpkish Lake",
       "description": [],
       "photobar_imgs": [
-        "san-josef-bay/IMG_5352.JPG",
-        "san-josef-bay/IMG_5353.JPG",
-        "san-josef-bay/IMG_5363.JPG",
+        "san-josef-bay/IMG_5352.jpg",
+        "san-josef-bay/IMG_5353.jpg",
+        "san-josef-bay/IMG_5363.jpg",
       ]
     },
     {
@@ -713,9 +713,9 @@ const timelines = {
       "end": "Nahwitti Lake",
       "description": [],
       "photobar_imgs": [
-        "san-josef-bay/IMG_5387.JPG",
-        "san-josef-bay/IMG_5400.JPG",
-        "san-josef-bay/IMG_5406.JPG",
+        "san-josef-bay/IMG_5387.jpg",
+        "san-josef-bay/IMG_5400.jpg",
+        "san-josef-bay/IMG_5406.jpg",
       ]
     },
     {
@@ -726,9 +726,9 @@ const timelines = {
       "end": "San Josef Bay",
       "description": [],
       "photobar_imgs": [
-        "san-josef-bay/IMG_5469.JPG",
-        "san-josef-bay/IMG_5472.JPG",
-        "san-josef-bay/IMG_5473.JPG",
+        "san-josef-bay/IMG_5469.jpg",
+        "san-josef-bay/IMG_5472.jpg",
+        "san-josef-bay/IMG_5473.jpg",
       ]
     },
     {
@@ -739,9 +739,9 @@ const timelines = {
       "end": "Nimpkish Lake",
       "description": [],
       "photobar_imgs": [
-        "san-josef-bay/IMG_5495.JPG",
-        "san-josef-bay/IMG_5497.JPG",
-        "san-josef-bay/IMG_5515.JPG",
+        "san-josef-bay/IMG_5495.jpg",
+        "san-josef-bay/IMG_5497.jpg",
+        "san-josef-bay/IMG_5515.jpg",
       ]
     },
     {
@@ -752,7 +752,7 @@ const timelines = {
       "end": "Courtenay",
       "description": [],
       "photobar_imgs": [
-        "san-josef-bay/IMG_5519.JPG",
+        "san-josef-bay/IMG_5519.jpg",
       ]
     }
   ],
@@ -772,9 +772,9 @@ const timelines = {
         "Awoke at midnight when I rolled over and found myself in a puddle. The river was tidal and my air mattress had been floating on a shallow layer of water. Life in Southern Ontario doesn't prepare you for these situations."
       ],
       "photobar_imgs": [
-        "nanaimo-courtenay/IMG_5120.JPG",
-        "nanaimo-courtenay/IMG_5121.JPG",
-        "nanaimo-courtenay/IMG_5142.JPG",
+        "nanaimo-courtenay/IMG_5120.jpg",
+        "nanaimo-courtenay/IMG_5121.jpg",
+        "nanaimo-courtenay/IMG_5142.jpg",
       ]
     },
     {
@@ -793,9 +793,9 @@ const timelines = {
         "Much was learned. My confidence as a bicycle tourist developed."
       ],
       "photobar_imgs": [
-        "nanaimo-courtenay/IMG_5145.JPG",
-        "nanaimo-courtenay/IMG_5160.JPG",
-        "nanaimo-courtenay/IMG_5154.JPG",
+        "nanaimo-courtenay/IMG_5145.jpg",
+        "nanaimo-courtenay/IMG_5160.jpg",
+        "nanaimo-courtenay/IMG_5154.jpg",
       ]
     },
   ],
@@ -830,7 +830,7 @@ const timelines = {
       "photobar_imgs": [
         "to-mtrl/IMG_4208.jpg",
         "to-mtrl/IMG_4209.jpg",
-        "to-mtrl/IMG_4221.JPG",
+        "to-mtrl/IMG_4221.jpg",
       ]
     },
     {
@@ -845,7 +845,7 @@ const timelines = {
         "Stayed at a motel in Kingston."
       ],
       "photobar_imgs": [
-        "to-mtrl/IMG_4224.JPG",
+        "to-mtrl/IMG_4224.jpg",
         "to-mtrl/IMG_4225.jpg",
         "to-mtrl/IMG_4226.jpg",
       ]
@@ -861,12 +861,12 @@ const timelines = {
         "Watched a ferry float into the Gananoque port."
       ],
       "photobar_imgs": [
-        "to-mtrl/IMG_4230.JPG",
-        "to-mtrl/IMG_4234.JPG",
-        "to-mtrl/IMG_4238.JPG",
-        "to-mtrl/IMG_4240.JPG",
+        "to-mtrl/IMG_4230.jpg",
+        "to-mtrl/IMG_4234.jpg",
+        "to-mtrl/IMG_4238.jpg",
+        "to-mtrl/IMG_4240.jpg",
         "to-mtrl/IMG_4246.jpg",
-        "to-mtrl/IMG_4258.JPG",
+        "to-mtrl/IMG_4258.jpg",
       ]
     },
     {
@@ -880,8 +880,8 @@ const timelines = {
       ],
       "photobar_imgs": [
         "to-mtrl/IMG_4267.jpg",
-        "to-mtrl/IMG_4281.JPG",
-        "to-mtrl/IMG_4292.JPG",
+        "to-mtrl/IMG_4281.jpg",
+        "to-mtrl/IMG_4292.jpg",
       ]
     },
     {
@@ -897,8 +897,8 @@ const timelines = {
         "I prepared to take the train home the next morning."
       ],
       "photobar_imgs": [
-        "to-mtrl/IMG_4301.JPG",
-        "to-mtrl/IMG_4304.JPG",
+        "to-mtrl/IMG_4301.jpg",
+        "to-mtrl/IMG_4304.jpg",
         "to-mtrl/IMG_4312.jpg",
       ]
     }

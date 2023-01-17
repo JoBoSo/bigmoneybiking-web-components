@@ -77,55 +77,55 @@ const tiles = {
     {
       title: "Downie Creek",
       subtitle: "A Ride Along the Columbia River",
-      image: "downie-creek/IMG_8505.JPG",
+      image: "downie-creek/IMG_8505.jpg",
       page: "tours/downie-creek.html"
     },
     {
       title: "Begbie Falls",
       subtitle: "Heavenly Revelstoke",
-      image: "begbie-falls/IMG_8360.JPG",
+      image: "begbie-falls/IMG_8360.jpg",
       page: "tours/begbie-falls.html"
     },
     {
       title: "Quadra & Cortes",
       subtitle: "Psychedelic Sailors",
-      image: "quadra-cortes/IMG_6877.JPG",
+      image: "quadra-cortes/IMG_6877.jpg",
       page: "tours/quadra-cortes.html"
     },
     {
       title: "Comox Lake",
       subtitle: "Tucked Behind the Comox Valley",
-      image: "comox-lake/IMG_6328.JPG",
+      image: "comox-lake/IMG_6328.jpg",
       page: "tours/comox-lake.html"
     },
     {
       title: "Texada Island",
       subtitle: "The Largest Island in the Strait of Georgia",
-      image: "texada/IMG_5873.JPG",
+      image: "texada/IMG_5873.jpg",
       page: "tours/texada.html"
     },
     {
       title: "Brewster & Campbell Lakes",
       subtitle: "Two Fine Lakes",
-      image: "brewster-lake/IMG_5594.JPG",
+      image: "brewster-lake/IMG_5594.jpg",
       page: "tours/brewster-lake.html"
     },
     {
       title: "North Vancouver Island",
       subtitle: "All Paths Lead to a Beach",
-      image: "san-josef-bay/IMG_5485.JPG",
+      image: "san-josef-bay/IMG_5485.jpg",
       page: "tours/san-josef-bay.html"
     },
     {
       title: "Nanaimo to Courtenay",
       subtitle: "Via Logging Roads",
-      image: "nanaimo-courtenay/IMG_5149.JPG",
+      image: "nanaimo-courtenay/IMG_5149.jpg",
       page: "tours/nanaimo-courtenay.html"
     },
     {
       title: "Schomberg to Montreal",
       subtitle: "Riding the Waterfront Trail",
-      image: "to-mtrl/IMG_4290.JPG",
+      image: "to-mtrl/IMG_4290.jpg",
       page: "tours/to-mtrl.html"
     },
   ],
@@ -232,43 +232,43 @@ const tiles = {
     {
       title: "Mt. Revelstoke",
       subtitle: "Inside The Shroom Lagoon",
-      image: "mt-revelstoke/IMG_8845.JPG",
+      image: "mt-revelstoke/IMG_8845.jpg",
       page: "hikes/mt-revelstoke.html"
     },
     {
       title: "McCrae Peak",
       subtitle: "Sunbeam City",
-      image: "mccrae-peak/IMG_8307.JPG",
+      image: "mccrae-peak/IMG_8307.jpg",
       page: "hikes/mccrae-peak.html"
     },
     {
       title: "Mt. Cartier",
       subtitle: "Mountains Upon Mountains",
-      image: "mt-cartier/IMG_8090.JPG",
+      image: "mt-cartier/IMG_8090.jpg",
       page: "hikes/mt-cartier.html"
     },
     {
       title: "Mt. Begbie",
       subtitle: "A Walk in the Garden",
-      image: "mt-begbie/IMG_7959.JPG",
+      image: "mt-begbie/IMG_7959.jpg",
       page: "hikes/mt-begbie.html"
     },
     {
       title: "Tin Hat Mountain",
       subtitle: "There's Some Tin Up Here",
-      image: "tin-hat/IMG_7721.JPG",
+      image: "tin-hat/IMG_7721.jpg",
       page: "hikes/tin-hat.html"
     },
     {
       title: "Phillips Ridge",
       subtitle: "Who Put That Mountain There?",
-      image: "phillips-ridge/IMG_7102.JPG",
+      image: "phillips-ridge/IMG_7102.jpg",
       page: "hikes/phillips-ridge.html"
     },
     {
       title: "Mt. Albert Edward",
       subtitle: "A Walk Up A Mountain",
-      image: "mt-albert-edward/IMG_6713.JPG",
+      image: "mt-albert-edward/IMG_6713.jpg",
       page: "hikes/mt-albert-edward.html"
     },
   ]
