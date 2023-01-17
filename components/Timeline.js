@@ -828,7 +828,7 @@ const timelines = {
         "Camped at a conservation area in Picton."
       ],
       "photobar_imgs": [
-        "to-mtrl/IMG_4208.JPG",
+        "to-mtrl/IMG_4208.jpg",
         "to-mtrl/IMG_4209.jpg",
         "to-mtrl/IMG_4221.JPG",
       ]
@@ -846,7 +846,7 @@ const timelines = {
       ],
       "photobar_imgs": [
         "to-mtrl/IMG_4224.JPG",
-        "to-mtrl/IMG_4225.JPG",
+        "to-mtrl/IMG_4225.jpg",
         "to-mtrl/IMG_4226.jpg",
       ]
     },
@@ -879,7 +879,7 @@ const timelines = {
         "My favorite day on the tour because I rode acros Long Sault Parkway, which spans little forested islands on the edge of the St. Lawrence.",
       ],
       "photobar_imgs": [
-        "to-mtrl/IMG_4267.JPG",
+        "to-mtrl/IMG_4267.jpg",
         "to-mtrl/IMG_4281.JPG",
         "to-mtrl/IMG_4292.JPG",
       ]

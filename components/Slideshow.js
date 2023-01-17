@@ -851,7 +851,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "nanaimo-courtenay/IMG_5140.JPG",
+      image: "nanaimo-courtenay/IMG_5140.jpg",
       caption: "The river was tidal"
     },
     {
@@ -1645,15 +1645,15 @@ const pictures = {
 
   "to-mtrl": [
     {
-      image: "to-mtrl/IMG_4208.JPG",
+      image: "to-mtrl/IMG_4208.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4209.JPG",
+      image: "to-mtrl/IMG_4209.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4210.JPG",
+      image: "to-mtrl/IMG_4210.jpg",
       caption: ""
     },
     {
@@ -1677,11 +1677,11 @@ const pictures = {
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4225.JPG",
+      image: "to-mtrl/IMG_4225.jpg",
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4226.JPG",
+      image: "to-mtrl/IMG_4226.jpg",
       caption: ""
     },
     {
@@ -1741,7 +1741,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4291.JPG",
+      image: "to-mtrl/IMG_4291.jpg",
       caption: ""
     },
     {
@@ -1765,7 +1765,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "to-mtrl/IMG_4312.JPG",
+      image: "to-mtrl/IMG_4312.jpg",
       caption: ""
     },
     {
