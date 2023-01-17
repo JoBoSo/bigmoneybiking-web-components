@@ -1146,7 +1146,7 @@ const pictures = {
       caption: "Fisherman's Wharf, Campbell River"
     },
     {
-      image: "quadra-cortes/IMG_6787.JPG",
+      image: "quadra-cortes/IMG_6787.jpg",
       caption: ""
     },
     {
@@ -1154,19 +1154,19 @@ const pictures = {
       caption: "Morte Lake"
     },
     {
-      image: "quadra-cortes/IMG_6813.JPG",
+      image: "quadra-cortes/IMG_6813.jpg",
       caption: "Beeches Mountain"
     },
     {
-      image: "quadra-cortes/IMG_6815.JPG",
+      image: "quadra-cortes/IMG_6815.jpg",
       caption: "Beeches Mountain Peak"
     },
     {
-      image: "quadra-cortes/IMG_6819.JPG",
+      image: "quadra-cortes/IMG_6819.jpg",
       caption: "The beach at the end of Valdez Road"
     },
     {
-      image: "quadra-cortes/IMG_6829.JPG",
+      image: "quadra-cortes/IMG_6829.jpg",
       caption: "Surge Narrows Trail"
     },
     {
@@ -1174,15 +1174,15 @@ const pictures = {
       caption: ""
     },
     {
-      image: "quadra-cortes/IMG_6833.JPG",
+      image: "quadra-cortes/IMG_6833.jpg",
       caption: ""
     },
     {
-      image: "quadra-cortes/IMG_6834.JPG",
+      image: "quadra-cortes/IMG_6834.jpg",
       caption: ""
     },
     {
-      image: "quadra-cortes/IMG_6835.JPG",
+      image: "quadra-cortes/IMG_6835.jpg",
       caption: "My campsite"
     },
     {
@@ -1190,19 +1190,19 @@ const pictures = {
       caption: "Ferry to Cortes Island"
     },
     {
-      image: "quadra-cortes/IMG_6848.JPG",
+      image: "quadra-cortes/IMG_6848.jpg",
       caption: "Cortes Island Signage"
     },
     {
-      image: "quadra-cortes/IMG_6851.JPG",
+      image: "quadra-cortes/IMG_6851.jpg",
       caption: ""
     },
     {
-      image: "quadra-cortes/IMG_6856.JPG",
+      image: "quadra-cortes/IMG_6856.jpg",
       caption: "Squirrel Cove Dock"
     },
     {
-      image: "quadra-cortes/IMG_6861.JPG",
+      image: "quadra-cortes/IMG_6861.jpg",
       caption: "Eroding Car"
     },
     {
@@ -1210,19 +1210,19 @@ const pictures = {
       caption: "Squirrel Cove Beach"
     },
     {
-      image: "quadra-cortes/IMG_6868.JPG",
+      image: "quadra-cortes/IMG_6868.jpg",
       caption: "Squirrel Cove Dock"
     },
     {
-      image: "quadra-cortes/IMG_6875.JPG",
+      image: "quadra-cortes/IMG_6875.jpg",
       caption: "Free VHS Tapes"
     },
     {
-      image: "quadra-cortes/IMG_6877.JPG",
+      image: "quadra-cortes/IMG_6877.jpg",
       caption: "Blind Creek Boat Ramp"
     },
     {
-      image: "quadra-cortes/IMG_6903.JPG",
+      image: "quadra-cortes/IMG_6903.jpg",
       caption: "Pollinator on Smelt Bay"
     },
     {
@@ -1230,7 +1230,7 @@ const pictures = {
       caption: "Smelt Bay"
     },
     {
-      image: "quadra-cortes/IMG_6932.JPG",
+      image: "quadra-cortes/IMG_6932.jpg",
       caption: "Wal-De-Mark"
     },
     {
@@ -1246,15 +1246,15 @@ const pictures = {
       caption: "Sand Dollars"
     },
     {
-      image: "quadra-cortes/IMG_6958.JPG",
+      image: "quadra-cortes/IMG_6958.jpg",
       caption: "Mansons Landing"
     },
     {
-      image: "quadra-cortes/IMG_6963.JPG",
+      image: "quadra-cortes/IMG_6963.jpg",
       caption: "Masons Landing"
     },
     {
-      image: "quadra-cortes/IMG_6969.JPG",
+      image: "quadra-cortes/IMG_6969.jpg",
       caption: ""
     },
     {
@@ -1262,11 +1262,11 @@ const pictures = {
       caption: ""
     },
     {
-      image: "quadra-cortes/IMG_6972.JPG",
+      image: "quadra-cortes/IMG_6972.jpg",
       caption: ""
     },
     {
-        image: "quadra-cortes/IMG_6975.JPG",
+        image: "quadra-cortes/IMG_6975.jpg",
       caption: "Financial District, Quadra Island"
     },
   ],

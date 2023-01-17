@@ -442,8 +442,8 @@ const timelines = {
       ],
       "photobar_imgs": [
         "quadra-cortes/IMG_6782.jpg",
-        "quadra-cortes/IMG_6819.JPG",
-        "quadra-cortes/IMG_6791.JPG",
+        "quadra-cortes/IMG_6819.jpg",
+        "quadra-cortes/IMG_6791.jpg",
       ]
     },
     {
@@ -458,9 +458,9 @@ const timelines = {
         "Camped in a lushious opening in the forest."
       ],
       "photobar_imgs": [
-        "quadra-cortes/IMG_6813.JPG",
-        "quadra-cortes/IMG_6834.JPG",
-        "quadra-cortes/IMG_6835.JPG",
+        "quadra-cortes/IMG_6813.jpg",
+        "quadra-cortes/IMG_6834.jpg",
+        "quadra-cortes/IMG_6835.jpg",
       ]
     },
     {
@@ -477,11 +477,11 @@ const timelines = {
         "Was confused when I found pontoon boats sitting in a pit with cottages on cliffs above them. But I figured out what was going on when the tide came in to fill it up."
       ],
       "photobar_imgs": [
-        "quadra-cortes/IMG_6856.JPG",
-        "quadra-cortes/IMG_6848.JPG",
-        "quadra-cortes/IMG_6861.JPG",
+        "quadra-cortes/IMG_6856.jpg",
+        "quadra-cortes/IMG_6848.jpg",
+        "quadra-cortes/IMG_6861.jpg",
         "quadra-cortes/IMG_6904.jpg",
-        "quadra-cortes/IMG_6950.JPG",
+        "quadra-cortes/IMG_6950.jpg",
         "quadra-cortes/IMG_6954.jpg",
       ]
     },
