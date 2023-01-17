@@ -441,7 +441,7 @@ const timelines = {
         "Pushed my bike along a trail to Morte Lake where I camped."
       ],
       "photobar_imgs": [
-        "quadra-cortes/IMG_6782.JPG",
+        "quadra-cortes/IMG_6782.jpg",
         "quadra-cortes/IMG_6819.JPG",
         "quadra-cortes/IMG_6791.JPG",
       ]
@@ -480,7 +480,7 @@ const timelines = {
         "quadra-cortes/IMG_6856.JPG",
         "quadra-cortes/IMG_6848.JPG",
         "quadra-cortes/IMG_6861.JPG",
-        "quadra-cortes/IMG_6904.JPG",
+        "quadra-cortes/IMG_6904.jpg",
         "quadra-cortes/IMG_6950.JPG",
         "quadra-cortes/IMG_6954.jpg",
       ]

@@ -1142,7 +1142,7 @@ const pictures = {
 
   "quadra-cortes": [
     {
-      image: "quadra-cortes/IMG_6782.JPG",
+      image: "quadra-cortes/IMG_6782.jpg",
       caption: "Fisherman's Wharf, Campbell River"
     },
     {
@@ -1150,7 +1150,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "quadra-cortes/IMG_6791.JPG",
+      image: "quadra-cortes/IMG_6791.jpg",
       caption: "Morte Lake"
     },
     {
@@ -1170,7 +1170,7 @@ const pictures = {
       caption: "Surge Narrows Trail"
     },
     {
-      image: "quadra-cortes/IMG_6830.JPG",
+      image: "quadra-cortes/IMG_6830.jpg",
       caption: "Surge Narrows"
     },
     {
@@ -1186,7 +1186,7 @@ const pictures = {
       caption: "My campsite"
     },
     {
-      image: "quadra-cortes/IMG_6839.JPG",
+      image: "quadra-cortes/IMG_6839.jpg",
       caption: "Ferry to Cortes Island"
     },
     {
@@ -1206,7 +1206,7 @@ const pictures = {
       caption: "Eroding Car"
     },
     {
-      image: "quadra-cortes/IMG_6866.JPG",
+      image: "quadra-cortes/IMG_6866.jpg",
       caption: "Squirrel Cove Beach"
     },
     {
@@ -1226,7 +1226,7 @@ const pictures = {
       caption: "Pollinator on Smelt Bay"
     },
     {
-      image: "quadra-cortes/IMG_6913.JPG",
+      image: "quadra-cortes/IMG_6913.jpg",
       caption: "Smelt Bay"
     },
     {
@@ -1234,11 +1234,11 @@ const pictures = {
       caption: "Wal-De-Mark"
     },
     {
-      image: "quadra-cortes/IMG_6936.JPG",
+      image: "quadra-cortes/IMG_6936.jpg",
       caption: "Mansons Landing"
     },
     {
-      image: "quadra-cortes/IMG_6950.JPG",
+      image: "quadra-cortes/IMG_6950.jpg",
       caption: "Mansons Landing"
     },
     {
@@ -1255,6 +1255,10 @@ const pictures = {
     },
     {
       image: "quadra-cortes/IMG_6969.JPG",
+      caption: ""
+    },
+    {
+      image: "quadra-cortes/IMG_6970.jpg",
       caption: ""
     },
     {
