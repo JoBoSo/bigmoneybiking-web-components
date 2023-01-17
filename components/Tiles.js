@@ -83,7 +83,7 @@ const tiles = {
     {
       title: "Begbie Falls",
       subtitle: "Heavenly Revelstoke",
-      image: "begbie-falls/superman-clara.JPG",
+      image: "begbie-falls/IMG_8360.JPG",
       page: "tours/begbie-falls.html"
     },
     {

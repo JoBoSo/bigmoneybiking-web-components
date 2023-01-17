@@ -420,11 +420,8 @@ const timelines = {
         "We hiked a little more than half way up Mt. Begbie the next morning."
       ],
       "photobar_imgs": [
-        "begbie-falls/IMG_8353.JPG",
-        "begbie-falls/IMG_8359.JPG",
-        "begbie-falls/IMG_8360.JPG",
+        "begbie-falls/IMG_8377.JPG",
         "begbie-falls/IMG_8374.JPG",
-        "begbie-falls/IMG_3779.jpg",
         "begbie-falls/IMG_8371.JPG",
       ]
     },
@@ -444,7 +441,7 @@ const timelines = {
         "Pushed my bike along a trail to Morte Lake where I camped."
       ],
       "photobar_imgs": [
-        "quadra-cortes/IMG_6780.JPG",
+        "quadra-cortes/IMG_6782.JPG",
         "quadra-cortes/IMG_6819.JPG",
         "quadra-cortes/IMG_6791.JPG",
       ]
@@ -462,7 +459,7 @@ const timelines = {
       ],
       "photobar_imgs": [
         "quadra-cortes/IMG_6813.JPG",
-        "quadra-cortes/IMG_6824.JPG",
+        "quadra-cortes/IMG_6834.JPG",
         "quadra-cortes/IMG_6835.JPG",
       ]
     },
@@ -483,7 +480,7 @@ const timelines = {
         "quadra-cortes/IMG_6856.JPG",
         "quadra-cortes/IMG_6848.JPG",
         "quadra-cortes/IMG_6861.JPG",
-        "quadra-cortes/IMG_6903.JPG",
+        "quadra-cortes/IMG_6904.JPG",
         "quadra-cortes/IMG_6950.JPG",
         "quadra-cortes/IMG_6954.jpg",
       ]
@@ -563,7 +560,7 @@ const timelines = {
       "photobar_imgs": [
         "texada/IMG_5848.JPG",
         "texada/IMG_5862.JPG",
-        "texada/IMG_5855.jpg",
+        "texada/IMG_5871.jpg",
       ]
     },
     {
@@ -581,7 +578,7 @@ const timelines = {
         "texada/IMG_6103.JPG",
         "texada/IMG_5893.JPG",
         "texada/IMG_5941.JPG",
-        "texada/IMG_5944.JPG",
+        "texada/IMG_6011.JPG",
         "texada/IMG_5974.JPG",
         "texada/IMG_6021.JPG",
       ]
@@ -617,8 +614,8 @@ const timelines = {
         "Brewster Lake had a real beachy feel, like Tofino does, with it's swooping cedar trees and vibrant greenery."
       ],
       "photobar_imgs": [
-        "brewster-lake/IMG_5585.JPG",
         "brewster-lake/IMG_5594.JPG",
+        "brewster-lake/IMG_5557.JPG",
         "brewster-lake/IMG_5570.JPG",
       ]
     },
@@ -632,9 +629,9 @@ const timelines = {
         "Made a small fire on the shore and watched bats zip in and out of the forest behind me."
       ],
       "photobar_imgs": [
+        "brewster-lake/IMG_5585.JPG",
         "brewster-lake/IMG_5603.JPG",
         "brewster-lake/IMG_5631.JPG",
-        "brewster-lake/IMG_5637.JPG",
 
       ]
     },
@@ -668,7 +665,7 @@ const timelines = {
       "photobar_imgs": [
         "san-josef-bay/IMG_5236.JPG",
         "san-josef-bay/IMG_5254.JPG",
-        "san-josef-bay/IMG_5293.JPG",
+        "san-josef-bay/IMG_5245.JPG",
       ]
     },
     {
@@ -831,7 +828,7 @@ const timelines = {
         "Camped at a conservation area in Picton."
       ],
       "photobar_imgs": [
-        "to-mtrl/field_to_lake.JPG",
+        "to-mtrl/IMG_4208.JPG",
         "to-mtrl/IMG_4209.jpg",
         "to-mtrl/IMG_4221.JPG",
       ]
