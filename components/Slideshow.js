@@ -350,7 +350,7 @@ const pictures = {
 
   "brewster-lake": [
     {
-      image: "brewster-lake/IMG_5557.JPG",
+      image: "brewster-lake/IMG_5557.jpg",
       caption: "Brewster Lake"
     },
     {
@@ -374,7 +374,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "brewster-lake/IMG_5603.JPG",
+      image: "brewster-lake/IMG_5603.jpg",
       caption: ""
     },
     {
@@ -394,7 +394,7 @@ const pictures = {
       caption: "Bend in the Road"
     },
     {
-      image: "brewster-lake/IMG_5628.JPG",
+      image: "brewster-lake/IMG_5628.jpg",
       caption: ""
     },
     {
@@ -406,7 +406,7 @@ const pictures = {
       caption: "My Campsite on Campbell Lake"
     },
     {
-      image: "brewster-lake/IMG_5635.JPG",
+      image: "brewster-lake/IMG_5635.jpg",
       caption: ""
     }
   ],
