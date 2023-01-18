@@ -554,35 +554,72 @@ h3 {
 
 /* Day Trip Timeline */
 
-.day-trip-timeline .item {
-    border: 1.5px solid white; 
-    border-radius: 20px;
+@media (min-width: 576px) {
+    .day-trip-timeline .item {
+        border: 1.5px solid white; 
+        border-radius: 20px;
+    }
+
+    .day-trip-timeline .left-block {
+        border-top-left-radius: 20px; 
+        border-bottom-left-radius: 20px;
+    }
+
+    .day-trip-timeline .left-block img {
+        border-top-left-radius: 20px; 
+        border-bottom-left-radius: 20px;
+        width: 100%; 
+        object-fit: contain; 
+    }
+
+    .day-trip-timeline .right-block {
+        border-top-right-radius: 20px; 
+        border-bottom-right-radius: 20px; 
+        background-color: #28574c;
+        padding: 10px;
+    }
+
+    .day-trip-timeline .right-block p {
+        margin-left: 10px;
+    }
+
+    .day-trip-timeline .connector {
+        height: 20px; 
+        background: linear-gradient(white, white) no-repeat center/1.5px 100%
+    }
 }
 
-.day-trip-timeline .left-block {
-    border-top-left-radius: 20px; 
-    border-bottom-left-radius: 20px;
-}
+@media (max-width: 575px) {
+    .day-trip-timeline .item {
+        border: 1.5px solid white; 
+        border-radius: 20px;
+    }
 
-.day-trip-timeline .left-block img {
-    border-top-left-radius: 20px; 
-    border-bottom-left-radius: 20px;
-    width: 100%; 
-    object-fit: contain; 
-}
+    .day-trip-timeline .left-block {
+        border-top-left-radius: 20px; 
+        border-top-right-radius: 20px;
+    }
 
-.day-trip-timeline .right-block {
-    border-top-right-radius: 20px; 
-    border-bottom-right-radius: 20px; 
-    background-color: #28574c;
-    padding: 10px;
-}
+    .day-trip-timeline .left-block img {
+        border-top-left-radius: 20px; 
+        border-top-right-radius: 20px;
+        width: 100%; 
+        object-fit: contain; 
+    }
 
-.day-trip-timeline .right-block p {
-    margin-left: 10px;
-}
+    .day-trip-timeline .right-block {
+        border-bottom-right-radius: 20px; 
+        border-bottom-left-radius: 20px; 
+        background-color: #28574c;
+        padding: 10px;
+    }
 
-.day-trip-timeline .connector {
-    height: 20px; 
-    background: linear-gradient(white, white) no-repeat center/1.5px 100%
+    .day-trip-timeline .right-block p {
+        margin-left: 10px;
+    }
+
+    .day-trip-timeline .connector {
+        height: 20px; 
+        background: linear-gradient(white, white) no-repeat center/1.5px 100%
+    }
 }
