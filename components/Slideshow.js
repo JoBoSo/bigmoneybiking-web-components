@@ -2403,7 +2403,7 @@ const pictures = {
       caption: ""
     },
     {
-      image: "montagne-noire/IMG_2347.jpg",
+      image: "montagne-noire/IMG_2346.jpg",
       caption: ""
     },
     {
@@ -2412,6 +2412,10 @@ const pictures = {
     },
     {
       image: "montagne-noire/IMG_2354.jpg",
+      caption: ""
+    },
+    {
+      image: "montagne-noire/IMG_2355.jpg",
       caption: ""
     },
     {

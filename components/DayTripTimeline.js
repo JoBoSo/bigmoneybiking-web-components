@@ -82,6 +82,51 @@ const timelines = {
     },
   ],
 
+
+
+  "montagne-noire": [
+    {
+      "header": "Lac Archambault",
+      "description": "Saint-Donat's busy lake.",
+      "image": "montagne-noire/IMG_2342.jpg",
+    },
+    {
+      "header": "Lac Lézard",
+      "description": "The first lake I passed.",
+      "image": "montagne-noire/IMG_2343.jpg",
+    },
+    {
+      "header": "Airplane Crash Site",
+      "description": "The remains of The Liberator, which claimed the lives of 24 people in the the Royal Canadian Air Force when it crashed.",
+      "image": "montagne-noire/IMG_2344.jpg",
+    },
+    {
+      "header": "Memorial",
+      "description": "The memorial site for those who died in the crash has a lookout tower.",
+      "image": "montagne-noire/IMG_2346.jpg",
+    },
+    {
+      "header": "Lookout #1",
+      "description": "The view from the memorial lookout.",
+      "image": "montagne-noire/IMG_2351.jpg",
+    },
+    {
+      "header": "Lookout #2",
+      "description": "View from the second, larger lookout tower at the peak.",
+      "image": "montagne-noire/IMG_2355.jpg",
+    },
+    {
+      "header": "Lookout #2: In Another Direction",
+      "description": "You can see gently rolling mountains in every direction.",
+      "image": "montagne-noire/IMG_2361.jpg",
+    },
+    {
+      "header": "Elevated Lake",
+      "description": "Another Lake near the peak.",
+      "image": "montagne-noire/IMG_2366.jpg",
+    },
+  ]
+
 }
 
 customElements.define('my-day-trip-timeline', DayTripTimeline);
