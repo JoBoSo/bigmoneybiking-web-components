@@ -418,18 +418,29 @@ h3 {
     min-width: 90px;
 }
 
+/* Map */
+
+.map {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .myMap {
     width:100%; 
     height:100%; 
     overflow:hidden; 
-    border-top: 2px solid black;
-    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
 }
 
 .myMap iframe {
     margin-top:-69px; 
-    border:2px solid black;
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    display: block;
 }
 
 .bg-innertemple {
@@ -555,19 +566,11 @@ h3 {
 /* Day Trip Timeline */
 
 @media (min-width: 576px) {
-    .day-trip-timeline .item {
-        border: 1.5px solid white; 
-        border-radius: 20px;
-    }
-
-    .day-trip-timeline .left-block {
-        border-top-left-radius: 20px; 
-        border-bottom-left-radius: 20px;
-    }
-
     .day-trip-timeline .left-block img {
         border-top-left-radius: 20px; 
         border-bottom-left-radius: 20px;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        border-right: 0.75px solid white;
         width: 100%; 
         object-fit: contain; 
     }
@@ -575,12 +578,10 @@ h3 {
     .day-trip-timeline .right-block {
         border-top-right-radius: 20px; 
         border-bottom-right-radius: 20px; 
-        background-color: #28574c;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        border-left: 0.75px solid white;
+        background: rgba(0, 0, 0, 0.2);
         padding: 10px;
-    }
-
-    .day-trip-timeline .right-block p {
-        margin-left: 10px;
     }
 
     .day-trip-timeline .connector {
@@ -590,32 +591,21 @@ h3 {
 }
 
 @media (max-width: 575px) {
-    .day-trip-timeline .item {
-        border: 1.5px solid white; 
-        border-radius: 20px;
-    }
-
-    .day-trip-timeline .left-block {
-        border-top-left-radius: 20px; 
-        border-top-right-radius: 20px;
-    }
-
     .day-trip-timeline .left-block img {
-        border-top-left-radius: 20px; 
-        border-top-right-radius: 20px;
+        border-top-left-radius: 10px; 
+        border-top-right-radius: 10px;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        border-bottom: none;
         width: 100%; 
         object-fit: contain; 
     }
 
     .day-trip-timeline .right-block {
-        border-bottom-right-radius: 20px; 
-        border-bottom-left-radius: 20px; 
-        background-color: #28574c;
+        border-bottom-right-radius: 10px; 
+        border-bottom-left-radius: 10px; 
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        background-color: rgba(0, 0, 0, 0.2);
         padding: 10px;
-    }
-
-    .day-trip-timeline .right-block p {
-        margin-left: 10px;
     }
 
     .day-trip-timeline .connector {
