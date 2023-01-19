@@ -15,6 +15,7 @@ class Slideshow extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+    <div class="slideshow">
       <h2 class="text-center">Pictures</h2>
       <div class="row no-gutters">
         <div class="col-12">
@@ -29,9 +30,9 @@ class Slideshow extends HTMLElement {
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
           </div>
-          <br>
         </div>
       </div>
+    </div>
     `;
   }
 }
