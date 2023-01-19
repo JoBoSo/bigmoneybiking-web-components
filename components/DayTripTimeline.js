@@ -23,10 +23,10 @@ class DayTripTimeline extends HTMLElement {
     <div class="day-trip-timeline">
       ${timelines[this.data_id].map((item) => `
         <div class="item row no-gutters">
-            <div class="left-block col-xs-6 col-sm-6 col-md-4">
+            <div class="left-block col-xs-6 col-sm-6 col-md-6 col-xl-4 offset-xl-2">
                 <img src=${'../images/' + item.image}>
             </div>
-            <div class="right-block col-xs-6 col-sm-6 col-md-8">
+            <div class="right-block col-xs-6 col-sm-6 col-md-6 col-xl-4">
                 <h3>${item.header}</h3>
                 <p>${item.description}</p>
             </div>
@@ -35,7 +35,6 @@ class DayTripTimeline extends HTMLElement {
       `).join('')}
     </div>
     `;
-    console.log(this.innerHTML);
   }
 }
 

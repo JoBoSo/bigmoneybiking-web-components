@@ -15,12 +15,14 @@ class Map extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <h2 class="text-center">Map</h2>
+      <div class="map">
+        <h2 class="text-center">Map</h2>
         <div class="row no-gutters">
-          <div class="myMap">
-              <iframe src=${maps[this.data_id]} width="100%" height="480"></iframe>
+          <div class="col-12 myMap">
+            <iframe src=${maps[this.data_id]} width="100%" height="480"></iframe>
           </div>
         </div>
+      </div>
     `;
   }
 }
