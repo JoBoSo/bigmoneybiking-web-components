@@ -125,6 +125,152 @@ const timelines = {
       "description": "Another Lake near the peak.",
       "image": "montagne-noire/IMG_2366.jpg",
     },
+  ],
+
+
+
+  "mt-temple": [
+    {
+      "header": "Peaks",
+      "description": "After hiking up from Moraine Lake, there's a clear view of the mountains near the treeline.",
+      "image": "mt-temple/IMG_1188.jpg",
+    },
+    {
+      "header": "Mt. Temple",
+      "description": "The destination comes into view as you approach Sentinel Pass.",
+      "image": "mt-temple/IMG_1191.jpg",
+    },
+    {
+      "header": "Treeline",
+      "description": "A pond sits at the top of the forest.",
+      "image": "mt-temple/IMG_1257.jpg",
+    },
+    {
+      "header": "Sentinel Pass",
+      "description": "Looking back on the trail from the top of the pass. Similarly grand views sit to the other side.",
+      "image": "mt-temple/IMG_1193.jpg",
+    },
+    {
+      "header": "A Steep Ascent",
+      "description": "You transition from hiking to light mountaineering past Sentinel Pass.",
+      "image": "mt-temple/IMG_1250.jpg",
+    },
+    {
+      "header": "Erosion",
+      "description": "The mountain is showing its age.",
+      "image": "mt-temple/IMG_1248.jpg",
+    },
+
+    {
+      "header": "Eye On The Prize",
+      "description": "The top was cold and icy on September 6th.",
+      "image": "mt-temple/IMG_1239.jpg",
+    },
+    {
+      "header": "Emerald Ponds",
+      "description": "Seen from the peak. The water looks alive.",
+      "image": "mt-temple/IMG_1215.jpg",
+    },
+    {
+      "header": "Moraine Lake",
+      "description": "Another view of from the peak.",
+      "image": "mt-temple/IMG_1233.jpg",
+    },
+  ],
+
+
+
+  "mt-begbie": [
+    {
+      "header": "Meadow",
+      "description": "A waterfall flows into a subalpine meadow.",
+      "image": "mt-begbie/IMG_7949.jpg",
+    },
+    {
+      "header": "Wildflowers",
+      "description": "There were lots of colourful wildflowers on September 5th.",
+      "image": "mt-begbie/IMG_7959.jpg",
+    },
+    {
+      "header": "The Trail",
+      "description": "Most of the hike is through the forest.",
+      "image": "mt-begbie/IMG_8038.jpg",
+    },
+    {
+      "header": "A Climb",
+      "description": "The peak becomes visible past these bluffs.",
+      "image": "mt-begbie/IMG_7972.jpg",
+    },
+    {
+      "header": "Treeline",
+      "description": "The trees are quite enduring in Revelstoke.",
+      "image": "mt-begbie/IMG_8036.jpg",
+    },
+    {
+      "header": "Revelstoke",
+      "description": "Looking back on the town.",
+      "image": "mt-begbie/IMG_8022.jpg",
+    },
+    {
+      "header": "Peak",
+      "description": "A glacier stands between the hiker and the peak.",
+      "image": "mt-begbie/IMG_7989.jpg",
+    },
+  ],
+
+
+
+  "mont-nixon": [
+    {
+      "header": "Viewpoint #1",
+      "description": "You can see these mountains with bulbous green peaks from the first viewpoint.",
+      "image": "mont-nixon/IMG_2304.jpg",
+    },
+    {
+      "header": "Mont Nixon",
+      "description": "This is still at viewpoint #1. The granite cliffs belong to Mont Nixon, which is where the trail leads.",
+      "image": "mont-nixon/IMG_2305.jpg",
+    },
+    {
+      "header": "The Big View",
+      "description": "All of the viewpoints are nice--I think there are four or five of them--but this is the bigget view of the landscape at the top.",
+      "image": "mont-nixon/IMG_2312.jpg",
+    },
+    {
+      "header": "The Better Side",
+      "description": "The last viewpoint provides the best shot of a granite cliff on Mont Nixon.",
+      "image": "mont-nixon/IMG_2325.jpg",
+    },
+    {
+      "header": "Shelter",
+      "description": "A big tree is protected by two tall rocks surrounding it.",
+      "image": "mont-nixon/IMG_2329.jpg",
+    },
+  ],
+
+
+
+  "six-glaciers": [
+    {
+      "header": "Lake Louise",
+      "description": "Is only a 9 on a cloudy day.",
+      "image": "six-glaciers/IMG_2110.jpg",
+    },
+    {
+      "header": "The Teahouse",
+      "description": "A potential stop for tea and deserts, but the views are ahead.",
+      "image": "six-glaciers/IMG_2112.jpg",
+    },
+    {
+      "header": "The Plain of Six Glaciers",
+      "description": "Looking back from a ridge at Lake Louise and the ski resort.",
+      "image": "six-glaciers/IMG_2117.jpg",
+    },
+    {
+      "header": "End of the Road",
+      "description": "The trail ends beneath steep mountains.",
+      "image": "six-glaciers/IMG_2124.jpg",
+    },
   ]
 
 }
