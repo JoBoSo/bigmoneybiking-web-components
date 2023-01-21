@@ -906,43 +906,127 @@ const timelines = {
 
 
 
-  "": [
+  "tin-hat": [
     {
       "day": 1,
-      "date": "May 19, 2021",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": [],
-      "photobar_imgs": []
+      "date": "August 22, 2020",
+      "distance": 12,
+      "start": "Courtenay",
+      "end": "Tin Hat Cabin",
+      "description": [
+        "I started by day in Courtenay and reached the trailhead by bike and ferry.",
+        "There were signs of hobbits and lots of cool mushrooms growing in the forest.",
+        "The trail went through cut blocks, which have taken a lot away from the beautiful route.",
+        "The map I made below isn't exactly the route I took. I actually did a loop around Lewis Lake, but I didn't GPS-track this hike.",
+        "It was lively at the top. The cabin was full of people cooking and the best spots to pitch a tent were occupied.",
+        "The long sunset was beautiful."
+      ],
+      "photobar_imgs": [
+        "tin-hat/IMG_7668.jpg",
+        "tin-hat/IMG_7676.jpg",
+        "tin-hat/IMG_7689.jpg",
+        "tin-hat/IMG_7721.jpg",
+        "tin-hat/IMG_7730.jpg",
+        "tin-hat/IMG_7735.jpg",
+      ]
     },
     {
       "day": 2,
-      "date": "",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": [],
-      "photobar_imgs": []
+      "date": "August 23, 2020",
+      "distance": 6,
+      "start": "Tin Hat Cabin",
+      "end": "Courtenay",
+      "description": [
+        "Some low clouds floated over the inlet and the ocean in the morning",
+        "I hiked back to the road on the more direct route, which appeared to be a service route that enables vehicles to reach the cabin.",
+        "I pulled my bike out of the woods, biked by a swampy lake on the logging road toward the Powell River Ferry, got off in Comox, and returned home."
+      ],
+      "photobar_imgs": [
+        "tin-hat/IMG_7748.jpg",
+        "tin-hat/IMG_7752.jpg",
+      ]
+    },
+  ],
+
+
+
+  "mt-albert-edward": [
+    {
+      "day": 1,
+      "date": "July 25, 2020",
+      "distance": 11.9,
+      "start": "Courtenay",
+      "end": "Circlet Lake",
+      "description": [
+        "Biked up Mt. Washington from Courtenay to the trailhead.",
+        "Hiked through paradise meadows to Circlet Lake Campground"
+      ],
+      "photobar_imgs": [
+        "mt-albert-edward/IMG_6639.jpg",
+        "mt-albert-edward/IMG_6653.jpg",
+        "mt-albert-edward/IMG_6665.jpg",
+      ]
     },
     {
-      "day": 3,
-      "date": "",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": [],
-      "photobar_imgs": []
+      "day": 2,
+      "date": "July 26, 2020",
+      "distance": 26.9,
+      "start": "Circlet Lake",
+      "end": "Courtenay",
+      "description": [
+        "Moat Lake was shimmering under the sun.",
+        "Mt. Albert Edward has a twin peak.",
+        "Wildflowers grew at the peak, adding some magic."
+      ],
+      "photobar_imgs": [
+        "mt-albert-edward/IMG_6697.jpg",
+        "mt-albert-edward/IMG_6705.jpg",
+        "mt-albert-edward/IMG_6717.jpg",
+        "mt-albert-edward/IMG_6733.jpg",
+        "mt-albert-edward/IMG_6740.jpg",
+        "mt-albert-edward/IMG_6735.jpg",
+      ]
+    },
+  ],
+
+
+
+  "oliver-creek": [
+    {
+      "day": 1,
+      "date": "June 15, 2021",
+      "distance": 20,
+      "start": "Trailhead",
+      "end": "Campground",
+      "description": [
+        "The long hike through the old-growth forest where the Hell's Bells Trail intersects is something special.",
+        "There was still snow at the top in the middle of June.",
+        "I camped next to a sub-alpine pond."
+      ],
+      "photobar_imgs": [
+        "oliver-creek/IMG_0257.jpg",
+        "oliver-creek/IMG_0263.jpg",
+        "oliver-creek/IMG_0324.jpg",
+        "oliver-creek/IMG_0325.jpg",
+        "oliver-creek/IMG_0332.jpg",
+        "oliver-creek/IMG_0336.jpg",
+      ]
     },
     {
-      "day": 4,
-      "date": "",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": [],
-      "photobar_imgs": []
-    }
+      "day": 2,
+      "date": "June 16, 2021",
+      "distance": 18,
+      "start": "Campground",
+      "end": "Trailhead",
+      "description": [
+        "I hiked back down to the warmth the next morning."
+      ],
+      "photobar_imgs": [
+        "oliver-creek/IMG_0343.jpg",
+        "oliver-creek/IMG_0344.jpg",
+        "oliver-creek/IMG_0350.jpg",
+      ]
+    },
   ],
 
 
@@ -985,8 +1069,6 @@ const timelines = {
       "photobar_imgs": []
     }
   ],
-
-
 
 }
 
