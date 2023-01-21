@@ -3950,6 +3950,10 @@ const pictures = {
       image: "tin-hat/IMG_7748.jpg",
       caption: ""
     },
+    {
+      image: "tin-hat/IMG_7752.jpg",
+      caption: ""
+    },
   ],
 
   "viking-ridge": [

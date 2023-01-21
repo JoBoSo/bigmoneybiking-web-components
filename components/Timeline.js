@@ -947,43 +947,46 @@ const timelines = {
 
 
 
-  "": [
+  "tin-hat": [
     {
       "day": 1,
-      "date": "May 19, 2021",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": [],
-      "photobar_imgs": []
+      "date": "August 22, 2020",
+      "distance": 12,
+      "start": "Courtenay",
+      "end": "Tin Hat Cabin",
+      "description": [
+        "I started by day in Courtenay and reached the trailhead by bike and ferry.",
+        "There were signs of hobbits and lots of cool mushrooms growing in the forest.",
+        "The trail went through cut blocks, which have taken a lot away from the beautiful route.",
+        "The map I made below isn't exactly the route I took. I actually did a loop around Lewis Lake, but I didn't GPS-track this hike.",
+        "It was lively at the top. The cabin was full of people cooking and the best spots to pitch a tent were occupied.",
+        "The long sunset was beautiful."
+      ],
+      "photobar_imgs": [
+        "tin-hat/IMG_7668.jpg",
+        "tin-hat/IMG_7676.jpg",
+        "tin-hat/IMG_7689.jpg",
+        "tin-hat/IMG_7721.jpg",
+        "tin-hat/IMG_7730.jpg",
+        "tin-hat/IMG_7735.jpg",
+      ]
     },
     {
       "day": 2,
-      "date": "",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": [],
-      "photobar_imgs": []
+      "date": "August 23, 2020",
+      "distance": 6,
+      "start": "Tin Hat Cabin",
+      "end": "Courtenay",
+      "description": [
+        "Some low clouds floated over the inlet and the ocean in the morning",
+        "I hiked back to the road on the more direct route, which appeared to be a service route that enables vehicles to reach the cabin.",
+        "I pulled my bike out of the woods, biked by a swampy lake on the logging road toward the Powell River Ferry, got off in Comox, and returned home."
+      ],
+      "photobar_imgs": [
+        "tin-hat/IMG_7748.jpg",
+        "tin-hat/IMG_7752.jpg",
+      ]
     },
-    {
-      "day": 3,
-      "date": "",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": [],
-      "photobar_imgs": []
-    },
-    {
-      "day": 4,
-      "date": "",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": [],
-      "photobar_imgs": []
-    }
   ],
 
 
