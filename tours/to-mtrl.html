@@ -23,6 +23,7 @@
     <!-- Components -->
     <script defer src="../components/Header.js"></script>
     <script defer src="../components/Navbar.js"></script>
+    <script defer src="../components/TripHeader.js"></script>
     <script defer src="../components/Timeline.js"></script>
     <script defer src="../components/Slideshow.js"></script>
     <script defer src="../components/Map.js"></script>
@@ -41,18 +42,7 @@
             </div>
         </div>
 
-        <div class="row no-gutters">
-            <div class="col-12">
-                <h1 class="tour-title">Schomberg to Montreal</h1>
-                <p class="stats-bar">
-                    <b>Distance: </b>642 km | 
-                    <b>Days: </b>6 | 
-                    <b>Terrain: </b>Paved bike paths | 
-                    <b>Dates: </b>Aug 16-21, 2019
-                </p>
-            </div>
-        </div>
-
+        <my-trip-header data_id="to-mtrl"></my-trip-header>
         <my-timeline data_id="to-mtrl"></my-timeline>
         <my-map data_id="to-mtrl"></my-map>
         <my-slideshow data_id="to-mtrl"></my-slideshow>

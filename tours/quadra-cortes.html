@@ -23,6 +23,7 @@
     <!-- Components -->
     <script defer src="../components/Header.js"></script>
     <script defer src="../components/Navbar.js"></script>
+    <script defer src="../components/TripHeader.js"></script>
     <script defer src="../components/Timeline.js"></script>
     <script defer src="../components/Slideshow.js"></script>
     <script defer src="../components/Map.js"></script>
@@ -40,19 +41,8 @@
                 <my-navbar root='../'></my-navbar>
             </div>
         </div>
-
-        <div class="row no-gutters">
-            <div class="col-12">
-                <h1 class="tour-title">Quadra & Cortes</h1>
-                <p class="stats-bar">
-                    <b>Distance: </b>257 km | 
-                    <b>Days: </b>3 | 
-                    <b>Terrain: </b>Paved & logging roads | 
-                    <b>Dates: </b>Aug 1-3, 2020
-                </p>
-            </div>
-        </div>
-
+        
+        <my-trip-header data_id="quadra-cortes"></my-trip-header>
         <my-timeline data_id="quadra-cortes"></my-timeline>
         <my-map data_id="quadra-cortes"></my-map>
         <my-slideshow data_id="quadra-cortes"></my-slideshow>

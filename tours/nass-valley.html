@@ -26,6 +26,7 @@
     <!-- Components -->
     <script defer src="../components/Header.js"></script>
     <script defer src="../components/Navbar.js"></script>
+    <script defer src="../components/TripHeader.js"></script>
     <script defer src="../components/Timeline.js"></script>
     <script defer src="../components/Slideshow.js"></script>
     <script defer src="../components/Map.js"></script>
@@ -44,18 +45,7 @@
             </div>
         </div>
 
-        <div class="row no-gutters">
-            <div class="col-12">
-                <h1 class="tour-title">Nisga'a</h1>
-                <p class="stats-bar">
-                    <b>Distance: </b>474 km | 
-                    <b>Days: </b>4 | 
-                    <b>Terrain: </b>Paved & logging roads | 
-                    <b>Dates: </b>May 19-22, 2021
-                </p>
-            </div>
-        </div>
-
+        <my-trip-header data_id="nass-valley"></my-trip-header>
         <my-timeline data_id="nass-valley"></my-timeline>
         <my-map data_id="nass-valley"></my-map>
         <my-slideshow data_id="nass-valley"></my-slideshow>
