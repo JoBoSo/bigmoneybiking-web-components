@@ -90,8 +90,7 @@ h3 {
     /* rgb(0,0,0) indicates black and
         the fourth parameter is the opacity */
     .content .content-overlay {
-        /*setting 0.8 to 1 will turn the overlay opaque*/
-        background: rgba(0, 0, 0, 0.7);
+        background: rgba(0, 0, 0, 0.516);
         position: absolute;
         height: auto;
         width: 100%;
