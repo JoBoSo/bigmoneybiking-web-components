@@ -2436,6 +2436,18 @@ const pictures = {
 
   "mt-albert-edward": [
     {
+      image: "mt-albert-edward/IMG_6622.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6627.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-albert-edward/IMG_6635.jpg",
+      caption: ""
+    },
+    {
       image: "mt-albert-edward/IMG_6639.jpg",
       caption: ""
     },

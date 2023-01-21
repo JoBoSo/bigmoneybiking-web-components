@@ -906,47 +906,6 @@ const timelines = {
 
 
 
-  "": [
-    {
-      "day": 1,
-      "date": "May 19, 2021",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": [],
-      "photobar_imgs": []
-    },
-    {
-      "day": 2,
-      "date": "",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": [],
-      "photobar_imgs": []
-    },
-    {
-      "day": 3,
-      "date": "",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": [],
-      "photobar_imgs": []
-    },
-    {
-      "day": 4,
-      "date": "",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": [],
-      "photobar_imgs": []
-    }
-  ],
-
-
-
   "tin-hat": [
     {
       "day": 1,
@@ -990,6 +949,85 @@ const timelines = {
   ],
 
 
+
+  "mt-albert-edward": [
+    {
+      "day": 1,
+      "date": "July 25, 2020",
+      "distance": 11.9,
+      "start": "Courtenay",
+      "end": "Circlet Lake",
+      "description": [
+        "Biked up Mt. Washington from Courtenay to the trailhead.",
+        "Hiked through paradise meadows to Circlet Lake Campground"
+      ],
+      "photobar_imgs": [
+        "mt-albert-edward/IMG_6639.jpg",
+        "mt-albert-edward/IMG_6653.jpg",
+        "mt-albert-edward/IMG_6665.jpg",
+      ]
+    },
+    {
+      "day": 2,
+      "date": "July 26, 2020",
+      "distance": 26.9,
+      "start": "Circlet Lake",
+      "end": "Courtenay",
+      "description": [
+        "Moat Lake was shimmering under the sun.",
+        "Mt. Albert Edward has a twin peak.",
+        "Wildflowers grew at the peak, adding some magic."
+      ],
+      "photobar_imgs": [
+        "mt-albert-edward/IMG_6697.jpg",
+        "mt-albert-edward/IMG_6705.jpg",
+        "mt-albert-edward/IMG_6717.jpg",
+        "mt-albert-edward/IMG_6733.jpg",
+        "mt-albert-edward/IMG_6740.jpg",
+        "mt-albert-edward/IMG_6735.jpg",
+      ]
+    },
+  ],
+
+
+  "": [
+    {
+      "day": 1,
+      "date": "May 19, 2021",
+      "distance": 0,
+      "start": "",
+      "end": "",
+      "description": [],
+      "photobar_imgs": []
+    },
+    {
+      "day": 2,
+      "date": "",
+      "distance": 0,
+      "start": "",
+      "end": "",
+      "description": [],
+      "photobar_imgs": []
+    },
+    {
+      "day": 3,
+      "date": "",
+      "distance": 0,
+      "start": "",
+      "end": "",
+      "description": [],
+      "photobar_imgs": []
+    },
+    {
+      "day": 4,
+      "date": "",
+      "distance": 0,
+      "start": "",
+      "end": "",
+      "description": [],
+      "photobar_imgs": []
+    }
+  ],
 
 }
 
