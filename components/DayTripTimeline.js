@@ -157,10 +157,9 @@ const timelines = {
     },
     {
       "header": "Erosion",
-      "description": "The mountain is showing its age.",
+      "description": "Gravity is the mountain's only opponent.",
       "image": "mt-temple/IMG_1248.jpg",
     },
-
     {
       "header": "Eye On The Prize",
       "description": "The top was cold and icy on September 6th.",
@@ -168,12 +167,12 @@ const timelines = {
     },
     {
       "header": "Emerald Ponds",
-      "description": "Seen from the peak. The water looks alive.",
+      "description": "There is magic in that water.",
       "image": "mt-temple/IMG_1215.jpg",
     },
     {
       "header": "Moraine Lake",
-      "description": "Another view of from the peak.",
+      "description": "An icon.",
       "image": "mt-temple/IMG_1233.jpg",
     },
   ],
@@ -360,6 +359,101 @@ const timelines = {
       "header": "Canmore",
       "description": "Of course, you have views of Canmore and the Bow Valley from the top.",
       "image": "ha-ling/IMG_1080.jpg",
+    },
+  ],
+
+
+
+  "viking-ridge": [
+    {
+      "header": "Where The Grizzly Bears Are",
+      "description": "No bears showed up for me.",
+      "image": "viking-ridge/IMG_0921.jpg",
+    },
+    {
+      "header": "Encircled",
+      "description": "The ridge surrounds the pond beneath it.",
+      "image": "viking-ridge/IMG_0926.jpg",
+    },
+    {
+      "header": "Ridge Wall",
+      "description": "The ridge wall looks medieval.",
+      "image": "viking-ridge/IMG_0931.jpg",
+    },
+    {
+      "header": "The Valley",
+      "description": "The view of the neighbouring valley is wide open.",
+      "image": "viking-ridge/IMG_0943.jpg",
+    },
+    {
+      "header": "Blue Mountains",
+      "description": "The landscape was dramatic on an overcast day.",
+      "image": "viking-ridge/IMG_0928.jpg",
+    },
+  ],
+
+
+
+  "seaton-ridge": [
+    {
+      "header": "Through The Forest",
+      "description": "",
+      "image": "seaton-ridge/IMG_0905.jpg",
+    },
+    {
+      "header": "Up The Ridge",
+      "description": "",
+      "image": "seaton-ridge/IMG_0718.jpg",
+    },
+    {
+      "header": "To The Top",
+      "description": "",
+      "image": "seaton-ridge/IMG_0728.jpg",
+    },
+    {
+      "header": "Grey v. Green",
+      "description": "",
+      "image": "seaton-ridge/IMG_0727.jpg",
+    },
+    {
+      "header": "Back Down",
+      "description": "",
+      "image": "seaton-ridge/IMG_0731.jpg",
+    },
+  ],
+
+
+
+  "maroon-mtn": [
+    {
+      "header": "Tall Trees",
+      "description": "The trailhead is at the end of a tight, bumpy gravel road. You immediately cross a foot-bridge and then walk through a tall forest.",
+      "image": "maroon-mtn/IMG_0667.jpg",
+    },
+    {
+      "header": "Mars",
+      "description": "At the top, you find yourself on another planet.",
+      "image": "maroon-mtn/IMG_0680.jpg",
+    },
+    {
+      "header": "Neighbours",
+      "description": "There are nice views of the mountains next door.",
+      "image": "maroon-mtn/IMG_0689.jpg",
+    },
+    {
+      "header": "Pools",
+      "description": "On the plateau, there are many pools.",
+      "image": "maroon-mtn/IMG_0691.jpg",
+    },
+    {
+      "header": "Geometry",
+      "description": "These hardy geometric plants were popping out of the moss.",
+      "image": "maroon-mtn/IMG_0704.jpg",
+    },
+    {
+      "header": "Antler",
+      "description": "",
+      "image": "maroon-mtn/IMG_0708.jpg",
     },
   ],
 

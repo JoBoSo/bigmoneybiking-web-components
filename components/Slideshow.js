@@ -3567,6 +3567,10 @@ const pictures = {
 
   "seaton-ridge": [
     {
+      image: "seaton-ridge/IMG_0905.jpg",
+      caption: ""
+    },
+    {
       image: "seaton-ridge/IMG_0715.jpg",
       caption: ""
     },
@@ -3604,6 +3608,10 @@ const pictures = {
     },
     {
       image: "seaton-ridge/IMG_0731.jpg",
+      caption: ""
+    },
+    {
+      image: "seaton-ridge/IMG_0906.jpg",
       caption: ""
     },
   ],
