@@ -146,6 +146,190 @@ const data = {
     "location": null,
     "dates": "Aug 16-21, 2019"
   },
+  "bourgeau": {
+    "title": "Mt. Bourgeau",
+    "distance_km": 26,
+    "days": null,
+    "terrain": null,
+    "location": "Banff National Park",
+    "dates": "Sept 4, 2021"
+  },
+  "cory-pass": {
+    "title": "Cory Pass",
+    "distance_km": 17,
+    "days": null,
+    "terrain": null,
+    "location": "Banff National Park",
+    "dates": "Sept 3, 2021"
+  },
+  "grotto-mtn": {
+    "title": "Grotto Mountain",
+    "distance_km": 10,
+    "days": null,
+    "terrain": null,
+    "location": "Canmore, AB",
+    "dates": "Oct 4, 2021"
+  },
+  "gunsight": {
+    "title": "Gunsight Lake",
+    "distance_km": 19,
+    "days": null,
+    "terrain": null,
+    "location": "Terrace, BC",
+    "dates": "June 17, 2021"
+  },
+  "ha-ling": {
+    "title": "Ha Ling",
+    "distance_km": 0,
+    "days": null,
+    "terrain": null,
+    "location": "Canmore, AB",
+    "dates": "Sept 2, 2021"
+  },
+  "jasper": {
+    "title": "Jasper",
+    "distance_km": null,
+    "days": null,
+    "terrain": null,
+    "location": "Jasper National Park",
+    "dates": "Aug 29-Sept 1, 2021"
+  },
+  "maroon-mtn": {
+    "title": "Maroon Mountain",
+    "distance_km": 20,
+    "days": null,
+    "terrain": null,
+    "location": "Terrace, BC",
+    "dates": "July 15, 2021"
+  },
+  "mccrae-peak": {
+    "title": "McCrae Peak",
+    "distance_km": null,
+    "days": null,
+    "terrain": null,
+    "location": "Revelstoke, BC",
+    "dates": "Sept 20, 2020"
+  },
+  "mont-nixon": {
+    "title": "Mont Nixon",
+    "distance_km": 10,
+    "days": null,
+    "terrain": null,
+    "location": "Parc National du Mont Tremblant",
+    "dates": "July 16, 2022"
+  },
+  "montagne-noire": {
+    "title": "Montagne Noire",
+    "distance_km": 13,
+    "days": null,
+    "terrain": null,
+    "location": "Saint Donat, QC",
+    "dates": "July 17, 2022"
+  },
+  "mt-albert-edward": {
+    "title": "Mt. Albert Edward",
+    "distance_km": 38,
+    "days": 2,
+    "terrain": null,
+    "location": "Strathcona Provincial Park",
+    "dates": "July 25-26, 2020"
+  },
+  "mt-begbie": {
+    "title": "Mt. Begbie",
+    "distance_km": null,
+    "days": null,
+    "terrain": null,
+    "location": "Revelstoke, BC",
+    "dates": "Sept 5, 2020"
+  },
+  "mt-cartier": {
+    "title": "Mt. Cartier",
+    "distance_km": null,
+    "days": null,
+    "terrain": null,
+    "location": "Revelstoke, BC",
+    "dates": "Sept 9, 2020"
+  },
+  "mt-revelstoke": {
+    "title": "Mt. Revelstoke",
+    "distance_km": null,
+    "days": null,
+    "terrain": null,
+    "location": "Mt. Revelstoke National Park",
+    "dates": "Oct 15, 2020"
+  },
+  "mt-temple": {
+    "title": "Mt. Temple",
+    "distance_km": 20,
+    "days": null,
+    "terrain": null,
+    "location": "Lake Louise, AB",
+    "dates": "Sept 6, 2021"
+  },
+  "oliver-creek": {
+    "title": "Oliver Creek Trail",
+    "distance_km": 38,
+    "days": 2,
+    "terrain": null,
+    "location": "Seven Sisters Provincial Park",
+    "dates": "June 15-16, 2021"
+  },
+  "phillips-ridge": {
+    "title": "Phillips Ridge",
+    "distance_km": null,
+    "days": 2,
+    "terrain": null,
+    "location": "Strathcona Provincial Park",
+    "dates": "Aug 8-9, 2020"
+  },
+  "seaton-ridge": {
+    "title": "Seaton Ridge",
+    "distance_km": 11,
+    "days": null,
+    "terrain": null,
+    "location": "Seaton, BC",
+    "dates": "July 18, 2021"
+  },
+  "silver-king": {
+    "title": "Silver King Basin",
+    "distance_km": 25,
+    "days": null,
+    "terrain": null,
+    "location": "Babine Mountains Provincial Park",
+    "dates": "June 27-28 & Aug 2, 2021"
+  },
+  "silvern-lake": {
+    "title": "Silvern Lake",
+    "distance_km": 23,
+    "days": null,
+    "terrain": null,
+    "location": "Smithers, BC",
+    "dates": "May 24 & July 1-2, 2021"
+  },
+  "six-glaciers": {
+    "title": "Plain of Six Glaciers",
+    "distance_km": 12,
+    "days": null,
+    "terrain": null,
+    "location": "Lake Louise, AB",
+    "dates": "June 25, 2022"
+  },
+  "tin-hat": {
+    "title": "Tin Hat Mountain",
+    "distance_km": 18,
+    "days": 2,
+    "terrain": null,
+    "location": "Powell River, BC",
+    "dates": "Aug 22-23, 2020"
+  },
+  "viking-ridge": {
+    "title": "Viking Ridge",
+    "distance_km": 17,
+    "days": null,
+    "terrain": null,
+    "location": "Sugarbowl-Grizzly Den Provincial Park",
+    "dates": "Aug 28, 2021"
+  },
   "": {
     "title": "",
     "distance_km": 0,
