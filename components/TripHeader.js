@@ -180,7 +180,7 @@ const data = {
   },
   "ha-ling": {
     "title": "Ha Ling",
-    "distance_km": 0,
+    "distance_km": 10,
     "days": null,
     "terrain": null,
     "location": "Canmore, AB",
@@ -329,14 +329,6 @@ const data = {
     "terrain": null,
     "location": "Sugarbowl-Grizzly Den Provincial Park",
     "dates": "Aug 28, 2021"
-  },
-  "": {
-    "title": "",
-    "distance_km": 0,
-    "days": 0,
-    "terrain": "",
-    "location": "",
-    "dates": ""
   },
 }
 
