@@ -345,6 +345,26 @@ const timelines = {
 
 
 
+  "ha-ling": [
+    {
+      "header": "Miner's Peak",
+      "description": "After hiking up the super busy trail, I first went up Miner's Peak--the one in the foreground.",
+      "image": "ha-ling/IMG_1082.jpg",
+    },
+    {
+      "header": "Ha Ling",
+      "description": "Next, I dipped down and up Ha Ling. Looking closely, you can the mass of little people standing at the top.",
+      "image": "ha-ling/IMG_1076.jpg",
+    },
+    {
+      "header": "Canmore",
+      "description": "Of course, you have views of Canmore and the Bow Valley from the top.",
+      "image": "ha-ling/IMG_1080.jpg",
+    },
+  ],
+
+
+
   "": [
     {
       "header": "",
