@@ -141,12 +141,12 @@ const tiles = {
     },
     {
       title: "Mont Nixon",
-      subtitle: "The Best Viewpoints in The Laurentians",
+      subtitle: "Beautiful Laurentian Views",
       image: "mont-nixon/IMG_2325.jpg",
       page: "hikes/mont-nixon.html"
     },
     {
-      title: "Plain of Six Glaciers Teahouse",
+      title: "Plain of Six Glaciers",
       subtitle: "Looking Down on Lake Louise",
       image: "six-glaciers/IMG_2112.jpg",
       page: "hikes/six-glaciers.html"
@@ -158,7 +158,7 @@ const tiles = {
       page: "hikes/grotto-mtn.html"
     },
     {
-      title: "Mt Temple",
+      title: "Mt. Temple",
       subtitle: "Outer Space",
       image: "mt-temple/IMG_1215.jpg",
       page: "hikes/mt-temple.html"
@@ -249,7 +249,7 @@ const tiles = {
     },
     {
       title: "Mt. Begbie",
-      subtitle: "A Walk in the Garden",
+      subtitle: "Wildflowers & Meadows",
       image: "mt-begbie/IMG_7959.jpg",
       page: "hikes/mt-begbie.html"
     },
@@ -261,13 +261,13 @@ const tiles = {
     },
     {
       title: "Phillips Ridge",
-      subtitle: "Who Put That Mountain There?",
+      subtitle: "Views of Golden Hinde",
       image: "phillips-ridge/IMG_7102.jpg",
       page: "hikes/phillips-ridge.html"
     },
     {
       title: "Mt. Albert Edward",
-      subtitle: "A Walk Up A Mountain",
+      subtitle: "All You Want",
       image: "mt-albert-edward/IMG_6713.jpg",
       page: "hikes/mt-albert-edward.html"
     },

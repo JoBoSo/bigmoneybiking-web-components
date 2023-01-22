@@ -24,7 +24,7 @@
     <script defer src="../components/Header.js"></script>
     <script defer src="../components/Navbar.js"></script>
     <script defer src="../components/TripHeader.js"></script>
-    <script defer src="../components/Timeline.js"></script>
+    <script defer src="../components/DayTripTimeline.js"></script>
     <script defer src="../components/Slideshow.js"></script>
     <script defer src="../components/Map.js"></script>
     <script defer src="../components/Footer.js"></script>
@@ -42,20 +42,10 @@
             </div>
         </div>
 
-        <div class="row no-gutters">
-            <div class="col-12">
-                <h1 class="tour-title">Cory Pass</h1>
-                <p class="stats-bar">
-                    <b>Distance: </b>17 km | 
-                    <b>Location: </b>Banff, AB | 
-                    <b>Mountain Range: </b>Rocky Mountains |
-                    <b>Date: </b>Sept 3, 2021
-                </p>
-            </div>
-        </div>
-
-        <my-slideshow data_id="cory-pass"></my-slideshow>
+        <my-trip-header data_id="cory-pass"></my-trip-header>
+        <my-day-trip-timeline data_id="cory-pass"></my-day-trip-timeline>
         <my-map data_id="cory-pass"></my-map>
+        <my-slideshow data_id="cory-pass"></my-slideshow>
         <my-footer root='../'></my-footer>
     </div>
 
