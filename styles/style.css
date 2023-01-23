@@ -4,8 +4,6 @@ body {
     font-family: 'Quicksand', Helvetica, sans-serif;
     color: white;
     background: #00ac86;
-    /* background: -webkit-linear-gradient(to right, #28574c, #01796f);
-    background: linear-gradient(to right, #28574c, #01796f); */
     margin: 0;
     padding: 0;
 }
@@ -233,42 +231,10 @@ h3 {
     color: white;
 }
 
-.bg-black {
-    background-color: black;
-}
-
-.border-black {
-    border-color: black;
-}
-
 .no-padding {
     padding: 0 !important;
     margin: 0 !important;
  }
-
- .no-bottom-padding {
-    padding-bottom: 0 !important;
-    margin-bottom: 0 !important;
- }
-
-#trip-report-col {
-    overflow: hidden;
-    padding-top: 56.25%; /* 16:9 */
-    position: relative;
-}
-
- #trip-report-col iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 0;
-    width: 100%;
-    height: 100%;
- }
-
-.bg-grey {
-    background-color: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
-}
 
 .bg-senior-el-dinero {
     width: 100%;
@@ -322,10 +288,6 @@ h3 {
     text-align: center;
 }
 
-.report {
-    color: white;
-}
-
 .footer {
     /* border-top: rgb(64, 64, 64) solid 1px; */
     /* padding-top: 5px; */
@@ -364,48 +326,6 @@ h3 {
     border: 2px solid rgba(0, 0, 0, 0.2);
     display: block;
 }
-
-.bg-innertemple {
-    background-image: url('../images/light-within-amalfi.jpeg');
-    background-repeat:no-repeat;
-    background-size:cover;
-}
-
-.bg-innerlight {
-    background-image: url('../images/inner-light-tuco-amalfi.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-}
-
-.bg-oldpaper {
-    background-color: rgb(224, 201, 166);
-}
-
-/*custom padding*/
-.my-1p75 {
-    margin-top: 1.75rem !important;
-    margin-bottom: 1.75rem !important;
-}
-.mb-1p75 {
-    margin-top: 1.75rem !important;
-}
-.my-p875 {
-    margin-top: 0.875rem !important;
-    margin-bottom: 0.875rem !important;
-}
-.pb-p875 {
-    padding-bottom: 0.875rem !important;
-}
-.mt-p875 {
-    margin-top: 0.875rem !important;
-}
-.mb-p875 {
-    margin-top: 0.875rem !important;
-}
-.tile-padding {
-    padding: 0px !important;
-}
-
 
 .my-timeline ul {
     list-style-type: none;
@@ -488,32 +408,89 @@ h3 {
 /* Day Trip Timeline */
 
 @media (min-width: 576px) {
+    /* image left */
     .day-trip-timeline .left-block img {
-        border-top-left-radius: 20px; 
-        border-bottom-left-radius: 20px;
+        border-top-left-radius: 10px; 
+        border-bottom-left-radius: 10px;
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
         border-right: 0.75px solid white;
         width: 100%; 
         object-fit: contain; 
     }
 
-    .day-trip-timeline .right-block {
-        border-top-right-radius: 20px; 
-        border-bottom-right-radius: 20px; 
+    /* image right */
+    .day-trip-timeline .right-block img {
+        border-top-right-radius: 10px; 
+        border-bottom-right-radius: 10px; 
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        border-left: 0.75px solid white;
+        width: 100%; 
+        object-fit: contain; 
+    }
+
+    /* text left */
+    .day-trip-timeline .left-block .day-trip-timeline-text {
+        border-top-left-radius: 10px; 
+        border-bottom-left-radius: 10px;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        border-right: 0.75px solid white;
+        background: rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        height: 100%;
+    }
+
+    /* text right */
+    .day-trip-timeline .right-block .day-trip-timeline-text {
+        border-top-right-radius: 10px; 
+        border-bottom-right-radius: 10px; 
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
         border-left: 0.75px solid white;
         background: rgba(0, 0, 0, 0.2);
         padding: 10px;
+        height: 100%;
     }
 
+    /* image left with text beneath it */
+    .day-trip-timeline .left-block .text-below img {
+        border-top-left-radius: 10px; 
+        border-bottom-left-radius: 0px;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        border-right: 0.75px solid white;
+        width: 100%; 
+        object-fit: contain; 
+    }
+
+    /* image right with text beneath it */
+    .day-trip-timeline .right-block .text-below img {
+        border-top-right-radius: 10px; 
+        border-bottom-right-radius: 0px; 
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        border-left: 0.75px solid white;
+        width: 100%; 
+        object-fit: contain; 
+    }
+
+    /* text bottom */
+    .day-trip-timeline .bottom-block .day-trip-timeline-text {
+        border-bottom-right-radius: 10px; 
+        border-bottom-left-radius: 10px; 
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        background: rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        height: 100%;
+    }
+
+    /* connector line */
     .day-trip-timeline .connector {
         height: 20px; 
-        background: linear-gradient(white, white) no-repeat center/1.5px 100%
+        background: linear-gradient(white, white) no-repeat center/1.5px 100%;
     }
 }
 
 @media (max-width: 575px) {
-    .day-trip-timeline .left-block img {
+    /* move image to top for single-image item */
+    .day-trip-timeline .left-block img,
+    .day-trip-timeline .right-block img {
         border-top-left-radius: 10px; 
         border-top-right-radius: 10px;
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
@@ -522,7 +499,20 @@ h3 {
         object-fit: contain; 
     }
 
-    .day-trip-timeline .right-block {
+    /* transformation from right to middle on phones for two-image items */
+    .day-trip-timeline .right-block .text-below img {
+        border-top-left-radius: 0px; 
+        border-top-right-radius: 0px;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        border-bottom: none;
+        width: 100%; 
+        object-fit: contain; 
+    }
+
+    /* move text to bottom in all cases */
+    .day-trip-timeline .right-block .day-trip-timeline-text,
+    .day-trip-timeline .left-block .day-trip-timeline-text,
+    .day-trip-timeline .bottom-block .day-trip-timeline-text {
         border-bottom-right-radius: 10px; 
         border-bottom-left-radius: 10px; 
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
