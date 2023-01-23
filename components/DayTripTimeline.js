@@ -643,13 +643,13 @@ const timelines = {
       "right_image": "silvern-lake/IMG_0519.jpg",
     },
     {
-      "header": "Spiral",
+      "header": "Spiral Mountain",
       "description": "The twisted mountain ends at its pointy peak.",
       "left_image": "silvern-lake/IMG_0126.jpg",
       "right_image": "silvern-lake/IMG_0527.jpg",
     },
     {
-      "header": "Convergence",
+      "header": "Between Three Mountains",
       "description": "Three mountains surround this cozy and lively plateau. This land is definitely work protecting. I saw more wildlife and flowers here than on any other hike in the summer that I was here.",
       "left_image": "silvern-lake/IMG_0142.jpg",
       "right_image": "silvern-lake/IMG_0528.jpg",
