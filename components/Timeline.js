@@ -1032,6 +1032,46 @@ const timelines = {
 
 
 
+  "phillips-ridge": [
+    {
+      "day": 1,
+      "date": "May 19, 2021",
+      "distance": "~22",
+      "start": "Arnica Lake Trailhead",
+      "end": "Phillips Ridge",
+      "description": [
+        "I biked from Courtenay to Campbell River, met up with Student Ranger Zoe, and drove to the trailhead in Strathcona Provincial Park.",
+        "The hike was very rocky and hard on my sore feet and sickly body. It was more like a route than a defined trail. It changed the way I thought about hiking--I realized I can hike anywhere.",
+        "The ridge was quite exposed to the sky.",
+        "We camped in a bowl with an open view of the mountains and a few ponds.",
+        "The sunset was nuts."
+      ],
+      "photobar_imgs": [
+        "phillips-ridge/IMG_7095.jpg",
+        "phillips-ridge/IMG_7099.jpg",
+        "phillips-ridge/IMG_7102.jpg",
+      ]
+    },
+    {
+      "day": 2,
+      "date": "",
+      "distance": "~24",
+      "start": "Phillips Ridge",
+      "end": "Arnica Lake Trailhead",
+      "description": [
+        "The next morning, we hiked until we got a good view of Golden Hinde, the tallest mountain on Vancouver Island.",
+        "We hiked back to the car quickly and I biked home to Courtenay from Campbell River."
+      ],
+      "photobar_imgs": [
+        "phillips-ridge/IMG_7112.jpg",
+        "phillips-ridge/IMG_7119.jpg",
+        "phillips-ridge/IMG_7123.jpg",
+      ]
+    },
+  ],
+
+
+
   "": [
     {
       "day": 1,

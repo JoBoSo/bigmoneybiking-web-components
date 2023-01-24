@@ -562,31 +562,31 @@ const timelines = {
   "seaton-ridge": [
     {
       "header": "Through The Forest",
-      "description": "",
+      "description": "Student Ranger Javier and I walked through young forests and cut blocks.",
       "left_image": null,
       "right_image": "seaton-ridge/IMG_0905.jpg",
     },
     {
       "header": "Up The Ridge",
-      "description": "",
+      "description": "We walked up the long, spine-of-a-ridge.",
       "left_image": "seaton-ridge/IMG_0718.jpg",
       "right_image": null,
     },
     {
       "header": "To The Top",
-      "description": "",
+      "description": "We stood on the peak to look upon the land. There was lots of mountain goat hair and we did see some goats below.",
       "left_image": null,
       "right_image": "seaton-ridge/IMG_0728.jpg",
     },
     {
       "header": "Grey v. Green",
-      "description": "",
+      "description": "The land was many shades of green at war with the grey, falling rock.",
       "left_image": "seaton-ridge/IMG_0727.jpg",
       "right_image": null,
     },
     {
       "header": "Back Down",
-      "description": "",
+      "description": "We walked back down the spine and continued to take in the big views.",
       "left_image": null,
       "right_image": "seaton-ridge/IMG_0731.jpg",
     },
@@ -807,6 +807,83 @@ const timelines = {
       "description": "The views of the Columbia Valley from the peak were glorious. Sun beams shot through the clouds. It was late in the afternoon and the sun had set by the time I was back on my bike.",
       "left_image": "mccrae-peak/IMG_8307.jpg",
       "right_image": "mccrae-peak/IMG_8309.jpg",
+    },
+  ],
+
+
+
+  "mt-cartier": [
+    {
+      "header": "Cabin In The Woods",
+      "description": "There is a cabin in the forest a ways up the trail.",
+      "left_image": null,
+      "right_image": "mt-cartier/IMG_8070.jpg",
+    },
+    {
+      "header": "Exposed Switchbacks",
+      "description": "Once out of the forest, switchbacks cross the steep, sunny slope.",
+      "left_image": "mt-cartier/IMG_8080.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "Hut On The Hill",
+      "description": "A weather hut sits high, just beneath the peak.",
+      "left_image": null,
+      "right_image": "mt-cartier/IMG_8090.jpg",
+    },
+    {
+      "header": "On The Edge",
+      "description": "The trail wraps tightly around the tip of the mountain.",
+      "left_image": "mt-cartier/IMG_8094.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "Weather Hut",
+      "description": "The sturdy weather hut at the top offers shelter.",
+      "left_image": null,
+      "right_image": "mt-cartier/IMG_8095.jpg",
+    },
+    {
+      "header": "Wilderness",
+      "description": "Seen to the east from the peak.",
+      "left_image": "mt-cartier/IMG_8109.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "Columbia Valley",
+      "description": "Seen to the west from the peak.",
+      "left_image": null,
+      "right_image": "mt-cartier/IMG_8111.jpg",
+    },
+    {
+      "header": "Back Down The Mountain",
+      "description": "Wealthier men than I heli to the top and mountain bike down. If I didn't know any better, I, too, might believe money can't buy happiness.",
+      "left_image": "mt-cartier/IMG_8132.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "Wildflowers",
+      "description": "Summer's gift from the ground.",
+      "left_image": null,
+      "right_image": "mt-cartier/IMG_8133.jpg",
+    },
+    {
+      "header": "Paraglider",
+      "description": "Some folks just know how to have fun.",
+      "left_image": "mt-cartier/IMG_8134.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "Mushroom",
+      "description": "A weathered mushroom in the final days of summer.",
+      "left_image": null,
+      "right_image": "mt-cartier/IMG_8136.jpg",
+    },
+    {
+      "header": "Dusk",
+      "description": "I biked home from the base at dusk. Don't let the rest of them fool you. <i>This</i> is paradise.",
+      "left_image": "mt-cartier/IMG_8148.jpg",
+      "right_image": null,
     },
   ],
 

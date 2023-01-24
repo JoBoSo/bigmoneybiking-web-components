@@ -26,6 +26,8 @@ class TripHeader extends HTMLElement {
             ${tripData.terrain !== null ? tripData.terrain + ' | ' : ''}
             ${tripData.location !== null ? tripData.location + ' | ' : ''}
             ${tripData.dates !== null ? tripData.dates : ''}
+            <br>
+            <i>${tripData.quote !== null ? tripData.quote : ''}</i>
           </p>
         </div>
       </div>
@@ -40,7 +42,8 @@ const data = {
     "days": 2,
     "terrain": "Gravel Logging Roads",
     "location": "Central BC",
-    "dates": "May 8-9, 2021"
+    "dates": "May 8-9, 2021",
+    "quote": null,
   },
   "begbie-falls": {
     "title": "Begbie Falls",
@@ -48,7 +51,8 @@ const data = {
     "days": 2,
     "terrain": null,
     "location": "Revelstoke, BC",
-    "dates": "Sept 26-27, 2020"
+    "dates": "Sept 26-27, 2020",
+    "quote": null,
   },
   "brewster-lake": {
     "title": "Brewster & Campbell Lakes",
@@ -56,7 +60,8 @@ const data = {
     "days": 3,
     "terrain": "Paved & logging roads",
     "location": "Campbell River, BC",
-    "dates": "May 28-30, 2020"
+    "dates": "May 28-30, 2020",
+    "quote": null,
   },
   "comox-lake": {
     "title": "Comox Lake",
@@ -64,7 +69,8 @@ const data = {
     "days": 2,
     "terrain": "Paved & logging roads",
     "location": "Vancouver Island, BC",
-    "dates": "July 4-5, 2020"
+    "dates": "July 4-5, 2020",
+    "quote": null,
   },
   "downie-creek": {
     "title": "Downie Creek",
@@ -72,7 +78,8 @@ const data = {
     "days": 3,
     "terrain": "Paved Roads",
     "location": "Columbia River, BC",
-    "dates": "Oct 3-5, 2020"
+    "dates": "Oct 3-5, 2020",
+    "quote": null,
   },
   "haida-gwaii": {
     "title": "Haida Gwaii",
@@ -80,7 +87,8 @@ const data = {
     "days": 3,
     "terrain": "Paved & logging roads",
     "location": null,
-    "dates": "Aug 12-14, 2021"
+    "dates": "Aug 12-14, 2021",
+    "quote": null,
   },
   "mtrl-sherbrooke": {
     "title": "Montreal to Sherbooke",
@@ -88,7 +96,8 @@ const data = {
     "days": 3,
     "terrain": "Paved & Gravel Bike Paths",
     "location": "SW QC",
-    "dates": "Sept 16-18, 2022"
+    "dates": "Sept 16-18, 2022",
+    "quote": null,
   },
   "nanaimo-courtenay": {
     "title": "Nanaimo to Courtenay",
@@ -96,7 +105,8 @@ const data = {
     "days": 2,
     "terrain": "Paved & Logging Roads",
     "location": "Vancouver Island",
-    "dates": "May 6-7, 2020"
+    "dates": "May 6-7, 2020",
+    "quote": null,
   },
   "nass-valley": {
     "title": "Nisga'a",
@@ -104,7 +114,8 @@ const data = {
     "days": 4,
     "terrain": "Paved & logging roads",
     "location": "Skeena",
-    "dates": "May 19-22, 2021"
+    "dates": "May 19-22, 2021",
+    "quote": null,
   },
   "ptit-train": {
     "title": "P'tit Train du Nord",
@@ -112,7 +123,8 @@ const data = {
     "days": 3,
     "terrain": "Paved & gravel rail trail",
     "location": "SW Laurentians, QC",
-    "dates": "Aug 12-15, 2022"
+    "dates": "Aug 12-15, 2022",
+    "quote": null,
   },
   "quadra-cortes": {
     "title": "Quadra & Cortes",
@@ -120,7 +132,8 @@ const data = {
     "days": 3,
     "terrain": "Paved & logging roads",
     "location": "Discovery Islands, BC",
-    "dates": "Aug 1-3, 2020"
+    "dates": "Aug 1-3, 2020",
+    "quote": null,
   },
   "san-josef-bay": {
     "title": "North Vancouver Island",
@@ -128,7 +141,8 @@ const data = {
     "days": 8,
     "terrain": "Paved & logging roads",
     "location": null,
-    "dates": "May 14-21, 2020"
+    "dates": "May 14-21, 2020",
+    "quote": null,
   },
   "texada": {
     "title": "Texada Island",
@@ -136,7 +150,8 @@ const data = {
     "days": 4,
     "terrain": "Paved & Logging Roads",
     "location": null,
-    "dates": "June 12-15, 2020"
+    "dates": "June 12-15, 2020",
+    "quote": null,
   },
   "to-mtrl": {
     "title": "Schomberg to Montreal",
@@ -144,7 +159,8 @@ const data = {
     "days": 6,
     "terrain": "Paved & Gravel Bike Paths",
     "location": null,
-    "dates": "Aug 16-21, 2019"
+    "dates": "Aug 16-21, 2019",
+    "quote": null,
   },
   "bourgeau": {
     "title": "Mt. Bourgeau",
@@ -152,7 +168,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Banff National Park",
-    "dates": "Sept 4, 2021"
+    "dates": "Sept 4, 2021",
+    "quote": null,
   },
   "cory-pass": {
     "title": "Cory Pass",
@@ -160,7 +177,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Banff National Park",
-    "dates": "Sept 3, 2021"
+    "dates": "Sept 3, 2021",
+    "quote": null,
   },
   "grotto-mtn": {
     "title": "Grotto Mountain",
@@ -168,7 +186,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Canmore, AB",
-    "dates": "Oct 4, 2021"
+    "dates": "Oct 4, 2021",
+    "quote": null,
   },
   "gunsight": {
     "title": "Gunsight Lake",
@@ -176,7 +195,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Terrace, BC",
-    "dates": "June 17, 2021"
+    "dates": "June 17, 2021",
+    "quote": null,
   },
   "ha-ling": {
     "title": "Ha Ling",
@@ -184,7 +204,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Canmore, AB",
-    "dates": "Sept 2, 2021"
+    "dates": "Sept 2, 2021",
+    "quote": null,
   },
   "jasper": {
     "title": "Jasper",
@@ -192,7 +213,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Jasper National Park",
-    "dates": "Aug 29-Sept 1, 2021"
+    "dates": "Aug 29-Sept 1, 2021",
+    "quote": null,
   },
   "maroon-mtn": {
     "title": "Maroon Mountain",
@@ -200,7 +222,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Terrace, BC",
-    "dates": "July 15, 2021"
+    "dates": "July 15, 2021",
+    "quote": null,
   },
   "mccrae-peak": {
     "title": "McCrae Peak",
@@ -208,7 +231,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Revelstoke, BC",
-    "dates": "Sept 20, 2020"
+    "dates": "Sept 20, 2020",
+    "quote": null,
   },
   "mont-nixon": {
     "title": "Mont Nixon",
@@ -216,7 +240,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Parc National du Mont Tremblant",
-    "dates": "July 16, 2022"
+    "dates": "July 16, 2022",
+    "quote": null,
   },
   "montagne-noire": {
     "title": "Montagne Noire",
@@ -224,7 +249,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Saint Donat, QC",
-    "dates": "July 17, 2022"
+    "dates": "July 17, 2022",
+    "quote": null,
   },
   "mt-albert-edward": {
     "title": "Mt. Albert Edward",
@@ -232,7 +258,8 @@ const data = {
     "days": 2,
     "terrain": null,
     "location": "Strathcona Provincial Park",
-    "dates": "July 25-26, 2020"
+    "dates": "July 25-26, 2020",
+    "quote": null,
   },
   "mt-begbie": {
     "title": "Mt. Begbie",
@@ -240,7 +267,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Revelstoke, BC",
-    "dates": "Sept 5, 2020"
+    "dates": "Sept 5, 2020",
+    "quote": null,
   },
   "mt-cartier": {
     "title": "Mt. Cartier",
@@ -248,7 +276,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Revelstoke, BC",
-    "dates": "Sept 9, 2020"
+    "dates": "Sept 9, 2020",
+    "quote": "If you miss this train I'm on, then you'll know that I am gone."
   },
   "mt-revelstoke": {
     "title": "Mt. Revelstoke",
@@ -256,7 +285,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Mt. Revelstoke National Park",
-    "dates": "Oct 15, 2020"
+    "dates": "Oct 15, 2020",
+    "quote": null,
   },
   "mt-temple": {
     "title": "Mt. Temple",
@@ -264,7 +294,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Lake Louise, AB",
-    "dates": "Sept 6, 2021"
+    "dates": "Sept 6, 2021",
+    "quote": null,
   },
   "oliver-creek": {
     "title": "Oliver Creek Trail",
@@ -272,7 +303,8 @@ const data = {
     "days": 2,
     "terrain": null,
     "location": "Seven Sisters Provincial Park",
-    "dates": "June 15-16, 2021"
+    "dates": "June 15-16, 2021",
+    "quote": null,
   },
   "phillips-ridge": {
     "title": "Phillips Ridge",
@@ -280,7 +312,8 @@ const data = {
     "days": 2,
     "terrain": null,
     "location": "Strathcona Provincial Park",
-    "dates": "Aug 8-9, 2020"
+    "dates": "Aug 8-9, 2020",
+    "quote": null,
   },
   "seaton-ridge": {
     "title": "Seaton Ridge",
@@ -288,7 +321,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Seaton, BC",
-    "dates": "July 18, 2021"
+    "dates": "July 18, 2021",
+    "quote": null,
   },
   "silver-king": {
     "title": "Silver King Basin",
@@ -296,7 +330,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Babine Mountains Provincial Park",
-    "dates": "June 27-28 & Aug 2, 2021"
+    "dates": "June 27-28 & Aug 2, 2021",
+    "quote": null,
   },
   "silvern-lake": {
     "title": "Silvern Lake",
@@ -304,7 +339,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Smithers, BC",
-    "dates": "May 24 & July 1-2, 2021"
+    "dates": "May 24 & July 1-2, 2021",
+    "quote": null,
   },
   "six-glaciers": {
     "title": "Plain of Six Glaciers",
@@ -312,7 +348,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Lake Louise, AB",
-    "dates": "June 25, 2022"
+    "dates": "June 25, 2022",
+    "quote": null,
   },
   "tin-hat": {
     "title": "Tin Hat Mountain",
@@ -320,7 +357,8 @@ const data = {
     "days": 2,
     "terrain": null,
     "location": "Powell River, BC",
-    "dates": "Aug 22-23, 2020"
+    "dates": "Aug 22-23, 2020",
+    "quote": null,
   },
   "viking-ridge": {
     "title": "Viking Ridge",
@@ -328,7 +366,8 @@ const data = {
     "days": null,
     "terrain": null,
     "location": "Sugarbowl-Grizzly Den Provincial Park",
-    "dates": "Aug 28, 2021"
+    "dates": "Aug 28, 2021",
+    "quote": null,
   },
 }
 
