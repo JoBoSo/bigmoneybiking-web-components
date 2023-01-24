@@ -694,7 +694,131 @@ const timelines = {
 
 
 
+  "gunsight": [
+    {
+      "header": "Creek",
+      "description": "Snow melting off the top of the mountain created a fast-flowing creek through the bushy coastal forest.",
+      "left_image": null,
+      "right_image": "gunsight/IMG_0353.jpg",
+    },
+    {
+      "header": "Sand",
+      "description": "A section of the trail was sand.",
+      "left_image": "gunsight/IMG_0393.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "Abandoned Hatchery",
+      "description": "A side-trail leads to what's left of an abandoned, overgrown fish hatchery.",
+      "left_image": null,
+      "right_image": "gunsight/IMG_0356.jpg",
+    },
+    {
+      "header": "Waterfall",
+      "description": "The fast-flowing water smoothened the rock beneath it.",
+      "left_image": "gunsight/IMG_0359.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "Winter in June",
+      "description": "The top of the mountain was very snowy on June 17th.",
+      "left_image": null,
+      "right_image": "gunsight/IMG_0370.jpg",
+    },
+    {
+      "header": "Frozen Lake",
+      "description": "Snow covered the lake.",
+      "left_image": "gunsight/IMG_0376.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "Mountains",
+      "description": "There is an open-view of the mountains for the lake.",
+      "left_image": null,
+      "right_image": "gunsight/IMG_0382.jpg",
+    },
+  ],
+
+
+
+  "mccrae-peak": [
+    {
+      "header": "Akolkolex Falls",
+      "description": "I biked from Revelstoke to the trailhead. Akolkolex Falls is on the road toward McCrae Peak. A series of waterfalls flow through deep canyons that lead to the Columbia River.",
+      "left_image": null,
+      "right_image": "mccrae-peak/IMG_8200.jpg",
+    },
+    {
+      "header": "",
+      "description": "Another waterfall on the Akolkolex Falls trail.",
+      "left_image": "mccrae-peak/IMG_8217.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "",
+      "description": "The beautful canyon that contains the water.",
+      "left_image": null,
+      "right_image": "mccrae-peak/IMG_8220.jpg",
+    },
+    {
+      "header": "",
+      "description": "Where the falls merge with the Columbia River.",
+      "left_image": "mccrae-peak/IMG_8238.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "Mushroom",
+      "description": "An interesting mushroom I encountered by the falls.",
+      "left_image": null,
+      "right_image": "mccrae-peak/IMG_8204.jpg",
+    },
+    {
+      "header": "Riding To The Trail",
+      "description": "The trailhead is near the top of the mountain. The ride up the steep, rocky logging road was the hard work of the day. The views of the Columbia Valley were big the whole way up.",
+      "left_image": "mccrae-peak/IMG_8249.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "The Trail",
+      "description": "The hike begins near the treeline. Near the start, I passed a couple loads of fresh, purple bear shit in the short section through the forest, which led to McCrae Lake Rec Site and then the mossy plateau shown in this photo.",
+      "left_image": null,
+      "right_image": "mccrae-peak/IMG_8266.jpg",
+    },
+    {
+      "header": "",
+      "description": "The section of the trail up to the peak was tough. It followed a ridge across snow and jagged rock.",
+      "left_image": "mccrae-peak/IMG_8280.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "",
+      "description": "This final section to the peak was a scramble up steep, loose-rock. It really freaked me out.",
+      "left_image": null,
+      "right_image": "mccrae-peak/IMG_8272.jpg",
+    },
+    {
+      "header": "",
+      "description": "After the tough scramble, a plateau leads gently to the peak. I saw this merry band of fluffy birds on top of the mountain. I have never seen birds like this before.",
+      "left_image": "mccrae-peak/IMG_8296.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "",
+      "description": "The views of the Columbia Valley from the peak were glorious. Sun beams shot through the clouds. It was late in the afternoon and the sun had set by the time I was back on my bike.",
+      "left_image": "mccrae-peak/IMG_8307.jpg",
+      "right_image": "mccrae-peak/IMG_8309.jpg",
+    },
+  ],
+
+
+
   "": [
+    {
+      "header": "",
+      "description": "",
+      "left_image": null,
+      "right_image": "/IMG_.jpg",
+    },
     {
       "header": "",
       "description": "",
