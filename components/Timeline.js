@@ -1019,7 +1019,8 @@ const timelines = {
       "start": "Campground",
       "end": "Trailhead",
       "description": [
-        "I hiked back down to the warmth the next morning."
+        "I hiked back down to the warmth the next morning.",
+        "As I approached the base, there were nice views of the Skeena River."
       ],
       "photobar_imgs": [
         "oliver-creek/IMG_0343.jpg",

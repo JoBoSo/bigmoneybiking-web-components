@@ -219,7 +219,7 @@ const tiles = {
     },
     {
       title: "Gunsight Lake",
-      subtitle: "I Forgot My Skates",
+      subtitle: "Winter In June",
       image: "gunsight/IMG_0370.jpg",
       page: "hikes/gunsight.html"
     },
