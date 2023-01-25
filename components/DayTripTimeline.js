@@ -562,7 +562,7 @@ const timelines = {
     },
     {
       "header": "Up The Ridge",
-      "description": "We walked up the long, spine-of-a-ridge.",
+      "description": "We walked up the long, spiny ridge.",
       "left_image": "seaton-ridge/IMG_0718.jpg",
       "right_image": null,
     },
@@ -644,7 +644,7 @@ const timelines = {
     },
     {
       "header": "Between Three Mountains",
-      "description": "Three mountains surround this cozy and lively plateau. This land is definitely work protecting. I saw more wildlife and flowers here than on any other hike in the summer that I was here.",
+      "description": "Three mountains surround this cozy and lively plateau. I saw more wildlife and flowers here than on any other hike in 2021.",
       "left_image": "silvern-lake/IMG_0142.jpg",
       "right_image": "silvern-lake/IMG_0528.jpg",
     },
@@ -680,7 +680,7 @@ const timelines = {
     },
     {
       "header": "Jagged Peak",
-      "description": "That pointy, jagged peak in the center of this photo is one of the coolest peaks in the Bulkley Valley. You can see it wide and far, from town and the trails. It has some dark magic. It might be a gathering place for witches. I'm pretty sure there are some in these parts.",
+      "description": "That pointy, jagged peak in the center of this photo is one of the coolest peaks in the Bulkley Valley. You can see it wide and far, from town and the trails. It has some dark magic. It might be a gathering place for witches. I believe they live in these parts.",
       "left_image": null,
       "right_image": "silvern-lake/IMG_0585.jpg",
     },
