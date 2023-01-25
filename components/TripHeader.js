@@ -285,7 +285,7 @@ const data = {
     "terrain": null,
     "location": "Mt. Revelstoke National Park",
     "dates": "Oct 15, 2020",
-    "quote": "The mushroom said to me once: Nature loves courage. Nature loves courage, and I said, what’s the payoff on that? It said: It shows you that it loves courage because it will remove obstacles. -Terence McKenna",
+    "quote": "The mushroom said to me once: Nature loves courage. <br>Nature loves courage, and I said, what’s the payoff on that? <br>It said: It shows you that it loves courage because it will remove obstacles. <br>- Terence McKenna",
   },
   "mt-temple": {
     "title": "Mt. Temple",
