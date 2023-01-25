@@ -258,7 +258,7 @@ const timelines = {
     },
     {
       "header": "Treeline",
-      "description": "A pond sits at the top of the forest.",
+      "description": "Theres a plateau at the top of the treeline, just before the ascent.",
       "left_image": null,
       "right_image": "mt-temple/IMG_1257.jpg",
     },
@@ -294,7 +294,7 @@ const timelines = {
     },
     {
       "header": "Moraine Lake",
-      "description": "An icon.",
+      "description": "A Rocky Mountain icon.",
       "left_image": null,
       "right_image": "mt-temple/IMG_1233.jpg",
     },
