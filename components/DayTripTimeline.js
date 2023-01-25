@@ -921,7 +921,7 @@ const timelines = {
       "right_image": "mt-revelstoke/IMG_8714.jpg",
     },
     {
-      "header": "Funky AF",
+      "header": "Dank AF",
       "description": "If this shroom were cheese it would be some expensive stuff.",
       "left_image": "mt-revelstoke/IMG_8718.jpg",
       "right_image": null,
@@ -934,7 +934,7 @@ const timelines = {
     },
     {
       "header": "Bodybuilder",
-      "description": "This one had a thick kneck from headbutting it's way through the ground.",
+      "description": "This one had a thick neck from headbutting it's way through the ground.",
       "left_image": "mt-revelstoke/IMG_8734.jpg",
       "right_image": null,
     },

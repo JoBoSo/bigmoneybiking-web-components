@@ -184,18 +184,22 @@ h3 {
 
 /* Touring page header */
 
-.tour-title {
+.trip-header .tour-title {
     text-align: center;
     margin: 0;
 }
 
-.stats-bar {
+.trip-header .stats-bar {
     text-align: center;
     vertical-align: middle;
     padding-top: 0px !important;
-    padding-bottom: 10px !important;
+    padding-bottom: 0px !important;
     margin: 0 !important;
     /* border-bottom: solid #dedcdc 1px; */
+}
+
+.trip-header .quote {
+    text-align: center;
 }
 
 /* Youtube responsive iframe */
@@ -407,6 +411,10 @@ h3 {
 
 
 /* Day Trip Timeline */
+
+.day-trip-timeline {
+    margin-top: 10px;
+}
 
 @media (min-width: 576px) {
     /* image left */
