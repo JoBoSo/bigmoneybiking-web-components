@@ -18,7 +18,7 @@ class TripHeader extends HTMLElement {
 
     this.innerHTML = `
       <div class="row no-gutters">
-        <div class="col-12">
+        <div class="col-12 trip-header">
           <h1 class="tour-title">${tripData.title}</h1>
           <p class="stats-bar">
             ${tripData.distance_km !== null ? tripData.distance_km + ' km | ' : ''}
@@ -26,9 +26,8 @@ class TripHeader extends HTMLElement {
             ${tripData.terrain !== null ? tripData.terrain + ' | ' : ''}
             ${tripData.location !== null ? tripData.location + ' | ' : ''}
             ${tripData.dates !== null ? tripData.dates : ''}
-            <br>
-            <i>${tripData.quote !== null ? tripData.quote : ''}</i>
           </p>
+          <p class="quote"><i>${tripData.quote !== null ? tripData.quote : ''}</i></p>
         </div>
       </div>
     `;
@@ -286,7 +285,7 @@ const data = {
     "terrain": null,
     "location": "Mt. Revelstoke National Park",
     "dates": "Oct 15, 2020",
-    "quote": null,
+    "quote": "The mushroom said to me once: Nature loves courage. Nature loves courage, and I said, what’s the payoff on that? It said: It shows you that it loves courage because it will remove obstacles. -Terence McKenna",
   },
   "mt-temple": {
     "title": "Mt. Temple",
