@@ -184,12 +184,6 @@ h3 {
 
 /* Touring page header */
 
-.trip-header {
-    padding-bottom: 0px !important;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
 .trip-header .tour-title {
     text-align: center;
     margin: 0;
@@ -417,6 +411,10 @@ h3 {
 
 
 /* Day Trip Timeline */
+
+.day-trip-timeline {
+    margin-top: 10px;
+}
 
 @media (min-width: 576px) {
     /* image left */
