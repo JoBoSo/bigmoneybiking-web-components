@@ -914,12 +914,12 @@ const timelines = {
       "start": "Courtenay",
       "end": "Tin Hat Cabin",
       "description": [
-        "I started by day in Courtenay and reached the trailhead by bike and ferry.",
+        "I started the day in Courtenay and reached the trailhead by bike and ferry.",
         "There were signs of hobbits and lots of cool mushrooms growing in the forest.",
-        "The trail went through cut blocks, which have taken a lot away from the beautiful route.",
-        "The map I made below isn't exactly the route I took. I actually did a loop around Lewis Lake, but I didn't GPS-track this hike.",
+        "The trail went through some unfortunate cut blocks and nice forests.",
+        "I looped around Lewis Lake.",
         "It was lively at the top. The cabin was full of people cooking and the best spots to pitch a tent were occupied.",
-        "The long sunset was beautiful."
+        "There was a long sunset."
       ],
       "photobar_imgs": [
         "tin-hat/IMG_7668.jpg",
@@ -937,8 +937,8 @@ const timelines = {
       "start": "Tin Hat Cabin",
       "end": "Courtenay",
       "description": [
-        "Some low clouds floated over the inlet and the ocean in the morning",
-        "I hiked back to the road on the more direct route, which appeared to be a service route that enables vehicles to reach the cabin.",
+        "Low clouds floated over the inlet and the ocean in the morning",
+        "I hiked back to the road on the more direct route, which appeared to be a service road for the cabin.",
         "I pulled my bike out of the woods, biked by a swampy lake on the logging road toward the Powell River Ferry, got off in Comox, and returned home."
       ],
       "photobar_imgs": [
@@ -1066,6 +1066,71 @@ const timelines = {
         "phillips-ridge/IMG_7112.jpg",
         "phillips-ridge/IMG_7119.jpg",
         "phillips-ridge/IMG_7123.jpg",
+      ]
+    },
+  ],
+
+
+
+  "algonquin": [
+    {
+      "day": 1,
+      "date": "Dec 31, 2019",
+      "distance": 1.6,
+      "start": "Western Uplands Trailhead",
+      "end": "a short ways up the trail",
+      "description": [
+        "I went snowshoeing in Algonquin Park on New Years Eve Day.",
+        "I started my trip late in the afternoon at the Western Uplands Trail parking lot.",
+        "I snowshoed a short way up the trail and setup camp on the side of a tall hill.",
+        "Night was silent and I could hear snowflakes gently tapping my tent. The sky was clear and the stars were shining."
+      ],
+      "photobar_imgs": [
+        "algonquin/IMG_4454.jpg",
+        "algonquin/IMG_4464.jpg",
+        "algonquin/IMG_4471.jpg",
+      ]
+    },
+    {
+      "day": 2,
+      "date": "Jan 1, 2020",
+      "distance": 9.5,
+      "start": "a short ways up the Western Uplands Trail",
+      "end": "The Minnesing Trail",
+      "description": [
+        "The next morning, I hiked back to the parking lot.",
+        "My intention was to spend the rest of the afternoon and the next day cross-country skiing. However, I forgot to bring my ski boots, so continued to snowshoe instead.",
+        "First, I hit the 1km Hardwood Lookout Trail to get an elevated view.",
+        "Next, I drove to the Minnesing Trailhead and snowshoed 7kms before setting up camp in the wide open woods."
+      ],
+      "photobar_imgs": [
+        "algonquin/IMG_4494.jpg",
+        "algonquin/IMG_4501.jpg",
+        "algonquin/IMG_4508.jpg",
+        "algonquin/IMG_4510.jpg",
+        "algonquin/IMG_4526.jpg",
+        "algonquin/IMG_4535.jpg",
+      ]
+    },
+    {
+      "day": 3,
+      "date": "Jan 2, 2020",
+      "distance": 14.2,
+      "start": "The Minnesing Trail",
+      "end": "the parking lot",
+      "description": [
+        "On the third day, the sun poked through the sky for the first time during the trip.",
+        "I was feeling in sync with the cold. I think being cold for an extended period of time was driving up my metabolism rate, making me feel focused and calm.",
+        "There were no human tracks in the snow, but there were lots of animal tracks.",
+        "I encountered one major animal crossing--there were overlapping tracks of all kinds imprinted in the snow."
+      ],
+      "photobar_imgs": [
+        "algonquin/IMG_4563.jpg",
+        "algonquin/IMG_4565.jpg",
+        "algonquin/IMG_4566.jpg",
+        "algonquin/the_lake.jpg",
+        "algonquin/IMG_4608.jpg",
+        "algonquin/IMG_4611.jpg",
       ]
     },
   ],
