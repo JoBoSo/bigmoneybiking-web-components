@@ -885,14 +885,14 @@ const timelines = {
 
   "mt-revelstoke": [
     {
-      "header": "Columbia Viewpoint",
-      "description": "I biked over to the park on the edge of town and hiked up to Columbia Viewpoint.",
+      "header": "Monashee Lookout",
+      "description": "I biked over to the park on the edge of town and hiked up to Monashee Lookout.",
       "left_image": null,
       "right_image": "mt-revelstoke/IMG_8708.jpg",
     },
     {
-      "header": "Summit Trail",
-      "description": "I continued up the winding Summit Trail, which had snow on it at higher elevations.",
+      "header": "Lindmark Trail",
+      "description": "I continued up the winding Lindmark Trail, which had snow on it at higher elevations.",
       "left_image": "mt-revelstoke/IMG_8727.jpg",
       "right_image": null,
     },
