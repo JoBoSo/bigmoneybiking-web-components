@@ -65,6 +65,7 @@ const maps = {
   "san-josef-bay": "https://www.google.com/maps/d/u/0/embed?mid=1FD9t09RTr4pPd4YAO6ks995gsM_MCg0&ehbc=2E312F",
   "texada": "https://www.google.com/maps/d/u/0/embed?mid=106wwL9ELevtJLC0_zcI23w6hlv7CzlI&ehbc=2E312F",
   "to-mtrl": "https://www.google.com/maps/d/u/0/embed?mid=1XuTBbBZ4atnQiUkwiHpvshf5EYXXuUQ&ehbc=2E312F",
+  "algonquin": "https://www.google.com/maps/d/u/0/embed?mid=17OFbjxuOAxgDPSkkov9-UhxgyA4EpHc&ehbc=2E312F",
 }
 
 customElements.define('my-map', Map);

@@ -226,7 +226,7 @@ const data = {
   },
   "mccrae-peak": {
     "title": "McCrae Peak",
-    "distance_km": null,
+    "distance_km": 10,
     "days": null,
     "terrain": null,
     "location": "Revelstoke, BC",
@@ -262,7 +262,7 @@ const data = {
   },
   "mt-begbie": {
     "title": "Mt. Begbie",
-    "distance_km": null,
+    "distance_km": 15.1,
     "days": null,
     "terrain": null,
     "location": "Revelstoke, BC",
@@ -271,7 +271,7 @@ const data = {
   },
   "mt-cartier": {
     "title": "Mt. Cartier",
-    "distance_km": null,
+    "distance_km": 27.4,
     "days": null,
     "terrain": null,
     "location": "Revelstoke, BC",
@@ -280,7 +280,7 @@ const data = {
   },
   "mt-revelstoke": {
     "title": "Mt. Revelstoke",
-    "distance_km": null,
+    "distance_km": 9.3,
     "days": null,
     "terrain": null,
     "location": "Mt. Revelstoke National Park",
@@ -352,7 +352,7 @@ const data = {
   },
   "tin-hat": {
     "title": "Tin Hat Mountain",
-    "distance_km": 18,
+    "distance_km": 18.3,
     "days": 2,
     "terrain": null,
     "location": "Powell River, BC",
@@ -368,6 +368,15 @@ const data = {
     "dates": "Aug 28, 2021",
     "quote": null,
   },
+  "algonquin": {
+    "title": "Algonquin Park",
+    "distance_km": 25.3,
+    "days": 3,
+    "terrain": null,
+    "location": null,
+    "dates": "Dec 31, 2019 - Jan 2, 2020",
+    "quote": null,
+  }
 }
 
 customElements.define('my-trip-header', TripHeader);

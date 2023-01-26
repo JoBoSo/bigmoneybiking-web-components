@@ -267,9 +267,15 @@ const tiles = {
     },
     {
       title: "Mt. Albert Edward",
-      subtitle: "All You Want",
+      subtitle: "Everything, All At Once",
       image: "mt-albert-edward/IMG_6713.jpg",
       page: "hikes/mt-albert-edward.html"
+    },
+    {
+      title: "Algonquin Park",
+      subtitle: "Snowshoeing Into The New Year",
+      image: "algonquin/IMG_4464.jpg",
+      page: "hikes/algonquin.html"
     },
   ]
   

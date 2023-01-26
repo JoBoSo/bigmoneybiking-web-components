@@ -387,13 +387,13 @@ const timelines = {
   "six-glaciers": [
     {
       "header": "Lake Louise",
-      "description": "Lake Louise is beautiful, but it's a decoy for more beautiful lakes that are just as easy to access, like Moraine Lake or Lake Minnewanka.",
+      "description": "Lake Louise is beautiful, but it's a decoy for more beautiful lakes in the area that are just as easy to access, like Moraine Lake or Lake Minnewanka.",
       "left_image": null,
       "right_image": "six-glaciers/IMG_2110.jpg",
     },
     {
       "header": "The Teahouse",
-      "description": "An old teahouse serves tourists bad coffee and soggy sandwiches at a high price. Lake Louise on the whole is no place to buy food.",
+      "description": "An old teahouse serves tourists bad coffee and soggy sandwiches at a high price. Lake Louise on the whole is no place for a modest man to in search of food.",
       "left_image": "six-glaciers/IMG_2112.jpg",
       "right_image": null,
     },
@@ -405,7 +405,7 @@ const timelines = {
     },
     {
       "header": "End of the Ridge",
-      "description": "The ridge ends at these steep mountains.",
+      "description": "The ridge runs into a mountain wall.",
       "left_image": "six-glaciers/IMG_2124.jpg",
       "right_image": null,
     },
