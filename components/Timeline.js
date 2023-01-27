@@ -14,13 +14,18 @@ class Timeline extends HTMLElement {
   }
 
   connectedCallback() {
+    let tripData = timelines[this.data_id];
     this.innerHTML = `
       <div class="my-timeline">
         <ul>
-          ${timelines[this.data_id].map((item) => `
+          ${tripData.map((item) => `
             <li class="my-timeline-item">
-              <p class="my-timeline-header"><b>Day ${item.day}</b> | 
-                <span style='font-size:16pt;'>${item.distance} km <span style='font-size: 12pt'>from</span> ${item.start} <span style='font-size: 12pt'>to</span> ${item.end}</span>
+              <p class="my-timeline-header">${item.day !== null ? '<b>Day ' + item.day + '</b> | ' : ''}
+                <span style='font-size:16pt;'> ${item.distance !== null ? item.distance + ' km' : ''} 
+                  ${item.destination !== null ? ' &#8212; ' + item.destination : ''} 
+                  ${item.start !== null ? "<span style='font-size: 12pt'>from</span> " + item.start : ''} 
+                  ${item.end !== null ? "<span style='font-size: 12pt'>to</span> " + item.end : ''} 
+                </span>
               </p>
 
               <ul class="my-timeline-bullets">
@@ -46,6 +51,7 @@ class Timeline extends HTMLElement {
 const timelines = {
   "mtrl-sherbrooke": [
     {
+      "destination": null,
       "day": 1,
       "date": "September 16, 2022",
       "distance": 136,
@@ -63,6 +69,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "September 17, 2022",
       "distance": 121,
@@ -82,6 +89,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 3,
       "date": "September 18, 2022",
       "distance": 142,
@@ -103,6 +111,7 @@ const timelines = {
 
   "ptit-train": [
     {
+      "destination": null,
       "day": 1,
       "date": "August 12, 2022",
       "distance": 118,
@@ -121,6 +130,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "August 13, 2022",
       "distance": 160,
@@ -138,6 +148,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 3,
       "date": "August 15, 2022",
       "distance": 86,
@@ -160,6 +171,7 @@ const timelines = {
 
   "haida-gwaii": [
     {
+      "destination": null,
       "day": 1,
       "date": "August 12, 2021",
       "distance": 24,
@@ -179,6 +191,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "August 13, 2021",
       "distance": 153,
@@ -199,6 +212,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 3,
       "date": "August 14, 2021",
       "distance": 8,
@@ -221,6 +235,7 @@ const timelines = {
 
   "nass-valley": [
     {
+      "destination": null,
       "day": 1,
       "date": "May 19, 2021",
       "distance": 116,
@@ -239,6 +254,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "May 20, 2021",
       "distance": 107,
@@ -262,6 +278,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 3,
       "date": "May 21, 2021",
       "distance": 124,
@@ -279,6 +296,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 4,
       "date": "May 22, 2021",
       "distance": 127,
@@ -299,6 +317,7 @@ const timelines = {
 
   "babine-lake": [
     {
+      "destination": null,
       "day": 1,
       "date": "May 8, 2021",
       "distance": 125,
@@ -320,6 +339,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "May 9, 2021",
       "distance": 62,
@@ -342,6 +362,7 @@ const timelines = {
 
   "downie-creek": [
     {
+      "destination": null,
       "day": 1,
       "date": "October 3, 2020",
       "distance": 42,
@@ -358,6 +379,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "October 4, 2020",
       "distance": 74,
@@ -375,6 +397,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 3,
       "date": "October 5, 2020",
       "distance": 42,
@@ -396,6 +419,7 @@ const timelines = {
 
   "begbie-falls": [
     {
+      "destination": null,
       "day": 1,
       "date": "September 26, 2020",
       "distance": 15,
@@ -411,6 +435,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "September 27, 2020",
       "distance": 19,
@@ -431,6 +456,7 @@ const timelines = {
 
   "quadra-cortes": [
     {
+      "destination": null,
       "day": 1,
       "date": "August 1, 2020",
       "distance": 64,
@@ -447,6 +473,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "August 2, 2020",
       "distance": 49,
@@ -464,6 +491,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 3,
       "date": "August 3, 2020",
       "distance": 144,
@@ -491,6 +519,7 @@ const timelines = {
 
   "comox-lake": [
     {
+      "destination": null,
       "day": 1,
       "date": "July 4, 2020",
       "distance": 14,
@@ -509,6 +538,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "July 5, 2020",
       "distance": 66,
@@ -530,6 +560,7 @@ const timelines = {
 
   "texada": [
     {
+      "destination": null,
       "day": 1,
       "date": "June 12, 2020",
       "distance": 34,
@@ -547,6 +578,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "June 13, 2020",
       "distance": 69,
@@ -564,6 +596,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 3,
       "date": "June 14, 2020",
       "distance": 40,
@@ -584,6 +617,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 4,
       "date": "June 15, 2020",
       "distance": 52,
@@ -605,6 +639,7 @@ const timelines = {
 
   "brewster-lake": [
     {
+      "destination": null,
       "day": 1,
       "date": "May 28, 2020",
       "distance": 83,
@@ -620,6 +655,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "May 29, 2020",
       "distance": 22,
@@ -636,6 +672,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 3,
       "date": "May 30, 2020",
       "distance": 72,
@@ -656,6 +693,7 @@ const timelines = {
 
   "san-josef-bay": [
     {
+      "destination": null,
       "day": 1,
       "date": "May 14, 2020",
       "distance": 71,
@@ -669,6 +707,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "May 15, 2020",
       "distance": 65,
@@ -682,6 +721,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 3,
       "date": "May 16, 2020",
       "distance": 0,
@@ -693,6 +733,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 4,
       "date": "May 17, 2020",
       "distance": 71,
@@ -706,6 +747,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 5,
       "date": "May 18, 2021",
       "distance": 143,
@@ -719,6 +761,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 6,
       "date": "May 19, 2020",
       "distance": 40,
@@ -732,6 +775,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 7,
       "date": "May 20, 2020",
       "distance": 181,
@@ -745,6 +789,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 8,
       "date": "May 21, 2020",
       "distance": 213,
@@ -761,6 +806,7 @@ const timelines = {
 
   "nanaimo-courtenay": [
     {
+      "destination": null,
       "day": 1,
       "date": "May 6, 2020",
       "distance": 92,
@@ -778,6 +824,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "May 7, 2020",
       "distance": 88,
@@ -804,6 +851,7 @@ const timelines = {
 
   "to-mtrl": [
     {
+      "destination": null,
       "day": 1,
       "date": "August 16, 2019",
       "distance": 116,
@@ -816,6 +864,7 @@ const timelines = {
       "photobar_imgs": []
     },
     {
+      "destination": null,
       "day": 2,
       "date": "August 17, 2019",
       "distance": 161,
@@ -834,6 +883,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 3,
       "date": "August 18, 2019",
       "distance": 44,
@@ -851,6 +901,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 4,
       "date": "August 19, 2019",
       "distance": 152,
@@ -870,6 +921,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 5,
       "date": "August 20, 2019",
       "distance": 66,
@@ -885,6 +937,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 6,
       "date": "August 21, 2019",
       "distance": 103,
@@ -908,6 +961,7 @@ const timelines = {
 
   "tin-hat": [
     {
+      "destination": null,
       "day": 1,
       "date": "August 22, 2020",
       "distance": 12,
@@ -931,6 +985,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "August 23, 2020",
       "distance": 6,
@@ -952,6 +1007,7 @@ const timelines = {
 
   "mt-albert-edward": [
     {
+      "destination": null,
       "day": 1,
       "date": "July 25, 2020",
       "distance": 11.9,
@@ -968,6 +1024,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "July 26, 2020",
       "distance": 26.9,
@@ -993,6 +1050,7 @@ const timelines = {
 
   "oliver-creek": [
     {
+      "destination": null,
       "day": 1,
       "date": "June 15, 2021",
       "distance": 20,
@@ -1013,6 +1071,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "June 16, 2021",
       "distance": 18,
@@ -1034,6 +1093,7 @@ const timelines = {
 
   "phillips-ridge": [
     {
+      "destination": null,
       "day": 1,
       "date": "May 19, 2021",
       "distance": "~22",
@@ -1053,6 +1113,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "",
       "distance": "~24",
@@ -1074,6 +1135,7 @@ const timelines = {
 
   "algonquin": [
     {
+      "destination": null,
       "day": 1,
       "date": "Dec 31, 2019",
       "distance": 1.6,
@@ -1092,6 +1154,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 2,
       "date": "Jan 1, 2020",
       "distance": 9.5,
@@ -1113,6 +1176,7 @@ const timelines = {
       ]
     },
     {
+      "destination": null,
       "day": 3,
       "date": "Jan 2, 2020",
       "distance": 14.2,
@@ -1137,8 +1201,77 @@ const timelines = {
 
 
 
+  "jasper": [
+    {
+      "destination": "Valley of the Five Lakes",
+      "day": 1,
+      "date": "Aug 29, 2021",
+      "distance": 20.2,
+      "start": null,
+      "end": null,
+      "description": [
+        "My trip to Jasper was about driving out to a few different areas of the park to explore them by foot and bike.",
+        "When I arrived, I checked into my campsite at Whistlers Campground and setup my tent.",
+        "Then I spent the afternoon exploring the Valley of the Five Lakes by bike.",
+        "I walked around town in the evening.",
+        "It was energizing to be around so many people in town and in the valley after spending the summer in fairly remote places."
+      ],
+      "photobar_imgs": [
+        "jasper/IMG_0979.jpg",
+        "jasper/IMG_0984.jpg",
+        "jasper/IMG_0990.jpg",
+      ]
+    },
+    {
+      "destination": "Sulpher Skyline Trail and Utopia Mountain",
+      "day": 2,
+      "date": "Aug 30, 2021",
+      "distance": 16.8,
+      "start": null,
+      "end": null,
+      "description": [
+        "I started my day by driving to Miette Hotsprings.",
+        "I hiked up the Sulpher Skyline Trail. The trail was nothing special but the views from the top absolutely were.",
+        "I came back down the trail and hiked up the neighbouring Utopia Mountain.",
+        "I didn't climb to the peak of Utopia Mountain because the final stretch required a pretty daring scramble.",
+        "When I got back to my campsite, I biked around the trails in the valley."
+      ],
+      "photobar_imgs": [
+        "jasper/IMG_0997.jpg",
+        "jasper/IMG_1005.jpg",
+        "jasper/IMG_1008.jpg",,
+        "jasper/IMG_1019.jpg",
+        "jasper/IMG_1026.jpg",
+        "jasper/IMG_1032.jpg",
+      ]
+    },
+    {
+      "destination": "The Main Attractions",
+      "day": 3,
+      "date": "Aug 31, 2021",
+      "distance": 22.2,
+      "start": null,
+      "end": null,
+      "description": [
+        "There were lots of large elk at the campground.",
+        "I hit Edith Lake and Maligne Canyon, then continued to hike along the athabasca river.",
+      ],
+      "photobar_imgs": [
+        "jasper/IMG_1043.jpg",
+        "jasper/IMG_1044.jpg",
+        "jasper/IMG_1046.jpg",
+        "jasper/IMG_1049.jpg",
+        "jasper/IMG_1051.jpg",
+        "jasper/IMG_1055.jpg",
+      ]
+    },
+  ],
+
+
+
   "": [
     {
+      "destination": null,
       "day": 1,
       "date": "May 19, 2021",
       "distance": 0,
@@ -1148,6 +1281,7 @@ const timelines = {
       "photobar_imgs": []
     },
     {
+      "destination": null,
       "day": 2,
       "date": "",
       "distance": 0,
@@ -1157,6 +1291,7 @@ const timelines = {
       "photobar_imgs": []
     },
     {
+      "destination": null,
       "day": 3,
       "date": "",
       "distance": 0,
@@ -1166,6 +1301,7 @@ const timelines = {
       "photobar_imgs": []
     },
     {
+      "destination": null,
       "day": 4,
       "date": "",
       "distance": 0,
