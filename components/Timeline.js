@@ -1203,8 +1203,25 @@ const timelines = {
 
   "jasper": [
     {
+      "destination": "Mt. Robson",
+      "day": 1.1,
+      "date": "Aug 29, 2021",
+      "distance": 13.3,
+      "start": null,
+      "end": null,
+      "description": [
+        "When I was moving from Smithers to Canmore, I hiked a few trails along my route.",
+        "I stopped at Mt. Robson for a short bike ride on the morning that I was arriving in Jasper.",
+      ],
+      "photobar_imgs": [
+        "jasper/IMG_0966.jpg",
+        "jasper/IMG_0969.jpg",
+        "jasper/IMG_0972.jpg",
+      ]
+    },
+    {
       "destination": "Valley of the Five Lakes",
-      "day": 1,
+      "day": 1.2,
       "date": "Aug 29, 2021",
       "distance": 20.2,
       "start": null,
