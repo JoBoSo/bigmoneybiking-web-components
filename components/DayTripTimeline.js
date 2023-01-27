@@ -275,13 +275,13 @@ const timelines = {
       "right_image": "mt-temple/IMG_1250.jpg",
     },
     {
-      "header": "Erosion",
-      "description": "Gravity is the mountain's only opponent.",
+      "header": "Gravity Winning",
+      "description": "Time and gravity are slowly devouring the mountain.",
       "left_image": "mt-temple/IMG_1248.jpg",
       "right_image": null,
     },
     {
-      "header": "Eye On The Prize",
+      "header": "A Stone's Throw",
       "description": "The top was cold and icy on September 6th.",
       "left_image": null,
       "right_image": "mt-temple/IMG_1239.jpg",
@@ -293,10 +293,16 @@ const timelines = {
       "right_image": null,
     },
     {
+      "header": "Look at Me!",
+      "description": "I'm on top of it. The mountain could barely hold me.",
+      "left_image": null,
+      "right_image": "mt-temple/IMG_1222.jpg",
+    },
+    {
       "header": "Moraine Lake",
       "description": "A Rocky Mountain icon.",
-      "left_image": null,
-      "right_image": "mt-temple/IMG_1233.jpg",
+      "left_image": "mt-temple/IMG_1233.jpg",
+      "right_image": null,
     },
   ],
 

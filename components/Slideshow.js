@@ -3336,6 +3336,10 @@ const pictures = {
       caption: ""
     },
     {
+      image: "mt-temple/IMG_1222.jpg",
+      caption: ""
+    },
+    {
       image: "mt-temple/IMG_1233.jpg",
       caption: ""
     },
