@@ -940,13 +940,13 @@ const timelines = {
     },
     {
       "header": "The Last Thing I'll Do",
-      "description": "This team swore to get to the surface or die trying.",
+      "description": "This trio swore to get to the surface or die trying.",
       "left_image": null,
       "right_image": "mt-revelstoke/IMG_8746.jpg",
     },
     {
       "header": "Summer's End",
-      "description": "This mushroom was confronted by the changing of seasons.",
+      "description": "This shroom faces his fate as the seasons change.",
       "left_image": "mt-revelstoke/IMG_8747.jpg",
       "right_image": null,
     },
@@ -1188,6 +1188,59 @@ const timelines = {
       "header": "Revelstoke",
       "description": "After a thorough exploration of the shroom lagoon, I came back down to beautiful Revelstoke. I could sleep easy knowing the diverse mushroom kingdom was alive and well on Mt. Revelstoke.",
       "left_image": "mt-revelstoke/IMG_8912.jpg",
+      "right_image": null,
+    },
+  ],
+
+
+
+  "silver-king": [
+    {
+      "header": "Out Fur A Rip On A Bluebird Day",
+      "description": "Babine Mountains Provincial Park is on the edge of Smithers, where I worked as a Student Ranger. I went up to Silver King Basin twice, once to clean and stock the Joe L'Orsa Cabin and once by bike on my own time.",
+      "left_image": null,
+      "right_image": "silver-king/IMG_0471.jpg",
+    },
+    {
+      "header": "Silver King Basin",
+      "description": "The Silver King Basin feeds the thrist of hikers, bikers, and rangers, alike.",
+      "left_image": "silver-king/IMG_0472.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "Hyland Pass",
+      "description": "",
+      "left_image": null,
+      "right_image": "silver-king/IMG_0484.jpg",
+    },
+    {
+      "header": "Nice Views",
+      "description": "What more are you asking for?",
+      "left_image": "silver-king/IMG_0487.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "Stocking Wood",
+      "description": "Some Rangers stocking some fire wood for the campers and cabiners.",
+      "left_image": null,
+      "right_image": "silver-king/IMG_0502.jpg",
+    },
+    {
+      "header": "Campground",
+      "description": "A campground with horse stalls caters to horse lovers and cowboys.",
+      "left_image": "silver-king/IMG_0505.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "Joe L'Orsa Cabin",
+      "description": "If you can get your hands on $10 you can sleep in the cabin.",
+      "left_image": null,
+      "right_image": "silver-king/IMG_0508.jpg",
+    },
+    {
+      "header": "Mine Shaft",
+      "description": "Does beauty above imply beauty below? Sure it does.",
+      "left_image": "silver-king/IMG_0767.jpg",
       "right_image": null,
     },
   ],
