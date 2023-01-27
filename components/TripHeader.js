@@ -60,7 +60,7 @@ const data = {
     "terrain": "Paved & logging roads",
     "location": "Campbell River, BC",
     "dates": "May 28-30, 2020",
-    "quote": null,
+    "quote": "Every whisper in the wind brings a good man back again. &#8212;Arlo Guthrie",
   },
   "comox-lake": {
     "title": "Comox Lake",
@@ -78,7 +78,7 @@ const data = {
     "terrain": "Paved Roads",
     "location": "Columbia River, BC",
     "dates": "Oct 3-5, 2020",
-    "quote": null,
+    "quote": "\"Fuck you,\" I said to the outhouse. \"All I want is a ride down the river.\" &#8212;Richard Brautigan",
   },
   "haida-gwaii": {
     "title": "Haida Gwaii",
@@ -105,7 +105,7 @@ const data = {
     "terrain": "Paved & Logging Roads",
     "location": "Vancouver Island",
     "dates": "May 6-7, 2020",
-    "quote": null,
+    "quote": "In the dark lurks things you don't understand. &#8212;Jordan Peterson",
   },
   "nass-valley": {
     "title": "Nisga'a",
@@ -114,7 +114,7 @@ const data = {
     "terrain": "Paved & logging roads",
     "location": "Skeena",
     "dates": "May 19-22, 2021",
-    "quote": null,
+    "quote": "People will tell you where they've gone, they'll tell you where to go. But till you get there yourself you never really know. &#8212;Joni Mitcehll",
   },
   "ptit-train": {
     "title": "P'tit Train du Nord",
@@ -159,7 +159,7 @@ const data = {
     "terrain": "Paved & Gravel Bike Paths",
     "location": null,
     "dates": "Aug 16-21, 2019",
-    "quote": null,
+    "quote": "Many a dream is lost in the nasty city sound. &#8212;Don McLean",
   },
   "bourgeau": {
     "title": "Mt. Bourgeau",
@@ -312,7 +312,7 @@ const data = {
     "terrain": null,
     "location": "Strathcona Provincial Park",
     "dates": "Aug 8-9, 2020",
-    "quote": null,
+    "quote": "Some people work very hard but still they never get it right. Well, I'm beginning to see the light. &#8212;Lou Reed",
   },
   "seaton-ridge": {
     "title": "Seaton Ridge",
