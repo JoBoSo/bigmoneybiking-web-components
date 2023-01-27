@@ -214,7 +214,7 @@ const tiles = {
     {
       title: "Silver King Basin",
       subtitle: "The Hills Are Alive",
-      image: "silver-king/IMG_0467.jpg",
+      image: "silver-king/IMG_0470.jpg",
       page: "hikes/silver-king.html"
     },
     {
