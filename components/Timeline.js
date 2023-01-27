@@ -1101,7 +1101,7 @@ const timelines = {
       "end": "Phillips Ridge",
       "description": [
         "I biked from Courtenay to Campbell River, met up with Student Ranger Zoe, and drove to the trailhead in Strathcona Provincial Park.",
-        "The hike was very rocky and hard on my sore feet and sickly body. It was more like a route than a defined trail. It changed the way I thought about hiking--I realized I can hike anywhere.",
+        "The hike was very rocky and hard on my sore and sickly body. It was more like a route than a defined trail. It changed the way I thought about hiking--I realized I can hike anywhere.",
         "The ridge was quite exposed to the sky.",
         "We camped in a bowl with an open view of the mountains and a few ponds.",
         "The sunset was nuts."
@@ -1135,12 +1135,12 @@ const timelines = {
 
   "algonquin": [
     {
-      "destination": null,
+      "destination": "Western Uplands Trail",
       "day": 1,
       "date": "Dec 31, 2019",
       "distance": 1.6,
-      "start": "Western Uplands Trailhead",
-      "end": "a short ways up the trail",
+      "start": null,
+      "end": null,
       "description": [
         "I went snowshoeing in Algonquin Park on New Years Eve Day.",
         "I started my trip late in the afternoon at the Western Uplands Trail parking lot.",
@@ -1158,7 +1158,7 @@ const timelines = {
       "day": 2,
       "date": "Jan 1, 2020",
       "distance": 9.5,
-      "start": "a short ways up the Western Uplands Trail",
+      "start": "Western Uplands Trail",
       "end": "The Minnesing Trail",
       "description": [
         "The next morning, I hiked back to the parking lot.",
@@ -1176,12 +1176,12 @@ const timelines = {
       ]
     },
     {
-      "destination": null,
+      "destination": "The Minnesing Trail",
       "day": 3,
       "date": "Jan 2, 2020",
       "distance": 14.2,
-      "start": "The Minnesing Trail",
-      "end": "the parking lot",
+      "start": null,
+      "end": null,
       "description": [
         "On the third day, the sun poked through the sky for the first time during the trip.",
         "I was feeling in sync with the cold. I think being cold for an extended period of time was driving up my metabolism rate, making me feel focused and calm.",
