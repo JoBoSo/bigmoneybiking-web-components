@@ -244,8 +244,7 @@ const timelines = {
       "description": [
         "In the morning, the campground attendant in Kitwanaga invited me to park in his driveway.",
         "A coytoe standing on a logging road that intersected the Stewart-Cassiar Highway watched me ride by.",
-        "A serial killer with rubbermaid bins full of bodies strapped to his eroding Forester offered me a drink.",
-        "Camped at Dragon Lake Campground."
+        "I camped at Dragon Lake Campground."
       ],
       "photobar_imgs": [
         "nass-valley/IMG_9673.jpg",
@@ -261,12 +260,11 @@ const timelines = {
       "start": "Dragon Lake Campground",
       "end": "Gingolx",
       "description": [
-        "Explored the lava beds in the nass valley.",
+        "I explored the lava beds in the nass valley.",
         "A massive moose ran through the thick forest next to me on the road into Gingolx",
         "I saw a grizzly bear eating a procepine on the highway.",
-        "Eagles soared above Gingolx.",
-        "I camped next to a gravel pit outside of town."
-
+        "Eagles soared above me on the Gingolx Lookout Trail.",
+        "I camped next to a gravel pit a few kilometers outside of Gingolx."
       ],
       "photobar_imgs": [
         "nass-valley/IMG_9714.jpg",
@@ -285,9 +283,9 @@ const timelines = {
       "start": "Gingolx",
       "end": "Kitsumkalum Provincial Park",
       "description": [
-        "Checked out a couple of water falls and rode alongside the Sunken Forest.",
-        "Scared a bear that wasn't moving off the highway with a banger and felt mighty.",
-        "Relaxed on the beach next to a fire at my campsite on Kitsumkalum Lake."
+        "I checked out a couple of water falls and rode alongside the Sunken Forest toward Terrace.",
+        "Scared a bear that wasn't moving off the highway with a banger and felt pretty cool.",
+        "Camped on the beach next to a fire at my campsite on Kitsumkalum Lake."
       ],
       "photobar_imgs": [
         "nass-valley/IMG_9823.jpg",
@@ -303,8 +301,8 @@ const timelines = {
       "start": "Kitsumkalum Provincial Park",
       "end": "Kitwanga",
       "description": [
-        "Got a cappuccino and sandwich at Bert's Deli in Terrace.",
-        "Had a short conversation about my trip with a woman at Bert's who I coincidentally met at a party in Telkwa a few weeks later. Northwestern BC has a scattering of small towns connected by the same highways and surrounded by a lot of wild, tall mountains. The human world is small and the natural world is massive. It adds to the magic of the region.",
+        "I got a cappuccino and sandwich at Bert's Deli in Terrace.",
+        "I had a short conversation about my trip with a woman at Bert's who I coincidentally met at a party in Telkwa a few weeks later. Northwestern BC has a scattering of small towns connected by the same highways and surrounded by a lot of wild, tall mountains. The human world is small and the natural world is massive. It adds to the magic of the region.",
         "Returned to Kitwanaga a complete man."
       ],
       "photobar_imgs": [
@@ -1101,7 +1099,7 @@ const timelines = {
       "end": "Phillips Ridge",
       "description": [
         "I biked from Courtenay to Campbell River, met up with Student Ranger Zoe, and drove to the trailhead in Strathcona Provincial Park.",
-        "The hike was very rocky and hard on my sore feet and sickly body. It was more like a route than a defined trail. It changed the way I thought about hiking--I realized I can hike anywhere.",
+        "The hike was very rocky and hard on my sore and sickly body. It was more like a route than a defined trail. It changed the way I thought about hiking--I realized I can hike anywhere.",
         "The ridge was quite exposed to the sky.",
         "We camped in a bowl with an open view of the mountains and a few ponds.",
         "The sunset was nuts."
@@ -1135,12 +1133,12 @@ const timelines = {
 
   "algonquin": [
     {
-      "destination": null,
+      "destination": "Western Uplands Trail",
       "day": 1,
       "date": "Dec 31, 2019",
       "distance": 1.6,
-      "start": "Western Uplands Trailhead",
-      "end": "a short ways up the trail",
+      "start": null,
+      "end": null,
       "description": [
         "I went snowshoeing in Algonquin Park on New Years Eve Day.",
         "I started my trip late in the afternoon at the Western Uplands Trail parking lot.",
@@ -1158,7 +1156,7 @@ const timelines = {
       "day": 2,
       "date": "Jan 1, 2020",
       "distance": 9.5,
-      "start": "a short ways up the Western Uplands Trail",
+      "start": "Western Uplands Trail",
       "end": "The Minnesing Trail",
       "description": [
         "The next morning, I hiked back to the parking lot.",
@@ -1176,12 +1174,12 @@ const timelines = {
       ]
     },
     {
-      "destination": null,
+      "destination": "The Minnesing Trail",
       "day": 3,
       "date": "Jan 2, 2020",
       "distance": 14.2,
-      "start": "The Minnesing Trail",
-      "end": "the parking lot",
+      "start": null,
+      "end": null,
       "description": [
         "On the third day, the sun poked through the sky for the first time during the trip.",
         "I was feeling in sync with the cold. I think being cold for an extended period of time was driving up my metabolism rate, making me feel focused and calm.",
