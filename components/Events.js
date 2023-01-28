@@ -120,6 +120,61 @@ const events = {
         ]
       },
 
+      {
+        "header": "Yorke Island",
+        "description": "Our trip to the overgrown WWII military base on Yorke Island on July 2, 2020.",
+        "photos": [
+          {
+            "image": "rangers-black-creek/yorke-island/IMG_6442.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/yorke-island/IMG_6440.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/yorke-island/IMG_6373.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/yorke-island/IMG_6380.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/yorke-island/IMG_6390.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/yorke-island/IMG_6396.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/yorke-island/IMG_6411.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/yorke-island/IMG_6419.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/yorke-island/IMG_6422.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/yorke-island/IMG_6423.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/yorke-island/IMG_6437.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/yorke-island/IMG_6432.jpg",
+            "caption": ""
+          },
+        ]
+      },
+
     ]
   }
 } 
