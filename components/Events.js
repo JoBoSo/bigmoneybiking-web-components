@@ -47,7 +47,7 @@ class Events extends HTMLElement {
 
 const events = {
   "rangers-black-creek": {
-    "title": "BC Parks Student Rangers&#8212;North Vancouver Island",
+    "title": "BC Parks Student Rangers: North Vancouver Island",
     "subtitle": "",
     "events": [
 
@@ -170,6 +170,56 @@ const events = {
           },
           {
             "image": "rangers-black-creek/yorke-island/IMG_6432.jpg",
+            "caption": ""
+          },
+        ]
+      },
+
+      {
+        "header": "Landslide Lake",
+        "description": "Our trip to Landslide Lake on July 15-16, 2020.",
+        "photos": [
+          {
+            "image": "rangers-black-creek/landslide-lake/IMG_6491.jpg",
+            "caption": "Working on the Elk River Trail"
+          },
+          {
+            "image": "rangers-black-creek/landslide-lake/IMG_7238.jpg",
+            "caption": "Landslide Lake"
+          },
+          {
+            "image": "rangers-black-creek/landslide-lake/IMG_7268.jpg",
+            "caption": "The Beach"
+          },
+        ]
+      },
+
+      {
+        "header": "Marble River",
+        "description": "Our trip to Marble River on July 21-24, 2020.",
+        "photos": [
+          {
+            "image": "rangers-black-creek/marble-river/IMG_6603.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/marble-river/IMG_7337.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/marble-river/IMG_7330.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/marble-river/IMG_7318.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/marble-river/IMG_7274.jpg",
+            "caption": ""
+          },
+          {
+            "image": "rangers-black-creek/marble-river/IMG_7287.jpg",
             "caption": ""
           },
         ]
