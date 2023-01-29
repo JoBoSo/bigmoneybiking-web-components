@@ -33,18 +33,20 @@ h3 {
 #bmb-phrase {
     color: #823a19;
     font-family: 'Caveat', Arial, Helvetica, sans-serif;
-    font-size: 18pt;
+    /* font-size: 18pt; */
     text-align: center;
     margin-bottom: 0;
+    color: #ffc272; /*hide*/
+    font-size: 6pt;
 }
 
-    .row-full {
-        width: 100vw;
-        height: 100%;
-        position: relative;
-        margin-left: -50vw;
-        left: 50%;
-      }
+.row-full {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    }
 
 /* Nav Bar*/
 
