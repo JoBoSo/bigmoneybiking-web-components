@@ -18,12 +18,12 @@ class Events extends HTMLElement {
 
     this.innerHTML = `
     <div class="events-container">
-      <div class="title">${data.title}</div>
+      <div class="title"><b>${data.title}</b></div>
 
       ${data.events.map((event) => `
       <div class="event-container">
         <div class="circle"></div>
-        <div class="header">${event.header}</div>
+        <div class="header"><b>${event.header}</b></div>
         <div class="description">${event.description}</div>
         <div class="photos-container">
           <div class="row no-gutters">
@@ -116,6 +116,25 @@ const events = {
           {
             "image": "rangers-black-creek/helliwell/IMG_6258.jpg",
             "caption": "The Helliwell Bluffs"
+          },
+        ]
+      },
+
+      {
+        "header": "Schoen Lake",
+        "description": "Our trip to Schoen Lake.",
+        "photos": [
+          {
+            "image": "rangers-black-creek/schoen-lake/IMG_7212.jpg",
+            "caption": "Lessons in Chainsawing"
+          },
+          {
+            "image": "rangers-black-creek/schoen-lake/IMG_7209.jpg",
+            "caption": "Canoeing"
+          },
+          {
+            "image": "rangers-black-creek/schoen-lake/IMG_7206.jpg",
+            "caption": "Dinner"
           },
         ]
       },
