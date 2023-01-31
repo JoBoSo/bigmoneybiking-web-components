@@ -199,28 +199,205 @@ const events = {
         "description": "Our trip to Marble River on July 21-24, 2020.",
         "photos": [
           {
-            "image": "rangers-black-creek/marble-river/IMG_6603.jpg",
-            "caption": ""
-          },
-          {
             "image": "rangers-black-creek/marble-river/IMG_7337.jpg",
-            "caption": ""
+            "caption": "Visions of a Bridge"
           },
           {
             "image": "rangers-black-creek/marble-river/IMG_7330.jpg",
-            "caption": ""
+            "caption": "Focus and Stamina"
+          },
+          {
+            "image": "rangers-black-creek/marble-river/IMG_6603.jpg",
+            "caption": "Trail Closure"
           },
           {
             "image": "rangers-black-creek/marble-river/IMG_7318.jpg",
-            "caption": ""
+            "caption": "Raw Concentration"
           },
           {
             "image": "rangers-black-creek/marble-river/IMG_7274.jpg",
-            "caption": ""
+            "caption": "Port Alice"
           },
           {
             "image": "rangers-black-creek/marble-river/IMG_7287.jpg",
-            "caption": ""
+            "caption": "Storey's Beach"
+          },
+        ]
+      },
+
+      {
+        "header": "Echo Bay",
+        "description": "Our trip to Echo Bay on August 5-7, 2020.",
+        "photos": [
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_6984.jpg",
+            "caption": "Moss on the Boardwalk"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_6985.jpg",
+            "caption": "Fish Processing Plant"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_6996.jpg",
+            "caption": "Senior El Dinero"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7003.jpg",
+            "caption": "Alert Bay"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7018.jpg",
+            "caption": "Echo Bay Dock"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7030.jpg",
+            "caption": "Old Schoolhouse"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7048.jpg",
+            "caption": "Echo Bay"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7055.jpg",
+            "caption": "Lessons in Rafting"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7369.jpg",
+            "caption": "Pierre's Fine Yacht Club"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7381.jpg",
+            "caption": "Cedar Cabin"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7382.jpg",
+            "caption": "Sleeping, Pondering"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7417.jpg",
+            "caption": "Breakfast on the Boat"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7427.jpg",
+            "caption": "Boating"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7065.jpg",
+            "caption": "Village Island"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7061.jpg",
+            "caption": "Old Bottles"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7067.jpg",
+            "caption": "China Beach"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7084.jpg",
+            "caption": "Supplies"
+          },
+          {
+            "image": "rangers-black-creek/echo-bay/IMG_7363.jpg",
+            "caption": "Times Past"
+          },
+        ]
+      },
+
+      {
+        "header": "Jedediah Island",
+        "description": "Our trip to Jedediah Island on August 11-14, 2020.",
+        "photos": [
+          {
+            "image": "rangers-black-creek/jedediah/IMG_7131.jpg",
+            "caption": "Boating To The Island"
+          },
+          {
+            "image": "rangers-black-creek/jedediah/IMG_7138.jpg",
+            "caption": "Unloading"
+          },
+          {
+            "image": "rangers-black-creek/jedediah/IMG_7500.jpg",
+            "caption": "The Mess From The Cabin Fire"
+          },
+          {
+            "image": "rangers-black-creek/jedediah/IMG_7468.jpg",
+            "caption": "Removing Debris"
+          },
+          {
+            "image": "rangers-black-creek/jedediah/IMG_7489.jpg",
+            "caption": "Burning Lumber From The Cabin"
+          },
+          {
+            "image": "rangers-black-creek/jedediah/IMG_7496.jpg",
+            "caption": "Packing A Heli Bag"
+          },
+          {
+            "image": "rangers-black-creek/jedediah/IMG_7491.jpg",
+            "caption": "Bundled Cabin Remains"
+          },
+          {
+            "image": "rangers-black-creek/jedediah/IMG_7488.jpg",
+            "caption": "After A Day's Work"
+          },
+          {
+            "image": "rangers-black-creek/jedediah/IMG_7493.jpg",
+            "caption": "Sitting On The Rocks"
+          },
+          {
+            "image": "rangers-black-creek/jedediah/IMG_7448.jpg",
+            "caption": "Frolicking"
+          },
+          {
+            "image": "rangers-black-creek/jedediah/IMG_7484.jpg",
+            "caption": "Campfire"
+          },
+          {
+            "image": "rangers-black-creek/jedediah/IMG_7485.jpg",
+            "caption": "Sunset"
+          },
+        ]
+      },
+
+      {
+        "header": "Mitlenatch Island",
+        "description": "Our trip to Mitlenatch Island on August 17-18, 2020.",
+        "photos": [
+          {
+            "image": "rangers-black-creek/mitlenatch/IMG_7605.jpg",
+            "caption": "Looking For Land"
+          },
+          {
+            "image": "rangers-black-creek/mitlenatch/IMG_7609.jpg",
+            "caption": "Sausage of the Sea"
+          },
+          {
+            "image": "rangers-black-creek/mitlenatch/IMG_7614.jpg",
+            "caption": "Paddle In"
+          },
+          {
+            "image": "rangers-black-creek/mitlenatch/IMG_7611.jpg",
+            "caption": "On The Island"
+          },
+          {
+            "image": "rangers-black-creek/mitlenatch/IMG_7626.jpg",
+            "caption": "Sea Lion"
+          },
+          {
+            "image": "rangers-black-creek/mitlenatch/IMG_7629.jpg",
+            "caption": "Driftwood"
+          },
+          {
+            "image": "rangers-black-creek/mitlenatch/IMG_7631.jpg",
+            "caption": "The Long Approach"
+          },
+          {
+            "image": "rangers-black-creek/mitlenatch/IMG_7633.jpg",
+            "caption": "Middle of the Rock"
+          },
+          {
+            "image": "rangers-black-creek/mitlenatch/IMG_7635.jpg",
+            "caption": "The Path"
           },
         ]
       },
