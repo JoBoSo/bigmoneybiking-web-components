@@ -402,6 +402,73 @@ const events = {
         ]
       },
 
+      {
+        "header": "San Josef Bay",
+        "description": "Our trip to San Josef Bay on August 25-27, 2020.",
+        "photos": [
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7776.jpg",
+            "caption": "Luxury Beach Camping"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7780.jpg",
+            "caption": "Dessert Dwellers"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7782.jpg",
+            "caption": "Sea Stacks"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7788.jpg",
+            "caption": "San Josef Bay"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7819.jpg",
+            "caption": "Jellyfish"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7822.jpg",
+            "caption": "Birthday Party"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7825.jpg",
+            "caption": "Breakfast on the Beach"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7893.jpg",
+            "caption": "Oceanside Cabin"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7839.jpg",
+            "caption": "West Coast"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7844.jpg",
+            "caption": "Dusk"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7859.jpg",
+            "caption": "Salmon Dinner"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7863.jpg",
+            "caption": "English Ivy"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7871.jpg",
+            "caption": "Burning English Ivy"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7875.jpg",
+            "caption": "Rope Swing"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7885.jpg",
+            "caption": "Crab"
+          },
+        ]
+      },
+
     ]
   }
 } 
