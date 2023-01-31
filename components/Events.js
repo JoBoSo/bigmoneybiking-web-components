@@ -18,12 +18,12 @@ class Events extends HTMLElement {
 
     this.innerHTML = `
     <div class="events-container">
-      <div class="title">${data.title}</div>
+      <div class="title"><b>${data.title}</b></div>
 
       ${data.events.map((event) => `
       <div class="event-container">
         <div class="circle"></div>
-        <div class="header">${event.header}</div>
+        <div class="header"><b>${event.header}</b></div>
         <div class="description">${event.description}</div>
         <div class="photos-container">
           <div class="row no-gutters">
@@ -116,6 +116,25 @@ const events = {
           {
             "image": "rangers-black-creek/helliwell/IMG_6258.jpg",
             "caption": "The Helliwell Bluffs"
+          },
+        ]
+      },
+
+      {
+        "header": "Schoen Lake",
+        "description": "Our trip to Schoen Lake.",
+        "photos": [
+          {
+            "image": "rangers-black-creek/schoen-lake/IMG_7212.jpg",
+            "caption": "Lessons in Chainsawing"
+          },
+          {
+            "image": "rangers-black-creek/schoen-lake/IMG_7209.jpg",
+            "caption": "Canoeing"
+          },
+          {
+            "image": "rangers-black-creek/schoen-lake/IMG_7206.jpg",
+            "caption": "Dinner"
           },
         ]
       },
@@ -398,6 +417,73 @@ const events = {
           {
             "image": "rangers-black-creek/mitlenatch/IMG_7635.jpg",
             "caption": "The Path"
+          },
+        ]
+      },
+
+      {
+        "header": "San Josef Bay",
+        "description": "Our trip to San Josef Bay on August 25-27, 2020.",
+        "photos": [
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7776.jpg",
+            "caption": "Luxury Beach Camping"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7780.jpg",
+            "caption": "Dessert Dwellers"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7782.jpg",
+            "caption": "Sea Stacks"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7788.jpg",
+            "caption": "San Josef Bay"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7819.jpg",
+            "caption": "Jellyfish"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7822.jpg",
+            "caption": "Birthday Party"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7825.jpg",
+            "caption": "Breakfast on the Beach"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7893.jpg",
+            "caption": "Oceanside Cabin"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7839.jpg",
+            "caption": "West Coast"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7844.jpg",
+            "caption": "Dusk"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7859.jpg",
+            "caption": "Salmon Dinner"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7863.jpg",
+            "caption": "English Ivy"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7871.jpg",
+            "caption": "Burning English Ivy"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7875.jpg",
+            "caption": "Rope Swing"
+          },
+          {
+            "image": "rangers-black-creek/san-josef-bay/IMG_7885.jpg",
+            "caption": "Crab"
           },
         ]
       },

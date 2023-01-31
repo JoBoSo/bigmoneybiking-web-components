@@ -699,11 +699,15 @@ h3 {
 
 .circle {
     position: absolute;
-    width: 10px;
-    height: 10px;
-    margin-top: -2px;
-    margin-left: -2px;
+    width: 15px;
+    height: 15px;
+    margin-top: -5px;
+    margin-left: -5px;
     /* z-index: -1; */
     border-radius: 50%;
     background: #FDB813;
+  }
+
+  .blog a {
+    color: white;
   }
