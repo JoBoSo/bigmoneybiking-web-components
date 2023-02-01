@@ -246,7 +246,7 @@ h3 {
 .bg-senior-el-dinero {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/senior-el-dinero.png');
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/senior-el-dinero.png');
     background-size: cover;
     background-position: center;
     padding: 10px 10%;
@@ -369,7 +369,7 @@ h3 {
 /* Timeline item circle marker */
 .my-timeline-item::before {
     content: ' ';
-    background: red;
+    background: #FDB813;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
