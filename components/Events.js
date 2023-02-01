@@ -53,7 +53,7 @@ const events = {
 
       {
         "header": "Denman Island",
-        "description": "Our trip to Denman Island on August 10-14, 2020.",
+        "description": "Our trip to Denman Island on August 10-14, 2020 to restore Taylor's Checkerspot Butterfly habitat by removing invasive Scotch Broom from Denman Island Park.",
         "photos": [
           {
             "image": "rangers-black-creek/denman/IMG_7141.jpg",
@@ -141,7 +141,7 @@ const events = {
 
       {
         "header": "Yorke Island",
-        "description": "Our trip to the overgrown WWII military base on Yorke Island on July 2, 2020.",
+        "description": "Our trip to the overgrown WWII military base on Yorke Island on July 2, 2020 to clear fallen trees along the old road.",
         "photos": [
           {
             "image": "rangers-black-creek/yorke-island/IMG_6442.jpg",
@@ -196,7 +196,7 @@ const events = {
 
       {
         "header": "Landslide Lake",
-        "description": "Our trip to Landslide Lake on July 15-16, 2020.",
+        "description": "Our trip to Landslide Lake on July 15-16, 2020 to divert water flowing onto the Elk River Trail.",
         "photos": [
           {
             "image": "rangers-black-creek/landslide-lake/IMG_6491.jpg",
@@ -215,7 +215,7 @@ const events = {
 
       {
         "header": "Marble River",
-        "description": "Our trip to Marble River on July 21-24, 2020.",
+        "description": "Our trip to Marble River on July 21-24, 2020 to rebuild a bridge on the trail.",
         "photos": [
           {
             "image": "rangers-black-creek/marble-river/IMG_7337.jpg",
@@ -246,7 +246,7 @@ const events = {
 
       {
         "header": "Echo Bay",
-        "description": "Our trip to Echo Bay on August 5-7, 2020.",
+        "description": "Our trip to Echo Bay on August 5-7, 2020 to repaint the signs and clear fallen trees.",
         "photos": [
           {
             "image": "rangers-black-creek/echo-bay/IMG_6984.jpg",
@@ -325,7 +325,7 @@ const events = {
 
       {
         "header": "Jedediah Island",
-        "description": "Our trip to Jedediah Island on August 11-14, 2020.",
+        "description": "Our trip to Jedediah Island on August 11-14, 2020 to remove debris left over from a cabin fire.",
         "photos": [
           {
             "image": "rangers-black-creek/jedediah/IMG_7131.jpg",
@@ -380,7 +380,7 @@ const events = {
 
       {
         "header": "Mitlenatch Island",
-        "description": "Our trip to Mitlenatch Island on August 17-18, 2020.",
+        "description": "Our trip to Mitlenatch Island on August 17-18, 2020 to remove invasive Himalayan Blackberry.",
         "photos": [
           {
             "image": "rangers-black-creek/mitlenatch/IMG_7605.jpg",
@@ -423,7 +423,7 @@ const events = {
 
       {
         "header": "San Josef Bay",
-        "description": "Our trip to San Josef Bay on August 25-27, 2020.",
+        "description": "Our trip to San Josef Bay on August 25-27, 2020 to remove invasive English Ivy from the edge of the beach.",
         "photos": [
           {
             "image": "rangers-black-creek/san-josef-bay/IMG_7776.jpg",

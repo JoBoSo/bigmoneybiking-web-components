@@ -708,6 +708,38 @@ h3 {
     background: #FDB813;
   }
 
+  /* Blog */
+
+  .blog {
+    border-radius: 10px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin: 10px;
+  }
+
+  .blog:hover {
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
   .blog a {
+    text-decoration: none;
+  }
+
+  .blog .blog-text {
     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .blog .blog-title {
+    font-size: 18pt;
+    font-weight: bold;
+  }
+
+  .blog .blog-description {
+    font-size: 12pt;
   }
