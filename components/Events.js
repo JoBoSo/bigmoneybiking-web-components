@@ -92,7 +92,7 @@ const events = {
           },
           {
             "image": "rangers-black-creek/ralph-river/IMG_6136.jpg",
-            "caption": "Raplh River"
+            "caption": "Ralph River"
           },
           {
             "image": "rangers-black-creek/ralph-river/IMG_6138.jpg",
