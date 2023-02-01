@@ -302,7 +302,6 @@ const timelines = {
       "end": "Kitwanga",
       "description": [
         "I got a cappuccino and sandwich at Bert's Deli in Terrace.",
-        "I had a short conversation about my trip with a woman at Bert's who I coincidentally met at a party in Telkwa a few weeks later. Northwestern BC has a scattering of small towns connected by the same highways and surrounded by a lot of wild, tall mountains. The human world is small and the natural world is massive. It adds to the magic of the region.",
         "Returned to Kitwanaga a complete man."
       ],
       "photobar_imgs": [
