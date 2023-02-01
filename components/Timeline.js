@@ -302,7 +302,7 @@ const timelines = {
       "end": "Kitwanga",
       "description": [
         "I got a cappuccino and sandwich at Bert's Deli in Terrace.",
-        "Returned to Kitwanaga a complete man."
+        "Returned to Kitwanaga a complete man in my mind."
       ],
       "photobar_imgs": [
         "nass-valley/IMG_0117.jpg"
