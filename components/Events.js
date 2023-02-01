@@ -53,7 +53,7 @@ const events = {
 
       {
         "header": "Denman Island",
-        "description": "Our trip to Denman Island on August 10-14, 2020 to restore Taylor's Checkerspot Butterfly habitat by removing invasive Scotch Broom from Denman Island Park.",
+        "description": "Our trip to Denman Island on August 10-14, 2020 to restore Taylor's Checkerspot Butterfly habitat by removing invasive Scotch Broom from their breeding grounds in Denman Island Park.",
         "photos": [
           {
             "image": "rangers-black-creek/denman/IMG_7141.jpg",
@@ -103,7 +103,7 @@ const events = {
 
       {
         "header": "Hornby Island",
-        "description": "Our trip to Helliwell Provincial Park on Hornby Island on July 2, 2020.",
+        "description": "Our trip to Helliwell Provincial Park on Hornby Island on July 2, 2020 to take pictures for the BC Parks iNaturalist Project.",
         "photos": [
           {
             "image": "rangers-black-creek/helliwell/IMG_6221.jpg",
@@ -122,7 +122,7 @@ const events = {
 
       {
         "header": "Schoen Lake",
-        "description": "Our trip to Schoen Lake.",
+        "description": "Our trip to Schoen Lake to clean up the campground.",
         "photos": [
           {
             "image": "rangers-black-creek/schoen-lake/IMG_7212.jpg",
@@ -145,27 +145,27 @@ const events = {
         "photos": [
           {
             "image": "rangers-black-creek/yorke-island/IMG_6442.jpg",
-            "caption": ""
+            "caption": "Boating to the Island"
           },
           {
             "image": "rangers-black-creek/yorke-island/IMG_6440.jpg",
-            "caption": ""
+            "caption": "Eroding Ship"
           },
           {
             "image": "rangers-black-creek/yorke-island/IMG_6373.jpg",
-            "caption": ""
+            "caption": "Concrete Tank"
           },
           {
             "image": "rangers-black-creek/yorke-island/IMG_6380.jpg",
-            "caption": ""
+            "caption": "Overgrown Building"
           },
           {
             "image": "rangers-black-creek/yorke-island/IMG_6390.jpg",
-            "caption": ""
+            "caption": "Red Brick Building"
           },
           {
             "image": "rangers-black-creek/yorke-island/IMG_6396.jpg",
-            "caption": ""
+            "caption": "Downstairs"
           },
           {
             "image": "rangers-black-creek/yorke-island/IMG_6411.jpg",
@@ -196,7 +196,7 @@ const events = {
 
       {
         "header": "Landslide Lake",
-        "description": "Our trip to Landslide Lake on July 15-16, 2020 to divert water flowing onto the Elk River Trail.",
+        "description": "Our trip to Landslide Lake on July 15-16, 2020 to divert water away from the Elk River Trail.",
         "photos": [
           {
             "image": "rangers-black-creek/landslide-lake/IMG_6491.jpg",
