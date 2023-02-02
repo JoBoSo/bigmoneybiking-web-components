@@ -46,6 +46,226 @@ class Events extends HTMLElement {
 }
 
 const events = {
+
+  "": {
+    "title": "",
+    "subtitle": "",
+    "events": [
+
+      {
+        "header": "",
+        "description": "",
+        "photos": [
+          {
+            "image": "",
+            "caption": ""
+          },
+        ]
+      },
+
+    ]
+  },
+
+
+
+  "revelstoke": {
+    "title": "Life In Revelstoke",
+    "subtitle": "Collections of pictures about my time in Revelstoke.",
+    "events": [
+
+      {
+        "header": "Skiing",
+        "description": "At Revelstoke Mountain Resort.",
+        "photos": [
+          {
+            "image": "revelstoke/skiing/IMG_9005.jpg",
+            "caption": "Vehicle"
+          },
+          {
+            "image": "revelstoke/skiing/IMG_9013.jpg",
+            "caption": "Skiier Clara"
+          },
+          {
+            "image": "revelstoke/skiing/IMG_9009.jpg",
+            "caption": "Skiier Clara in Hole"
+          },
+        ]
+      },
+
+      {
+        "header": "On The River",
+        "description": "The Columbia and Illecillewaet Rivers.",
+        "photos": [
+          {
+            "image": "revelstoke/river/IMG_8170.jpg",
+            "caption": "Fog"
+          },
+          {
+            "image": "revelstoke/river/IMG_8667.jpg",
+            "caption": "Dusk"
+          },
+          {
+            "image": "revelstoke/river/IMG_9342.jpg",
+            "caption": "Lights"
+          },
+
+          {
+            "image": "revelstoke/river/IMG_8703.jpg",
+            "caption": "Beach"
+          },
+          {
+            "image": "revelstoke/river/IMG_9366.jpg",
+            "caption": "Ducks"
+          },
+          {
+            "image": "revelstoke/river/IMG_8707.jpg",
+            "caption": "Evening"
+          },
+
+          {
+            "image": "revelstoke/river/IMG_9294.jpg",
+            "caption": "Low Clouds"
+          },
+          {
+            "image": "revelstoke/river/IMG_9329.jpg",
+            "caption": "Stick Fort"
+          },
+          {
+            "image": "revelstoke/river/IMG_9393.jpg",
+            "caption": "Pink Mountain"
+          },
+
+          {
+            "image": "revelstoke/river/IMG_9130.jpg",
+            "caption": "Frozen River"
+          },
+          {
+            "image": "revelstoke/river/IMG_9152.jpg",
+            "caption": "Geese"
+          },
+          {
+            "image": "revelstoke/river/IMG_9158.jpg",
+            "caption": "Ice"
+          },
+        ]
+      },
+
+      {
+        "header": "On The Town",
+        "description": "The tamed streets of Revelstoke.",
+        "photos": [
+          {
+            "image": "revelstoke/town/IMG_8909.jpg",
+            "caption": "Revelstoke From Above"
+          },
+          {
+            "image": "revelstoke/town/IMG_8912.jpg",
+            "caption": "Train Running Through Town"
+          },
+          {
+            "image": "revelstoke/town/IMG_9425.jpg",
+            "caption": "Bear Statue"
+          },
+
+          {
+            "image": "revelstoke/town/IMG_3900.jpg",
+            "caption": "The Big Eddy Bridge"
+          },
+          {
+            "image": "revelstoke/town/IMG_8669.jpg",
+            "caption": "Autumn Leaves"
+          },
+          {
+            "image": "revelstoke/town/IMG_8040.jpg",
+            "caption": "Dream Home"
+          },
+
+          {
+            "image": "revelstoke/town/IMG_9335.jpg",
+            "caption": "McKinnon Rd"
+          },
+          {
+            "image": "revelstoke/town/IMG_3259.jpg",
+            "caption": "Arrow Heights Houses"
+          },
+          {
+            "image": "revelstoke/town/IMG_9055.jpg",
+            "caption": "Christmas Lights"
+          },
+
+          {
+            "image": "revelstoke/town/IMG_9299.jpg",
+            "caption": "Timber Mill"
+          },
+          {
+            "image": "revelstoke/town/IMG_9239.jpg",
+            "caption": "Between The Mill & The Power Grid"
+          },
+          {
+            "image": "revelstoke/town/IMG_9272.jpg",
+            "caption": "Power Grid"
+          },
+          
+          {
+            "image": "revelstoke/town/IMG_8684.jpg",
+            "caption": "The Streetz"
+          },
+          
+          {
+            "image": "revelstoke/town/IMG_9079.jpg",
+            "caption": "Monashee Spirits"
+          },
+
+          {
+            "image": "revelstoke/town/IMG_9289.jpg",
+            "caption": "Big Eddy Glass Works"
+          },
+        ]
+      },
+
+      {
+        "header": "Poking Around",
+        "description": "My face looking at things.",
+        "photos": [
+          {
+            "image": "revelstoke/exploring/IMG_3917.jpg",
+            "caption": "Looking Forward, From The Side"
+          },
+          {
+            "image": "revelstoke/exploring/IMG_8479.jpg",
+            "caption": "Looking At Mushroom"
+          },
+          {
+            "image": "revelstoke/exploring/IMG_3588.jpg",
+            "caption": "On My Bike"
+          },
+        ]
+      },
+
+      {
+        "header": "On The Trails",
+        "description": "Hikes I went on in Revelstoke. Click the captions see more.",
+        "photos": [
+          {
+            "image": "revelstoke/hiking/IMG_8022.jpg",
+            "caption": "<a href='../hikes/mt-begbie.html' style='color: white;'>Mt. Begbie</a>"
+          },
+          {
+            "image": "revelstoke/hiking/IMG_8111.jpg",
+            "caption": "<a href='../hikes/mt-cartier.html' style='color: white;'>Mt. Cartier</a>"
+          },
+          {
+            "image": "revelstoke/hiking/IMG_8309.jpg",
+            "caption": "<a href='../hikes/mccrae-peak.html' style='color: white;'>McCrae Peak</a>"
+          },
+        ]
+      },
+
+    ]
+  },
+
+
+
   "rangers-black-creek": {
     "title": "BC Parks Student Rangers: North Vancouver Island",
     "subtitle": "",
