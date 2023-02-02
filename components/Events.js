@@ -46,6 +46,49 @@ class Events extends HTMLElement {
 }
 
 const events = {
+
+  "": {
+    "title": "",
+    "subtitle": "",
+    "events": [
+
+      {
+        "header": "",
+        "description": "",
+        "photos": [
+          {
+            "image": "",
+            "caption": ""
+          },
+        ]
+      },
+
+    ]
+  },
+
+
+
+  "": {
+    "title": "",
+    "subtitle": "",
+    "events": [
+
+      {
+        "header": "",
+        "description": "",
+        "photos": [
+          {
+            "image": "",
+            "caption": ""
+          },
+        ]
+      },
+
+    ]
+  },
+
+
+
   "rangers-black-creek": {
     "title": "BC Parks Student Rangers: North Vancouver Island",
     "subtitle": "",
