@@ -4017,7 +4017,58 @@ const pictures = {
       image: "viking-ridge/IMG_0952.jpg",
       caption: ""
     },
-  ]
+  ],
+
+  "mt-becher": [
+    {
+      image: "mt-becher/IMG_7534.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-becher/IMG_7569.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-becher/IMG_7573.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-becher/IMG_7577.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-becher/IMG_7580.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-becher/IMG_7586.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-becher/IMG_7588.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-becher/IMG_7590.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-becher/IMG_7591.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-becher/IMG_7594.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-becher/IMG_7601.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-becher/IMG_7602.jpg",
+      caption: ""
+    },
+  ],
 
 }
 

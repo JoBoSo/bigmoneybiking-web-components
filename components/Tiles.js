@@ -260,6 +260,12 @@ const tiles = {
       page: "hikes/tin-hat.html"
     },
     {
+      title: "Mt. Becher",
+      subtitle: "A Short Hike Near Courtenay",
+      image: "mt-becher/IMG_7569.jpg",
+      page: "hikes/mt-becher.html"
+    },
+    {
       title: "Phillips Ridge",
       subtitle: "Views of Golden Hinde",
       image: "phillips-ridge/IMG_7102.jpg",
