@@ -140,7 +140,7 @@ const events = {
         "photos": [
           {
             "image": "rangers-smithers/red-bluff/IMG_0604.jpg",
-            "caption": "Stretch"
+            "caption": "Stretching"
           },
           {
             "image": "rangers-smithers/red-bluff/IMG_0598.jpg",
@@ -156,7 +156,7 @@ const events = {
           },
           {
             "image": "rangers-smithers/red-bluff/IMG_0601.jpg",
-            "caption": "Dusk"
+            "caption": "Dusk On Babine Lake"
           },
           {
             "image": "rangers-smithers/red-bluff/IMG_0605.jpg",
