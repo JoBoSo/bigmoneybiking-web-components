@@ -28,6 +28,12 @@ class BlogPosts extends HTMLElement {
 
 const posts = [
   {
+    "page": "calgary.html",
+    "image": "calgary/IMG_1645.jpg",
+    "title": "Life In Calgary",
+    "description": "Collections of pictures about my life in Calgary.",
+  },
+  {
     "page": "rangers-smithers.html",
     "image": "rangers-smithers/red-bluff/IMG_0598.jpg",
     "title": "Student Rangers in Northwestern BC",

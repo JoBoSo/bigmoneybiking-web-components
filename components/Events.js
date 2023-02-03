@@ -67,6 +67,179 @@ const events = {
   },
 
 
+
+  "calgary": {
+    "title": "Life In Calgary",
+    "subtitle": "",
+    "events": [
+
+      {
+        "header": "Cityscapes",
+        "description": "Views of Calgary.",
+        "photos": [
+          {
+            "image": "calgary/IMG_1620.jpg",
+            "caption": "Calgary Street Bridge Lions"
+          },
+          {
+            "image": "calgary/IMG_1621.jpg",
+            "caption": "Sunny Afternoon On Scotsman's Hill"
+          },
+          {
+            "image": "calgary/IMG_1664.jpg",
+            "caption": "Full Moon"
+          },
+          {
+            "image": "calgary/IMG_1645.jpg",
+            "caption": "City View From Ramsay Park"
+          },
+          {
+            "image": "calgary/IMG_1699.jpg",
+            "caption": "Elbow River"
+          },
+          {
+            "image": "calgary/IMG_1687.jpg",
+            "caption": "Slick Street"
+          },
+        ]
+      },
+
+      {
+        "header": "Street Parking",
+        "description": "Vintage cars.",
+        "photos": [
+          {
+            "image": "calgary/IMG_1676.jpg",
+            "caption": "Delivery Van"
+          },
+          {
+            "image": "calgary/IMG_1694.jpg",
+            "caption": "70's VW T2"
+          },
+          {
+            "image": "calgary/IMG_1669.jpg",
+            "caption": "1956 Chevrolet 210"
+          },
+        ]
+      },
+
+      {
+        "header": "Nose Hill Park",
+        "description": "The tallest hill around Calgary.",
+        "photos": [
+          {
+            "image": "calgary/IMG_1677.jpg",
+            "caption": "The Dead of March"
+          },
+          {
+            "image": "calgary/IMG_2016.jpg",
+            "caption": "Above The City"
+          },
+          {
+            "image": "calgary/IMG_2018.jpg",
+            "caption": "Green Hills in June"
+          },
+        ]
+      },
+
+      {
+        "header": "Glenmore Reservoir",
+        "description": "Shots from the path around Glenmore Reservoir on the edge of Calgary.",
+        "photos": [
+          {
+            "image": "calgary/IMG_1763.jpg",
+            "caption": "Docks"
+          },
+          {
+            "image": "calgary/IMG_1844.jpg",
+            "caption": "Distant Mountains"
+          },
+          {
+            "image": "calgary/IMG_1847.jpg",
+            "caption": "Rockyview General Hospital"
+          },
+          {
+            "image": "calgary/IMG_1850.jpg",
+            "caption": "Empty Reservoir"
+          },
+          {
+            "image": "calgary/IMG_1852.jpg",
+            "caption": "Weaselhead Flats"
+          },
+          {
+            "image": "calgary/IMG_1856.jpg",
+            "caption": "Elbow River"
+          },
+        ]
+      },
+
+      {
+        "header": "Bragg Creek Bike Trails",
+        "description": "Bragg creek has some of the nearest mountain trails for biking, hiking, and skiing.",
+        "photos": [
+          {
+            "image": "calgary/IMG_1900.jpg",
+            "caption": "Elbow River"
+          },
+          {
+            "image": "calgary/IMG_1901.jpg",
+            "caption": "Aspens"
+          },
+          {
+            "image": "calgary/IMG_1911.jpg",
+            "caption": "Flight 66 Trail"
+          },
+        ]
+      },
+
+      {
+        "header": "Out & About",
+        "description": "Here are some more shots I took whilst puttering around Calgary in search of love.",
+        "photos": [
+          {
+            "image": "calgary/IMG_1887.jpg",
+            "caption": "Spring Sunshine"
+          },
+          {
+            "image": "calgary/IMG_1715.jpg",
+            "caption": "Wabbit"
+          },
+          {
+            "image": "calgary/IMG_1718.jpg",
+            "caption": "St. Mary's Cemetery"
+          },
+          {
+            "image": "calgary/IMG_1611.jpg",
+            "caption": "St. Mary's Cathedral"
+          },
+          {
+            "image": "calgary/IMG_1674.jpg",
+            "caption": "Corner Store"
+          },
+          {
+            "image": "calgary/IMG_1667.jpg",
+            "caption": "Ramsay School"
+          },
+          {
+            "image": "calgary/IMG_1689.jpg",
+            "caption": "Church"
+          },
+          {
+            "image": "calgary/IMG_1713.jpg",
+            "caption": "Infinity"
+          },
+          {
+            "image": "calgary/IMG_1711.jpg",
+            "caption": "Western Canada High School"
+          },
+        ]
+      },
+
+    ]
+  },
+
+
+
   "rangers-smithers": {
     "title": "BC Parks Student Ranger: Skeena",
     "subtitle": "",
