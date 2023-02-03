@@ -67,6 +67,220 @@ const events = {
   },
 
 
+  "rangers-smithers": {
+    "title": "BC Parks Student Ranger: Skeena",
+    "subtitle": "",
+    "events": [
+
+      {
+        "header": "Cronin Creek Trail Revival",
+        "description": "We brought the extremely overgrown Cronin Creek Trail back to life.",
+        "photos": [
+          {
+            "image": "rangers-smithers/cronin/IMG_0204.jpg",
+            "caption": "T-Rex"
+          },
+          {
+            "image": "rangers-smithers/cronin/IMG_0206.jpg",
+            "caption": "Big Saw"
+          },
+          {
+            "image": "rangers-smithers/cronin/IMG_0208.jpg",
+            "caption": "Hand Saw"
+          },
+          {
+            "image": "rangers-smithers/cronin/IMG_0223.jpg",
+            "caption": "Creek Crossing"
+          },
+          {
+            "image": "rangers-smithers/cronin/IMG_0440.jpg",
+            "caption": "Across The Creek"
+          },
+          {
+            "image": "rangers-smithers/cronin/IMG_0430.jpg",
+            "caption": "Duo"
+          },
+        ]
+      },
+
+      {
+        "header": "Joe L'Orsa Cabin Maintenance",
+        "description": "We cleaned the Joe L'Orsa Cabin in Silver King Basin and recieved a load of logs from a helicopter.",
+        "photos": [
+          {
+            "image": "rangers-smithers/silver-king/IMG_0463.jpg",
+            "caption": "Hiking To The Cabin"
+          },
+          {
+            "image": "rangers-smithers/silver-king/IMG_0471.jpg",
+            "caption": "Creek Crossing"
+          },
+          {
+            "image": "rangers-smithers/silver-king/IMG_0478.jpg",
+            "caption": "Cleaning The Cabin"
+          },
+          {
+            "image": "rangers-smithers/silver-king/IMG_0484.jpg",
+            "caption": "Hiking To Hyland Pass"
+          },
+          {
+            "image": "rangers-smithers/silver-king/IMG_0502.jpg",
+            "caption": "Log Load"
+          },
+          {
+            "image": "rangers-smithers/silver-king/IMG_0508.jpg",
+            "caption": "Joe L'Orsa Cabin"
+          },
+        ]
+      },
+
+      {
+        "header": "Red Bluff Boardwalk",
+        "description": "We built a long boardwalk across a flood plain between the lake and a marsh.",
+        "photos": [
+          {
+            "image": "rangers-smithers/red-bluff/IMG_0604.jpg",
+            "caption": "Stretch"
+          },
+          {
+            "image": "rangers-smithers/red-bluff/IMG_0598.jpg",
+            "caption": "Building The Boardwalk"
+          },
+          {
+            "image": "rangers-smithers/red-bluff/IMG_0600.jpg",
+            "caption": "Canoeing To The Bluffs"
+          },
+          {
+            "image": "rangers-smithers/red-bluff/IMG_0596.jpg",
+            "caption": "Notice the Black Flies"
+          },
+          {
+            "image": "rangers-smithers/red-bluff/IMG_0601.jpg",
+            "caption": "Dusk"
+          },
+          {
+            "image": "rangers-smithers/red-bluff/IMG_0605.jpg",
+            "caption": "I Scream After Work"
+          },
+        ]
+      },
+
+      {
+        "header": "Dock Repair In Tweedsmuir North Provincial Park",
+        "description": "We replaced the boards on the docks at the ranger cabin in Tweedsmuir North Provincial Park and boated to campsites in the park to do maintenance.",
+        "photos": [
+          {
+            "image": "rangers-smithers/tweedsmuir/IMG_0732.jpg",
+            "caption": "Initial State of The Dock"
+          },
+          {
+            "image": "rangers-smithers/tweedsmuir/IMG_0737.jpg",
+            "caption": "New Beams In Place"
+          },
+          {
+            "image": "rangers-smithers/tweedsmuir/IMG_0738.jpg",
+            "caption": "New Boards"
+          },
+          {
+            "image": "rangers-smithers/tweedsmuir/IMG_0739.jpg",
+            "caption": "Boat Trolly To Move Between Two Lakes"
+          },
+          {
+            "image": "rangers-smithers/tweedsmuir/IMG_0740.jpg",
+            "caption": "Two Boats"
+          },
+          {
+            "image": "rangers-smithers/tweedsmuir/IMG_0752.jpg",
+            "caption": "Glassy Lake"
+          },
+        ]
+      },
+
+      {
+        "header": "Francois Lake Trail Maintenance",
+        "description": "We cut back overgrowth on the Francois Lake Trail in Uncha Mountain Red Hills Provincial Park and built a boardwalk by spliting a fallen tree.",
+        "photos": [
+          {
+            "image": "rangers-smithers/francois-lake/IMG_0775.jpg",
+            "caption": "Trail Maintenance"
+          },
+          {
+            "image": "rangers-smithers/francois-lake/IMG_0781.jpg",
+            "caption": "Aspens"
+          },
+          {
+            "image": "rangers-smithers/francois-lake/IMG_0782.jpg",
+            "caption": "Hoodoos"
+          },
+          {
+            "image": "rangers-smithers/francois-lake/IMG_0786.jpg",
+            "caption": "Waterfalls"
+          },
+          {
+            "image": "rangers-smithers/francois-lake/IMG_0787.jpg",
+            "caption": "Swimming Hole"
+          },
+          {
+            "image": "rangers-smithers/francois-lake/IMG_0789.jpg",
+            "caption": "The Lake"
+          },
+          {
+            "image": "rangers-smithers/francois-lake/IMG_0795.jpg",
+            "caption": "Burnt Stump"
+          },
+          {
+            "image": "rangers-smithers/francois-lake/IMG_0799.jpg",
+            "caption": "Boardwalk"
+          },
+          {
+            "image": "rangers-smithers/francois-lake/IMG_0800.jpg",
+            "caption": "Marsh"
+          },
+        ]
+      },
+
+      {
+        "header": "Harvey Mountain Trail Maintenance",
+        "description": "We cleared overgrowth and fallen trees from the Harvey Mountain Trail and hiked to the top.",
+        "photos": [
+          {
+            "image": "rangers-smithers/harvey-mountain/IMG_0878.jpg",
+            "caption": "The Babine Mountains"
+          },
+          {
+            "image": "rangers-smithers/harvey-mountain/IMG_0879.jpg",
+            "caption": "Looking Up"
+          },
+          {
+            "image": "rangers-smithers/harvey-mountain/IMG_0883.jpg",
+            "caption": "Looking Out"
+          },
+        ]
+      },
+
+      {
+        "header": "Babine River Salmon Run",
+        "description": "We patrolled the Babine River during the salmon run to make sure fisherman were staying with in the catch limits and being bear-safe.",
+        "photos": [
+          {
+            "image": "rangers-smithers/babine-river/IMG_0885.jpg",
+            "caption": "A Napping Salmon"
+          },
+          {
+            "image": "rangers-smithers/babine-river/IMG_0890.jpg",
+            "caption": "A Land-Curious Salmon"
+          },
+          {
+            "image": "rangers-smithers/babine-river/IMG_0894.jpg",
+            "caption": "Bend In The River"
+          },
+        ]
+      },
+
+    ]
+  },
+
+
 
   "revelstoke": {
     "title": "Life In Revelstoke",
