@@ -376,6 +376,15 @@ const data = {
     "location": null,
     "dates": "Dec 31, 2019 - Jan 2, 2020",
     "quote": null,
+  },
+  "mt-becher": {
+    "title": "Mt. Becher",
+    "distance_km": 14,
+    "days": null,
+    "terrain": null,
+    "location": "Strathcona Provincial Park",
+    "dates": "Aug 16, 2020",
+    "quote": null,
   }
 }
 

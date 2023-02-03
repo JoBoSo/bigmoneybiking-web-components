@@ -1247,6 +1247,53 @@ const timelines = {
 
 
 
+  "mt-becher": [
+    {
+      "header": "Cabin In The Woods",
+      "description": "I passed this little cabin on one of the bike trails that led to the Mt. Becher trailhead from Courtenay.",
+      "left_image": null,
+      "right_image": "mt-becher/IMG_7534.jpg",
+    },
+    {
+      "header": "Comox Lake",
+      "description": "Imagine paragliding across that lake, from one mountain to another.",
+      "left_image": "mt-becher/IMG_7569.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "The Comox Valley",
+      "description": "Life is hard for a valley girl.",
+      "left_image": null,
+      "right_image": "mt-becher/IMG_7573.jpg",
+    },
+    {
+      "header": "Infinity Pool",
+      "description": "If you look closely, it's like it has no edge.",
+      "left_image": "mt-becher/IMG_7580.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "The Top",
+      "description": "And what a top it was.",
+      "left_image": null,
+      "right_image": "mt-becher/IMG_7594.jpg",
+    },
+    {
+      "header": "Looping Back Down",
+      "description": "I took the Boston Ridge route up and the Mt. Becher Trail down. Boston Ridge had better views.",
+      "left_image": "mt-becher/IMG_7601.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "Firepit from 1933",
+      "description": "That's an old pit.",
+      "left_image": null,
+      "right_image": "mt-becher/IMG_7602.jpg",
+    },
+  ],
+
+
+
   "": [
     {
       "header": "",
