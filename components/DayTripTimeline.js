@@ -270,18 +270,18 @@ const timelines = {
     },
     {
       "header": "A Steep Ascent",
-      "description": "You transition from hiking to light mountaineering past Sentinel Pass.",
+      "description": "The Hike gets steep past Sentinel Pass.",
       "left_image": null,
       "right_image": "mt-temple/IMG_1250.jpg",
     },
     {
-      "header": "Gravity Winning",
-      "description": "Time and gravity are slowly devouring the mountain.",
+      "header": "Mountainside",
+      "description": "Time and gravity against the mountain.",
       "left_image": "mt-temple/IMG_1248.jpg",
       "right_image": null,
     },
     {
-      "header": "A Stone's Throw",
+      "header": "Nearing The Top",
       "description": "The top was cold and icy on September 6th.",
       "left_image": null,
       "right_image": "mt-temple/IMG_1239.jpg",
