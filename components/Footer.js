@@ -19,7 +19,7 @@ class Footer extends HTMLElement {
             <div class="col-12">
                 <div class="footer">
                     <a href="https://www.instagram.com/big_money_biking/">
-                        <img src="${this.root}images/instagram-logo.png">
+                        <img src="${this.root}images/instagram-logo.png" />
                     </a>
                 </div>
             </div>
