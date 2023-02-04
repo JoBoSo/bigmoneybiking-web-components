@@ -19,21 +19,23 @@ class YoutubeVideo extends HTMLElement {
     this.innerHTML = `
     <div class="youtube-video"
       <div class="row no-gutters">
-        <div class="col-sm-12 offset-md-2 col-md-8 text-center">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe 
-              class="embed-responsive-item"
-              width="560" 
-              height="315" 
-              src=${video.link} 
-              title="YouTube video player" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen>
-            </iframe>
-          </div>
-          <div class="youtube-video-description">
-          ${video.description} 
+        <div class="col-sm-12 offset-md-2 col-md-8 text-center" style="padding: 0;">
+          <div class="content-container">
+            <div class="youtube-video-header">
+              ${video.header} 
+            </div>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe 
+                class="embed-responsive-item"
+                width="560" 
+                height="315" 
+                src=${video.link} 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+              </iframe>
+            </div>
           </div>
         </div>
       </div>
@@ -43,10 +45,22 @@ class YoutubeVideo extends HTMLElement {
 }
 
 const videos = {
+
   "mont-blanc-guitar": {
     "link": "https://www.youtube.com/embed/XNsZ2biEKtU",
-    "description": "I learned to play some basic guitar chords while living at the cottage.",
-  }
+    "header": "Learning Guitar",
+  },
+
+  "mt-becher": {
+    "link": "https://www.youtube.com/embed/EyueZWLujng?mute=1",
+    "header": "Views From The Top",
+  },
+
+  "": {
+    "link": "",
+    "header": "",
+  },
+
 }
 
 customElements.define('my-youtube-video', YoutubeVideo);
