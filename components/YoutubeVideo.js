@@ -56,6 +56,46 @@ const videos = {
     "header": "Views From The Top",
   },
 
+  "downie-creek": {
+    "link": "https://www.youtube.com/embed/E3qodw9z6Kg",
+    "header": "Downie Creek Time-lapse",
+  },
+
+  "brewster-lake": {
+    "link": "https://www.youtube.com/embed/RdZKD2_QeME",
+    "header": "Sunset on Brewster Lake",
+  },
+
+  "mt-temple": {
+    "link": "https://www.youtube.com/embed/vDV6G3ArF5M",
+    "header": "View From Mt. Temple",
+  },
+
+  "bourgeau": {
+    "link": "https://www.youtube.com/embed/ooRU0zQyXLY",
+    "header": "View From Mt. Bourgeau",
+  },
+
+  "mccrae-peak": {
+    "link": "https://www.youtube.com/embed/-uI1o_9BOrc",
+    "header": "View From McCrae Peak",
+  },
+
+  "akolkolex-falls": {
+    "link": "https://www.youtube.com/embed/3L4tsXPii_I",
+    "header": "Akolkolex Falls",
+  },
+
+  "mccrae-peak-birds": {
+    "link": "https://www.youtube.com/embed/SEJIrEc7Dco",
+    "header": "Birds On McCrae Peak",
+  },
+
+  "mt-albert-edward": {
+    "link": "https://www.youtube.com/embed/aShF5eHyf1Q",
+    "header": "View Of Moat Lake From Mt. Albert Edward",
+  },
+
   "": {
     "link": "",
     "header": "",
