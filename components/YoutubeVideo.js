@@ -48,7 +48,7 @@ const videos = {
 
   "mont-blanc-guitar": {
     "link": "https://www.youtube.com/embed/XNsZ2biEKtU",
-    "header": "Learning Guitar",
+    "header": "Guitar At The Cottage",
   },
 
   "mt-becher": {
