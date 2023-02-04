@@ -68,6 +68,104 @@ const events = {
 
 
 
+  "mont-blanc": {
+    "title": "Life In The Laurentians",
+    "subtitle": "",
+    "events": [
+
+      {
+        "header": "The Cottage",
+        "description": "I found this cottage on AirBnb for $800 a month. The roof leaked when it poured rain and mice and spiders also called it home, but who can complain about such a bargin? The region has insects like no other. I'm not just talking about horse flies and mosquitos, but also caterpillers, ants, beatles, and everything else that creeps, crawles, squirmes and buzzes. When it rains, it often pours. And, it gets very humid on hot days with all of the rivers and lakes around.",
+        "photos": [
+          {
+            "image": "mont-blanc/IMG_2218.jpg",
+            "caption": "The Cottage"
+          },
+          {
+            "image": "mont-blanc/IMG_2340.jpg",
+            "caption": "The Patio"
+          },
+          {
+            "image": "mont-blanc/IMG_2219.jpg",
+            "caption": "Inside"
+          },
+        ]
+      },
+
+      {
+        "header": "Parc Eco Laurentides",
+        "description": "I enjoyed biking on the narrow, winding roads and paths through green forests. Parc Eco Laurentides was a short ride away from my cottage and it had a nice trail around a lake and up a small mountain.",
+        "photos": [
+          {
+            "image": "mont-blanc/IMG_2261.jpg",
+            "caption": "Lac du Cordon"
+          },
+          {
+            "image": "mont-blanc/IMG_2262.jpg",
+            "caption": "Twisted Trees On Top Of The Mountain"
+          },
+          {
+            "image": "mont-blanc/IMG_2288.jpg",
+            "caption": "Granite"
+          },
+        ]
+      },
+
+      {
+        "header": "Old Friends",
+        "description": "I was grateful to have my friends come all the way up here to do some biking and hiking with me.",
+        "photos": [
+          {
+            "image": "mont-blanc/IMG_2216.jpg",
+            "caption": "Climbing up Mont Nixon"
+          },
+          {
+            "image": "mont-blanc/IMG_2215.jpg",
+            "caption": "Sitting At The Top"
+          },
+          {
+            "image": "mont-blanc/IMG_2419.jpg",
+            "caption": "Looking Out"
+          },
+          {
+            "image": "mont-blanc/IMG_2460.jpg",
+            "caption": "Biking On The P'tit Train Du Nord"
+          },
+          {
+            "image": "mont-blanc/IMG_2474.jpg",
+            "caption": "The Rivière du Nord"
+          },
+          {
+            "image": "mont-blanc/IMG_2477.jpg",
+            "caption": "A Trip To Montreal"
+          },
+        ]
+      },
+
+      {
+        "header": "Hiking & Biking",
+        "description": "I went on a couple of hikes and a bike tour of the P'tit Train Du Nord while living here. Click the captions to read about these adventures.",
+        "photos": [
+          {
+            "image": "mont-blanc/IMG_2312.jpg",
+            "caption": "<a href='../hikes/mont-nixon.html' style='color: white;'>Mont Nixon</a>"
+          },
+          {
+            "image": "mont-blanc/IMG_2361.jpg",
+            "caption": "<a href='../hikes/montagne-noire.html' style='color: white;'>Montagne Noire</a>"
+          },
+          {
+            "image": "mont-blanc/IMG_2546.jpg",
+            "caption": "<a href='../tours/ptit-train.html' style='color: white;'>P'tit Train Du Nord</a>"
+          },
+        ]
+      },
+
+    ]
+  },
+
+
+
   "calgary": {
     "title": "Life In Calgary",
     "subtitle": "",
