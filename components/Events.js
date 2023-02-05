@@ -68,6 +68,109 @@ const events = {
 
 
 
+  "canmore": {
+    "title": "Life In Canmore",
+    "subtitle": "",
+    "events": [
+
+      {
+        "header": "My House",
+        "description": "I lived beneath Mt. Grassi. There were trails and forests behing my house and great views from my basement apartment.",
+        "photos": [
+          {
+            "image": "canmore/IMG_1080.jpg",
+            "caption": "My House"
+          },
+          {
+            "image": "canmore/IMG-1281.jpg",
+            "caption": "View From My Room"
+          },
+          {
+            "image": "canmore/IMG-1258.jpg",
+            "caption": "Sunrise"
+          },
+        ]
+      },
+
+      {
+        "header": "Hiking, Biking, & Skiing",
+        "description": "I hiked and biked in Canmore, Banff, and Lake Louise in the fall and skiied at Sunshine Village. Some of the captions can be clicked to see more.",
+        "photos": [
+          {
+            "image": "canmore/IMG-1288.jpg",
+            "caption": "Lake Minnewanka"
+          },
+          {
+            "image": "canmore/IMG-1289.jpg",
+            "caption": "Two Jack Lake"
+          },
+          {
+            "image": "canmore/IMG-1290.jpg",
+            "caption": "Johnson Lake"
+          },
+          {
+            "image": "canmore/IMG_1071.jpg",
+            "caption": "<a href='../hikes/ha-ling.html' style='color: white;'>Ha Ling</a>"
+          },
+          {
+            "image": "canmore/IMG_1124.jpg",
+            "caption": "<a href='../hikes/cory-pass.html' style='color: white;'>Cory Pass</a>"
+          },
+          {
+            "image": "canmore/IMG_1171.jpg",
+            "caption": "<a href='../hikes/bourgeau.html' style='color: white;'>Mt. Bourgeau</a>"
+          },
+          {
+            "image": "canmore/IMG_1222.jpg",
+            "caption": "<a href='../hikes/mt-temple.html' style='color: white;'>Mt. Temple</a>"
+          },
+          {
+            "image": "canmore/IMG_1324.jpg",
+            "caption": "<a href='../hikes/grotto-mtn.html' style='color: white;'>Grotto Mountain</a>"
+          },
+          {
+            "image": "canmore/IMG-1298.jpg",
+            "caption": "Boom Lake"
+          },
+          {
+            "image": "canmore/IMG-1294.jpg",
+            "caption": "Elk Herd"
+          },
+          {
+            "image": "canmore/IMG-1297.jpg",
+            "caption": "King Of The Mountains"
+          },
+          {
+            "image": "canmore/sunshine.jpg",
+            "caption": "On The Chairlift At Sunshine"
+          },
+        ]
+      },
+
+      {
+        "header": "Christmas",
+        "description": "My family came to Canmore for Christmas. Andrew and I went skiing in Fern-dog after the ladies left, but his fragile Ontario thighs quivered beneath the strength of the deep pow. Can you blame the boy? He's only ever known two dimensions of space.",
+        "photos": [
+          {
+            "image": "canmore/IMG-1517.jpg",
+            "caption": "Clara"
+          },
+          {
+            "image": "canmore/IMG-1518.jpg",
+            "caption": "Mom"
+          },
+          {
+            "image": "canmore/IMG-1524.jpg",
+            "caption": "Andrew"
+          },
+        ]
+      },
+
+    ]
+  },
+
+
+
   "mont-blanc": {
     "title": "Life In The Laurentians",
     "subtitle": "",
