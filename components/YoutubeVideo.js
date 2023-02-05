@@ -67,7 +67,7 @@ const videos = {
   },
 
   "mt-temple": {
-    "link": "https://www.youtube.com/embed/vDV6G3ArF5M",
+    "link": "https://www.youtube.com/embed/vDV6G3ArF5M?mute=1",
     "header": "View From Mt. Temple",
   },
 
@@ -96,8 +96,18 @@ const videos = {
     "header": "View Of Moat Lake From Mt. Albert Edward",
   },
 
+  "mitlenatch-seals": {
+    "link": "https://www.youtube.com/embed/DpFo8gMe1PQ",
+    "header": "Seals See Us Into Mitlenatch Island",
+  },
+
+  "mitlenatch-birds": {
+    "link": "https://www.youtube.com/embed/LF_TnBMBq_Y",
+    "header": "Birds On Mitlenatch Island",
+  },
+
   "": {
-    "link": "",
+    "link": "https://www.youtube.com/embed/",
     "header": "",
   },
 

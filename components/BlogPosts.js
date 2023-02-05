@@ -40,6 +40,12 @@ const posts = [
     "description": "I lived in Calgary for six months while doing an internship in the city. Here I have collections of pictures about my life in Calgary.",
   },
   {
+    "page": "canmore.html",
+    "image": "canmore/IMG_1080.jpg",
+    "title": "Life In Canmore",
+    "description": "I lived in Canmore for four months while studying remotely so I could hike, ski, and bike in the mountains every day. Here I have collections of pictures about my life in Canmore.",
+  },
+  {
     "page": "rangers-smithers.html",
     "image": "rangers-smithers/red-bluff/IMG_0598.jpg",
     "title": "Student Rangers in Northwestern BC",
