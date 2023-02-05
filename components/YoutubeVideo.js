@@ -77,18 +77,8 @@ const videos = {
   },
 
   "mccrae-peak": {
-    "link": "https://www.youtube.com/embed/-uI1o_9BOrc",
-    "header": "View From McCrae Peak",
-  },
-
-  "akolkolex-falls": {
-    "link": "https://www.youtube.com/embed/3L4tsXPii_I",
-    "header": "Akolkolex Falls",
-  },
-
-  "mccrae-peak-birds": {
-    "link": "https://www.youtube.com/embed/SEJIrEc7Dco",
-    "header": "Birds On McCrae Peak",
+    "link": "https://www.youtube.com/embed/3YvsSFF9T4M",
+    "header": "Akolkolex Falls & McCrae Peak",
   },
 
   "mt-albert-edward": {
@@ -96,14 +86,29 @@ const videos = {
     "header": "View Of Moat Lake From Mt. Albert Edward",
   },
 
-  "mitlenatch-seals": {
-    "link": "https://www.youtube.com/embed/DpFo8gMe1PQ",
-    "header": "Seals See Us Into Mitlenatch Island",
+  "rangers-black-creek": {
+    "link": "https://www.youtube.com/embed/70eOz67AnA0",
+    "header": "The Coast",
   },
 
-  "mitlenatch-birds": {
-    "link": "https://www.youtube.com/embed/LF_TnBMBq_Y",
-    "header": "Birds On Mitlenatch Island",
+  "silvern-lake": {
+    "link": "https://www.youtube.com/embed/zdZi2DLUQvM?mute=1",
+    "header": "Silvern Lake",
+  },
+
+  "oliver-creek": {
+    "link": "https://www.youtube.com/embed/LmtkTZt5oc8",
+    "header": "Oliver Creek Trail",
+  },
+
+  "mt-begbie": {
+    "link": "https://www.youtube.com/embed/nWQFwCOllZg",
+    "header": "Mt. Begbie",
+  },
+
+  "jasper": {
+    "link": "https://www.youtube.com/embed/O0xs1lzutBo",
+    "header": "Cascading Waterfall",
   },
 
   "": {
