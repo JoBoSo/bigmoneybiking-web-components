@@ -178,7 +178,7 @@ const events = {
 
       {
         "header": "The Cottage",
-        "description": "I found this cottage on AirBnb for $800 a month. The roof leaked when it poured rain and mice and spiders also called it home, but who can complain about such a bargin? The region has insects like no other. I'm not just talking about horse flies and mosquitos, but also caterpillers, ants, beatles, and everything else that creeps, crawles, squirmes and buzzes. When it rains, it often pours. And, it gets very humid on hot days with all of the rivers and lakes around.",
+        "description": "I found this cottage on AirBnb. The roof leaked when it poured rain and it had mice and spiders in it, but who can complain for $800 a month? The region has insects like no other--horse flies, mosquitos, caterpillers, ants, beatles, and everything else. There were a few heavy storms where it poured and hailed. It got very humid on hot days with all of the rivers and lakes around.",
         "photos": [
           {
             "image": "mont-blanc/IMG_2218.jpg",
@@ -197,7 +197,7 @@ const events = {
 
       {
         "header": "Parc Eco Laurentides",
-        "description": "I enjoyed biking on the narrow, winding roads and paths through green forests. Parc Eco Laurentides was a short ride away from my cottage and it had a nice trail around a lake and up a small mountain.",
+        "description": "I biked on the narrow, winding roads and paths through green forests. Parc Eco Laurentides was a short ride away from my cottage and it had a trail around a lake and up a mountain.",
         "photos": [
           {
             "image": "mont-blanc/IMG_2261.jpg",
