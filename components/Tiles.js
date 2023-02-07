@@ -238,7 +238,7 @@ const tiles = {
     {
       title: "Brewster & Campbell Lakes",
       subtitle: "Two Fine Lakes",
-      image: "brewster-lake/IMG_5594.jpg",
+      image: "brewster-lake/IMG_5603.jpg",
       page: "tours/brewster-lake.html"
     },
     {
@@ -256,7 +256,7 @@ const tiles = {
     {
       title: "Schomberg to Montreal",
       subtitle: "Riding the Waterfront Trail",
-      image: "to-mtrl/IMG_4290.jpg",
+      image: "to-mtrl/IMG_4238.jpg",
       page: "tours/to-mtrl.html"
     },
   ],
@@ -405,7 +405,7 @@ const tiles = {
     {
       title: "Mt. Albert Edward",
       subtitle: "Everything, All At Once",
-      image: "mt-albert-edward/IMG_6713.jpg",
+      image: "mt-albert-edward/IMG_6705.jpg",
       page: "hikes/mt-albert-edward.html"
     },
     {
