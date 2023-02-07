@@ -129,7 +129,137 @@ class DayTripTimeline extends HTMLElement {
 
   connectedCallback() {
     let thisData = timelines[this.data_id];
-    this.innerHTML = `
+
+    let style = `
+      <style>
+
+      .day-trip-timeline {
+        margin-top: 10px;
+      }
+    
+      @media (min-width: 576px) {
+        /* image left */
+        .day-trip-timeline .left-block img {
+          border-top-left-radius: 10px; 
+          border-bottom-left-radius: 10px;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+          border-right: 0.75px solid white;
+          width: 100%; 
+          object-fit: contain; 
+        }
+    
+        /* image right */
+        .day-trip-timeline .right-block img {
+          border-top-right-radius: 10px; 
+          border-bottom-right-radius: 10px; 
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+          border-left: 0.75px solid white;
+          width: 100%; 
+          object-fit: contain; 
+        }
+    
+        /* text left */
+        .day-trip-timeline .left-block .day-trip-timeline-text {
+          border-top-left-radius: 10px; 
+          border-bottom-left-radius: 10px;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+          border-right: 0.75px solid white;
+          background: rgba(0, 0, 0, 0.2);
+          padding: 10px;
+          height: 100%;
+        }
+    
+        /* text right */
+        .day-trip-timeline .right-block .day-trip-timeline-text {
+          border-top-right-radius: 10px; 
+          border-bottom-right-radius: 10px; 
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+          border-left: 0.75px solid white;
+          background: rgba(0, 0, 0, 0.2);
+          padding: 10px;
+          height: 100%;
+        }
+    
+        /* image left with text beneath it */
+        .day-trip-timeline .left-block .text-below img {
+          border-top-left-radius: 10px; 
+          border-bottom-left-radius: 0px;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+          border-right: 0.75px solid white;
+          width: 100%; 
+          object-fit: contain; 
+        }
+    
+        /* image right with text beneath it */
+        .day-trip-timeline .right-block .text-below img {
+          border-top-right-radius: 10px; 
+          border-bottom-right-radius: 0px; 
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+          border-left: 0.75px solid white;
+          width: 100%; 
+          object-fit: contain; 
+        }
+    
+        /* text bottom */
+        .day-trip-timeline .bottom-block .day-trip-timeline-text {
+          border-bottom-right-radius: 10px; 
+          border-bottom-left-radius: 10px; 
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+          background: rgba(0, 0, 0, 0.2);
+          padding: 10px;
+          height: 100%;
+        }
+    
+        /* connector line */
+        .day-trip-timeline .connector {
+          height: 20px; 
+          background: linear-gradient(white, white) no-repeat center/1.5px 100%;
+        }
+      }
+    
+      @media (max-width: 575px) {
+        /* move image to top for single-image item */
+        .day-trip-timeline .left-block img,
+        .day-trip-timeline .right-block img {
+          border-top-left-radius: 10px; 
+          border-top-right-radius: 10px;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+          border-bottom: none;
+          width: 100%; 
+          object-fit: contain; 
+        }
+    
+        /* transformation from right to middle on phones for two-image items */
+        .day-trip-timeline .right-block .text-below img {
+          border-top-left-radius: 0px; 
+          border-top-right-radius: 0px;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+          border-bottom: none;
+          width: 100%; 
+          object-fit: contain; 
+        }
+    
+        /* move text to bottom in all cases */
+        .day-trip-timeline .right-block .day-trip-timeline-text,
+        .day-trip-timeline .left-block .day-trip-timeline-text,
+        .day-trip-timeline .bottom-block .day-trip-timeline-text {
+          border-bottom-right-radius: 10px; 
+          border-bottom-left-radius: 10px; 
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+          background-color: rgba(0, 0, 0, 0.2);
+          padding: 10px;
+        }
+    
+        .day-trip-timeline .connector {
+          height: 20px; 
+          background: linear-gradient(white, white) no-repeat center/1.5px 100%
+        }
+      }
+
+      </style>
+    `;
+
+    this.innerHTML = style + `
     <div class="day-trip-timeline">
       ${thisData.map((item) => `
         ${

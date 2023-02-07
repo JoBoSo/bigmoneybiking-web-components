@@ -16,7 +16,32 @@ class YoutubeVideo extends HTMLElement {
   connectedCallback() {
     let video = videos[this.video_id];
 
-    this.innerHTML = `
+    let style = `
+      <style>
+
+      .youtube-video {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    
+      .youtube-video-header {
+        font-size: 18pt;
+        padding: 5px;
+      }
+    
+      .youtube-video .content-container {
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        background: rgba(0, 0, 0, 0.2);
+      }
+
+      </style>
+    `;
+
+    this.innerHTML = style + `
     <div class="youtube-video"
       <div class="row no-gutters">
         <div class="col-sm-12 offset-md-2 col-md-8 text-center" style="padding: 0;">
@@ -109,6 +134,11 @@ const videos = {
   "jasper": {
     "link": "https://www.youtube.com/embed/O0xs1lzutBo",
     "header": "Cascading Waterfall",
+  },
+
+  "montagne-noire": {
+    "link": "https://www.youtube.com/embed/bfI-3ltMVFI?mute=1",
+    "header": "View From The Lookout Tower",
   },
 
   "": {

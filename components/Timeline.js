@@ -14,8 +14,92 @@ class Timeline extends HTMLElement {
   }
 
   connectedCallback() {
+    let style = `
+      <style>
+
+      .my-timeline ul {
+        list-style-type: none;
+        position: relative;
+        padding-left: 6px; 
+      }
+      
+        /* vertical line */
+      .my-timeline ul:before {
+        content: ' ';
+        background: white;
+        display: inline-block;
+        position: absolute;
+        left: 6px;
+        width: 1.5px;
+        height: auto; /*auto for line on top dot*/
+        top: 16px; /*16px for on the top dot*/
+        bottom: 20px; 
+        z-index: 400;
+        border-radius: 50%;
+      }
+      
+      .my-timeline-item {
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        border-radius: 15px;
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+      
+      /* Timeline item circle marker */
+      .my-timeline-item::before {
+        content: ' ';
+        background: #FDB813;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 1.5px solid white;
+        left: 0px;
+        width: 14px;
+        height: 14px;
+        z-index: 400;
+        /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+        margin-top: 11px;
+      }
+      
+      .my-timeline-header {
+        font-size: 18pt;
+        margin-left: 20px;
+      }
+      
+      .my-timeline-bullets {
+        list-style-type: circle !important;
+        padding-left: 46px !important;
+        background: none !important;
+      }
+      
+      .my-timeline-bullets::before {
+        background: none !important;
+      }
+      
+      .photoBar {
+        /* padding-top: 10px;  */
+        padding-left: 25px;
+        padding-right: 5px;
+        border-radius: 12px;
+      }
+      
+      .photoBar img {
+        width: 100%; 
+        height: auto;
+        padding: 6px;
+        border-radius: 15px;
+      }
+
+      </style>
+    `;
+
     let tripData = timelines[this.data_id];
-    this.innerHTML = `
+
+    this.innerHTML = style + `
       <div class="my-timeline">
         <ul>
           ${tripData.map((item) => `

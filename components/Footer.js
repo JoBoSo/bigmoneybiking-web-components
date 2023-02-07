@@ -14,7 +14,27 @@ class Footer extends HTMLElement {
   }
 
   connectedCallback() {
-    this.innerHTML = `
+    let style = `
+      <style>
+
+      .footer {
+        /* border-top: rgb(64, 64, 64) solid 1px; */
+        /* padding-top: 5px; */
+        padding-bottom: 5px;
+      }
+    
+      .footer img {
+          display: flex;
+          margin-left: auto;
+          margin-right: auto;
+          width: 7%;
+          min-width: 90px;
+      }
+
+      </style>
+    `;
+
+    this.innerHTML = style + `
       <div class="row no-gutters">
         <div class="col-12">
           <div class="footer">
