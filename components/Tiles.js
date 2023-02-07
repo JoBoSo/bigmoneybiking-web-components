@@ -14,7 +14,134 @@ class Tiles extends HTMLElement {
   }
 
   connectedCallback() {
-    this.innerHTML = `
+    let style = `
+      <style>
+
+      @media (hover: hover) {
+
+        /*setting the properties of content within the image*/
+        .content {
+          position: relative;
+          width: 100%;
+          margin: auto;
+          overflow: hidden;
+          border-radius: 7px;
+          /* border: 1px solid #d1cfc8 ; */
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.25);
+        }
+
+        .content .content-overlay {
+          background: rgba(0, 0, 0, 0.516);
+          position: absolute;
+          height: auto;
+          width: 100%;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          opacity: 0;
+          /*transition time and effect*/
+          -webkit-transition: all 0.4s ease-in-out 0s;
+          /*transition time and effect*/
+          -moz-transition: all 0.4s ease-in-out 0s;
+          /*transition time and effect*/
+          transition: all 0.4s ease-in-out 0s;
+        }
+
+        /* setting hover properties */
+        .content:hover .content-overlay {
+          opacity: 1;
+        }
+
+        .content-image {
+          width: 100%;
+        }
+
+        .content-details {
+          position: absolute;
+          text-align: center;
+          width: 100%;
+          top: 50%;
+          left: 50%;
+          opacity: 0;
+          -webkit-transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          /*transition time and effect*/
+          -webkit-transition: all 0.3s ease-in-out 0s;
+          /*transition time and effect*/
+          -moz-transition: all 0.3s ease-in-out 0s;
+          /*transition time and effect*/
+          transition: all 0.3s ease-in-out 0s;
+        }
+
+        .content:hover .content-details {
+          top: 50%;
+          left: 50%;
+          opacity: 1;
+        }
+
+      }
+      
+      @media (hover: none) {
+
+        /*setting the properties of content within the image*/
+        .content {
+          position: relative;
+          width: 100%;
+          margin: auto;
+          overflow: hidden;
+          border-radius: 7px;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.25);
+        }
+
+        .content .content-overlay {
+          /*setting 0.8 to 1 will turn the overlay opaque*/
+          background: rgba(0, 0, 0, 0.7);
+          position: absolute;
+          height: auto;
+          width: 100%;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          opacity: 0.6;
+        }
+
+        .content-image {
+          width: 100%;
+        }
+
+        .content-details {
+          position: absolute;
+          text-align: center;
+          width: 100%;
+          top: 50%;
+          left: 50%;
+          opacity: 1;
+          -webkit-transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+        }
+
+      }
+      
+      .card-corners {
+        border-radius: 7px;
+      }
+      
+      .card {
+        margin: 5px;
+      }
+      
+      #card-row {
+        margin: 5px;
+      }
+
+      </style>
+    `;
+
+    this.innerHTML = style + `
     <div class="row no-gutters" id="card-row">
       ${tiles[this.page_id].map((tile) => `
         <div class="col-12 col-md-4">
@@ -165,7 +292,7 @@ const tiles = {
     },
     {
       title: "Mt. Bourgeau",
-      subtitle: "A Spiral Stairway to Heaven",
+      subtitle: "The Grand Rockies On Display",
       image: "bourgeau/IMG_1177.jpg",
       page: "hikes/bourgeau.html"
     },
@@ -183,8 +310,8 @@ const tiles = {
     },
     {
       title: "Jasper",
-      subtitle: "Wild Mountain Honey",
-      image: "jasper/IMG_1051.jpg",
+      subtitle: "Was It All Just A Dream?",
+      image: "jasper/IMG_0990.jpg",
       page: "hikes/jasper.html"
     },
     {

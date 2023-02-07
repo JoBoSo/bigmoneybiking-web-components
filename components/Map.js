@@ -14,7 +14,36 @@ class Map extends HTMLElement {
   }
 
   connectedCallback() {
-    this.innerHTML = `
+    let style = `
+      <style>
+
+      .map {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+  
+      .myMap {
+          width:100%; 
+          height:100%; 
+          overflow:hidden; 
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+      }
+      
+      .myMap iframe {
+          margin-top:-69px; 
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          border: 2px solid rgba(0, 0, 0, 0.2);
+          display: block;
+      }
+
+      </style>
+    `;
+
+    this.innerHTML = style + `
       <div class="map">
         <h2 class="text-center">Map</h2>
         <div class="row no-gutters">

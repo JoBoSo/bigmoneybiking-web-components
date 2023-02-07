@@ -16,7 +16,90 @@ class Events extends HTMLElement {
   connectedCallback() {
     let data = events[this.data_id];
 
-    this.innerHTML = `
+    let style = `
+      <style>
+
+      .events-container {
+        background: rgba(0, 0, 0, 0.05);
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+      }
+    
+      .events-container .title {
+        font-size: 22pt;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: -20px;
+      }
+    
+      .event-container {
+        /* box-shadow: 0 0 5px rgba(255, 255, 255, 0.2); */
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.1);
+      }
+    
+      .event-container .header {
+        font-size: 18pt;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    
+      .event-container .description {
+        font-size: 14pt;
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    
+      .event-container .photos-container {
+        padding: 5px;
+      }
+    
+      .event-container .photos-container .img-caption-container {
+        padding: 5px;
+      }
+    
+      .event-container .photos-container img {
+        width: 100%; 
+        height: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+      }
+    
+      .event-container .photos-container .caption {
+        width: 100%; 
+        height: auto;
+        padding: 5px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        background: rgba(0, 0, 0, 0.2);
+      }
+    
+      .circle {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        margin-top: -5px;
+        margin-left: -5px;
+        /* z-index: -1; */
+        border-radius: 50%;
+        background: #FDB813;
+      }
+
+      </style>
+    `;
+
+    this.innerHTML = style + `
     <div class="events-container">
       <div class="title"><b>${data.title}</b></div>
 
@@ -75,7 +158,7 @@ const events = {
 
       {
         "header": "My House",
-        "description": "I lived beneath Mt. Grassi. There were trails and forests behing my house and great views from my basement apartment.",
+        "description": "I lived beneath Mt. Grassi. There were trails and forests behind my house and great views from my basement apartment.",
         "photos": [
           {
             "image": "canmore/IMG_1080.jpg",
@@ -149,7 +232,7 @@ const events = {
 
       {
         "header": "Christmas",
-        "description": "My family came to Canmore for Christmas. Andrew and I went skiing in Fern-dog after the ladies left, but his fragile Ontario thighs quivered beneath the strength of the deep pow. Can you blame the boy? He's only ever known two dimensions of space.",
+        "description": "My family came to Canmore for Christmas. Andrew and I went skiing in Fern-dog after the ladies left, but his fragile Ontario thighs quivered beneath the strength of the deep pow. Can you blame the boy? He's only ever known two dimensions of space and a light sprinkling.",
         "photos": [
           {
             "image": "canmore/IMG-1517.jpg",

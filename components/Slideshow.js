@@ -14,7 +14,100 @@ class Slideshow extends HTMLElement {
   }
 
   connectedCallback() {
-    this.innerHTML = `
+    let style = `
+      <style>
+
+      .slideshow {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+      }
+
+      .slideshow-container {
+        position: relative;
+        margin: auto;
+        object-fit: contain;
+        overflow: hidden;
+        background-color: rgb(29, 29, 29);
+        text-align: center;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 100vw;
+        max-height: 540px;
+      }
+  
+      .mySlides {
+        display: none
+      }
+  
+      .slideshow-container img {
+        /* max-width: 100vw;     */
+        max-height: 540px;
+        width: auto;
+        height: 100vw;
+      }
+  
+      .caption {
+        font-size: 15px;
+        /* padding-top: 8px; */
+      }
+  
+      .slide-number {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+  
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white !important;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+  
+      .prev {
+        left: 0;
+      }
+  
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+  
+      .my-fade {
+        animation-name: fade;
+        animation-duration: 0.5s;
+      }
+        
+      @keyframes fade {
+        from {opacity: 0.4;} 
+        to {opacity: 1;}
+      }
+        
+      @media only screen and (max-width: 300px) {
+        .prev, .next, .caption {font-size: 11px}
+      }
+
+      </style>
+    `;
+
+    this.innerHTML = style + `
     <div class="slideshow">
       <h2 class="text-center">Pictures</h2>
       <div class="row no-gutters">
