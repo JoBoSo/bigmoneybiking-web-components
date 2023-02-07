@@ -17,6 +17,10 @@ class Tiles extends HTMLElement {
     let style = `
       <style>
 
+      .text-white {
+        color: white;
+      }
+
       @media (hover: hover) {
 
         /*setting the properties of content within the image*/
