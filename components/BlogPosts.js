@@ -71,7 +71,7 @@ const posts = [
     "page": "mont-blanc.html",
     "image": "mont-blanc/IMG_2609.jpg",
     "title": "Life In The Laurentians",
-    "description": "I lived in a cottage in the Laurentian Mountains of Qeubec near Mont Blanc for two months. Here I have collections of pictures about my life in the Laurentians.",
+    "description": "I lived in a cottage in the Laurentian Mountains of Quebec near Mont Blanc for two months. Here I have collections of pictures about my life in the Laurentians.",
   },
   {
     "page": "calgary.html",
