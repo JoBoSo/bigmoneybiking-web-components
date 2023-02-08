@@ -51,7 +51,6 @@ class TripHeader extends HTMLElement {
             ${tripData.location !== null ? tripData.location + ' | ' : ''}
             ${tripData.dates !== null ? tripData.dates : ''}
           </p>
-          <p class="quote"><i>${tripData.quote !== null ? tripData.quote : ''}</i></p>
         </div>
       </div>
     `;
