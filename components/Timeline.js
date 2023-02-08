@@ -222,7 +222,7 @@ const timelines = {
       "end": "Mont Blanc",
       "description": [
         "Bumped into two wandering horses on the trail.",
-        "Reach Mont Laurier at noon.",
+        "Reached Mont Laurier at noon.",
         "Biked back to the cottage."
       ],
       "photobar_imgs": [
@@ -780,7 +780,9 @@ const timelines = {
       "distance": 71,
       "start": "Courtenay",
       "end": "Burnt Beach",
-      "description": [],
+      "description": [
+        "I left Courtenay late in the morning and camped at Burnt Beach Rec Site near Campbell River."
+      ],
       "photobar_imgs": [
         "san-josef-bay/IMG_5236.jpg",
         "san-josef-bay/IMG_5254.jpg",
@@ -794,7 +796,9 @@ const timelines = {
       "distance": 65,
       "start": "Burnt Beach",
       "end": "Elk Creek",
-      "description": [],
+      "description": [
+        "I continued toward Sayward, mostly on logging roads that were in pretty good shape."
+      ],
       "photobar_imgs": [
         "san-josef-bay/IMG_5307.jpg",
         "san-josef-bay/IMG_5296.jpg",
@@ -808,7 +812,9 @@ const timelines = {
       "distance": 0,
       "start": "Elk Creek",
       "end": "Elk Creek",
-      "description": [],
+      "description": [
+        "I took a rainy day off at the campground near Sayward."
+      ],
       "photobar_imgs": [
         "san-josef-bay/IMG_5333.jpg",
       ]
@@ -820,7 +826,10 @@ const timelines = {
       "distance": 71,
       "start": "Elk Creek",
       "end": "Nimpkish Lake",
-      "description": [],
+      "description": [
+        "I followed the highway to Woss and bought some food a the gas station. There wasn't much to choose from, but it was my only option for the day.",
+        "I ended at Nimpkish Lake for the night. It's one of my favorite campsites."
+      ],
       "photobar_imgs": [
         "san-josef-bay/IMG_5352.jpg",
         "san-josef-bay/IMG_5353.jpg",
@@ -834,7 +843,11 @@ const timelines = {
       "distance": 143,
       "start": "Nimpkish Lake",
       "end": "Nahwitti Lake",
-      "description": [],
+      "description": [
+        "I arrived at the Port McNeill Harbour around lunch time. I had a bag of cashews on top of an open pack while I was walking around and a group of crows stole it.",
+        "Shortly after lunch, I was onto the Logging road that leads to Cape Scott. I was rather rough riding on by bike.",
+        "I camped on a sandy beach on Nahwitti Lake. The trail to the lake was beautiful. It went through a big, dense forest."
+      ],
       "photobar_imgs": [
         "san-josef-bay/IMG_5387.jpg",
         "san-josef-bay/IMG_5400.jpg",
@@ -848,7 +861,11 @@ const timelines = {
       "distance": 40,
       "start": "Nahwitti Lake",
       "end": "San Josef Bay",
-      "description": [],
+      "description": [
+        "The road to Cape Scott was busy with logging trucks. They kick-up a lot of dust.",
+        "I met a guy and his daughter on motorbikes who were mapping a backroads route called the North Island 1000.",
+        "I took the Cape Scott Trail to San Josef Bay and setup camp on the edge of the beach."
+      ],
       "photobar_imgs": [
         "san-josef-bay/IMG_5469.jpg",
         "san-josef-bay/IMG_5472.jpg",
@@ -862,7 +879,9 @@ const timelines = {
       "distance": 181,
       "start": "San Josef Bay",
       "end": "Nimpkish Lake",
-      "description": [],
+      "description": [
+        "I rode back to Nimpkish Lake."
+      ],
       "photobar_imgs": [
         "san-josef-bay/IMG_5495.jpg",
         "san-josef-bay/IMG_5497.jpg",
@@ -876,7 +895,9 @@ const timelines = {
       "distance": 213,
       "start": "Nimpkish Lake",
       "end": "Courtenay",
-      "description": [],
+      "description": [
+        "I made the 213km trip back to Courtenay from Nimpkish Lake in one day."
+      ],
       "photobar_imgs": [
         "san-josef-bay/IMG_5519.jpg",
       ]
