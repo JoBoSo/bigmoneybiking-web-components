@@ -4191,4 +4191,5 @@ const tnslider = tns({
   nextButton: ".next",
   rewind: true,
   mouseDrag: true,
+  swipeAngle: 45,
 })
