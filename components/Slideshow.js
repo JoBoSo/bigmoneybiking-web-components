@@ -17,124 +17,135 @@ class Slideshow extends HTMLElement {
     let style = `
       <style>
 
-      .slideshow {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
-        background-color: rgba(0, 0, 0, 0.2);
-        border-radius: 10px;
-      }
+        #slider-section {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+          border-radius: 15px;
+          background-color: rgba(0, 0, 0, 0.2);
+        }
+        
+        .photo-slider-container {
+          width: 1600px;
+        }
+        
+        @media (max-width: 1600px) {
+          .photo-slider-container {
+            width: 100%
+          }
+        }
+        
+        .subcontainer {
+          width: 100%;
+          margin: auto;
+        }
+        
+        .slider-wrapper {
+          position: relative;
+        }
 
-      .slideshow-container {
-        position: relative;
-        margin: auto;
-        object-fit: contain;
-        overflow: hidden;
-        background-color: rgb(29, 29, 29);
-        text-align: center;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        height: 100vw;
-        max-height: 540px;
-      }
-  
-      .mySlides {
-        display: none
-      }
-  
-      .slideshow-container img {
-        /* max-width: 100vw;     */
-        max-height: 540px;
-        width: auto;
-        height: 100vw;
-      }
-  
-      .caption {
-        font-size: 15px;
-        /* padding-top: 8px; */
-      }
-  
-      .slide-number {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-      }
-  
-      .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        padding: 16px;
-        margin-top: -22px;
-        color: white !important;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-      }
-      
-      .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-      }
-  
-      .prev {
-        left: 0;
-      }
-  
-      .prev:hover, .next:hover {
-        background-color: rgba(0,0,0,0.8);
-      }
-  
-      .my-fade {
-        animation-name: fade;
-        animation-duration: 0.5s;
-      }
+        .slider-wrapper h2 {
+          margin-top: -5px;
+          margin-bottom: -10px !important;
+        }
         
-      @keyframes fade {
-        from {opacity: 0.4;} 
-        to {opacity: 1;}
-      }
+        .slide {
+          width: auto;
+          height: fit-content;
+        }
         
-      @media only screen and (max-width: 300px) {
-        .prev, .next, .caption {font-size: 11px}
-      }
+        .slide img {
+          width: 100%;
+          height: 265px;
+        }
+
+        @media (max-width: 576px) {
+          .slide img {
+            width: 100%;
+            height: 237px;
+          }
+        }
+
+        .slide .caption {
+          width: 100%; 
+          height: auto;
+          padding: 5px;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          text-align: center;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+          background: rgba(0, 0, 0, 0.2);
+        }
+        
+        #controls i {
+          color: white;
+          font-size: 1rem;
+        }
+        
+        .previous,
+        .next {
+          width: 30px;
+          cursor: pointer;
+          border-radius: 50%;
+          outline: none;
+          transition: 0.7s ease-in-out;
+          border: 2px solid white;
+          background-color: rgba(0, 0, 0, 0.2);
+          position: absolute;
+          top: 50%;
+        }
+        
+        .previous {
+          left: 2%;
+        }
+        
+        .next {
+          right: 2%;
+        }
+        
+        .previous:hover,
+        .next:hover {
+          border: 2px solid #FDB813;
+        }
 
       </style>
     `;
 
+    let data = photos[this.data_id];
+
     this.innerHTML = style + `
-    <div class="slideshow">
-      <h2 class="text-center">Pictures</h2>
-      <div class="row no-gutters">
-        <div class="col-12">
-          <div class="slideshow-container">
-            ${pictures[this.data_id].map((picture) => `
-              <div class="mySlides my-fade">
-                <div class="slide-number"></div>
-                <img src=${'../images/' + picture.image}>
-                <div class=caption>${picture.caption}</div>
+      <section id="slider-section">
+        <div class="container">
+          <div class="subcontainer">
+            <div class="slider-wrapper">
+              <h2 class="text-center">Gallery</h2>
+              <div class="slider">
+                ${data.map((photo) => `
+                  <div class="slide">
+                    <img src='../images/${photo.image}'/>
+                    <div class="caption">${photo.caption}</div>
+                  </div>
+                `).join('')}
               </div>
-            `).join("")}
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
+              <div id="controls">
+                <button class="previous"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
     `;
   }
 }
 
-const pictures = {
+const photos = {
   "mccrae-peak": [
     {
       image: "mccrae-peak/IMG_8200.jpg",
-      caption: "x"
+      caption: ""
     },
     {
       image: "mccrae-peak/IMG_8204.jpg",
@@ -307,71 +318,71 @@ const pictures = {
   "babine-lake": [
     {
       image: "babine-lake/64169084518__22C58F39-BA0E-4811-968D-82934B76049F.jpg",
-      caption: ""
+      caption: "Main Street, Smithers"
     },
     {
       image: "babine-lake/IMG_9497.jpg", 
-      caption: ""
+      caption: "Peterbuilt, Houston"
     },
     {
       image: "babine-lake/IMG_9500.jpg", 
-      caption: ""
+      caption: "Cow Pen"
     },
     {
       image: "babine-lake/IMG_9503.jpg", 
-      caption: ""
+      caption: "Grazing"
     },
     {
       image: "babine-lake/IMG_9504.jpg", 
-      caption: ""
+      caption: "Babine Lake Sign"
     },
     {
       image: "babine-lake/IMG_9506.jpg", 
-      caption: ""
+      caption: "Shore"
     },
     {
       image: "babine-lake/IMG_9509.jpg", 
-      caption: ""
+      caption: "Red Bluffs"
     },
     {
       image: "babine-lake/IMG_9510.jpg", 
-      caption: ""
+      caption: "Red Bluffs Trail Viewpoint"
     },
     {
       image: "babine-lake/IMG_9511.jpg", 
-      caption: ""
+      caption: "Beach"
     },
     {
       image: "babine-lake/IMG_9519.jpg", 
-      caption: ""
+      caption: "Roots"
     },
     {
       image: "babine-lake/IMG_9520.jpg", 
-      caption: ""
+      caption: "Babine Lake"
     },
     {
       image: "babine-lake/IMG_9525.jpg", 
-      caption: ""
+      caption: "Dusk On The Beach"
     },
     {
       image: "babine-lake/IMG_9527.jpg", 
-      caption: ""
+      caption: "Ripple"
     },
     {
       image: "babine-lake/IMG_9532.jpg", 
-      caption: ""
+      caption: "Still Water"
     },
     {
       image: "babine-lake/IMG_9533.jpg", 
-      caption: ""
+      caption: "Babine Lake Rd"
     },
     {
       image: "babine-lake/IMG_9538.jpg", 
-      caption: ""
+      caption: "A Cow Being A Cow"
     },
     {
       image: "babine-lake/IMG_9540.jpg", 
-      caption: ""
+      caption: "Alpine Air"
     },
   ],
 
@@ -765,11 +776,11 @@ const pictures = {
     },
     {
       image: "mtrl-sherbrooke/IMG_2707.jpg", 
-      caption: ""
+      caption: "Corkscrew Foot Bridge"
     },
     {
       image: "mtrl-sherbrooke/IMG_2708.jpg", 
-      caption: ""
+      caption: "Trains"
     },
     {
       image: "mtrl-sherbrooke/IMG_2709.jpg",
@@ -777,11 +788,11 @@ const pictures = {
     },
     {
       image: "mtrl-sherbrooke/IMG_2710.jpg", 
-      caption: ""
+      caption: "La Route Verte"
     },
     {
       image: "mtrl-sherbrooke/IMG_2711.jpg", 
-      caption: ""
+      caption: "Orchards"
     },
     {
       image: "mtrl-sherbrooke/IMG_2712.jpg",
@@ -789,107 +800,107 @@ const pictures = {
     },
     {
       image: "mtrl-sherbrooke/IMG_2713.jpg", 
-      caption: ""
+      caption: "Leaving Granby"
     },
     {
       image: "mtrl-sherbrooke/IMG_2715.jpg", 
-      caption: ""
+      caption: "Lac Boivin Fountain"
     },
     {
       image: "mtrl-sherbrooke/IMG_2717.jpg", 
-      caption: ""
+      caption: "Yamaska River"
     },
     {
       image: "mtrl-sherbrooke/IMG_2718.jpg", 
-      caption: ""
+      caption: "Choiniere Reservoir"
     },
     {
       image: "mtrl-sherbrooke/IMG_2720.jpg", 
-      caption: ""
+      caption: "Yamaska River"
     },
     {
       image: "mtrl-sherbrooke/IMG_2724.jpg", 
-      caption: ""
+      caption: "Telephone Lines"
     },
     {
       image: "mtrl-sherbrooke/IMG_2727.jpg", 
-      caption: ""
+      caption: "La Route Verte"
     },
     {
       image: "mtrl-sherbrooke/IMG_2730.jpg", 
-      caption: ""
+      caption: "Chem. de la Diligence"
     },
     {
       image: "mtrl-sherbrooke/IMG_2731.jpg", 
-      caption: ""
+      caption: "Camping in Stukley"
     },
     {
       image: "mtrl-sherbrooke/IMG_2735.jpg", 
-      caption: ""
+      caption: "Cow"
     },
     {
       image: "mtrl-sherbrooke/IMG_2736.jpg", 
-      caption: ""
+      caption: "Bull"
     },
     {
       image: "mtrl-sherbrooke/IMG_2739.jpg", 
-      caption: ""
+      caption: "Hills"
     },
     {
       image: "mtrl-sherbrooke/IMG_2740.jpg", 
-      caption: ""
+      caption: "Eastman"
     },
     {
       image: "mtrl-sherbrooke/IMG_2742.jpg", 
-      caption: ""
+      caption: "Étang aux Cerises, Viewpoint"
     },
     {
       image: "mtrl-sherbrooke/IMG_2744.jpg", 
-      caption: ""
+      caption: "Saint Patrice Church"
     },
     {
       image: "mtrl-sherbrooke/IMG_2746.jpg", 
-      caption: ""
+      caption: "Magog"
     },
     {
       image: "mtrl-sherbrooke/IMG_2748.jpg", 
-      caption: ""
+      caption: "Leaving Magog"
     },
     {
       image: "mtrl-sherbrooke/IMG_2750.jpg", 
-      caption: ""
+      caption: "La Route Verte"
     },
     {
       image: "mtrl-sherbrooke/IMG_2753.jpg", 
-      caption: ""
+      caption: "Drummond Dam"
     },
     {
       image: "mtrl-sherbrooke/IMG_2755.jpg", 
-      caption: ""
+      caption: "Parc Des Quatre-Pins"
     },
     {
       image: "mtrl-sherbrooke/IMG_2757.jpg", 
-      caption: ""
+      caption: "Les chutes de Magog"
     },
     {
       image: "mtrl-sherbrooke/IMG_2763.jpg", 
-      caption: ""
+      caption: "Pont Jacques-Cartier"
     },
     {
       image: "mtrl-sherbrooke/IMG_2764.jpg", 
-      caption: "Magog's Main Street"
+      caption: "Main Street, Magog"
     },
     {
       image: "mtrl-sherbrooke/IMG_2771.jpg", 
-      caption: ""
+      caption: "Sunset Over Lake Memphermagog"
     },
     {
       image: "mtrl-sherbrooke/IMG_2775.jpg", 
-      caption: ""
+      caption: "Sailboats On Lake Memphermagog"
     },
     {
       image: "mtrl-sherbrooke/IMG_2781.jpg", 
-      caption: ""
+      caption: "Leaving Magog"
     },
     {
       image: "mtrl-sherbrooke/IMG_2783.jpg", 
@@ -905,15 +916,15 @@ const pictures = {
     },
     {
       image: "mtrl-sherbrooke/IMG_2793.jpg", 
-      caption: ""
+      caption: "La Route Verte Near Mont Orford"
     },
     {
       image: "mtrl-sherbrooke/IMG_2795.jpg", 
-      caption: ""
+      caption: "Country Life"
     },
     {
       image: "mtrl-sherbrooke/IMG_2805.jpg", 
-      caption: ""
+      caption: "Horse Farm"
     }
   ],
 
@@ -1175,16 +1186,12 @@ const pictures = {
 
   "ptit-train": [
     {
-      image:"ptit-train/IMG_2464.jpg",
-      caption: "Zakir & Mike ride the P'tit Train"
-    },
-    {
       image: "ptit-train/IMG_2537.jpg",
-      caption: "A marsh near Mont Tremblant"
+      caption: "Marsh"
     },
     {
       image: "ptit-train/IMG_2538.jpg",
-      caption: "All the world is green"
+      caption: "More Marsh"
     },
     {
       image: "ptit-train/IMG_2540.jpg",
@@ -1196,15 +1203,15 @@ const pictures = {
     },
     {
       image: "ptit-train/IMG_2543.jpg",
-      caption: "A campsite next to the river"
+      caption: "Campsite Next To The River"
     },
     {
       image: "ptit-train/IMG_2546.jpg",
-      caption: "'Train stops' have water and washrooms"
+      caption: "Train Station"
     },
     {
       image: "ptit-train/IMG_2550.jpg",
-      caption: "Marshes are the main the feature"
+      caption: "It's All Marsh"
     },
     {
       image: "ptit-train/IMG_2551.jpg",
@@ -1212,23 +1219,23 @@ const pictures = {
     },
     {
       image: "ptit-train/IMG_2553.jpg",
-      caption: ""
+      caption: "Barn"
     },
     {
       image: "ptit-train/IMG_2559.jpg",
-      caption: ""
+      caption: "River"
     },
     {
       image: "ptit-train/IMG_2571.jpg",
-      caption: ""
+      caption: "Tunnel Near St. Jerome"
     },
     {
       image: "ptit-train/IMG_2577.jpg",
-      caption: ""
+      caption: "A Tree Wall"
     },
     {
       image: "ptit-train/church.jpg",
-      caption: ""
+      caption: "St. Jerome's Cathedral"
     }
   ],
 
@@ -4166,3 +4173,18 @@ const pictures = {
 }
 
 customElements.define('my-slideshow', Slideshow);
+
+const tnslider = tns({
+  container: ".slider",
+  autoWidth: true,
+  gutter: 10,
+  slideBy: 1,
+  nav: false,
+  // navPosition: "bottom",
+  speed: 400,
+  controlsContainer: "#controls",
+  prevButton: ".previous",
+  nextButton: ".next",
+  rewind: true,
+  mouseDrag: true,
+})
