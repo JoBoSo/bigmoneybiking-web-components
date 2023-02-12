@@ -63,7 +63,7 @@ class Slideshow extends HTMLElement {
 
         @media (max-width: 576px) {
           .slide img {
-            width: 100%;
+            width: auto;
             height: 237px;
           }
         }
