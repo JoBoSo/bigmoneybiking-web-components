@@ -20,7 +20,7 @@ class Slideshow extends HTMLElement {
         #slider-section {
           margin-top: 10px;
           margin-bottom: 10px;
-          padding-top: 5px;
+          padding-top: 10px;
           padding-bottom: 5px;
           box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
           border-radius: 15px;
@@ -82,6 +82,10 @@ class Slideshow extends HTMLElement {
         #controls i {
           color: white;
           font-size: 1rem;
+        }
+
+        #controls {
+          padding-bottom: 5px;
         }
         
         .previous,
