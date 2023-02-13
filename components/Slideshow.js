@@ -4178,18 +4178,23 @@ const photos = {
 
 customElements.define('my-slideshow', Slideshow);
 
-const tnslider = tns({
-  container: ".slider",
-  autoWidth: true,
-  gutter: 10,
-  slideBy: 1,
-  nav: false,
-  // navPosition: "bottom",
-  speed: 400,
-  controlsContainer: "#controls",
-  prevButton: ".previous",
-  nextButton: ".next",
-  rewind: true,
-  mouseDrag: true,
-  swipeAngle: 45,
-})
+let sliders = document.querySelectorAll('.slider');
+let controls = document.querySelectorAll('#controls');
+let previous = document.querySelectorAll('.previous');
+let next = document.querySelectorAll('.next');
+for (let i = 0; i < sliders.length; i++) {
+  tns({
+    container: sliders[i],
+    autoWidth: true,
+    gutter: 10,
+    slideBy: 1,
+    nav: false,
+    speed: 400,
+    controlsContainer: controls[i],
+    prevButton: previous[i],
+    nextButton: next[i],
+    rewind: true,
+    mouseDrag: true,
+    swipeAngle: 45,
+  });
+};
