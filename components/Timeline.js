@@ -1328,8 +1328,28 @@ const timelines = {
           "caption": "Lake Ontario"
         },
         {
+          "image": "to-mtrl/IMG_4210.jpg",
+          "caption": "Lake Ontario"
+        },
+        {
+          "image": "to-mtrl/IMG_4213.jpg",
+          "caption": "Marsh Near Presqu'ile Provincial Park"
+        },
+        {
+          "image": "to-mtrl/IMG_4216.jpg",
+          "caption": "Swamp"
+        },
+        {
           "image": "to-mtrl/IMG_4221.jpg",
           "caption": "Field in Prince Edward Country"
+        },
+        {
+          "image": "to-mtrl/IMG_4222.jpg",
+          "caption": "Corn Rows"
+        },
+        {
+          "image": "to-mtrl/IMG_4224.jpg",
+          "caption": "Campsite in Macaulay Mountain Conservation Area"
         },
       ],
     },
@@ -1346,10 +1366,6 @@ const timelines = {
         "Stayed at a motel in Kingston."
       ],
       "photos": [
-        {
-          "image": "to-mtrl/IMG_4224.jpg",
-          "caption": "Camping in Picton"
-        },
         {
           "image": "to-mtrl/IMG_4225.jpg",
           "caption": "Ferry Toward Kingston"
@@ -1373,12 +1389,20 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "to-mtrl/IMG_4229.jpg",
+          "caption": "Gananoque Entrance"
+        },
+        {
           "image": "to-mtrl/IMG_4230.jpg",
           "caption": "Gananoque Port"
         },
         {
           "image": "to-mtrl/IMG_4234.jpg",
           "caption": "The St. Lawrence River"
+        },
+        {
+          "image": "to-mtrl/IMG_4235.jpg",
+          "caption": "Stone House"
         },
         {
           "image": "to-mtrl/IMG_4238.jpg",
@@ -1418,6 +1442,18 @@ const timelines = {
           "caption": "Foot Bridge"
         },
         {
+          "image": "to-mtrl/IMG_4284.jpg",
+          "caption": "Cornwall Port"
+        },
+        {
+          "image": "to-mtrl/IMG_4290.jpg",
+          "caption": "Long Dock"
+        },
+        {
+          "image": "to-mtrl/IMG_4291.jpg",
+          "caption": "Fish & Chips"
+        },
+        {
           "image": "to-mtrl/IMG_4292.jpg",
           "caption": "Glengarry Campground"
         },
@@ -1442,12 +1478,24 @@ const timelines = {
           "caption": "Gazebo"
         },
         {
+          "image": "to-mtrl/IMG_4303.jpg",
+          "caption": "Spiral Bridge"
+        },
+        {
           "image": "to-mtrl/IMG_4304.jpg",
           "caption": "Sainte-Anne-de-Bellevue"
         },
         {
+          "image": "to-mtrl/IMG_4307.jpg",
+          "caption": "A Nice House"
+        },
+        {
           "image": "to-mtrl/IMG_4312.jpg",
           "caption": "Canal"
+        },
+        {
+          "image": "to-mtrl/IMG_4313.jpg",
+          "caption": "The City"
         },
       ],
     }
