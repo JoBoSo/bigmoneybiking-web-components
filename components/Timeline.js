@@ -2576,5 +2576,6 @@ for (let i = 0; i < sliders.length; i++) {
     rewind: true,
     mouseDrag: true,
     swipeAngle: 45,
+    preventScrollOnTouch: "force",
   });
 };
