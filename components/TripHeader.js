@@ -143,7 +143,7 @@ const data = {
     "title": "P'tit Train du Nord",
     "distance_km": 316,
     "days": 3,
-    "terrain": "Paved & gravel rail trail",
+    "terrain": "Paved & Gravel Rail Trail",
     "location": "SW Laurentians, QC",
     "dates": "Aug 12-15, 2022",
     "quote": null,
