@@ -2088,18 +2088,30 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "oliver-creek/IMG_0257.jpg",
+          "caption": ""
+        },
+        {
+          "image": "oliver-creek/IMG_0263.jpg",
+          "caption": ""
+        },
+        {
+          "image": "oliver-creek/IMG_0324.jpg",
+          "caption": ""
+        },
+        {
+          "image": "oliver-creek/IMG_0325.jpg",
+          "caption": ""
+        },
+        {
+          "image": "oliver-creek/IMG_0332.jpg",
+          "caption": ""
+        },
+        {
+          "image": "oliver-creek/IMG_0336.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "oliver-creek/IMG_0257.jpg",
-        "oliver-creek/IMG_0263.jpg",
-        "oliver-creek/IMG_0324.jpg",
-        "oliver-creek/IMG_0325.jpg",
-        "oliver-creek/IMG_0332.jpg",
-        "oliver-creek/IMG_0336.jpg",
-      ]
     },
     {
       "destination": null,
@@ -2114,15 +2126,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "oliver-creek/IMG_0343.jpg",
+          "caption": ""
+        },
+        {
+          "image": "oliver-creek/IMG_0344.jpg",
+          "caption": ""
+        },
+        {
+          "image": "oliver-creek/IMG_0350.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "oliver-creek/IMG_0343.jpg",
-        "oliver-creek/IMG_0344.jpg",
-        "oliver-creek/IMG_0350.jpg",
-      ]
     },
   ],
 
@@ -2145,15 +2160,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "phillips-ridge/IMG_7095.jpg",
+          "caption": ""
+        },
+        {
+          "image": "phillips-ridge/IMG_7099.jpg",
+          "caption": ""
+        },
+        {
+          "image": "phillips-ridge/IMG_7102.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "phillips-ridge/IMG_7095.jpg",
-        "phillips-ridge/IMG_7099.jpg",
-        "phillips-ridge/IMG_7102.jpg",
-      ]
     },
     {
       "destination": null,
@@ -2168,15 +2186,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "phillips-ridge/IMG_7112.jpg",
+          "caption": ""
+        },
+        {
+          "image": "phillips-ridge/IMG_7119.jpg",
+          "caption": ""
+        },
+        {
+          "image": "phillips-ridge/IMG_7123.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "phillips-ridge/IMG_7112.jpg",
-        "phillips-ridge/IMG_7119.jpg",
-        "phillips-ridge/IMG_7123.jpg",
-      ]
     },
   ],
 
@@ -2198,15 +2219,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "algonquin/IMG_4454.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4464.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4471.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "algonquin/IMG_4454.jpg",
-        "algonquin/IMG_4464.jpg",
-        "algonquin/IMG_4471.jpg",
-      ]
     },
     {
       "destination": null,
@@ -2223,18 +2247,30 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "algonquin/IMG_4494.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4501.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4508.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4510.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4526.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4535.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "algonquin/IMG_4494.jpg",
-        "algonquin/IMG_4501.jpg",
-        "algonquin/IMG_4508.jpg",
-        "algonquin/IMG_4510.jpg",
-        "algonquin/IMG_4526.jpg",
-        "algonquin/IMG_4535.jpg",
-      ]
     },
     {
       "destination": "The Minnesing Trail",
@@ -2251,18 +2287,30 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "algonquin/IMG_4563.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4565.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4566.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/the_lake.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4608.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4611.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "algonquin/IMG_4563.jpg",
-        "algonquin/IMG_4565.jpg",
-        "algonquin/IMG_4566.jpg",
-        "algonquin/the_lake.jpg",
-        "algonquin/IMG_4608.jpg",
-        "algonquin/IMG_4611.jpg",
-      ]
     },
   ],
 
@@ -2282,15 +2330,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "jasper/IMG_0966.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_0969.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_0972.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "jasper/IMG_0966.jpg",
-        "jasper/IMG_0969.jpg",
-        "jasper/IMG_0972.jpg",
-      ]
     },
     {
       "destination": "Valley of the Five Lakes",
@@ -2308,15 +2359,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "jasper/IMG_0979.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_0984.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_0990.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "jasper/IMG_0979.jpg",
-        "jasper/IMG_0984.jpg",
-        "jasper/IMG_0990.jpg",
-      ]
     },
     {
       "destination": "Sulpher Skyline Trail and Utopia Mountain",
@@ -2334,18 +2388,30 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "jasper/IMG_0997.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1005.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1008.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1019.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1026.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1032.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "jasper/IMG_0997.jpg",
-        "jasper/IMG_1005.jpg",
-        "jasper/IMG_1008.jpg",,
-        "jasper/IMG_1019.jpg",
-        "jasper/IMG_1026.jpg",
-        "jasper/IMG_1032.jpg",
-      ]
     },
     {
       "destination": "The Main Attractions",
@@ -2360,18 +2426,30 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "jasper/IMG_1043.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1044.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1046.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1049.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1051.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1055.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "jasper/IMG_1043.jpg",
-        "jasper/IMG_1044.jpg",
-        "jasper/IMG_1046.jpg",
-        "jasper/IMG_1049.jpg",
-        "jasper/IMG_1051.jpg",
-        "jasper/IMG_1055.jpg",
-      ]
     },
   ],
 
