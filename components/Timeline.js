@@ -20,7 +20,7 @@ class Timeline extends HTMLElement {
       .my-timeline ul {
         list-style-type: none;
         position: relative;
-        padding-left: 6px; 
+        padding-left: 0px; 
       }
       
         /* vertical line */
@@ -29,7 +29,7 @@ class Timeline extends HTMLElement {
         background: white;
         display: inline-block;
         position: absolute;
-        left: 6px;
+        left: 0px;
         width: 1.5px;
         height: auto; /*auto for line on top dot*/
         top: 16px; /*16px for on the top dot*/
@@ -57,7 +57,7 @@ class Timeline extends HTMLElement {
         position: absolute;
         border-radius: 50%;
         border: 1.5px solid white;
-        left: 0px;
+        left: -6px;
         width: 14px;
         height: 14px;
         z-index: 400;
@@ -79,19 +79,92 @@ class Timeline extends HTMLElement {
       .my-timeline-bullets::before {
         background: none !important;
       }
-      
-      .photoBar {
-        /* padding-top: 10px;  */
-        padding-left: 25px;
-        padding-right: 5px;
-        border-radius: 12px;
+
+      #timeline-slider-section {
+        margin-top: -10px;
       }
       
-      .photoBar img {
+      .photo-slider-container {
+        width: 1600px;
+      }
+      
+      @media (max-width: 1600px) {
+        .photo-slider-container {
+          width: 100%
+        }
+      }
+      
+      .subcontainer {
+        width: 100%;
+        margin: auto;
+      }
+      
+      .slider-wrapper {
+        position: relative;
+      }
+      
+      .slide {
+        width: auto;
+        height: fit-content;
+      }
+      
+      .slide img {
+        width: 100%;
+        height: 263px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+      }
+
+      @media (max-width: 576px) {
+        .slide img {
+          width: auto;
+          height: 237px;
+        }
+      }
+
+      .slide .caption {
         width: 100%; 
         height: auto;
-        padding: 6px;
-        border-radius: 15px;
+        padding: 5px;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        text-align: center;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        background: rgba(0, 0, 0, 0.2);
+      }
+      
+      #controls i {
+        color: white;
+      }
+
+      #controls {
+        padding-bottom: 5px;
+      }
+      
+      .previous,
+      .next {
+        width: 30px;
+        cursor: pointer;
+        border-radius: 50%;
+        outline: none;
+        transition: 0.7s ease-in-out;
+        border: 2px solid white;
+        background-color: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: 50%;
+      }
+      
+      .previous {
+        left: 2%;
+      }
+      
+      .next {
+        right: 2%;
+      }
+      
+      .previous:hover,
+      .next:hover {
+        border: 2px solid #FDB813;
       }
 
       </style>
@@ -116,13 +189,28 @@ class Timeline extends HTMLElement {
                 ${item.description.map((bullet) => `<li>${bullet}</li>`).join('')}
               </ul>
 
-              <div class="photoBar">
-                <div class="row no-gutters">
-                  ${item.photobar_imgs.map((image) => `
-                    <div class="col-12 col-sm-4"><img src="../images/${image}" loading="lazy"></div>
-                  `).join('')}
-                </div>
-              </div>
+              ${item.photos.length < 1 ? `` : `
+                <section id="timeline-slider-section">
+                  <div class="container">
+                    <div class="subcontainer">
+                      <div class="slider-wrapper">
+                        <div class="slider">
+                          ${item.photos.map((photo) => `
+                            <div class="slide">
+                              <img src='../images/${photo.image}'/>
+                              <div class="caption">${photo.caption}</div>
+                            </div>
+                          `).join('')}
+                        </div>
+                        <div id="controls">
+                          <button class="previous"><i class="fa-solid fa-angle-left"></i></button>
+                          <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              `}
 
             </li>
           `).join('')}
@@ -146,11 +234,20 @@ const timelines = {
         "The forested trail along the lake in Yamaska National Park was a highlight.",
         "Camped next to a power generator near Stukley-Sud."
       ],
-      "photobar_imgs": [
-        "mtrl-sherbrooke/IMG_2704.jpg",
-        "mtrl-sherbrooke/IMG_2709.jpg",
-        "mtrl-sherbrooke/IMG_2731.jpg"
-      ]
+      "photos": [
+        {
+          "image": "mtrl-sherbrooke/IMG_2704.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2709.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2731.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -166,11 +263,20 @@ const timelines = {
         "Watched the sunset over Lake Memphermagog.",
         "Arrived at the cyclist campground in Mt. Orford National Park after midnight."
       ],
-      "photobar_imgs": [
-        "mtrl-sherbrooke/IMG_2744.jpg",
-        "mtrl-sherbrooke/IMG_2755.jpg",
-        "mtrl-sherbrooke/IMG_2775.jpg"
-      ]
+      "photos": [
+        {
+          "image": "mtrl-sherbrooke/IMG_2744.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2755.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2775.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -183,11 +289,20 @@ const timelines = {
         "Biked home in the cold rain.",
         "Picked a couple of apples along the way."
       ],
-      "photobar_imgs": [
-        "mtrl-sherbrooke/IMG_2789.jpg",
-        "mtrl-sherbrooke/IMG_2795.jpg",
-        "mtrl-sherbrooke/IMG_2805.jpg"
-      ]
+      "photos": [
+        {
+          "image": "mtrl-sherbrooke/IMG_2789.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2795.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2805.jpg",
+          "caption": ""
+        },
+      ],
     }
   ],
 
@@ -207,11 +322,20 @@ const timelines = {
         "Ate poutine at La P'tite Patate Chez Léo for lunch.",
         "Camped next to a shelter along the trail beside Lac Boyd."
       ],
-      "photobar_imgs": [
-        "ptit-train/IMG_2537.jpg",
-        "ptit-train/poutine.jpg",
-        "ptit-train/IMG_2538.jpg",
-      ]
+      "photos": [
+        {
+          "image": "ptit-train/IMG_2537.jpg",
+          "caption": ""
+        },
+        {
+          "image": "ptit-train/poutine.jpg",
+          "caption": ""
+        },
+        {
+          "image": "ptit-train/IMG_2538.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -225,11 +349,20 @@ const timelines = {
         "Reached Mont Laurier at noon.",
         "Biked back to the cottage."
       ],
-      "photobar_imgs": [
-        "ptit-train/IMG_2550.jpg",
-        "ptit-train/IMG_2551.jpg",
-        "ptit-train/IMG_2553.jpg"
-      ]
+      "photos": [
+        {
+          "image": "ptit-train/IMG_2550.jpg",
+          "caption": ""
+        },
+        {
+          "image": "ptit-train/IMG_2551.jpg",
+          "caption": ""
+        },
+        {
+          "image": "ptit-train/IMG_2553.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -243,11 +376,20 @@ const timelines = {
         "The section of the trail between Val David and St. Adele has great views of lakes and granite cliffs.",
         "I hungout at the park across from the church before turning back home."
       ],
-      "photobar_imgs": [
-        "ptit-train/river.jpg",
-        "ptit-train/church.jpg",
-        "ptit-train/IMG_2577.jpg",
-      ]
+      "photos": [
+        {
+          "image": "ptit-train/river.jpg",
+          "caption": ""
+        },
+        {
+          "image": "ptit-train/church.jpg",
+          "caption": ""
+        },
+        {
+          "image": "ptit-train/IMG_2577.jpg",
+          "caption": ""
+        },
+      ],
     }
   ],
 
@@ -268,11 +410,20 @@ const timelines = {
         "Biked North on the ocean-side highway and passed lots people picking ripe black and thimble berries.",
         "Camped on the beach about 15 km south of Tlell and watched a long, soft-pink sunset while sitting beside a fire."
       ],
-      "photobar_imgs": [
-        "haida-gwaii/IMG_0837.jpg",
-        "haida-gwaii/IMG_0826.jpg",
-        "haida-gwaii/IMG_0834.jpg",
-      ]
+      "photos": [
+        {
+          "image": "haida-gwaii/IMG_0837.jpg",
+          "caption": ""
+        },
+        {
+          "image": "haida-gwaii/IMG_0826.jpg",
+          "caption": ""
+        },
+        {
+          "image": "haida-gwaii/IMG_0834.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -288,12 +439,20 @@ const timelines = {
         "Biked the Golden Spruce Trail, which was cool after having read the book on it.",
         "Traveled through the interior of the island to the edge of Queen Charlotte where I camped by a rocky, wet cove."
       ],
-      "photobar_imgs": [
-        "haida-gwaii/IMG_0847.jpg",
-        "haida-gwaii/IMG_0857.jpg",
-        "haida-gwaii/IMG_0860.jpg",
-
-      ]
+      "photos": [
+        {
+          "image": "haida-gwaii/IMG_0847.jpg",
+          "caption": ""
+        },
+        {
+          "image": "haida-gwaii/IMG_0857.jpg",
+          "caption": ""
+        },
+        {
+          "image": "haida-gwaii/IMG_0860.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -307,11 +466,20 @@ const timelines = {
         "Hung out in Queen Charlotte for the day before returning to Skidgate Landing.",
         "Took the night ferry back to Prince Rupert."
       ],
-      "photobar_imgs": [
-        "haida-gwaii/IMG_0869.jpg",
-        "haida-gwaii/IMG_0866.jpg",
-        "haida-gwaii/IMG_0868.jpg",
-      ]
+      "photos": [
+        {
+          "image": "haida-gwaii/IMG_0869.jpg",
+          "caption": ""
+        },
+        {
+          "image": "haida-gwaii/IMG_0866.jpg",
+          "caption": ""
+        },
+        {
+          "image": "haida-gwaii/IMG_0868.jpg",
+          "caption": ""
+        },
+      ],
     }
   ],
 
@@ -330,11 +498,20 @@ const timelines = {
         "A coytoe standing on a logging road that intersected the Stewart-Cassiar Highway watched me ride by.",
         "I camped at Dragon Lake Campground."
       ],
-      "photobar_imgs": [
-        "nass-valley/IMG_9673.jpg",
-        "nass-valley/IMG_9651.jpg",
-        "nass-valley/IMG_9658.jpg",
-      ]
+      "photos": [
+        {
+          "image": "nass-valley/IMG_9673.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_9651.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_9658.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -350,14 +527,32 @@ const timelines = {
         "Eagles soared above me on the Gingolx Lookout Trail.",
         "I camped next to a gravel pit a few kilometers outside of Gingolx."
       ],
-      "photobar_imgs": [
-        "nass-valley/IMG_9714.jpg",
-        "nass-valley/IMG_9750.jpg",
-        "nass-valley/IMG_9753.jpg",
-        "nass-valley/IMG_9766.jpg",
-        "nass-valley/IMG_9787.jpg",
-        "nass-valley/IMG_9819.jpg",
-      ]
+      "photos": [
+        {
+          "image": "nass-valley/IMG_9714.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_9750.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_9753.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_9766.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_9787.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_9819.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -371,11 +566,20 @@ const timelines = {
         "Scared a bear that wasn't moving off the highway with a banger and felt pretty cool.",
         "Camped on the beach next to a fire at my campsite on Kitsumkalum Lake."
       ],
-      "photobar_imgs": [
-        "nass-valley/IMG_9823.jpg",
-        "nass-valley/IMG_0083.jpg",
-        "nass-valley/IMG_0102.jpg",
-      ]
+      "photos": [
+        {
+          "image": "nass-valley/IMG_9823.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_0083.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_0102.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -388,9 +592,12 @@ const timelines = {
         "I got a cappuccino and sandwich at Bert's Deli in Terrace.",
         "Returned to Kitwanaga a complete man in my mind."
       ],
-      "photobar_imgs": [
-        "nass-valley/IMG_0117.jpg"
-      ]
+      "photos": [
+        {
+          "image": "nass-valley/IMG_0117.jpg",
+          "caption": ""
+        },
+      ],
     }
   ],
 
@@ -410,14 +617,32 @@ const timelines = {
         "The gently rolling hills of interior BC made for a ride that was easy on the knees.",
         "I camped on the edge of Babine Lake in Red Bluff Provincial Park."
       ],
-      "photobar_imgs": [
-        "babine-lake/IMG_9497.jpg",
-        "babine-lake/IMG_9504.jpg",
-        "babine-lake/IMG_9506.jpg",
-        "babine-lake/IMG_9511.jpg",
-        "babine-lake/IMG_9517.jpg",
-        "babine-lake/IMG_9525.jpg",
-      ]
+      "photos": [
+        {
+          "image": "babine-lake/IMG_9497.jpg",
+          "caption": ""
+        },
+        {
+          "image": "babine-lake/IMG_9504.jpg",
+          "caption": ""
+        },
+        {
+          "image": "babine-lake/IMG_9506.jpg",
+          "caption": ""
+        },
+        {
+          "image": "babine-lake/IMG_9511.jpg",
+          "caption": ""
+        },
+        {
+          "image": "babine-lake/IMG_9517.jpg",
+          "caption": ""
+        },
+        {
+          "image": "babine-lake/IMG_9525.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -431,11 +656,20 @@ const timelines = {
         "Before I reached Telkwa High Road, where the logging road ended, a local guy picked me up after driving ahead of me because a grizzly was on the road and wouldn't budge when he honked. So, he brought me and by bike to the edge of Telkwa.",
         "I returned to Tyhee Lake Provincial Park."
       ],
-      "photobar_imgs": [
-        "babine-lake/IMG_9527.jpg",
-        "babine-lake/IMG_9529.jpg",
-        "babine-lake/IMG_9533.jpg",
-      ]
+      "photos": [
+        {
+          "image": "babine-lake/IMG_9527.jpg",
+          "caption": ""
+        },
+        {
+          "image": "babine-lake/IMG_9529.jpg",
+          "caption": ""
+        },
+        {
+          "image": "babine-lake/IMG_9533.jpg",
+          "caption": ""
+        },
+      ],
     },
   ],
 
@@ -453,11 +687,20 @@ const timelines = {
         "Was held up on the highway for over an hour because the crumbling mountain-side was being repaired.",
         "My neighbours at Carnes Creek Rec Site gave me a load of fire wood for the night."
       ],
-      "photobar_imgs": [
-        "downie-creek/IMG_8490.jpg",
-        "downie-creek/IMG_8491.jpg",
-        "downie-creek/IMG_8500.jpg",
-      ]
+      "photos": [
+        {
+          "image": "downie-creek/IMG_8490.jpg",
+          "caption": ""
+        },
+        {
+          "image": "downie-creek/IMG_8491.jpg",
+          "caption": ""
+        },
+        {
+          "image": "downie-creek/IMG_8500.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -471,11 +714,20 @@ const timelines = {
         "The mist and fog was moving around me all day. It brought the river to life.",
         "I decided to turn around at Downie Creek. If the forecast wasn't cold rain, I would have continued to Mica Creek."
       ],
-      "photobar_imgs": [
-        "downie-creek/IMG_8521.jpg",
-        "downie-creek/IMG_8602.jpg",
-        "downie-creek/IMG_8560.jpg",
-      ]
+      "photos": [
+        {
+          "image": "downie-creek/IMG_8521.jpg",
+          "caption": ""
+        },
+        {
+          "image": "downie-creek/IMG_8602.jpg",
+          "caption": ""
+        },
+        {
+          "image": "downie-creek/IMG_8560.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -488,11 +740,20 @@ const timelines = {
         "There are lots of pull-offs along the river. It's a dream for camping.",
         "This is the kind of road that you won't find unless you look for it. I want to ride it all the way to it's end when I'm back."
       ],
-      "photobar_imgs": [
-        "downie-creek/IMG_8634.jpg",
-        "downie-creek/IMG_8647.jpg",
-        "downie-creek/IMG_8648.jpg",
-      ]
+      "photos": [
+        {
+          "image": "downie-creek/IMG_8634.jpg",
+          "caption": ""
+        },
+        {
+          "image": "downie-creek/IMG_8647.jpg",
+          "caption": ""
+        },
+        {
+          "image": "downie-creek/IMG_8648.jpg",
+          "caption": ""
+        },
+      ],
     },
   ],
 
@@ -509,11 +770,20 @@ const timelines = {
       "description": [
         "We biked from our place in Revelstoke to Begbie Falls Rec Site to camp."
       ],
-      "photobar_imgs": [
-        "begbie-falls/IMG_8346.jpg",
-        "begbie-falls/IMG_3717.jpg",
-        "begbie-falls/IMG_3712.jpg",
-      ]
+      "photos": [
+        {
+          "image": "begbie-falls/IMG_8346.jpg",
+          "caption": ""
+        },
+        {
+          "image": "begbie-falls/IMG_3717.jpg",
+          "caption": ""
+        },
+        {
+          "image": "begbie-falls/IMG_3712.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -525,11 +795,20 @@ const timelines = {
       "description": [
         "We hiked a little more than half way up Mt. Begbie the next morning."
       ],
-      "photobar_imgs": [
-        "begbie-falls/IMG_8377.jpg",
-        "begbie-falls/IMG_8374.jpg",
-        "begbie-falls/IMG_8371.jpg",
-      ]
+      "photos": [
+        {
+          "image": "begbie-falls/IMG_8377.jpg",
+          "caption": ""
+        },
+        {
+          "image": "begbie-falls/IMG_8374.jpg",
+          "caption": ""
+        },
+        {
+          "image": "begbie-falls/IMG_8371.jpg",
+          "caption": ""
+        },
+      ],
     },
   ],
 
@@ -547,11 +826,20 @@ const timelines = {
         "Got some salmon from Dockside Fish & Chips before getting on the ferry from Campbell River to Quadra.",
         "Pushed my bike along a trail to Morte Lake where I camped."
       ],
-      "photobar_imgs": [
-        "quadra-cortes/IMG_6782.jpg",
-        "quadra-cortes/IMG_6819.jpg",
-        "quadra-cortes/IMG_6791.jpg",
-      ]
+      "photos": [
+        {
+          "image": "quadra-cortes/IMG_6782.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6819.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6791.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -565,11 +853,20 @@ const timelines = {
         "Went to Surge Narrows Provincial Park where the ocean gets squeezed between Quadra and it's neighbour, Maurelle Island.",
         "Camped in a lushious opening in the forest."
       ],
-      "photobar_imgs": [
-        "quadra-cortes/IMG_6813.jpg",
-        "quadra-cortes/IMG_6834.jpg",
-        "quadra-cortes/IMG_6835.jpg",
-      ]
+      "photos": [
+        {
+          "image": "quadra-cortes/IMG_6813.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6834.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6835.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -585,14 +882,32 @@ const timelines = {
         "Looked at the garden behind Cortes Natural Food Co-op.",
         "Was confused when I found pontoon boats sitting in a pit with cottages on cliffs above them. But I figured out what was going on when the tide came in to fill it up."
       ],
-      "photobar_imgs": [
-        "quadra-cortes/IMG_6856.jpg",
-        "quadra-cortes/IMG_6848.jpg",
-        "quadra-cortes/IMG_6861.jpg",
-        "quadra-cortes/IMG_6904.jpg",
-        "quadra-cortes/IMG_6950.jpg",
-        "quadra-cortes/IMG_6954.jpg",
-      ]
+      "photos": [
+        {
+          "image": "quadra-cortes/IMG_6856.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6848.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6861.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6904.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6950.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6954.jpg",
+          "caption": ""
+        },
+      ],
     },
   ],
 
@@ -612,11 +927,20 @@ const timelines = {
         "The lake is surrounded by vibrant greenery and organe arbutus trees.",
         "I camped on some mossy bluffs overlooking the lake."
       ],
-      "photobar_imgs": [
-        "comox-lake/IMG_6300.jpg",
-        "comox-lake/IMG_6302.jpg",
-        "comox-lake/IMG_6310.jpg",
-      ]
+      "photos": [
+        {
+          "image": "comox-lake/IMG_6300.jpg",
+          "caption": ""
+        },
+        {
+          "image": "comox-lake/IMG_6302.jpg",
+          "caption": ""
+        },
+        {
+          "image": "comox-lake/IMG_6310.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -629,11 +953,20 @@ const timelines = {
         "The shadow of the mountains across the lake was cast upon those on my side of the lake as the sun rose at 6am.",
         "I tried biking around the lake, thinking it might connect to Cumberland on the otherside, but an old couple who lived on the otherside of the lake told me it didn't."
       ],
-      "photobar_imgs": [
-        "comox-lake/IMG_6325.jpg",
-        "comox-lake/IMG_6331.jpg",
-        "comox-lake/IMG_6336.jpg",
-      ]
+      "photos": [
+        {
+          "image": "comox-lake/IMG_6325.jpg",
+          "caption": ""
+        },
+        {
+          "image": "comox-lake/IMG_6331.jpg",
+          "caption": ""
+        },
+        {
+          "image": "comox-lake/IMG_6336.jpg",
+          "caption": ""
+        },
+      ],
     },
   ],
 
@@ -652,11 +985,20 @@ const timelines = {
         "On my way down the road to Dinner Rock, I saw a bear with two cubs run through the forest.",
         "Someone left a homemade fire-starter in the pit and I needed no more convincing. It felt like a gift."
       ],
-      "photobar_imgs": [
-        "texada/IMG_5788.jpg",
-        "texada/IMG_5800.jpg",
-        "texada/IMG_5797.jpg",
-      ]
+      "photos": [
+        {
+          "image": "texada/IMG_5788.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_5800.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_5797.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -670,11 +1012,20 @@ const timelines = {
         "Napped on some spongy bluffs and watched an eagle fly above me. It was so quite I could hear the eagle's wings cutting the air.",
         "Camped at Single Beach. The host was really on the ball with an iPad for registation and a tagged truck."
       ],
-      "photobar_imgs": [
-        "texada/IMG_5848.jpg",
-        "texada/IMG_5862.jpg",
-        "texada/IMG_5871.jpg",
-      ]
+      "photos": [
+        {
+          "image": "texada/IMG_5848.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_5862.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_5871.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -688,14 +1039,32 @@ const timelines = {
         "There were tiny strawberries growing that tasted unbelievably sweet.",
         "I hiked around Bob's Lake and saw an old horse campsite and a variety of perfectly content mushrooms."
       ],
-      "photobar_imgs": [
-        "texada/IMG_6103.jpg",
-        "texada/IMG_5893.jpg",
-        "texada/IMG_5941.jpg",
-        "texada/IMG_6011.jpg",
-        "texada/IMG_5974.jpg",
-        "texada/IMG_6021.jpg",
-      ]
+      "photos": [
+        {
+          "image": "texada/IMG_6103.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_5893.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_5941.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_6011.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_5974.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_6021.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -708,11 +1077,20 @@ const timelines = {
         "The Lake was misty in the morning.",
         "I had a meal on the colourful patio at Mary Mary Cafe in Van Anda before getting on the ferry."
       ],
-      "photobar_imgs": [
-        "texada/IMG_6107.jpg",
-        "texada/IMG_6110.jpg",
-        "texada/IMG_6113.jpg",
-      ]
+      "photos": [
+        {
+          "image": "texada/IMG_6107.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_6110.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_6113.jpg",
+          "caption": ""
+        },
+      ],
     }
   ],
 
@@ -729,11 +1107,20 @@ const timelines = {
       "description": [
         "Brewster Lake had a real beachy feel, like Tofino does, with it's swooping cedar trees and vibrant greenery."
       ],
-      "photobar_imgs": [
-        "brewster-lake/IMG_5594.jpg",
-        "brewster-lake/IMG_5557.jpg",
-        "brewster-lake/IMG_5570.jpg",
-      ]
+      "photos": [
+        {
+          "image": "brewster-lake/IMG_5594.jpg",
+          "caption": ""
+        },
+        {
+          "image": "brewster-lake/IMG_5557.jpg",
+          "caption": ""
+        },
+        {
+          "image": "brewster-lake/IMG_5570.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -745,12 +1132,20 @@ const timelines = {
       "description": [
         "Made a small fire on the shore and watched bats zip in and out of the forest behind me."
       ],
-      "photobar_imgs": [
-        "brewster-lake/IMG_5585.jpg",
-        "brewster-lake/IMG_5603.jpg",
-        "brewster-lake/IMG_5631.jpg",
-
-      ]
+      "photos": [
+        {
+          "image": "brewster-lake/IMG_5585.jpg",
+          "caption": ""
+        },
+        {
+          "image": "brewster-lake/IMG_5603.jpg",
+          "caption": ""
+        },
+        {
+          "image": "brewster-lake/IMG_5631.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -762,11 +1157,20 @@ const timelines = {
       "description": [
         "I rode home to Courtenay."
       ],
-      "photobar_imgs": [
-        "brewster-lake/IMG_5610.jpg",
-        "brewster-lake/IMG_5628.jpg",
-        "brewster-lake/IMG_5619.jpg",
-      ]
+      "photos": [
+        {
+          "image": "brewster-lake/IMG_5610.jpg",
+          "caption": ""
+        },
+        {
+          "image": "brewster-lake/IMG_5628.jpg",
+          "caption": ""
+        },
+        {
+          "image": "brewster-lake/IMG_5619.jpg",
+          "caption": ""
+        },
+      ],
     },
   ],
 
@@ -783,11 +1187,40 @@ const timelines = {
       "description": [
         "I left Courtenay late in the morning and camped at Burnt Beach Rec Site near Campbell River."
       ],
-      "photobar_imgs": [
-        "san-josef-bay/IMG_5236.jpg",
-        "san-josef-bay/IMG_5254.jpg",
-        "san-josef-bay/IMG_5245.jpg",
-      ]
+      "photos": [
+        {
+          "image": "san-josef-bay/IMG_5234.jpg",
+          "caption": "Road"
+        },
+        {
+          "image": "san-josef-bay/IMG_5236.jpg",
+          "caption": "Campbell River"
+        },
+        {
+          "image": "san-josef-bay/IMG_5290.jpg",
+          "caption": "Burnt Beach Rec Site"
+        },
+        {
+          "image": "san-josef-bay/IMG_5243.jpg",
+          "caption": "The Steel Steed"
+        },
+        {
+          "image": "san-josef-bay/IMG_5245.jpg",
+          "caption": "Burnt Beach"
+        },
+        {
+          "image": "san-josef-bay/IMG_5254.jpg",
+          "caption": "Lizard"
+        },
+        {
+          "image": "san-josef-bay/IMG_5257.jpg",
+          "caption": "Sunset"
+        },
+        {
+          "image": "san-josef-bay/IMG_5263.jpg",
+          "caption": "My Campsite"
+        },
+      ],
     },
     {
       "destination": null,
@@ -799,11 +1232,56 @@ const timelines = {
       "description": [
         "I continued toward Sayward, mostly on logging roads that were in pretty good shape."
       ],
-      "photobar_imgs": [
-        "san-josef-bay/IMG_5307.jpg",
-        "san-josef-bay/IMG_5296.jpg",
-        "san-josef-bay/IMG_5313.jpg",
-      ]
+      "photos": [
+        {
+          "image": "san-josef-bay/IMG_5293.jpg",
+          "caption": "Apple Point Rec Site"
+        },
+        {
+          "image": "san-josef-bay/IMG_5296.jpg",
+          "caption": "Ferns"
+        },
+        {
+          "image": "san-josef-bay/IMG_5303.jpg",
+          "caption": "Gravel Road"
+        },
+        {
+          "image": "san-josef-bay/IMG_5307.jpg",
+          "caption": "Cut Block"
+        },
+        {
+          "image": "san-josef-bay/IMG_5309.jpg",
+          "caption": "Sustainable Forestry"
+        },
+        {
+          "image": "san-josef-bay/IMG_5311.jpg",
+          "caption": "Forest Road"
+        },
+        {
+          "image": "san-josef-bay/IMG_5313.jpg",
+          "caption": "Jungle"
+        },
+        {
+          "image": "san-josef-bay/IMG_5319.jpg",
+          "caption": "Winding Road"
+        },
+        {
+          "image": "san-josef-bay/IMG_5321.jpg",
+          "caption": "Logging Road"
+        },
+        {
+          "image": "san-josef-bay/IMG_5323.jpg",
+          "caption": "Elk Creek Rec Site"
+        },
+        {
+          "image": "san-josef-bay/IMG_5326.jpg",
+          "caption": "The Creek"
+        },
+        {
+          "image": "san-josef-bay/IMG_5330.jpg",
+          "caption": "My Bedroom"
+        },
+      ],
     },
     {
       "destination": null,
@@ -815,9 +1293,20 @@ const timelines = {
       "description": [
         "I took a rainy day off at the campground near Sayward."
       ],
-      "photobar_imgs": [
-        "san-josef-bay/IMG_5333.jpg",
-      ]
+      "photos": [
+        {
+          "image": "san-josef-bay/IMG_5332.jpg",
+          "caption": "Mossy Branches"
+        },
+        {
+          "image": "san-josef-bay/IMG_5333.jpg",
+          "caption": "My Tent"
+        },
+        {
+          "image": "san-josef-bay/IMG_5327.jpg",
+          "caption": "Swooping Trees"
+        },
+      ],
     },
     {
       "destination": null,
@@ -830,11 +1319,36 @@ const timelines = {
         "I followed the highway to Woss and bought some food a the gas station. There wasn't much to choose from, but it was my only option for the day.",
         "I ended at Nimpkish Lake for the night. It's one of my favorite campsites."
       ],
-      "photobar_imgs": [
-        "san-josef-bay/IMG_5352.jpg",
-        "san-josef-bay/IMG_5353.jpg",
-        "san-josef-bay/IMG_5363.jpg",
-      ]
+      "photos": [
+        {
+          "image": "san-josef-bay/IMG_5339.jpg",
+          "caption": "Wet Needles"
+        },
+        {
+          "image": "san-josef-bay/IMG_5340.jpg",
+          "caption": "River"
+        },
+        {
+          "image": "san-josef-bay/IMG_5352.jpg",
+          "caption": "Woss, Dank Woss"
+        },
+        {
+          "image": "san-josef-bay/IMG_5353.jpg",
+          "caption": "Nimpkish Lake Rec Site"
+        },
+        {
+          "image": "san-josef-bay/IMG_5354.jpg",
+          "caption": "Nimpkish Lake"
+        },
+        {
+          "image": "san-josef-bay/IMG_5355.jpg",
+          "caption": "Private Beach"
+        },
+        {
+          "image": "san-josef-bay/IMG_5363.jpg",
+          "caption": "Wood"
+        },
+      ],
     },
     {
       "destination": null,
@@ -848,11 +1362,64 @@ const timelines = {
         "Shortly after lunch, I was onto the Logging road that leads to Cape Scott. I was rather rough riding on by bike.",
         "I camped on a sandy beach on Nahwitti Lake. The trail to the lake was beautiful. It went through a big, dense forest."
       ],
-      "photobar_imgs": [
-        "san-josef-bay/IMG_5387.jpg",
-        "san-josef-bay/IMG_5400.jpg",
-        "san-josef-bay/IMG_5406.jpg",
-      ]
+      "photos": [
+        {
+          "image": "san-josef-bay/IMG_5384.jpg",
+          "caption": "Beaver Lake Rec Site"
+        },
+        {
+          "image": "san-josef-bay/IMG_5386.jpg",
+          "caption": "The Logging Road to Cape Scott"
+        },
+        {
+          "image": "san-josef-bay/IMG_5387.jpg",
+          "caption": "Shoe Stump"
+        },
+        {
+          "image": "san-josef-bay/IMG_5388.jpg",
+          "caption": "It's Tall"
+        },
+        {
+          "image": "san-josef-bay/IMG_5393.jpg",
+          "caption": "My Bike"
+        },
+        {
+          "image": "san-josef-bay/IMG_5394.jpg",
+          "caption": "Canopy"
+        },
+        {
+          "image": "san-josef-bay/IMG_5395.jpg",
+          "caption": "Old Tree"
+        },
+        {
+          "image": "san-josef-bay/IMG_5396.jpg",
+          "caption": "Looking Up The Old Tree"
+        },
+        {
+          "image": "san-josef-bay/IMG_5397.jpg",
+          "caption": "The Old Tree In Full"
+        },
+        {
+          "image": "san-josef-bay/IMG_5400.jpg",
+          "caption": "Microcosm"
+        },
+        {
+          "image": "san-josef-bay/IMG_5406.jpg",
+          "caption": "Fungi"
+        },
+        {
+          "image": "san-josef-bay/IMG_5411.jpg",
+          "caption": "Root Bed"
+        },
+        {
+          "image": "san-josef-bay/IMG_5412.jpg",
+          "caption": "Nahwitti Lake"
+        },
+        {
+          "image": "san-josef-bay/IMG_5416.jpg",
+          "caption": "Red Cedar"
+        },
+      ],
     },
     {
       "destination": null,
@@ -866,11 +1433,92 @@ const timelines = {
         "I met a guy and his daughter on motorbikes who were mapping a backroads route called the North Island 1000.",
         "I took the Cape Scott Trail to San Josef Bay and setup camp on the edge of the beach."
       ],
-      "photobar_imgs": [
-        "san-josef-bay/IMG_5469.jpg",
-        "san-josef-bay/IMG_5472.jpg",
-        "san-josef-bay/IMG_5473.jpg",
-      ]
+      "photos": [
+        {
+          "image": "san-josef-bay/IMG_5421.jpg",
+          "caption": "Camping on Nahwitti Lake"
+        },
+        {
+          "image": "san-josef-bay/IMG_5422.jpg",
+          "caption": "Nahwitti Lake In The Morning"
+        },
+        {
+          "image": "san-josef-bay/IMG_5425.jpg",
+          "caption": "Pipe"
+        },
+        {
+          "image": "san-josef-bay/IMG_5434.jpg",
+          "caption": "Green Things"
+        },
+        {
+          "image": "san-josef-bay/IMG_5440.jpg",
+          "caption": "Goodspeed Fossil Bed"
+        },
+        {
+          "image": "san-josef-bay/IMG_5441.jpg",
+          "caption": "Golf Course"
+        },
+        {
+          "image": "san-josef-bay/IMG_5454.jpg",
+          "caption": "Toward the Beach"
+        },
+        {
+          "image": "san-josef-bay/IMG_5459.jpg",
+          "caption": "Cape Scott"
+        },
+        {
+          "image": "san-josef-bay/IMG_5460.jpg",
+          "caption": "Trail to San Josef Bay"
+        },
+        {
+          "image": "san-josef-bay/IMG_5462.jpg",
+          "caption": "San Josef Bay"
+        },
+        {
+          "image": "san-josef-bay/IMG_5469.jpg",
+          "caption": "Tide"
+        },
+        {
+          "image": "san-josef-bay/IMG_5470.jpg",
+          "caption": "Forest"
+        },
+        {
+          "image": "san-josef-bay/IMG_5471.jpg",
+          "caption": "Edge of The Island"
+        },
+        {
+          "image": "san-josef-bay/IMG_5472.jpg",
+          "caption": "Elevated Forest"
+        },
+        {
+          "image": "san-josef-bay/IMG_5473.jpg",
+          "caption": "Barnacles"
+        },
+        {
+          "image": "san-josef-bay/IMG_5475.jpg",
+          "caption": "Crab"
+        },
+        {
+          "image": "san-josef-bay/IMG_5477.jpg",
+          "caption": "Island"
+        },
+        {
+          "image": "san-josef-bay/IMG_5481.jpg",
+          "caption": "Flowers"
+        },
+        {
+          "image": "san-josef-bay/IMG_5485.jpg",
+          "caption": "Sea Stacks"
+        },
+        {
+          "image": "san-josef-bay/IMG_5486.jpg",
+          "caption": "My Campsite"
+        },
+        {
+          "image": "san-josef-bay/IMG_5492.jpg",
+          "caption": "Grass"
+        },
+      ],
     },
     {
       "destination": null,
@@ -882,11 +1530,32 @@ const timelines = {
       "description": [
         "I rode back to Nimpkish Lake."
       ],
-      "photobar_imgs": [
-        "san-josef-bay/IMG_5495.jpg",
-        "san-josef-bay/IMG_5497.jpg",
-        "san-josef-bay/IMG_5515.jpg",
-      ]
+      "photos": [
+        {
+          "image": "san-josef-bay/IMG_5495.jpg",
+          "caption": "Leaving The Ocean"
+        },
+        {
+          "image": "san-josef-bay/IMG_5497.jpg",
+          "caption": "Logging Truck"
+        },
+        {
+          "image": "san-josef-bay/IMG_5499.jpg",
+          "caption": "Squashed"
+        },
+        {
+          "image": "san-josef-bay/IMG_5505.jpg",
+          "caption": "Port McNeill"
+        },
+        {
+          "image": "san-josef-bay/IMG_5509.jpg",
+          "caption": "Lucky Lager"
+        },
+        {
+          "image": "san-josef-bay/IMG_5515.jpg",
+          "caption": "Beans"
+        },
+      ],
     },
     {
       "destination": null,
@@ -898,9 +1567,12 @@ const timelines = {
       "description": [
         "I made the 213km trip back to Courtenay from Nimpkish Lake in one day."
       ],
-      "photobar_imgs": [
-        "san-josef-bay/IMG_5519.jpg",
-      ]
+      "photos": [
+        {
+          "image": "san-josef-bay/IMG_5519.jpg",
+          "caption": "Pedaling Home"
+        },
+      ],
     }
   ],
 
@@ -919,11 +1591,40 @@ const timelines = {
         "Arrived in Port Alberni around 10pm where I setup camp without a tent on the bank of the river on the edge of town.",
         "Awoke at midnight when I rolled over and found myself in a puddle. The river was tidal and my air mattress had been floating on a shallow layer of water. Life in Southern Ontario doesn't prepare you for these situations."
       ],
-      "photobar_imgs": [
-        "nanaimo-courtenay/IMG_5120.jpg",
-        "nanaimo-courtenay/IMG_5121.jpg",
-        "nanaimo-courtenay/IMG_5142.jpg",
-      ]
+      "photos": [
+        {
+          "image": "nanaimo-courtenay/IMG_5120.jpg",
+          "caption": "Trails"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5121.jpg",
+          "caption": "Top Bridge"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5122.jpg",
+          "caption": "Englishman River"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5123.jpg",
+          "caption": "Hills"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5125.jpg",
+          "caption": "Cameron Lake"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5131.jpg",
+          "caption": "Sproat River"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5140.jpg",
+          "caption": "Soaked"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5142.jpg",
+          "caption": "Water Bed"
+        },
+      ],
     },
     {
       "destination": null,
@@ -941,11 +1642,48 @@ const timelines = {
         "I saw three bears, all near Comox Lake after the sun had risen.",
         "Much was learned. My confidence as a bicycle tourist developed."
       ],
-      "photobar_imgs": [
-        "nanaimo-courtenay/IMG_5145.jpg",
-        "nanaimo-courtenay/IMG_5160.jpg",
-        "nanaimo-courtenay/IMG_5154.jpg",
-      ]
+      "photos": [
+        {
+          "image": "nanaimo-courtenay/IMG_5145.jpg",
+          "caption": "Early in the Morning"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5146.jpg",
+          "caption": "Glow"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5149.jpg",
+          "caption": "Dew"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5150.jpg",
+          "caption": "Sunrise"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5154.jpg",
+          "caption": "Wet Grass"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5157.jpg",
+          "caption": "Trilliums"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5158.jpg",
+          "caption": "Skunk Cabbage"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5160.jpg",
+          "caption": "Late Morning Sun"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5162.jpg",
+          "caption": "Comox Lake"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5221.jpg",
+          "caption": "Courtenay"
+        },
+      ],
     },
   ],
 
@@ -963,7 +1701,7 @@ const timelines = {
         "Spent the day riding on busy roads through dreary Toronto suburbs.",
         "Camped at Darlington Provincial Park for 50 precious dollars, but it put me right beside the Waterfront Trail."
       ],
-      "photobar_imgs": []
+      "photos": [],
     },
     {
       "destination": null,
@@ -978,11 +1716,40 @@ const timelines = {
         "Rode through corn fields in Prince Edward County.",
         "Camped at a conservation area in Picton."
       ],
-      "photobar_imgs": [
-        "to-mtrl/IMG_4208.jpg",
-        "to-mtrl/IMG_4209.jpg",
-        "to-mtrl/IMG_4221.jpg",
-      ]
+      "photos": [
+        {
+          "image": "to-mtrl/IMG_4208.jpg",
+          "caption": "Field To The Lake"
+        },
+        {
+          "image": "to-mtrl/IMG_4209.jpg",
+          "caption": "Lake Ontario"
+        },
+        {
+          "image": "to-mtrl/IMG_4210.jpg",
+          "caption": "Lots of Lake Ontario"
+        },
+        {
+          "image": "to-mtrl/IMG_4216.jpg",
+          "caption": "Swamp"
+        },
+        {
+          "image": "to-mtrl/IMG_4220.jpg",
+          "caption": "Bullrushes"
+        },
+        {
+          "image": "to-mtrl/IMG_4221.jpg",
+          "caption": "Prince Edward Country"
+        },
+        {
+          "image": "to-mtrl/IMG_4222.jpg",
+          "caption": "Corn Rows"
+        },
+        {
+          "image": "to-mtrl/IMG_4224.jpg",
+          "caption": "Macaulay Mountain Conservation Area"
+        },
+      ],
     },
     {
       "destination": null,
@@ -996,11 +1763,20 @@ const timelines = {
         "Took the ferry in Glenora.",
         "Stayed at a motel in Kingston."
       ],
-      "photobar_imgs": [
-        "to-mtrl/IMG_4224.jpg",
-        "to-mtrl/IMG_4225.jpg",
-        "to-mtrl/IMG_4226.jpg",
-      ]
+      "photos": [
+        {
+          "image": "to-mtrl/IMG_4225.jpg",
+          "caption": "Ferry Toward Kingston"
+        },
+        {
+          "image": "to-mtrl/IMG_4226.jpg",
+          "caption": "Kingston Seen From the Ferry"
+        },
+        {
+          "image": "to-mtrl/IMG_4228.jpg",
+          "caption": "Motelling"
+        },
+      ],
     },
     {
       "destination": null,
@@ -1013,14 +1789,44 @@ const timelines = {
         "The Southern Ontario/Toronto flavour completely fades past Kingston.",
         "Watched a ferry float into the Gananoque port."
       ],
-      "photobar_imgs": [
-        "to-mtrl/IMG_4230.jpg",
-        "to-mtrl/IMG_4234.jpg",
-        "to-mtrl/IMG_4238.jpg",
-        "to-mtrl/IMG_4240.jpg",
-        "to-mtrl/IMG_4246.jpg",
-        "to-mtrl/IMG_4258.jpg",
-      ]
+      "photos": [
+        {
+          "image": "to-mtrl/IMG_4229.jpg",
+          "caption": "Gananoque Entrance"
+        },
+        {
+          "image": "to-mtrl/IMG_4230.jpg",
+          "caption": "Gananoque Port"
+        },
+        {
+          "image": "to-mtrl/IMG_4234.jpg",
+          "caption": "The St. Lawrence River"
+        },
+        {
+          "image": "to-mtrl/IMG_4235.jpg",
+          "caption": "Stone House"
+        },
+        {
+          "image": "to-mtrl/IMG_4238.jpg",
+          "caption": "Landon's Bay"
+        },
+        {
+          "image": "to-mtrl/IMG_4243.jpg",
+          "caption": "Granite"
+        },
+        {
+          "image": "to-mtrl/IMG_4246.jpg",
+          "caption": "Crysler Park Marina"
+        },
+        {
+          "image": "to-mtrl/IMG_4258.jpg",
+          "caption": "Riverside"
+        },
+        {
+          "image": "to-mtrl/IMG_4255.jpg",
+          "caption": "Sunset"
+        },
+      ],
     },
     {
       "destination": null,
@@ -1032,11 +1838,48 @@ const timelines = {
       "description": [
         "My favorite day on the tour because I rode acros Long Sault Parkway, which spans little forested islands on the edge of the St. Lawrence.",
       ],
-      "photobar_imgs": [
-        "to-mtrl/IMG_4267.jpg",
-        "to-mtrl/IMG_4281.jpg",
-        "to-mtrl/IMG_4292.jpg",
-      ]
+      "photos": [
+        {
+          "image": "to-mtrl/IMG_4257.jpg",
+          "caption": "Morning Sun"
+        },
+        {
+          "image": "to-mtrl/IMG_4259.jpg",
+          "caption": "Fountain"
+        },
+        {
+          "image": "to-mtrl/IMG_4267.jpg",
+          "caption": "Long Sault Parkway"
+        },
+        {
+          "image": "to-mtrl/IMG_4275.jpg",
+          "caption": "Upper Canada Village"
+        },
+        {
+          "image": "to-mtrl/IMG_4277.jpg",
+          "caption": "The Waterfront Trail"
+        },
+        {
+          "image": "to-mtrl/IMG_4281.jpg",
+          "caption": "Canal Bridge"
+        },
+        {
+          "image": "to-mtrl/IMG_4282.jpg",
+          "caption": "By The Cornwall Port"
+        },
+        {
+          "image": "to-mtrl/IMG_4290.jpg",
+          "caption": "Long Dock"
+        },
+        {
+          "image": "to-mtrl/IMG_4291.jpg",
+          "caption": "Fish & Chips"
+        },
+        {
+          "image": "to-mtrl/IMG_4292.jpg",
+          "caption": "Glengarry Campground"
+        },
+      ],
     },
     {
       "destination": null,
@@ -1051,11 +1894,40 @@ const timelines = {
         "After I arrived at my AirBnb in Montreal, I went to three bars.",
         "I prepared to take the train home the next morning."
       ],
-      "photobar_imgs": [
-        "to-mtrl/IMG_4301.jpg",
-        "to-mtrl/IMG_4304.jpg",
-        "to-mtrl/IMG_4312.jpg",
-      ]
+      "photos": [
+        {
+          "image": "to-mtrl/IMG_4301.jpg",
+          "caption": "Gazebo"
+        },
+        {
+          "image": "to-mtrl/IMG_4302.jpg",
+          "caption": "On The Island"
+        },
+        {
+          "image": "to-mtrl/IMG_4303.jpg",
+          "caption": "Spiral Bridge"
+        },
+        {
+          "image": "to-mtrl/IMG_4304.jpg",
+          "caption": "Sainte-Anne-de-Bellevue"
+        },
+        {
+          "image": "to-mtrl/IMG_4305.jpg",
+          "caption": "A Nice House"
+        },
+        {
+          "image": "to-mtrl/IMG_4307.jpg",
+          "caption": "Another Nice House"
+        },
+        {
+          "image": "to-mtrl/IMG_4312.jpg",
+          "caption": "Canal"
+        },
+        {
+          "image": "to-mtrl/IMG_4313.jpg",
+          "caption": "The City"
+        },
+      ],
     }
   ],
 
@@ -1077,14 +1949,32 @@ const timelines = {
         "It was lively at the top. The cabin was full of people cooking and the best spots to pitch a tent were occupied.",
         "There was a long sunset."
       ],
-      "photobar_imgs": [
-        "tin-hat/IMG_7668.jpg",
-        "tin-hat/IMG_7676.jpg",
-        "tin-hat/IMG_7689.jpg",
-        "tin-hat/IMG_7721.jpg",
-        "tin-hat/IMG_7730.jpg",
-        "tin-hat/IMG_7735.jpg",
-      ]
+      "photos": [
+        {
+          "image": "tin-hat/IMG_7668.jpg",
+          "caption": ""
+        },
+        {
+          "image": "tin-hat/IMG_7676.jpg",
+          "caption": ""
+        },
+        {
+          "image": "tin-hat/IMG_7689.jpg",
+          "caption": ""
+        },
+        {
+          "image": "tin-hat/IMG_7721.jpg",
+          "caption": ""
+        },
+        {
+          "image": "tin-hat/IMG_7730.jpg",
+          "caption": ""
+        },
+        {
+          "image": "tin-hat/IMG_7735.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -1098,10 +1988,16 @@ const timelines = {
         "I hiked back to the road on the more direct route, which appeared to be a service road for the cabin.",
         "I pulled my bike out of the woods, biked by a swampy lake on the logging road toward the Powell River Ferry, got off in Comox, and returned home."
       ],
-      "photobar_imgs": [
-        "tin-hat/IMG_7748.jpg",
-        "tin-hat/IMG_7752.jpg",
-      ]
+      "photos": [
+        {
+          "image": "tin-hat/IMG_7748.jpg",
+          "caption": ""
+        },
+        {
+          "image": "tin-hat/IMG_7752.jpg",
+          "caption": ""
+        },
+      ],
     },
   ],
 
@@ -1119,11 +2015,20 @@ const timelines = {
         "Biked up Mt. Washington from Courtenay to the trailhead.",
         "Hiked through paradise meadows to Circlet Lake Campground"
       ],
-      "photobar_imgs": [
-        "mt-albert-edward/IMG_6639.jpg",
-        "mt-albert-edward/IMG_6653.jpg",
-        "mt-albert-edward/IMG_6665.jpg",
-      ]
+      "photos": [
+        {
+          "image": "mt-albert-edward/IMG_6639.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mt-albert-edward/IMG_6653.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mt-albert-edward/IMG_6665.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -1137,14 +2042,32 @@ const timelines = {
         "Mt. Albert Edward has a twin peak.",
         "Wildflowers grew at the peak, adding some magic."
       ],
-      "photobar_imgs": [
-        "mt-albert-edward/IMG_6697.jpg",
-        "mt-albert-edward/IMG_6705.jpg",
-        "mt-albert-edward/IMG_6717.jpg",
-        "mt-albert-edward/IMG_6733.jpg",
-        "mt-albert-edward/IMG_6740.jpg",
-        "mt-albert-edward/IMG_6735.jpg",
-      ]
+      "photos": [
+        {
+          "image": "mt-albert-edward/IMG_6697.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mt-albert-edward/IMG_6705.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mt-albert-edward/IMG_6717.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mt-albert-edward/IMG_6733.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mt-albert-edward/IMG_6740.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mt-albert-edward/IMG_6735.jpg",
+          "caption": ""
+        },
+      ],
     },
   ],
 
@@ -1163,14 +2086,32 @@ const timelines = {
         "There was still snow at the top in the middle of June.",
         "I camped next to a sub-alpine pond."
       ],
-      "photobar_imgs": [
-        "oliver-creek/IMG_0257.jpg",
-        "oliver-creek/IMG_0263.jpg",
-        "oliver-creek/IMG_0324.jpg",
-        "oliver-creek/IMG_0325.jpg",
-        "oliver-creek/IMG_0332.jpg",
-        "oliver-creek/IMG_0336.jpg",
-      ]
+      "photos": [
+        {
+          "image": "oliver-creek/IMG_0257.jpg",
+          "caption": ""
+        },
+        {
+          "image": "oliver-creek/IMG_0263.jpg",
+          "caption": ""
+        },
+        {
+          "image": "oliver-creek/IMG_0324.jpg",
+          "caption": ""
+        },
+        {
+          "image": "oliver-creek/IMG_0325.jpg",
+          "caption": ""
+        },
+        {
+          "image": "oliver-creek/IMG_0332.jpg",
+          "caption": ""
+        },
+        {
+          "image": "oliver-creek/IMG_0336.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -1183,11 +2124,20 @@ const timelines = {
         "I hiked back down to the warmth the next morning.",
         "As I approached the base, there were nice views of the Skeena River."
       ],
-      "photobar_imgs": [
-        "oliver-creek/IMG_0343.jpg",
-        "oliver-creek/IMG_0344.jpg",
-        "oliver-creek/IMG_0350.jpg",
-      ]
+      "photos": [
+        {
+          "image": "oliver-creek/IMG_0343.jpg",
+          "caption": ""
+        },
+        {
+          "image": "oliver-creek/IMG_0344.jpg",
+          "caption": ""
+        },
+        {
+          "image": "oliver-creek/IMG_0350.jpg",
+          "caption": ""
+        },
+      ],
     },
   ],
 
@@ -1208,11 +2158,20 @@ const timelines = {
         "We camped in a bowl with an open view of the mountains and a few ponds.",
         "The sunset was nuts."
       ],
-      "photobar_imgs": [
-        "phillips-ridge/IMG_7095.jpg",
-        "phillips-ridge/IMG_7099.jpg",
-        "phillips-ridge/IMG_7102.jpg",
-      ]
+      "photos": [
+        {
+          "image": "phillips-ridge/IMG_7095.jpg",
+          "caption": ""
+        },
+        {
+          "image": "phillips-ridge/IMG_7099.jpg",
+          "caption": ""
+        },
+        {
+          "image": "phillips-ridge/IMG_7102.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -1225,11 +2184,20 @@ const timelines = {
         "The next morning, we hiked until we got a good view of Golden Hinde, the tallest mountain on Vancouver Island.",
         "We hiked back to the car quickly and I biked home to Courtenay from Campbell River."
       ],
-      "photobar_imgs": [
-        "phillips-ridge/IMG_7112.jpg",
-        "phillips-ridge/IMG_7119.jpg",
-        "phillips-ridge/IMG_7123.jpg",
-      ]
+      "photos": [
+        {
+          "image": "phillips-ridge/IMG_7112.jpg",
+          "caption": ""
+        },
+        {
+          "image": "phillips-ridge/IMG_7119.jpg",
+          "caption": ""
+        },
+        {
+          "image": "phillips-ridge/IMG_7123.jpg",
+          "caption": ""
+        },
+      ],
     },
   ],
 
@@ -1249,11 +2217,20 @@ const timelines = {
         "I snowshoed a short way up the trail and setup camp on the side of a tall hill.",
         "Night was silent and I could hear snowflakes gently tapping my tent. The sky was clear and the stars were shining."
       ],
-      "photobar_imgs": [
-        "algonquin/IMG_4454.jpg",
-        "algonquin/IMG_4464.jpg",
-        "algonquin/IMG_4471.jpg",
-      ]
+      "photos": [
+        {
+          "image": "algonquin/IMG_4454.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4464.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4471.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": null,
@@ -1268,14 +2245,32 @@ const timelines = {
         "First, I hit the 1km Hardwood Lookout Trail to get an elevated view.",
         "Next, I drove to the Minnesing Trailhead and snowshoed 7kms before setting up camp in the wide open woods."
       ],
-      "photobar_imgs": [
-        "algonquin/IMG_4494.jpg",
-        "algonquin/IMG_4501.jpg",
-        "algonquin/IMG_4508.jpg",
-        "algonquin/IMG_4510.jpg",
-        "algonquin/IMG_4526.jpg",
-        "algonquin/IMG_4535.jpg",
-      ]
+      "photos": [
+        {
+          "image": "algonquin/IMG_4494.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4501.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4508.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4510.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4526.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4535.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": "The Minnesing Trail",
@@ -1290,14 +2285,32 @@ const timelines = {
         "There were no human tracks in the snow, but there were lots of animal tracks.",
         "I encountered one major animal crossing--there were overlapping tracks of all kinds imprinted in the snow."
       ],
-      "photobar_imgs": [
-        "algonquin/IMG_4563.jpg",
-        "algonquin/IMG_4565.jpg",
-        "algonquin/IMG_4566.jpg",
-        "algonquin/the_lake.jpg",
-        "algonquin/IMG_4608.jpg",
-        "algonquin/IMG_4611.jpg",
-      ]
+      "photos": [
+        {
+          "image": "algonquin/IMG_4563.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4565.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4566.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/the_lake.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4608.jpg",
+          "caption": ""
+        },
+        {
+          "image": "algonquin/IMG_4611.jpg",
+          "caption": ""
+        },
+      ],
     },
   ],
 
@@ -1315,11 +2328,20 @@ const timelines = {
         "When I was moving from Smithers to Canmore, I hiked a few trails along my route.",
         "I stopped at Mt. Robson for a short bike ride on the morning that I was arriving in Jasper.",
       ],
-      "photobar_imgs": [
-        "jasper/IMG_0966.jpg",
-        "jasper/IMG_0969.jpg",
-        "jasper/IMG_0972.jpg",
-      ]
+      "photos": [
+        {
+          "image": "jasper/IMG_0966.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_0969.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_0972.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": "Valley of the Five Lakes",
@@ -1335,11 +2357,20 @@ const timelines = {
         "I walked around town in the evening.",
         "It was energizing to be around so many people in town and in the valley after spending the summer in fairly remote places."
       ],
-      "photobar_imgs": [
-        "jasper/IMG_0979.jpg",
-        "jasper/IMG_0984.jpg",
-        "jasper/IMG_0990.jpg",
-      ]
+      "photos": [
+        {
+          "image": "jasper/IMG_0979.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_0984.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_0990.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": "Sulpher Skyline Trail and Utopia Mountain",
@@ -1355,14 +2386,32 @@ const timelines = {
         "I didn't climb to the peak of Utopia Mountain because the final stretch required a pretty daring scramble.",
         "When I got back to my campsite, I biked around the trails in the valley."
       ],
-      "photobar_imgs": [
-        "jasper/IMG_0997.jpg",
-        "jasper/IMG_1005.jpg",
-        "jasper/IMG_1008.jpg",,
-        "jasper/IMG_1019.jpg",
-        "jasper/IMG_1026.jpg",
-        "jasper/IMG_1032.jpg",
-      ]
+      "photos": [
+        {
+          "image": "jasper/IMG_0997.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1005.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1008.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1019.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1026.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1032.jpg",
+          "caption": ""
+        },
+      ],
     },
     {
       "destination": "The Main Attractions",
@@ -1375,14 +2424,32 @@ const timelines = {
         "There were lots of large elk at the campground.",
         "I hit Edith Lake and Maligne Canyon, then continued to hike along the athabasca river.",
       ],
-      "photobar_imgs": [
-        "jasper/IMG_1043.jpg",
-        "jasper/IMG_1044.jpg",
-        "jasper/IMG_1046.jpg",
-        "jasper/IMG_1049.jpg",
-        "jasper/IMG_1051.jpg",
-        "jasper/IMG_1055.jpg",
-      ]
+      "photos": [
+        {
+          "image": "jasper/IMG_1043.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1044.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1046.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1049.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1051.jpg",
+          "caption": ""
+        },
+        {
+          "image": "jasper/IMG_1055.jpg",
+          "caption": ""
+        },
+      ],
     },
   ],
 
@@ -1397,6 +2464,20 @@ const timelines = {
       "start": "",
       "end": "",
       "description": [],
+      "photos": [
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
+      ],
       "photobar_imgs": []
     },
     {
@@ -1407,6 +2488,20 @@ const timelines = {
       "start": "",
       "end": "",
       "description": [],
+      "photos": [
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
+      ],
       "photobar_imgs": []
     },
     {
@@ -1417,6 +2512,20 @@ const timelines = {
       "start": "",
       "end": "",
       "description": [],
+      "photos": [
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
+      ],
       "photobar_imgs": []
     },
     {
@@ -1427,6 +2536,20 @@ const timelines = {
       "start": "",
       "end": "",
       "description": [],
+      "photos": [
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
+      ],
       "photobar_imgs": []
     }
   ],
@@ -1434,3 +2557,24 @@ const timelines = {
 }
 
 customElements.define('my-timeline', Timeline);
+
+let sliders = document.querySelectorAll('.slider');
+let controls = document.querySelectorAll('#controls');
+let previous = document.querySelectorAll('.previous');
+let next = document.querySelectorAll('.next');
+for (let i = 0; i < sliders.length; i++) {
+  tns({
+    container: sliders[i],
+    autoWidth: true,
+    gutter: 12,
+    slideBy: 1,
+    nav: false,
+    speed: 400,
+    controlsContainer: controls[i],
+    prevButton: previous[i],
+    nextButton: next[i],
+    rewind: true,
+    mouseDrag: true,
+    swipeAngle: 45,
+  });
+};
