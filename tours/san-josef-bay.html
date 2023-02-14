@@ -1,111 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Tab Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Tab Icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />    <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    <!-- My CSS -->
-    <link rel="stylesheet" href="../styles/style.css"/>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <!-- My CSS -->
+  <link rel="stylesheet" href="../styles/style.css"/>
 
-    <!-- tiny slider -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"/>
+  <!-- tiny slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"/>
 
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1TXV2J73Y"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-Z1TXV2J73Y');
-    </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1TXV2J73Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Z1TXV2J73Y');
+  </script>
 
-    <!-- Components -->
-    <script defer src="../components/Header.js"></script>
-    <script defer src="../components/Navbar.js"></script>
-    <script defer src="../components/TripHeader.js"></script>
-    <script defer src="../components/Timeline.js"></script>
-    <script defer src="../components/Slideshow.js"></script>
-    <script defer src="../components/Map.js"></script>
-    <script defer src="../components/Footer.js"></script>
+  <!-- Components -->
+  <script defer src="../components/Header.js"></script>
+  <script defer src="../components/Navbar.js"></script>
+  <script defer src="../components/TripHeader.js"></script>
+  <script defer src="../components/Timeline.js"></script>
+  <script defer src="../components/Map.js"></script>
+  <script defer src="../components/Footer.js"></script>
 
-    <title>North Vancouver Island</title>
+  <title>North Vancouver Island</title>
 </head>
 <body>
-
     
-    <div class="container">
-        <div class="row row-full no-gutters">
-            <div class="col-12">
-                <my-header></my-header>
-                <my-navbar root='../'></my-navbar>
-            </div>
-        </div>
-
-        <my-trip-header data_id="san-josef-bay"></my-trip-header>
-        <my-timeline data_id="san-josef-bay"></my-timeline>
-        <my-map data_id="san-josef-bay"></my-map>
-        <my-slideshow data_id="san-josef-bay"></my-slideshow>
-
-        <div class="row no-gutters">
-            <div class="col-12">
-                <h3 class="text-center margin-top-3">Trip Report</h3>
-                <p class="text-justify">&ensp;&ensp;&ensp;&ensp;&ensp;
-                    My tour of North Vancouver Island spanned roads from Courtenay to San Josef Bay 
-                    in Cape Scott Provincial Park. I spent my first day biking towards Burnt Beach 
-                    Rec Site above Campbell River. I made it to Elk Creek Rec Site near Sayward on 
-                    my second day where I camped for two nights hoping that the rain would pass, 
-                    but it didn’t because I learned It only ever rains in Sayward.
-                </p>
-                <p class="text-justify">&ensp;&ensp;&ensp;&ensp;&ensp;
-                    When I got back to it, I pushed on toward Woss. Woss isn’t much more than a 
-                    gas station with a deteriorating motel next door where stacks of beer bottles 
-                    and drunk ATVers occupy the porch. I sat at the bench in front of the gas 
-                    station after I bought stale cookies and beef jerky from the store. The 
-                    Christmas tree shaped ash tray was full of roaches. Two VW Vanagon vans 
-                    that were rebuilt for camping and off-roading pulled in while the ATVers 
-                    shouted back and forth at one another, drank beer, and smoked cigarettes 
-                    next door. I continued on to Nimpkish Lake Rec Site.
-                </p>
-                <p class="text-justify">&ensp;&ensp;&ensp;&ensp;&ensp;
-                    On day five, the bicycle tour continued. I sat in the park in Port McNeill 
-                    and charged my phone while my cashews lay in my pack, exposed to the skies.
-                     The crows noticed. They stole my cashews and spread them all over the park. 
-                     Once I passed Port Hardy that afternoon, I was onto the logging roads that 
-                     led to Cape Scott. I followed a trail to a beach on Nahwitti 
-                     Lake where I camped that night.
-                </p>
-                <p class="text-justify">&ensp;&ensp;&ensp;&ensp;&ensp;
-                    The next day was a grind up the forest service roads to Cape Scott. 
-                    I met a man and his daughter on motorcycles. The man was developing a 
-                    motorcycle route called the North Island 1000. 
-                    The logging trucks ripped up and down the road and threw dust in my eyes. 
-                    I saw a few bears along the way. When I arrived at the park, I biked along 
-                    the Cape Scott Trail toward San Josef Bay and camped on the beach. 
-                </p>
-                <p class="text-justify">&ensp;&ensp;&ensp;&ensp;&ensp;
-                    My return trip was completed in just two days. I returned to Nimpkish Lake for 
-                    another night, then biked 213 kms home the next day. If I had a dollar for every 
-                    kilometer I’ve biked, I could bike even further.
-                </p>
-                
-            </div>
-        </div>
-
-        <my-footer root='../'></my-footer>
+  <div class="container">
+    <div class="row row-full no-gutters">
+      <div class="col-12">
+        <my-header></my-header>
+        <my-navbar root='../'></my-navbar>
+      </div>
     </div>
- 
-    <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <my-trip-header data_id="san-josef-bay"></my-trip-header>
+    <my-timeline data_id="san-josef-bay"></my-timeline>
+    <my-map data_id="san-josef-bay"></my-map>
+
+    <div class="row no-gutters">
+      <div class="col-12">
+        <h3 class="text-center margin-top-3">Trip Report</h3>
+        <p class="text-justify">&ensp;&ensp;&ensp;&ensp;&ensp;
+          My tour of North Vancouver Island spanned roads from Courtenay to San Josef Bay 
+          in Cape Scott Provincial Park. I spent my first day biking towards Burnt Beach 
+          Rec Site above Campbell River. I made it to Elk Creek Rec Site near Sayward on 
+          my second day where I camped for two nights hoping that the rain would pass, 
+          but it didn’t because I learned It only ever rains in Sayward.
+        </p>
+        <p class="text-justify">&ensp;&ensp;&ensp;&ensp;&ensp;
+          When I got back to it, I pushed on toward Woss. Woss isn’t much more than a 
+          gas station with a deteriorating motel next door where stacks of beer bottles 
+          and drunk ATVers occupy the porch. I sat at the bench in front of the gas 
+          station after I bought stale cookies and beef jerky from the store. The 
+          Christmas tree shaped ash tray was full of roaches. Two VW Vanagon vans 
+          that were rebuilt for camping and off-roading pulled in while the ATVers 
+          shouted back and forth at one another, drank beer, and smoked cigarettes 
+          next door. I continued on to Nimpkish Lake Rec Site.
+        </p>
+        <p class="text-justify">&ensp;&ensp;&ensp;&ensp;&ensp;
+          On day five, the bicycle tour continued. I sat in the park in Port McNeill 
+          and charged my phone while my cashews lay in my pack, exposed to the skies.
+          The crows noticed. They stole my cashews and spread them all over the park. 
+          Once I passed Port Hardy that afternoon, I was onto the logging roads that 
+          led to Cape Scott. I followed a trail to a beach on Nahwitti 
+          Lake where I camped that night.
+        </p>
+        <p class="text-justify">&ensp;&ensp;&ensp;&ensp;&ensp;
+          The next day was a grind up the forest service roads to Cape Scott. 
+          I met a man and his daughter on motorcycles. The man was developing a 
+          motorcycle route called the North Island 1000. 
+          The logging trucks ripped up and down the road and threw dust in my eyes. 
+          I saw a few bears along the way. When I arrived at the park, I biked along 
+          the Cape Scott Trail toward San Josef Bay and camped on the beach. 
+        </p>
+        <p class="text-justify">&ensp;&ensp;&ensp;&ensp;&ensp;
+          My return trip was completed in just two days. I returned to Nimpkish Lake for 
+          another night, then biked 213 kms home the next day. If I had a dollar for every 
+          kilometer I’ve biked, I could bike even further.
+        </p>
+          
+      </div>
+    </div>
+
+    <my-footer root='../'></my-footer>
+  </div>
+
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
