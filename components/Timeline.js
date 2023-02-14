@@ -1249,15 +1249,34 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
-          "caption": ""
+          "image": "nanaimo-courtenay/IMG_5120.jpg",
+          "caption": "Trails"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5121.jpg",
+          "caption": "Top Bridge"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5122.jpg",
+          "caption": "Englishman River"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5123.jpg",
+          "caption": "Approaching Port Alberni"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5131.jpg",
+          "caption": "Sproat River"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5140.jpg",
+          "caption": "Soaked"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5142.jpg",
+          "caption": "Water Bed"
         },
       ],
-      "photobar_imgs": [
-        "nanaimo-courtenay/IMG_5120.jpg",
-        "nanaimo-courtenay/IMG_5121.jpg",
-        "nanaimo-courtenay/IMG_5142.jpg",
-      ]
     },
     {
       "destination": null,
@@ -1277,15 +1296,42 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
-          "caption": ""
+          "image": "nanaimo-courtenay/IMG_5145.jpg",
+          "caption": "Early in the Morning"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5149.jpg",
+          "caption": "Dew"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5150.jpg",
+          "caption": "Sunrise"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5154.jpg",
+          "caption": "Wet Grass"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5157.jpg",
+          "caption": "Trilliums"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5158.jpg",
+          "caption": "Skunk Cabbage"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5160.jpg",
+          "caption": "Late Morning Sun"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5162.jpg",
+          "caption": "Comox Lake"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5221.jpg",
+          "caption": "Courtenay"
         },
       ],
-      "photobar_imgs": [
-        "nanaimo-courtenay/IMG_5145.jpg",
-        "nanaimo-courtenay/IMG_5160.jpg",
-        "nanaimo-courtenay/IMG_5154.jpg",
-      ]
     },
   ],
 
