@@ -237,15 +237,67 @@ const timelines = {
       "photos": [
         {
           "image": "mtrl-sherbrooke/IMG_2704.jpg",
-          "caption": ""
+          "caption": "On the Jacques Cartier Bridge"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2707.jpg",
+          "caption": "Sprial Highway Pass"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2708.jpg",
+          "caption": "Train Tracks"
         },
         {
           "image": "mtrl-sherbrooke/IMG_2709.jpg",
-          "caption": ""
+          "caption": "St. Joseph Center"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2710.jpg",
+          "caption": "Bounty"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2711.jpg",
+          "caption": "Pumpkin Patch"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2712.jpg",
+          "caption": "Lunch From Le Tarbouche"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2713.jpg",
+          "caption": "Granby"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2715.jpg",
+          "caption": "Lac Boivin Fountain"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2717.jpg",
+          "caption": "Yamaska River"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2718.jpg",
+          "caption": "Choiniere Reservoir"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2720.jpg",
+          "caption": "Yamaska River"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2724.jpg",
+          "caption": "Telephone Lines"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2727.jpg",
+          "caption": "La Route Verte"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2729.jpg",
+          "caption": "Sunset on Chem. de la Diligence"
         },
         {
           "image": "mtrl-sherbrooke/IMG_2731.jpg",
-          "caption": ""
+          "caption": "Camping in Stukley"
         },
       ],
     },
@@ -265,16 +317,76 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "mtrl-sherbrooke/IMG_2735.jpg",
+          "caption": "Cow"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2736.jpg",
+          "caption": "Bull"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2739.jpg",
+          "caption": "The Hills Begin"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2740.jpg",
+          "caption": "Forest Trail Near Eastman"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2742.jpg",
+          "caption": "Étang aux Cerises Viewpoint"
+        },
+        {
           "image": "mtrl-sherbrooke/IMG_2744.jpg",
-          "caption": ""
+          "caption": "Saint Patrice Church"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2746.jpg",
+          "caption": "Into Magog"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2748.jpg",
+          "caption": "Out of Magog"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2750.jpg",
+          "caption": "Bend In The Trail"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2753.jpg",
+          "caption": "Drummond Dam"
         },
         {
           "image": "mtrl-sherbrooke/IMG_2755.jpg",
-          "caption": ""
+          "caption": "Parc Des Quatre-Pins"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2757.jpg",
+          "caption": "Les chutes de Magog"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2759.jpg",
+          "caption": "Pont Jacques-Cartier"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2767.jpg",
+          "caption": "Main Street, Magog"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2769.jpg",
+          "caption": "Sunset Over Lake Memphermagog"
         },
         {
           "image": "mtrl-sherbrooke/IMG_2775.jpg",
-          "caption": ""
+          "caption": "Sailboats On Lake Memphermagog"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2781.jpg",
+          "caption": "Lovely Path Out of Magog"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2783.jpg",
+          "caption": "Mont Orford"
         },
       ],
     },
@@ -291,16 +403,24 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "mtrl-sherbrooke/IMG_2789.jpg",
-          "caption": ""
+          "image": "mtrl-sherbrooke/IMG_2791.jpg",
+          "caption": "Camping At Mont Orford"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2792.jpg",
+          "caption": "The Cyclist Campground To the Left"
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2793.jpg",
+          "caption": "Through the Forest"
         },
         {
           "image": "mtrl-sherbrooke/IMG_2795.jpg",
-          "caption": ""
+          "caption": "Country Living"
         },
         {
           "image": "mtrl-sherbrooke/IMG_2805.jpg",
-          "caption": ""
+          "caption": "Barnyard"
         },
       ],
     }
@@ -2575,7 +2695,7 @@ for (let i = 0; i < sliders.length; i++) {
     nextButton: next[i],
     rewind: true,
     mouseDrag: true,
-    swipeAngle: 45,
-    preventScrollOnTouch: "force",
+    swipeAngle: 30,
+    preventScrollOnTouch: "auto",
   });
 };
