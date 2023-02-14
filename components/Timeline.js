@@ -445,15 +445,31 @@ const timelines = {
       "photos": [
         {
           "image": "ptit-train/IMG_2537.jpg",
-          "caption": ""
-        },
-        {
-          "image": "ptit-train/poutine.jpg",
-          "caption": ""
+          "caption": "Marsh Near Mont Tremblant"
         },
         {
           "image": "ptit-train/IMG_2538.jpg",
-          "caption": ""
+          "caption": "More Marsh"
+        },
+        {
+          "image": "ptit-train/IMG_2541.jpg",
+          "caption": "Poutine From La P'tite Patate Chez Léo"
+        },
+        {
+          "image": "ptit-train/IMG_2542.jpg",
+          "caption": "Path To The River"
+        },
+        {
+          "image": "ptit-train/IMG_2543.jpg",
+          "caption": "Campsite On The River"
+        },
+        {
+          "image": "ptit-train/IMG_2545.jpg",
+          "caption": "The Side of the Trail"
+        },
+        {
+          "image": "ptit-train/IMG_2546.jpg",
+          "caption": "One of Many Train Stations"
         },
       ],
     },
@@ -472,15 +488,19 @@ const timelines = {
       "photos": [
         {
           "image": "ptit-train/IMG_2550.jpg",
-          "caption": ""
+          "caption": "Another Marsh"
         },
         {
           "image": "ptit-train/IMG_2551.jpg",
-          "caption": ""
+          "caption": "Marsh Consuming a Forest"
         },
         {
           "image": "ptit-train/IMG_2553.jpg",
-          "caption": ""
+          "caption": "Barn"
+        },
+        {
+          "image": "ptit-train/IMG_2559.jpg",
+          "caption": "River"
         },
       ],
     },
@@ -498,16 +518,16 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "ptit-train/river.jpg",
-          "caption": ""
-        },
-        {
-          "image": "ptit-train/church.jpg",
-          "caption": ""
+          "image": "ptit-train/IMG_2571.jpg",
+          "caption": "Long Tunnel Near St. Jerome"
         },
         {
           "image": "ptit-train/IMG_2577.jpg",
-          "caption": ""
+          "caption": "Art"
+        },
+        {
+          "image": "ptit-train/IMG_2579.jpg",
+          "caption": "St. Jerome's Cathedral"
         },
       ],
     }
