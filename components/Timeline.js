@@ -1310,7 +1310,11 @@ const timelines = {
         },
         {
           "image": "nanaimo-courtenay/IMG_5123.jpg",
-          "caption": "Approaching Port Alberni"
+          "caption": "Hills"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5125.jpg",
+          "caption": "Cameron Lake"
         },
         {
           "image": "nanaimo-courtenay/IMG_5131.jpg",
@@ -1346,6 +1350,10 @@ const timelines = {
         {
           "image": "nanaimo-courtenay/IMG_5145.jpg",
           "caption": "Early in the Morning"
+        },
+        {
+          "image": "nanaimo-courtenay/IMG_5146.jpg",
+          "caption": "Glow"
         },
         {
           "image": "nanaimo-courtenay/IMG_5149.jpg",
