@@ -236,15 +236,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "mtrl-sherbrooke/IMG_2704.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2709.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2731.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "mtrl-sherbrooke/IMG_2704.jpg",
-        "mtrl-sherbrooke/IMG_2709.jpg",
-        "mtrl-sherbrooke/IMG_2731.jpg"
-      ]
     },
     {
       "destination": null,
@@ -262,15 +265,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "mtrl-sherbrooke/IMG_2744.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2755.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2775.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "mtrl-sherbrooke/IMG_2744.jpg",
-        "mtrl-sherbrooke/IMG_2755.jpg",
-        "mtrl-sherbrooke/IMG_2775.jpg"
-      ]
     },
     {
       "destination": null,
@@ -285,15 +291,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "mtrl-sherbrooke/IMG_2789.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2795.jpg",
+          "caption": ""
+        },
+        {
+          "image": "mtrl-sherbrooke/IMG_2805.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "mtrl-sherbrooke/IMG_2789.jpg",
-        "mtrl-sherbrooke/IMG_2795.jpg",
-        "mtrl-sherbrooke/IMG_2805.jpg"
-      ]
     }
   ],
 
@@ -315,15 +324,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "ptit-train/IMG_2537.jpg",
+          "caption": ""
+        },
+        {
+          "image": "ptit-train/poutine.jpg",
+          "caption": ""
+        },
+        {
+          "image": "ptit-train/IMG_2538.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "ptit-train/IMG_2537.jpg",
-        "ptit-train/poutine.jpg",
-        "ptit-train/IMG_2538.jpg",
-      ]
     },
     {
       "destination": null,
@@ -339,15 +351,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "ptit-train/IMG_2550.jpg",
+          "caption": ""
+        },
+        {
+          "image": "ptit-train/IMG_2551.jpg",
+          "caption": ""
+        },
+        {
+          "image": "ptit-train/IMG_2553.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "ptit-train/IMG_2550.jpg",
-        "ptit-train/IMG_2551.jpg",
-        "ptit-train/IMG_2553.jpg"
-      ]
     },
     {
       "destination": null,
@@ -363,15 +378,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "ptit-train/river.jpg",
+          "caption": ""
+        },
+        {
+          "image": "ptit-train/church.jpg",
+          "caption": ""
+        },
+        {
+          "image": "ptit-train/IMG_2577.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "ptit-train/river.jpg",
-        "ptit-train/church.jpg",
-        "ptit-train/IMG_2577.jpg",
-      ]
     }
   ],
 
@@ -394,15 +412,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "haida-gwaii/IMG_0837.jpg",
+          "caption": ""
+        },
+        {
+          "image": "haida-gwaii/IMG_0826.jpg",
+          "caption": ""
+        },
+        {
+          "image": "haida-gwaii/IMG_0834.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "haida-gwaii/IMG_0837.jpg",
-        "haida-gwaii/IMG_0826.jpg",
-        "haida-gwaii/IMG_0834.jpg",
-      ]
     },
     {
       "destination": null,
@@ -420,16 +441,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "haida-gwaii/IMG_0847.jpg",
+          "caption": ""
+        },
+        {
+          "image": "haida-gwaii/IMG_0857.jpg",
+          "caption": ""
+        },
+        {
+          "image": "haida-gwaii/IMG_0860.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "haida-gwaii/IMG_0847.jpg",
-        "haida-gwaii/IMG_0857.jpg",
-        "haida-gwaii/IMG_0860.jpg",
-
-      ]
     },
     {
       "destination": null,
@@ -445,15 +468,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "haida-gwaii/IMG_0869.jpg",
+          "caption": ""
+        },
+        {
+          "image": "haida-gwaii/IMG_0866.jpg",
+          "caption": ""
+        },
+        {
+          "image": "haida-gwaii/IMG_0868.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "haida-gwaii/IMG_0869.jpg",
-        "haida-gwaii/IMG_0866.jpg",
-        "haida-gwaii/IMG_0868.jpg",
-      ]
     }
   ],
 
@@ -474,15 +500,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "nass-valley/IMG_9673.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_9651.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_9658.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "nass-valley/IMG_9673.jpg",
-        "nass-valley/IMG_9651.jpg",
-        "nass-valley/IMG_9658.jpg",
-      ]
     },
     {
       "destination": null,
@@ -500,18 +529,30 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "nass-valley/IMG_9714.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_9750.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_9753.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_9766.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_9787.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_9819.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "nass-valley/IMG_9714.jpg",
-        "nass-valley/IMG_9750.jpg",
-        "nass-valley/IMG_9753.jpg",
-        "nass-valley/IMG_9766.jpg",
-        "nass-valley/IMG_9787.jpg",
-        "nass-valley/IMG_9819.jpg",
-      ]
     },
     {
       "destination": null,
@@ -527,15 +568,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "nass-valley/IMG_9823.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_0083.jpg",
+          "caption": ""
+        },
+        {
+          "image": "nass-valley/IMG_0102.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "nass-valley/IMG_9823.jpg",
-        "nass-valley/IMG_0083.jpg",
-        "nass-valley/IMG_0102.jpg",
-      ]
     },
     {
       "destination": null,
@@ -550,13 +594,10 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "nass-valley/IMG_0117.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "nass-valley/IMG_0117.jpg"
-      ]
     }
   ],
 
@@ -578,18 +619,30 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "babine-lake/IMG_9497.jpg",
+          "caption": ""
+        },
+        {
+          "image": "babine-lake/IMG_9504.jpg",
+          "caption": ""
+        },
+        {
+          "image": "babine-lake/IMG_9506.jpg",
+          "caption": ""
+        },
+        {
+          "image": "babine-lake/IMG_9511.jpg",
+          "caption": ""
+        },
+        {
+          "image": "babine-lake/IMG_9517.jpg",
+          "caption": ""
+        },
+        {
+          "image": "babine-lake/IMG_9525.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "babine-lake/IMG_9497.jpg",
-        "babine-lake/IMG_9504.jpg",
-        "babine-lake/IMG_9506.jpg",
-        "babine-lake/IMG_9511.jpg",
-        "babine-lake/IMG_9517.jpg",
-        "babine-lake/IMG_9525.jpg",
-      ]
     },
     {
       "destination": null,
@@ -605,15 +658,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "babine-lake/IMG_9527.jpg",
+          "caption": ""
+        },
+        {
+          "image": "babine-lake/IMG_9529.jpg",
+          "caption": ""
+        },
+        {
+          "image": "babine-lake/IMG_9533.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "babine-lake/IMG_9527.jpg",
-        "babine-lake/IMG_9529.jpg",
-        "babine-lake/IMG_9533.jpg",
-      ]
     },
   ],
 
@@ -633,15 +689,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "downie-creek/IMG_8490.jpg",
+          "caption": ""
+        },
+        {
+          "image": "downie-creek/IMG_8491.jpg",
+          "caption": ""
+        },
+        {
+          "image": "downie-creek/IMG_8500.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "downie-creek/IMG_8490.jpg",
-        "downie-creek/IMG_8491.jpg",
-        "downie-creek/IMG_8500.jpg",
-      ]
     },
     {
       "destination": null,
@@ -657,15 +716,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "downie-creek/IMG_8521.jpg",
+          "caption": ""
+        },
+        {
+          "image": "downie-creek/IMG_8602.jpg",
+          "caption": ""
+        },
+        {
+          "image": "downie-creek/IMG_8560.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "downie-creek/IMG_8521.jpg",
-        "downie-creek/IMG_8602.jpg",
-        "downie-creek/IMG_8560.jpg",
-      ]
     },
     {
       "destination": null,
@@ -680,15 +742,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "downie-creek/IMG_8634.jpg",
+          "caption": ""
+        },
+        {
+          "image": "downie-creek/IMG_8647.jpg",
+          "caption": ""
+        },
+        {
+          "image": "downie-creek/IMG_8648.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "downie-creek/IMG_8634.jpg",
-        "downie-creek/IMG_8647.jpg",
-        "downie-creek/IMG_8648.jpg",
-      ]
     },
   ],
 
@@ -707,15 +772,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "begbie-falls/IMG_8346.jpg",
+          "caption": ""
+        },
+        {
+          "image": "begbie-falls/IMG_3717.jpg",
+          "caption": ""
+        },
+        {
+          "image": "begbie-falls/IMG_3712.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "begbie-falls/IMG_8346.jpg",
-        "begbie-falls/IMG_3717.jpg",
-        "begbie-falls/IMG_3712.jpg",
-      ]
     },
     {
       "destination": null,
@@ -729,15 +797,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "begbie-falls/IMG_8377.jpg",
+          "caption": ""
+        },
+        {
+          "image": "begbie-falls/IMG_8374.jpg",
+          "caption": ""
+        },
+        {
+          "image": "begbie-falls/IMG_8371.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "begbie-falls/IMG_8377.jpg",
-        "begbie-falls/IMG_8374.jpg",
-        "begbie-falls/IMG_8371.jpg",
-      ]
     },
   ],
 
@@ -757,15 +828,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "quadra-cortes/IMG_6782.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6819.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6791.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "quadra-cortes/IMG_6782.jpg",
-        "quadra-cortes/IMG_6819.jpg",
-        "quadra-cortes/IMG_6791.jpg",
-      ]
     },
     {
       "destination": null,
@@ -781,15 +855,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "quadra-cortes/IMG_6813.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6834.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6835.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "quadra-cortes/IMG_6813.jpg",
-        "quadra-cortes/IMG_6834.jpg",
-        "quadra-cortes/IMG_6835.jpg",
-      ]
     },
     {
       "destination": null,
@@ -807,18 +884,30 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "quadra-cortes/IMG_6856.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6848.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6861.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6904.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6950.jpg",
+          "caption": ""
+        },
+        {
+          "image": "quadra-cortes/IMG_6954.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "quadra-cortes/IMG_6856.jpg",
-        "quadra-cortes/IMG_6848.jpg",
-        "quadra-cortes/IMG_6861.jpg",
-        "quadra-cortes/IMG_6904.jpg",
-        "quadra-cortes/IMG_6950.jpg",
-        "quadra-cortes/IMG_6954.jpg",
-      ]
     },
   ],
 
@@ -840,15 +929,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "comox-lake/IMG_6300.jpg",
+          "caption": ""
+        },
+        {
+          "image": "comox-lake/IMG_6302.jpg",
+          "caption": ""
+        },
+        {
+          "image": "comox-lake/IMG_6310.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "comox-lake/IMG_6300.jpg",
-        "comox-lake/IMG_6302.jpg",
-        "comox-lake/IMG_6310.jpg",
-      ]
     },
     {
       "destination": null,
@@ -863,15 +955,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "comox-lake/IMG_6325.jpg",
+          "caption": ""
+        },
+        {
+          "image": "comox-lake/IMG_6331.jpg",
+          "caption": ""
+        },
+        {
+          "image": "comox-lake/IMG_6336.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "comox-lake/IMG_6325.jpg",
-        "comox-lake/IMG_6331.jpg",
-        "comox-lake/IMG_6336.jpg",
-      ]
     },
   ],
 
@@ -892,15 +987,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "texada/IMG_5788.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_5800.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_5797.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "texada/IMG_5788.jpg",
-        "texada/IMG_5800.jpg",
-        "texada/IMG_5797.jpg",
-      ]
     },
     {
       "destination": null,
@@ -916,15 +1014,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "texada/IMG_5848.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_5862.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_5871.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "texada/IMG_5848.jpg",
-        "texada/IMG_5862.jpg",
-        "texada/IMG_5871.jpg",
-      ]
     },
     {
       "destination": null,
@@ -940,18 +1041,30 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "texada/IMG_6103.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_5893.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_5941.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_6011.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_5974.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_6021.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "texada/IMG_6103.jpg",
-        "texada/IMG_5893.jpg",
-        "texada/IMG_5941.jpg",
-        "texada/IMG_6011.jpg",
-        "texada/IMG_5974.jpg",
-        "texada/IMG_6021.jpg",
-      ]
     },
     {
       "destination": null,
@@ -966,15 +1079,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "texada/IMG_6107.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_6110.jpg",
+          "caption": ""
+        },
+        {
+          "image": "texada/IMG_6113.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "texada/IMG_6107.jpg",
-        "texada/IMG_6110.jpg",
-        "texada/IMG_6113.jpg",
-      ]
     }
   ],
 
@@ -993,15 +1109,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "brewster-lake/IMG_5594.jpg",
+          "caption": ""
+        },
+        {
+          "image": "brewster-lake/IMG_5557.jpg",
+          "caption": ""
+        },
+        {
+          "image": "brewster-lake/IMG_5570.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "brewster-lake/IMG_5594.jpg",
-        "brewster-lake/IMG_5557.jpg",
-        "brewster-lake/IMG_5570.jpg",
-      ]
     },
     {
       "destination": null,
@@ -1015,16 +1134,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "brewster-lake/IMG_5585.jpg",
+          "caption": ""
+        },
+        {
+          "image": "brewster-lake/IMG_5603.jpg",
+          "caption": ""
+        },
+        {
+          "image": "brewster-lake/IMG_5631.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "brewster-lake/IMG_5585.jpg",
-        "brewster-lake/IMG_5603.jpg",
-        "brewster-lake/IMG_5631.jpg",
-
-      ]
     },
     {
       "destination": null,
@@ -1038,15 +1159,18 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "",
+          "image": "brewster-lake/IMG_5610.jpg",
+          "caption": ""
+        },
+        {
+          "image": "brewster-lake/IMG_5628.jpg",
+          "caption": ""
+        },
+        {
+          "image": "brewster-lake/IMG_5619.jpg",
           "caption": ""
         },
       ],
-      "photobar_imgs": [
-        "brewster-lake/IMG_5610.jpg",
-        "brewster-lake/IMG_5628.jpg",
-        "brewster-lake/IMG_5619.jpg",
-      ]
     },
   ],
 
@@ -1446,7 +1570,7 @@ const timelines = {
       "photos": [
         {
           "image": "san-josef-bay/IMG_5519.jpg",
-          "caption": "Pedalling Home"
+          "caption": "Pedaling Home"
         },
       ],
     }
@@ -2267,6 +2391,14 @@ const timelines = {
           "image": "",
           "caption": ""
         },
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
       ],
       "photobar_imgs": []
     },
@@ -2279,6 +2411,14 @@ const timelines = {
       "end": "",
       "description": [],
       "photos": [
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
         {
           "image": "",
           "caption": ""
@@ -2299,6 +2439,14 @@ const timelines = {
           "image": "",
           "caption": ""
         },
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
       ],
       "photobar_imgs": []
     },
@@ -2311,6 +2459,14 @@ const timelines = {
       "end": "",
       "description": [],
       "photos": [
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
         {
           "image": "",
           "caption": ""
