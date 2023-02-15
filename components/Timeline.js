@@ -542,7 +542,7 @@ const timelines = {
       "date": "August 12, 2021",
       "distance": 24,
       "start": "Skidgate Landing",
-      "end": "a beach up the island",
+      "end": "Jungle Beach",
       "description": [
         "Took the eight hour ferry from Prince Rupert to Graham Island.",
         "Arrived at Skidgate Landing late in the afternoon.",
@@ -586,7 +586,7 @@ const timelines = {
       "day": 2,
       "date": "August 13, 2021",
       "distance": 153,
-      "start": "the beach",
+      "start": "Jungle Beach",
       "end": "Queen Charlotte",
       "description": [
         "Biked around the beach near Misty Meadows Campground in Naikoon Provincial Park.",
@@ -712,16 +712,60 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "nass-valley/IMG_9673.jpg",
-          "caption": ""
+          "image": "nass-valley/IMG_111.jpg",
+          "caption": "Cranberry Connector FSR"
         },
         {
-          "image": "nass-valley/IMG_9651.jpg",
-          "caption": ""
+          "image": "nass-valley/IMG_112.jpg",
+          "caption": "Kiteen River"
         },
         {
-          "image": "nass-valley/IMG_9658.jpg",
-          "caption": ""
+          "image": "nass-valley/IMG_113.jpg",
+          "caption": "Dragon Lake"
+        },
+        {
+          "image": "nass-valley/IMG_114.jpg",
+          "caption": "Blue Flowers"
+        },
+        {
+          "image": "nass-valley/IMG_115.jpg",
+          "caption": "Rock Shore"
+        },
+        {
+          "image": "nass-valley/IMG_116.jpg",
+          "caption": "Little White Flower"
+        },
+        {
+          "image": "nass-valley/IMG_117.jpg",
+          "caption": "Split Tree"
+        },
+        {
+          "image": "nass-valley/IMG_118.jpg",
+          "caption": "Dragon Lake"
+        },
+        {
+          "image": "nass-valley/IMG_119.jpg",
+          "caption": "Dragon Lake Campground"
+        },
+        {
+          "image": "nass-valley/IMG_120.jpg",
+          "caption": "Yellow Flower"
+        },
+        {
+          "image": "nass-valley/IMG_121.jpg",
+          "caption": "Devils Claw"
+        },
+        {
+          "image": "nass-valley/IMG_122.jpg",
+          "caption": "Dragon Lake"
+        },
+        {
+          "image": "nass-valley/IMG_123.jpg",
+          "caption": "Dragon Lake"
+        },
+        {
+          "image": "nass-valley/IMG_124.jpg",
+          "caption": "My Tent"
         },
       ],
     },
@@ -741,28 +785,112 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "nass-valley/IMG_9714.jpg",
-          "caption": ""
+          "image": "nass-valley/IMG_201.jpg",
+          "caption": "Jungle Creek"
         },
         {
-          "image": "nass-valley/IMG_9750.jpg",
-          "caption": ""
+          "image": "nass-valley/IMG_202.jpg",
+          "caption": "Mossy Lava"
         },
         {
-          "image": "nass-valley/IMG_9753.jpg",
-          "caption": ""
+          "image": "nass-valley/IMG_204.jpg",
+          "caption": "Lava Rock"
         },
         {
-          "image": "nass-valley/IMG_9766.jpg",
-          "caption": ""
+          "image": "nass-valley/IMG_205.jpg",
+          "caption": "Mossy Lava"
         },
         {
-          "image": "nass-valley/IMG_9787.jpg",
-          "caption": ""
+          "image": "nass-valley/IMG_206.jpg",
+          "caption": "Lava Ridge"
         },
         {
-          "image": "nass-valley/IMG_9819.jpg",
-          "caption": ""
+          "image": "nass-valley/IMG_207.jpg",
+          "caption": "Ksi Sii Aks River"
+        },
+        {
+          "image": "nass-valley/IMG_208.jpg",
+          "caption": "Ksi Sii Aks River"
+        },
+        {
+          "image": "nass-valley/IMG_209.jpg",
+          "caption": "Bark"
+        },
+        {
+          "image": "nass-valley/IMG_210.jpg",
+          "caption": "Return of the Forest"
+        },
+        {
+          "image": "nass-valley/IMG_211.jpg",
+          "caption": "Red Columbine"
+        },
+        {
+          "image": "nass-valley/IMG_212.jpg",
+          "caption": "The Nass Valley Lava Beds"
+        },
+        {
+          "image": "nass-valley/IMG_214.jpg",
+          "caption": "Directions to Gitwinksihlkw"
+        },
+        {
+          "image": "nass-valley/IMG_215.jpg",
+          "caption": "Nass River"
+        },
+        {
+          "image": "nass-valley/IMG_216.jpg",
+          "caption": "Almost Alaska"
+        },
+        {
+          "image": "nass-valley/IMG_217.jpg",
+          "caption": "Aiyansh"
+        },
+        {
+          "image": "nass-valley/IMG_218.jpg",
+          "caption": "Porcupine"
+        },
+        {
+          "image": "nass-valley/IMG_220.jpg",
+          "caption": "Nass River"
+        },
+        {
+          "image": "nass-valley/IMG_221.jpg",
+          "caption": "Nass River"
+        },
+        {
+          "image": "nass-valley/IMG_223.jpg",
+          "caption": "Gingolx Lookout Trail"
+        },
+        {
+          "image": "nass-valley/IMG_225.jpg",
+          "caption": "Gingolx"
+        },
+        {
+          "image": "nass-valley/IMG_227.jpg",
+          "caption": "Nisga'a Highway sign"
+        },
+        {
+          "image": "nass-valley/IMG_228.jpg",
+          "caption": "Gingolx: Seafood Capital of The Nass"
+        },
+        {
+          "image": "nass-valley/IMG_229.jpg",
+          "caption": "Nass River"
+        },
+        {
+          "image": "nass-valley/IMG_230.jpg",
+          "caption": "Tropical Bird"
+        },
+        {
+          "image": "nass-valley/IMG_231.jpg",
+          "caption": "Campsite"
+        },
+        {
+          "image": "nass-valley/IMG_232.jpg",
+          "caption": "Steep Mountain"
+        },
+        {
+          "image": "nass-valley/IMG_233.jpg",
+          "caption": "Bear Prints"
         },
       ],
     },
@@ -780,16 +908,28 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "nass-valley/IMG_9823.jpg",
-          "caption": ""
+          "image": "nass-valley/IMG_303.jpg",
+          "caption": "Vetter Falls"
         },
         {
-          "image": "nass-valley/IMG_0083.jpg",
-          "caption": ""
+          "image": "nass-valley/IMG_304.jpg",
+          "caption": "Beaupre Falls"
         },
         {
-          "image": "nass-valley/IMG_0102.jpg",
-          "caption": ""
+          "image": "nass-valley/IMG_305.jpg",
+          "caption": "Drowned Forest"
+        },
+        {
+          "image": "nass-valley/IMG_306.jpg",
+          "caption": "Kitsumkalum Lake"
+        },
+        {
+          "image": "nass-valley/IMG_309.jpg",
+          "caption": "Kitsumkalum Lake"
+        },
+        {
+          "image": "nass-valley/IMG_312.jpg",
+          "caption": "Camping on Kitsumkalum Lake"
         },
       ],
     },
@@ -806,8 +946,8 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "nass-valley/IMG_0117.jpg",
-          "caption": ""
+          "image": "nass-valley/IMG_401.jpg",
+          "caption": "Jesus"
         },
       ],
     }
