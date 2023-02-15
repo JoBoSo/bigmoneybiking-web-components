@@ -190,7 +190,7 @@ const tiles = {
     {
       title: "Haida Gwaii",
       subtitle: "A Magical Pacific Island",
-      image: "haida-gwaii/IMG_0834.jpg",
+      image: "haida-gwaii/IMG_0857.jpg",
       page: "tours/haida-gwaii.html"
     },
     {
