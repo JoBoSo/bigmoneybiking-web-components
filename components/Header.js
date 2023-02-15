@@ -1,8 +1,6 @@
 class Header extends HTMLElement {
   constructor() {
     super();
-    this.title = 'Big Money Bicycle Touring';
-    this.subtitle = "M";
   }
 
   connectedCallback() {
@@ -36,8 +34,8 @@ class Header extends HTMLElement {
 
     this.innerHTML = style + `
       <div id="bmb-header">
-        <h1 id="bmb-title">${this.title}</h1>
-        <p id="bmb-phrase">${this.subtitle}</p>
+        <h1 id="bmb-title">Big Money Bicycle Touring</h1>
+        <p id="bmb-phrase">M</p>
       </div>
     `
   }

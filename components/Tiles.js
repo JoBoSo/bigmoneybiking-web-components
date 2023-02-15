@@ -196,7 +196,7 @@ const tiles = {
     {
       title: "Nisga'a",
       subtitle: "A Volcanic Landscape",
-      image: "nass-valley/IMG_9727.jpg",
+      image: "nass-valley/IMG_212.jpg",
       page: "tours/nass-valley.html"
     },
     {
