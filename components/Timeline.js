@@ -552,16 +552,32 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "haida-gwaii/IMG_0837.jpg",
-          "caption": ""
+          "image": "haida-gwaii/IMG_0817.jpg",
+          "caption": "Roadside Stop Near Prince Rupert"
+        },
+        {
+          "image": "haida-gwaii/IMG_0822.jpg",
+          "caption": "Grassy Beach Entrance"
+        },
+        {
+          "image": "haida-gwaii/IMG_0825.jpg",
+          "caption": "On The Beach"
         },
         {
           "image": "haida-gwaii/IMG_0826.jpg",
-          "caption": ""
+          "caption": "Beach Camping"
+        },
+        {
+          "image": "haida-gwaii/IMG_0831.jpg",
+          "caption": "Facing Sandspit"
         },
         {
           "image": "haida-gwaii/IMG_0834.jpg",
-          "caption": ""
+          "caption": "Looking East"
+        },
+        {
+          "image": "haida-gwaii/IMG_0835.jpg",
+          "caption": "The Forest's Edge"
         },
       ],
     },
@@ -581,16 +597,72 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "haida-gwaii/IMG_0847.jpg",
-          "caption": ""
+          "image": "haida-gwaii/IMG_0837.jpg",
+          "caption": "My Bike"
+        },
+        {
+          "image": "haida-gwaii/IMG_0838.jpg",
+          "caption": "Naikoon Provincial Park"
+        },
+        {
+          "image": "haida-gwaii/IMG_0839.jpg",
+          "caption": "Driftwood"
+        },
+        {
+          "image": "haida-gwaii/IMG_0841.jpg",
+          "caption": "Stump"
+        },
+        {
+          "image": "haida-gwaii/IMG_0846.jpg",
+          "caption": "Lilypads"
+        },
+        {
+          "image": "haida-gwaii/IMG_0851.jpg",
+          "caption": "Stuart Bay"
+        },
+        {
+          "image": "haida-gwaii/IMG_0852.jpg",
+          "caption": "More Stuart Bay"
+        },
+        {
+          "image": "haida-gwaii/IMG_0853.jpg",
+          "caption": "Port Clements Museum"
+        },
+        {
+          "image": "haida-gwaii/IMG_0855.jpg",
+          "caption": "Masset Inlet"
+        },
+        {
+          "image": "haida-gwaii/IMG_0856.jpg",
+          "caption": "Masset Inlet"
         },
         {
           "image": "haida-gwaii/IMG_0857.jpg",
-          "caption": ""
+          "caption": "Masset Inlet"
+        },
+        {
+          "image": "haida-gwaii/IMG_0858.jpg",
+          "caption": "Masset Inlet"
+        },
+        {
+          "image": "haida-gwaii/IMG_0859.jpg",
+          "caption": "Golden Spruce Trail"
         },
         {
           "image": "haida-gwaii/IMG_0860.jpg",
-          "caption": ""
+          "caption": "Massive Cedar"
+        },
+        {
+          "image": "haida-gwaii/IMG_0861.jpg",
+          "caption": "Orange Mushroom"
+        },
+        {
+          "image": "haida-gwaii/IMG_0863.jpg",
+          "caption": "Life On A Log"
+        },
+        {
+          "image": "haida-gwaii/IMG_0866.jpg",
+          "caption": "Retro Mushroom"
         },
       ],
     },
@@ -608,16 +680,16 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "haida-gwaii/IMG_0869.jpg",
-          "caption": ""
-        },
-        {
-          "image": "haida-gwaii/IMG_0866.jpg",
-          "caption": ""
+          "image": "haida-gwaii/IMG_0867.jpg",
+          "caption": "Foxglove"
         },
         {
           "image": "haida-gwaii/IMG_0868.jpg",
-          "caption": ""
+          "caption": "Queen Charlotte Docks"
+        },
+        {
+          "image": "haida-gwaii/IMG_0869.jpg",
+          "caption": "Ocean Bay"
         },
       ],
     }
