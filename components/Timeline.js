@@ -542,7 +542,7 @@ const timelines = {
       "date": "August 12, 2021",
       "distance": 24,
       "start": "Skidgate Landing",
-      "end": "a beach up the island",
+      "end": "Jungle Beach",
       "description": [
         "Took the eight hour ferry from Prince Rupert to Graham Island.",
         "Arrived at Skidgate Landing late in the afternoon.",
@@ -586,7 +586,7 @@ const timelines = {
       "day": 2,
       "date": "August 13, 2021",
       "distance": 153,
-      "start": "the beach",
+      "start": "Jungle Beach",
       "end": "Queen Charlotte",
       "description": [
         "Biked around the beach near Misty Meadows Campground in Naikoon Provincial Park.",
