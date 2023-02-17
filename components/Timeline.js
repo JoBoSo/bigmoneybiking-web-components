@@ -971,28 +971,56 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "babine-lake/IMG_9496.jpg",
+          "caption": "Main Street, Smithers"
+        },
+        {
           "image": "babine-lake/IMG_9497.jpg",
-          "caption": ""
+          "caption": "Peterbuilt, Houston"
+        },
+        {
+          "image": "babine-lake/IMG_9500.jpg",
+          "caption": "Cow Pen"
+        },
+        {
+          "image": "babine-lake/IMG_9503.jpg",
+          "caption": "Grazing"
         },
         {
           "image": "babine-lake/IMG_9504.jpg",
-          "caption": ""
+          "caption": "Babine Lake Sign"
         },
         {
           "image": "babine-lake/IMG_9506.jpg",
-          "caption": ""
+          "caption": "Shore"
+        },
+        {
+          "image": "babine-lake/IMG_9509.jpg",
+          "caption": "Red Bluffs"
+        },
+        {
+          "image": "babine-lake/IMG_9510.jpg",
+          "caption": "Red Bluffs Trail Viewpoint"
         },
         {
           "image": "babine-lake/IMG_9511.jpg",
-          "caption": ""
+          "caption": "Beach"
         },
         {
-          "image": "babine-lake/IMG_9517.jpg",
-          "caption": ""
+          "image": "babine-lake/IMG_9515.jpg",
+          "caption": "Duck"
+        },
+        {
+          "image": "babine-lake/IMG_9519.jpg",
+          "caption": "Roots"
+        },
+        {
+          "image": "babine-lake/IMG_9520.jpg",
+          "caption": "Babine Lake"
         },
         {
           "image": "babine-lake/IMG_9525.jpg",
-          "caption": ""
+          "caption": "Dusk On The Beach"
         },
       ],
     },
@@ -1011,15 +1039,23 @@ const timelines = {
       "photos": [
         {
           "image": "babine-lake/IMG_9527.jpg",
-          "caption": ""
+          "caption": "Ripples"
         },
         {
-          "image": "babine-lake/IMG_9529.jpg",
-          "caption": ""
+          "image": "babine-lake/IMG_9532.jpg",
+          "caption": "Still Water"
         },
         {
           "image": "babine-lake/IMG_9533.jpg",
-          "caption": ""
+          "caption": "Babine Lake Rd"
+        },
+        {
+          "image": "babine-lake/IMG_9538.jpg",
+          "caption": "Cow Being A Cow"
+        },
+        {
+          "image": "babine-lake/IMG_9540.jpg",
+          "caption": "Alpine Air"
         },
       ],
     },
