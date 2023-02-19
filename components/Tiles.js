@@ -31,7 +31,7 @@ class Tiles extends HTMLElement {
           overflow: hidden;
           border-radius: 7px;
           /* border: 1px solid #d1cfc8 ; */
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
         }
 
         .content .content-overlay {
