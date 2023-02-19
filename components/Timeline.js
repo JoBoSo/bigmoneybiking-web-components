@@ -1077,16 +1077,24 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "downie-creek/IMG_8487.jpg",
+          "caption": "Hot Sun"
+        },
+        {
+          "image": "downie-creek/IMG_8488.jpg",
+          "caption": "BC Interior Forestry Museum"
+        },
+        {
           "image": "downie-creek/IMG_8490.jpg",
-          "caption": ""
+          "caption": "Construction"
         },
         {
           "image": "downie-creek/IMG_8491.jpg",
-          "caption": ""
+          "caption": "Dusk"
         },
         {
-          "image": "downie-creek/IMG_8500.jpg",
-          "caption": ""
+          "image": "downie-creek/IMG_8495.jpg",
+          "caption": "Fire"
         },
       ],
     },
@@ -1104,16 +1112,72 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "downie-creek/IMG_8521.jpg",
-          "caption": ""
+          "image": "downie-creek/IMG_8500.jpg",
+          "caption": "My Campsite at Carnes Creek"
         },
         {
-          "image": "downie-creek/IMG_8602.jpg",
-          "caption": ""
+          "image": "downie-creek/IMG_8502.jpg",
+          "caption": "Low Clouds"
+        },
+        {
+          "image": "downie-creek/IMG_8505.jpg",
+          "caption": "The Long & Winding Road"
+        },
+        {
+          "image": "downie-creek/IMG_8507.jpg",
+          "caption": "Creek"
+        },
+        {
+          "image": "downie-creek/IMG_8564.jpg",
+          "caption": "Creek"
+        },
+        {
+          "image": "downie-creek/IMG_8511.jpg",
+          "caption": "Slopes"
+        },
+        {
+          "image": "downie-creek/IMG_8521.jpg",
+          "caption": "The Road"
+        },
+        {
+          "image": "downie-creek/IMG_8525.jpg",
+          "caption": "Downie Creek Rec Site"
+        },
+        {
+          "image": "downie-creek/IMG_8527.jpg",
+          "caption": "My Bike"
+        },
+        {
+          "image": "downie-creek/IMG_8551.jpg",
+          "caption": "River Valley"
         },
         {
           "image": "downie-creek/IMG_8560.jpg",
-          "caption": ""
+          "caption": "Blue Water"
+        },
+        {
+          "image": "downie-creek/IMG_8588.jpg",
+          "caption": "End of the Road"
+        },
+        {
+          "image": "downie-creek/IMG_8602.jpg",
+          "caption": "Drift Wood"
+        },
+        {
+          "image": "downie-creek/IMG_8604.jpg",
+          "caption": "Dock"
+        },
+        {
+          "image": "downie-creek/IMG_8618.jpg",
+          "caption": "Bump"
+        },
+        {
+          "image": "downie-creek/IMG_8621.jpg",
+          "caption": "Bumps"
+        },
+        {
+          "image": "downie-creek/IMG_8619.jpg",
+          "caption": "The Other Side"
         },
       ],
     },
@@ -1131,15 +1195,39 @@ const timelines = {
       "photos": [
         {
           "image": "downie-creek/IMG_8634.jpg",
-          "caption": ""
+          "caption": "My Campsite at Carnes Creek"
+        },
+        {
+          "image": "downie-creek/IMG_8638.jpg",
+          "caption": "Bird House"
+        },
+        {
+          "image": "downie-creek/IMG_8639.jpg",
+          "caption": "Dining"
+        },
+        {
+          "image": "downie-creek/IMG_8644.jpg",
+          "caption": "Wide-Open River"
         },
         {
           "image": "downie-creek/IMG_8647.jpg",
-          "caption": ""
+          "caption": "Campsite"
         },
         {
           "image": "downie-creek/IMG_8648.jpg",
-          "caption": ""
+          "caption": "River Road"
+        },
+        {
+          "image": "downie-creek/IMG_8661.jpg",
+          "caption": "God Bless Alberta"
+        },
+        {
+          "image": "downie-creek/IMG_8657.jpg",
+          "caption": "This Is Oil Country"
+        },
+        {
+          "image": "downie-creek/IMG_8658.jpg",
+          "caption": "Alberta Rules"
         },
       ],
     },
