@@ -1248,16 +1248,16 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "begbie-falls/IMG_8340.jpg",
+          "caption": "Leaving Town"
+        },
+        {
           "image": "begbie-falls/IMG_8346.jpg",
-          "caption": ""
+          "caption": "Riding Fast"
         },
         {
-          "image": "begbie-falls/IMG_3717.jpg",
-          "caption": ""
-        },
-        {
-          "image": "begbie-falls/IMG_3712.jpg",
-          "caption": ""
+          "image": "begbie-falls/IMG_8348.jpg",
+          "caption": "Looking Forward"
         },
       ],
     },
@@ -1273,16 +1273,44 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "begbie-falls/IMG_8377.jpg",
-          "caption": ""
+          "image": "begbie-falls/IMG_3712.jpg",
+          "caption": "Begbie Falls Campsite"
+        },
+        {
+          "image": "begbie-falls/IMG_3720.jpg",
+          "caption": "In The Sticks"
+        },
+        {
+          "image": "begbie-falls/IMG_8359.jpg",
+          "caption": "Superman"
+        },
+        {
+          "image": "begbie-falls/IMG_8360.jpg",
+          "caption": " No Feet"
+        },
+        {
+          "image": "begbie-falls/IMG_3792.jpg",
+          "caption": "Up Mt. Begbie"
+        },
+        {
+          "image": "begbie-falls/IMG_3778.jpg",
+          "caption": "Oasis"
         },
         {
           "image": "begbie-falls/IMG_8374.jpg",
-          "caption": ""
+          "caption": "Thirst"
+        },
+        {
+          "image": "begbie-falls/IMG_8377.jpg",
+          "caption": "Stamina"
         },
         {
           "image": "begbie-falls/IMG_8371.jpg",
-          "caption": ""
+          "caption": "The Top*"
+        },
+        {
+          "image": "begbie-falls/IMG_3762.jpg",
+          "caption": "Down Mt. Begbie"
         },
       ],
     },
