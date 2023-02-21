@@ -1529,16 +1529,64 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "comox-lake/IMG_6272.jpg",
+          "caption": "Forest Bathing"
+        },
+        {
+          "image": "comox-lake/IMG_6277.jpg",
+          "caption": "Arbutus Tree"
+        },
+        {
+          "image": "comox-lake/IMG_6282.jpg",
+          "caption": "Waterfall"
+        },
+        {
+          "image": "comox-lake/IMG_6284.jpg",
+          "caption": "Comox Logging Rd"
+        },
+        {
+          "image": "comox-lake/IMG_6289.jpg",
+          "caption": "Comox Lake"
+        },
+        {
+          "image": "comox-lake/IMG_6298.jpg",
+          "caption": "Comox Lake"
+        },
+        {
           "image": "comox-lake/IMG_6300.jpg",
-          "caption": ""
+          "caption": "Frequency Zero"
+        },
+        {
+          "image": "comox-lake/IMG_6301.jpg",
+          "caption": "Arbutus Bark"
         },
         {
           "image": "comox-lake/IMG_6302.jpg",
-          "caption": ""
+          "caption": "Comox Lake"
+        },
+        {
+          "image": "comox-lake/IMG_6305.jpg",
+          "caption": "Arbutus Tree"
+        },
+        {
+          "image": "comox-lake/IMG_6306.jpg",
+          "caption": "Bluffs"
         },
         {
           "image": "comox-lake/IMG_6310.jpg",
-          "caption": ""
+          "caption": "Twisted Trees"
+        },
+        {
+          "image": "comox-lake/IMG_6315.jpg",
+          "caption": "Flowers & Moss"
+        },
+        {
+          "image": "comox-lake/IMG_6321.jpg",
+          "caption": "Parsley Fern"
+        },
+        {
+          "image": "comox-lake/IMG_6324.jpg",
+          "caption": "Bluffs"
         },
       ],
     },
@@ -1555,16 +1603,24 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "comox-lake/IMG_6328.jpg",
+          "caption": "Sunrise"
+        },
+        {
           "image": "comox-lake/IMG_6325.jpg",
-          "caption": ""
+          "caption": "Sunrise"
         },
         {
           "image": "comox-lake/IMG_6331.jpg",
-          "caption": ""
+          "caption": "Blue Sky"
+        },
+        {
+          "image": "comox-lake/IMG_6333.jpg",
+          "caption": "On The Bluffs"
         },
         {
           "image": "comox-lake/IMG_6336.jpg",
-          "caption": ""
+          "caption": "Lushious Comox Lake"
         },
       ],
     },
