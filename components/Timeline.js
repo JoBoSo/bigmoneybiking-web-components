@@ -3087,16 +3087,28 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "algonquin/IMG_4453.jpg",
+          "caption": "Western Highlands Trailhead"
+        },
+        {
           "image": "algonquin/IMG_4454.jpg",
-          "caption": ""
+          "caption": "Bridge"
         },
         {
           "image": "algonquin/IMG_4464.jpg",
-          "caption": ""
+          "caption": "My Campsite"
+        },
+        {
+          "image": "algonquin/IMG_4466.jpg",
+          "caption": "Fire"
         },
         {
           "image": "algonquin/IMG_4471.jpg",
-          "caption": ""
+          "caption": "Table"
+        },
+        {
+          "image": "algonquin/IMG_4476.jpg",
+          "caption": "Night"
         },
       ],
     },
@@ -3115,28 +3127,64 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "algonquin/IMG_4483.jpg",
+          "caption": "Coffee"
+        },
+        {
+          "image": "algonquin/IMG_4493.jpg",
+          "caption": "Sled Tracks"
+        },
+        {
           "image": "algonquin/IMG_4494.jpg",
-          "caption": ""
+          "caption": "Sled"
+        },
+        {
+          "image": "algonquin/IMG_4496.jpg",
+          "caption": "The Woods"
         },
         {
           "image": "algonquin/IMG_4501.jpg",
-          "caption": ""
+          "caption": "Moss"
+        },
+        {
+          "image": "algonquin/IMG_4502.jpg",
+          "caption": "Back to the Car"
         },
         {
           "image": "algonquin/IMG_4508.jpg",
-          "caption": ""
+          "caption": "Tall Rock"
         },
         {
           "image": "algonquin/IMG_4510.jpg",
-          "caption": ""
+          "caption": "Hardwood Lookout"
+        },
+        {
+          "image": "algonquin/IMG_4518.jpg",
+          "caption": "Pine Branch"
+        },
+        {
+          "image": "algonquin/IMG_4521.jpg",
+          "caption": "Cross Trails"
         },
         {
           "image": "algonquin/IMG_4526.jpg",
-          "caption": ""
+          "caption": "Dead Plant"
         },
         {
           "image": "algonquin/IMG_4535.jpg",
-          "caption": ""
+          "caption": "Mushroom"
+        },
+        {
+          "image": "algonquin/IMG_4538.jpg",
+          "caption": "Mushrooms"
+        },
+        {
+          "image": "algonquin/IMG_4539.jpg",
+          "caption": "Snowy Mushrooms"
+        },
+        {
+          "image": "algonquin/IMG_4550.jpg",
+          "caption": "Dinner"
         },
       ],
     },
@@ -3155,29 +3203,81 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "algonquin/IMG_4560.jpg",
+          "caption": "My Campsite"
+        },
+        {
           "image": "algonquin/IMG_4563.jpg",
-          "caption": ""
+          "caption": "Sunshine"
+        },
+        {
+          "image": "algonquin/IMG_4564.jpg",
+          "caption": "Tracks"
         },
         {
           "image": "algonquin/IMG_4565.jpg",
-          "caption": ""
+          "caption": "Canis Bay Portage Sign"
         },
         {
           "image": "algonquin/IMG_4566.jpg",
-          "caption": ""
+          "caption": "Rodent Tracks"
         },
         {
-          "image": "algonquin/the_lake.jpg",
-          "caption": ""
+          "image": "algonquin/IMG_4571.jpg",
+          "caption": "Root Bed"
         },
+        {
+          "image": "algonquin/IMG_4572.jpg",
+          "caption": "Leaf"
+        },
+        {
+          "image": "algonquin/IMG_4575.jpg",
+          "caption": "Old Outhouse"
+        },
+        {
+          "image": "algonquin/IMG_4582.jpg",
+          "caption": "Ice"
+        },
+        {
+          "image": "algonquin/IMG_4586.jpg",
+          "caption": "The Trail"
+        },
+        {
+          "image": "algonquin/IMG_4594.jpg",
+          "caption": "Polly Lake"
+        },
+        {
+          "image": "algonquin/IMG_4607.jpg",
+          "caption": "Leaf"
+        },        
         {
           "image": "algonquin/IMG_4608.jpg",
-          "caption": ""
+          "caption": "Leaves"
         },
         {
           "image": "algonquin/IMG_4611.jpg",
-          "caption": ""
-        },
+          "caption": "Branches"
+        },   
+        {
+          "image": "algonquin/IMG_4616.jpg",
+          "caption": "Canis Bay Lake Portage Sign"
+        },    
+        {
+          "image": "algonquin/IMG_4669.jpg",
+          "caption": "Icy Branch"
+        },   
+        {
+          "image": "algonquin/IMG_4694.jpg",
+          "caption": "Cabin"
+        },  
+        {
+          "image": "algonquin/IMG_4696.jpg",
+          "caption": "Parking Sign"
+        },  
+        {
+          "image": "algonquin/IMG_4698.jpg",
+          "caption": "Home Stretch"
+        },  
       ],
     },
   ],
