@@ -1643,16 +1643,40 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "texada/IMG_5788.jpg",
-          "caption": ""
+          "image": "texada/IMG_5777.jpg",
+          "caption": "The Ferry to Powell River"
         },
         {
-          "image": "texada/IMG_5800.jpg",
-          "caption": ""
+          "image": "texada/IMG_5788.jpg",
+          "caption": "Driftwood Bench"
         },
         {
           "image": "texada/IMG_5797.jpg",
-          "caption": ""
+          "caption": "Sunshine Coast"
+        },
+        {
+          "image": "texada/IMG_5800.jpg",
+          "caption": "Dinner Rock Rec Site"
+        },
+        {
+          "image": "texada/IMG_5802.jpg",
+          "caption": "Kelp"
+        },
+        {
+          "image": "texada/IMG_5808.jpg",
+          "caption": "Coast"
+        },
+        {
+          "image": "texada/IMG_5832.jpg",
+          "caption": "Dinner Rock"
+        },
+        {
+          "image": "texada/IMG_5838.jpg",
+          "caption": "Red Plant"
+        },
+        {
+          "image": "texada/IMG_5839.jpg",
+          "caption": "Only You"
         },
       ],
     },
@@ -1670,16 +1694,32 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "texada/IMG_5841.jpg",
+          "caption": "Powell River Port"
+        },
+        {
           "image": "texada/IMG_5848.jpg",
-          "caption": ""
+          "caption": "Welcome to Texada"
+        },
+        {
+          "image": "texada/IMG_5855.jpg",
+          "caption": "Gillies Bay"
+        },
+        {
+          "image": "texada/IMG_5856.jpg",
+          "caption": "Gillies Bay"
+        },
+        {
+          "image": "texada/IMG_5858.jpg",
+          "caption": "Gillies Bay"
         },
         {
           "image": "texada/IMG_5862.jpg",
-          "caption": ""
+          "caption": "Bluffs"
         },
         {
-          "image": "texada/IMG_5871.jpg",
-          "caption": ""
+          "image": "texada/IMG_5867.jpg",
+          "caption": "Shingle Beach Sign"
         },
       ],
     },
@@ -1697,28 +1737,164 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "texada/IMG_6103.jpg",
-          "caption": ""
+          "image": "texada/IMG_5871.jpg",
+          "caption": "Shingle Beach"
+        },
+        {
+          "image": "texada/IMG_5878.jpg",
+          "caption": "Forest Road"
+        },
+        {
+          "image": "texada/IMG_5885.jpg",
+          "caption": "Ocean Views"
+        },
+        {
+          "image": "texada/IMG_5890.jpg",
+          "caption": "Foxgloves"
         },
         {
           "image": "texada/IMG_5893.jpg",
-          "caption": ""
+          "caption": "Eroded Grader"
+        },
+        {
+          "image": "texada/IMG_5898.jpg",
+          "caption": "Anderson Bay Sign"
+        },
+        {
+          "image": "texada/IMG_5902.jpg",
+          "caption": "Marsh"
+        },
+        {
+          "image": "texada/IMG_5919.jpg",
+          "caption": "Bob's Lake Sign"
         },
         {
           "image": "texada/IMG_5941.jpg",
-          "caption": ""
+          "caption": "Star"
         },
         {
-          "image": "texada/IMG_6011.jpg",
-          "caption": ""
+          "image": "texada/IMG_5944.jpg",
+          "caption": "Bob's Lake Trail"
+        },
+        {
+          "image": "texada/IMG_5960.jpg",
+          "caption": "Old Stable"
+        },
+        {
+          "image": "texada/IMG_5963.jpg",
+          "caption": "Stable Sign"
+        },
+        {
+          "image": "texada/IMG_5966.jpg",
+          "caption": "Inside the Stable"
         },
         {
           "image": "texada/IMG_5974.jpg",
-          "caption": ""
+          "caption": "Mushrooms"
+        },
+        {
+          "image": "texada/IMG_5983.jpg",
+          "caption": "Mushroom"
+        },
+        {
+          "image": "texada/IMG_5988.jpg",
+          "caption": "Pond in the Forest"
+        },
+        {
+          "image": "texada/IMG_5992.jpg",
+          "caption": "Mushroom"
+        },
+        {
+          "image": "texada/IMG_5994.jpg",
+          "caption": "Mushroom"
+        },
+        {
+          "image": "texada/IMG_6002.jpg",
+          "caption": "Orange Mold"
+        },
+        {
+          "image": "texada/IMG_6010.jpg",
+          "caption": "Mushroom"
+        },
+        {
+          "image": "texada/IMG_6015.jpg",
+          "caption": "Mushroom"
         },
         {
           "image": "texada/IMG_6021.jpg",
-          "caption": ""
+          "caption": "Mushroom"
+        },
+        {
+          "image": "texada/IMG_6027.jpg",
+          "caption": "Mushroom"
+        },
+        {
+          "image": "texada/IMG_6029.jpg",
+          "caption": "Slime Mold"
+        },
+        {
+          "image": "texada/IMG_6032.jpg",
+          "caption": "Pinesap"
+        },
+        {
+          "image": "texada/IMG_6040.jpg",
+          "caption": "Lake"
+        },
+        {
+          "image": "texada/IMG_6043.jpg",
+          "caption": "Forest Road"
+        },
+        {
+          "image": "texada/IMG_6050.jpg",
+          "caption": "Road Along a Pond"
+        },
+        {
+          "image": "texada/IMG_6052.jpg",
+          "caption": "Road to the Ocean"
+        },
+        {
+          "image": "texada/IMG_6055.jpg",
+          "caption": "Ocean views"
+        },
+        {
+          "image": "texada/IMG_6061.jpg",
+          "caption": "Forest Road"
+        },
+        {
+          "image": "texada/IMG_6069.jpg",
+          "caption": "Forest Road"
+        },
+        {
+          "image": "texada/IMG_6078.jpg",
+          "caption": "Mushrooms"
+        },
+        {
+          "image": "texada/IMG_6080.jpg",
+          "caption": "Slug"
+        },
+        {
+          "image": "texada/IMG_6085.jpg",
+          "caption": "Lichen"
+        },
+        {
+          "image": "texada/IMG_6087.jpg",
+          "caption": "Lichens"
+        },
+        {
+          "image": "texada/IMG_6090.jpg",
+          "caption": "Strawberry"
+        },
+        {
+          "image": "texada/IMG_6099.jpg",
+          "caption": "Bob's Lake"
+        },
+        {
+          "image": "texada/IMG_6103.jpg",
+          "caption": "Camping on Bob's Lake"
+        },
+        {
+          "image": "texada/IMG_6106.jpg",
+          "caption": "Bob's Lake Sunset"
         },
       ],
     },
@@ -1736,15 +1912,19 @@ const timelines = {
       "photos": [
         {
           "image": "texada/IMG_6107.jpg",
-          "caption": ""
+          "caption": "Bob's Lake"
+        },
+        {
+          "image": "texada/IMG_6108.jpg",
+          "caption": "Bob's Lake"
         },
         {
           "image": "texada/IMG_6110.jpg",
-          "caption": ""
+          "caption": "Pasture"
         },
         {
           "image": "texada/IMG_6113.jpg",
-          "caption": ""
+          "caption": "Mary Mary Cafe"
         },
       ],
     }
