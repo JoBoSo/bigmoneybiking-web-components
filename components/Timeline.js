@@ -1945,16 +1945,20 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "brewster-lake/IMG_5594.jpg",
-          "caption": ""
+          "image": "brewster-lake/IMG_5557.jpg",
+          "caption": "Sunset on Brewster Lake"
         },
         {
-          "image": "brewster-lake/IMG_5557.jpg",
-          "caption": ""
+          "image": "brewster-lake/IMG_5561.jpg",
+          "caption": "Mountain, Forest, and Lake"
+        },
+        {
+          "image": "brewster-lake/IMG_5565.jpg",
+          "caption": "My Campsite"
         },
         {
           "image": "brewster-lake/IMG_5570.jpg",
-          "caption": ""
+          "caption": "Fire"
         },
       ],
     },
@@ -1971,15 +1975,55 @@ const timelines = {
       "photos": [
         {
           "image": "brewster-lake/IMG_5585.jpg",
-          "caption": ""
+          "caption": "Brewster Lake By Day"
+        },
+        {
+          "image": "brewster-lake/IMG_5594.jpg",
+          "caption": "My Campsite"
         },
         {
           "image": "brewster-lake/IMG_5603.jpg",
-          "caption": ""
+          "caption": "Beachy Shoreline"
+        },
+        {
+          "image": "brewster-lake/IMG_5604.jpg",
+          "caption": "The Road Out"
+        },
+        {
+          "image": "brewster-lake/IMG_5605.jpg",
+          "caption": "Apple Point Rec Site"
+        },
+        {
+          "image": "brewster-lake/IMG_5609.jpg",
+          "caption": "Mountain Bluet"
+        },
+        {
+          "image": "brewster-lake/IMG_5610.jpg",
+          "caption": "My Bike"
+        },
+        {
+          "image": "brewster-lake/IMG_5618.jpg",
+          "caption": "Open Views"
+        },
+        {
+          "image": "brewster-lake/IMG_5619.jpg",
+          "caption": "Bend in the Road"
+        },
+        {
+          "image": "brewster-lake/IMG_5628.jpg",
+          "caption": "Beatle"
         },
         {
           "image": "brewster-lake/IMG_5631.jpg",
-          "caption": ""
+          "caption": "Campbell Lake"
+        },
+        {
+          "image": "brewster-lake/IMG_5634.jpg",
+          "caption": "My Campsite"
+        },
+        {
+          "image": "brewster-lake/IMG_5635.jpg",
+          "caption": "Burning Clive Cussler"
         },
       ],
     },
@@ -1994,18 +2038,6 @@ const timelines = {
         "I rode home to Courtenay."
       ],
       "photos": [
-        {
-          "image": "brewster-lake/IMG_5610.jpg",
-          "caption": ""
-        },
-        {
-          "image": "brewster-lake/IMG_5628.jpg",
-          "caption": ""
-        },
-        {
-          "image": "brewster-lake/IMG_5619.jpg",
-          "caption": ""
-        },
       ],
     },
   ],
