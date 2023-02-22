@@ -2885,16 +2885,48 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "mt-albert-edward/IMG_6622.jpg",
+          "caption": "Meadow"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6636.jpg",
+          "caption": "Pink Mountain Heather"
+        },
+        {
           "image": "mt-albert-edward/IMG_6639.jpg",
-          "caption": ""
+          "caption": "Ranger Cabin"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6644.jpg",
+          "caption": "Meadow"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6649.jpg",
+          "caption": "Plateau"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6652.jpg",
+          "caption": "Pond"
         },
         {
           "image": "mt-albert-edward/IMG_6653.jpg",
-          "caption": ""
+          "caption": "Plateau"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6657.jpg",
+          "caption": "Subalpine Daisy"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6659.jpg",
+          "caption": "Boardwalk Through Meadow"
         },
         {
           "image": "mt-albert-edward/IMG_6665.jpg",
-          "caption": ""
+          "caption": "Circlet Lake"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6669.jpg",
+          "caption": "Nighttime On Circlet Lake"
         },
       ],
     },
@@ -2912,28 +2944,88 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "mt-albert-edward/IMG_6697.jpg",
-          "caption": ""
+          "image": "mt-albert-edward/IMG_6672.jpg",
+          "caption": "Looking Back At Circlet Lake"
         },
         {
-          "image": "mt-albert-edward/IMG_6705.jpg",
-          "caption": ""
+          "image": "mt-albert-edward/IMG_6677.jpg",
+          "caption": "Castlecrag Mountain"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6682.jpg",
+          "caption": "Subalpine Pond"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6687.jpg",
+          "caption": "Pond"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6697.jpg",
+          "caption": "Moat Lake"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6708.jpg",
+          "caption": "Mt. Albert Edward"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6713.jpg",
+          "caption": "Up"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6715.jpg",
+          "caption": "Up Some More"
         },
         {
           "image": "mt-albert-edward/IMG_6717.jpg",
-          "caption": ""
+          "caption": "Up A Little More"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6719.jpg",
+          "caption": "Almost There"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6721.jpg",
+          "caption": "Flowers"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6727.jpg",
+          "caption": "Gem Lake"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6728.jpg",
+          "caption": "Top of the Ridge"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6743.jpg",
+          "caption": "To The Peak"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6732.jpg",
+          "caption": "Wildflowers"
         },
         {
           "image": "mt-albert-edward/IMG_6733.jpg",
-          "caption": ""
+          "caption": "Valley"
         },
         {
-          "image": "mt-albert-edward/IMG_6740.jpg",
-          "caption": ""
+          "image": "mt-albert-edward/IMG_6734.jpg",
+          "caption": "Many Mountains"
         },
         {
           "image": "mt-albert-edward/IMG_6735.jpg",
-          "caption": ""
+          "caption": "Mullein"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6740.jpg",
+          "caption": "Wildflower Garden"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6748.jpg",
+          "caption": "Back Through The Forest"
+        },
+        {
+          "image": "mt-albert-edward/IMG_6750.jpg",
+          "caption": "Back Throug The Meadows"
         },
       ],
     },
