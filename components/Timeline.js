@@ -3026,7 +3026,7 @@ const timelines = {
         },
         {
           "image": "mt-albert-edward/IMG_6750.jpg",
-          "caption": "Back Throug The Meadows"
+          "caption": "Back Through The Meadows"
         },
       ],
     },
@@ -3122,15 +3122,27 @@ const timelines = {
       "photos": [
         {
           "image": "phillips-ridge/IMG_7095.jpg",
-          "caption": ""
+          "caption": "Up The Ridge"
+        },
+        {
+          "image": "phillips-ridge/IMG_7097.jpg",
+          "caption": "On The Ridge"
+        },
+        {
+          "image": "phillips-ridge/IMG_7098.jpg",
+          "caption": "In The Mountains"
         },
         {
           "image": "phillips-ridge/IMG_7099.jpg",
-          "caption": ""
+          "caption": "Trees"
+        },
+        {
+          "image": "phillips-ridge/IMG_7101.jpg",
+          "caption": "Sitting"
         },
         {
           "image": "phillips-ridge/IMG_7102.jpg",
-          "caption": ""
+          "caption": "Sunset"
         },
       ],
     },
@@ -3148,15 +3160,23 @@ const timelines = {
       "photos": [
         {
           "image": "phillips-ridge/IMG_7112.jpg",
-          "caption": ""
+          "caption": "A Big Place"
+        },
+        {
+          "image": "phillips-ridge/IMG_7117.jpg",
+          "caption": "Golden Hinde"
+        },
+        {
+          "image": "phillips-ridge/IMG_7116.jpg",
+          "caption": "Zoe"
         },
         {
           "image": "phillips-ridge/IMG_7119.jpg",
-          "caption": ""
+          "caption": "Me"
         },
         {
           "image": "phillips-ridge/IMG_7123.jpg",
-          "caption": ""
+          "caption": "Wildflowers"
         },
       ],
     },
