@@ -2820,28 +2820,136 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "tin-hat/IMG_7658.jpg",
+          "caption": "Ferry to Powell River"
+        },
+        {
+          "image": "tin-hat/IMG_7659.jpg",
+          "caption": "Mural"
+        },
+        {
+          "image": "tin-hat/IMG_7661.jpg",
+          "caption": "Inuksuk"
+        },
+        {
+          "image": "tin-hat/IMG_7664.jpg",
+          "caption": "Haslam Lake"
+        },
+        {
+          "image": "tin-hat/IMG_7665.jpg",
+          "caption": "Haslam Lake"
+        },
+        {
           "image": "tin-hat/IMG_7668.jpg",
-          "caption": ""
+          "caption": "Family Bankeraceae"
+        },
+        {
+          "image": "tin-hat/IMG_7669.jpg",
+          "caption": "Onion Earthball"
+        },
+        {
+          "image": "tin-hat/IMG_7672.jpg",
+          "caption": "Velvet-footed Pax"
+        },
+        {
+          "image": "tin-hat/IMG_7674.jpg",
+          "caption": "Bay Polypore"
         },
         {
           "image": "tin-hat/IMG_7676.jpg",
-          "caption": ""
+          "caption": "Hobit Home"
         },
         {
-          "image": "tin-hat/IMG_7689.jpg",
-          "caption": ""
+          "image": "tin-hat/IMG_7678.jpg",
+          "caption": "Lewis Lake"
+        },
+        {
+          "image": "tin-hat/IMG_7680.jpg",
+          "caption": "Genus Hydnellum"
+        },
+        {
+          "image": "tin-hat/IMG_7681.jpg",
+          "caption": "Russula Crassotunicata"
+        },
+        {
+          "image": "tin-hat/IMG_7682.jpg",
+          "caption": "Brown Funnel Polypore"
+        },
+        {
+          "image": "tin-hat/IMG_7685.jpg",
+          "caption": "The Trail"
+        },
+        {
+          "image": "tin-hat/IMG_7686.jpg",
+          "caption": "Pacific Golden Chanterelle"
+        },
+        {
+          "image": "tin-hat/IMG_7687.jpg",
+          "caption": "Brittlegills"
+        },
+        {
+          "image": "tin-hat/IMG_7688.jpg",
+          "caption": "Pycnoporellus Alboluteus"
+        },
+        {
+          "image": "tin-hat/IMG_7690.jpg",
+          "caption": "The Trail"
+        },
+        {
+          "image": "tin-hat/IMG_7695.jpg",
+          "caption": "Pine White Butterfly"
+        },
+        {
+          "image": "tin-hat/IMG_7696.jpg",
+          "caption": "Turkey-Tail"
+        },
+        {
+          "image": "tin-hat/IMG_7699.jpg",
+          "caption": "Coral Fungus"
+        },
+        {
+          "image": "tin-hat/IMG_7700.jpg",
+          "caption": "Mushroom"
+        },
+        {
+          "image": "tin-hat/IMG_7707.jpg",
+          "caption": "Flowers"
+        },
+        {
+          "image": "tin-hat/IMG_7713.jpg",
+          "caption": "Lakes"
+        },
+        {
+          "image": "tin-hat/IMG_7714.jpg",
+          "caption": "Mountain Slope"
+        },
+        {
+          "image": "tin-hat/IMG_7715.jpg",
+          "caption": "Cut Blocks"
         },
         {
           "image": "tin-hat/IMG_7721.jpg",
-          "caption": ""
+          "caption": "Tin Hat Cabin"
         },
         {
-          "image": "tin-hat/IMG_7730.jpg",
-          "caption": ""
+          "image": "tin-hat/IMG_7727.jpg",
+          "caption": "Weather Station"
         },
         {
-          "image": "tin-hat/IMG_7735.jpg",
-          "caption": ""
+          "image": "tin-hat/IMG_7728.jpg",
+          "caption": "Elf"
+        },
+        {
+          "image": "tin-hat/IMG_7726.jpg",
+          "caption": "The Peak"
+        },
+        {
+          "image": "tin-hat/IMG_7732.jpg",
+          "caption": "Sunset on The Peak"
+        },
+        {
+          "image": "tin-hat/IMG_7740.jpg",
+          "caption": "Sunset"
         },
       ],
     },
@@ -2860,11 +2968,15 @@ const timelines = {
       "photos": [
         {
           "image": "tin-hat/IMG_7748.jpg",
-          "caption": ""
+          "caption": "Clouds Over Haslam Lake"
+        },
+        {
+          "image": "tin-hat/IMG_7750.jpg",
+          "caption": "Duck Lake"
         },
         {
           "image": "tin-hat/IMG_7752.jpg",
-          "caption": ""
+          "caption": "Duck Lake"
         },
       ],
     },
