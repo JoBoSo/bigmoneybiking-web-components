@@ -2820,28 +2820,136 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "tin-hat/IMG_7658.jpg",
+          "caption": "Ferry to Powell River"
+        },
+        {
+          "image": "tin-hat/IMG_7659.jpg",
+          "caption": "Mural"
+        },
+        {
+          "image": "tin-hat/IMG_7661.jpg",
+          "caption": "Inuksuk"
+        },
+        {
+          "image": "tin-hat/IMG_7664.jpg",
+          "caption": "Haslam Lake"
+        },
+        {
+          "image": "tin-hat/IMG_7665.jpg",
+          "caption": "Haslam Lake"
+        },
+        {
           "image": "tin-hat/IMG_7668.jpg",
-          "caption": ""
+          "caption": "Family Bankeraceae"
+        },
+        {
+          "image": "tin-hat/IMG_7669.jpg",
+          "caption": "Onion Earthball"
+        },
+        {
+          "image": "tin-hat/IMG_7672.jpg",
+          "caption": "Velvet-footed Pax"
+        },
+        {
+          "image": "tin-hat/IMG_7674.jpg",
+          "caption": "Bay Polypore"
         },
         {
           "image": "tin-hat/IMG_7676.jpg",
-          "caption": ""
+          "caption": "Hobit Home"
         },
         {
-          "image": "tin-hat/IMG_7689.jpg",
-          "caption": ""
+          "image": "tin-hat/IMG_7678.jpg",
+          "caption": "Lewis Lake"
+        },
+        {
+          "image": "tin-hat/IMG_7680.jpg",
+          "caption": "Genus Hydnellum"
+        },
+        {
+          "image": "tin-hat/IMG_7681.jpg",
+          "caption": "Russula Crassotunicata"
+        },
+        {
+          "image": "tin-hat/IMG_7682.jpg",
+          "caption": "Brown Funnel Polypore"
+        },
+        {
+          "image": "tin-hat/IMG_7685.jpg",
+          "caption": "The Trail"
+        },
+        {
+          "image": "tin-hat/IMG_7686.jpg",
+          "caption": "Pacific Golden Chanterelle"
+        },
+        {
+          "image": "tin-hat/IMG_7687.jpg",
+          "caption": "Brittlegills"
+        },
+        {
+          "image": "tin-hat/IMG_7688.jpg",
+          "caption": "Pycnoporellus Alboluteus"
+        },
+        {
+          "image": "tin-hat/IMG_7690.jpg",
+          "caption": "The Trail"
+        },
+        {
+          "image": "tin-hat/IMG_7695.jpg",
+          "caption": "Pine White Butterfly"
+        },
+        {
+          "image": "tin-hat/IMG_7696.jpg",
+          "caption": "Turkey-Tail"
+        },
+        {
+          "image": "tin-hat/IMG_7699.jpg",
+          "caption": "Coral Fungus"
+        },
+        {
+          "image": "tin-hat/IMG_7700.jpg",
+          "caption": "Mushroom"
+        },
+        {
+          "image": "tin-hat/IMG_7707.jpg",
+          "caption": "Flowers"
+        },
+        {
+          "image": "tin-hat/IMG_7713.jpg",
+          "caption": "Lakes"
+        },
+        {
+          "image": "tin-hat/IMG_7714.jpg",
+          "caption": "Mountain Slope"
+        },
+        {
+          "image": "tin-hat/IMG_7715.jpg",
+          "caption": "Cut Blocks"
         },
         {
           "image": "tin-hat/IMG_7721.jpg",
-          "caption": ""
+          "caption": "Tin Hat Cabin"
         },
         {
-          "image": "tin-hat/IMG_7730.jpg",
-          "caption": ""
+          "image": "tin-hat/IMG_7727.jpg",
+          "caption": "Weather Station"
         },
         {
-          "image": "tin-hat/IMG_7735.jpg",
-          "caption": ""
+          "image": "tin-hat/IMG_7728.jpg",
+          "caption": "Elf"
+        },
+        {
+          "image": "tin-hat/IMG_7726.jpg",
+          "caption": "The Peak"
+        },
+        {
+          "image": "tin-hat/IMG_7732.jpg",
+          "caption": "Sunset on The Peak"
+        },
+        {
+          "image": "tin-hat/IMG_7740.jpg",
+          "caption": "Sunset"
         },
       ],
     },
@@ -2860,11 +2968,15 @@ const timelines = {
       "photos": [
         {
           "image": "tin-hat/IMG_7748.jpg",
-          "caption": ""
+          "caption": "Clouds Over Haslam Lake"
+        },
+        {
+          "image": "tin-hat/IMG_7750.jpg",
+          "caption": "Duck Lake"
         },
         {
           "image": "tin-hat/IMG_7752.jpg",
-          "caption": ""
+          "caption": "Duck Lake"
         },
       ],
     },
@@ -3412,15 +3524,19 @@ const timelines = {
       "photos": [
         {
           "image": "jasper/IMG_0966.jpg",
-          "caption": ""
+          "caption": "Park Office"
         },
         {
           "image": "jasper/IMG_0969.jpg",
-          "caption": ""
+          "caption": "Robson River"
+        },
+        {
+          "image": "jasper/IMG_0970.jpg",
+          "caption": "Robson River"
         },
         {
           "image": "jasper/IMG_0972.jpg",
-          "caption": ""
+          "caption": "Berg Lake"
         },
       ],
     },
@@ -3440,16 +3556,40 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "jasper/IMG_0977.jpg",
+          "caption": "Valley of the Five Lakes"
+        },
+        {
+          "image": "jasper/IMG_0978.jpg",
+          "caption": "Valley of the Five Lakes"
+        },
+        {
           "image": "jasper/IMG_0979.jpg",
-          "caption": ""
+          "caption": "Valley of the Five Lakes"
+        },
+        {
+          "image": "jasper/IMG_0980.jpg",
+          "caption": "Green Pond"
+        },
+        {
+          "image": "jasper/IMG_0982.jpg",
+          "caption": "Green Pond"
         },
         {
           "image": "jasper/IMG_0984.jpg",
-          "caption": ""
+          "caption": "Mushroom"
+        },
+        {
+          "image": "jasper/IMG_0985.jpg",
+          "caption": "Mushrooms"
         },
         {
           "image": "jasper/IMG_0990.jpg",
-          "caption": ""
+          "caption": "First Lake"
+        },
+        {
+          "image": "jasper/IMG_0991.jpg",
+          "caption": "Mountains Across The Valley"
         },
       ],
     },
@@ -3469,28 +3609,68 @@ const timelines = {
       ],
       "photos": [
         {
+          "image": "jasper/IMG_0996.jpg",
+          "caption": "Valley"
+        },
+        {
           "image": "jasper/IMG_0997.jpg",
-          "caption": ""
+          "caption": "Ridge on The Sulpher Skyline Trail"
         },
         {
           "image": "jasper/IMG_1005.jpg",
-          "caption": ""
+          "caption": "Sulpher Skyline"
         },
         {
-          "image": "jasper/IMG_1008.jpg",
-          "caption": ""
+          "image": "jasper/IMG_1010.jpg",
+          "caption": "Mushroom bouquet"
+        },
+        {
+          "image": "jasper/IMG_1011.jpg",
+          "caption": "Mushroom"
+        },
+        {
+          "image": "jasper/IMG_1014.jpg",
+          "caption": "Mountain Goats"
+        },
+        {
+          "image": "jasper/IMG_1016.jpg",
+          "caption": "Fiddle River"
+        },
+        {
+          "image": "jasper/IMG_1017.jpg",
+          "caption": "Mushrooms"
         },
         {
           "image": "jasper/IMG_1019.jpg",
-          "caption": ""
+          "caption": "Utopia Mountain"
+        },
+        {
+          "image": "jasper/IMG_1021.jpg",
+          "caption": "Fiddle River Valley"
+        },
+        {
+          "image": "jasper/IMG_1025.jpg",
+          "caption": "Blue Sky"
         },
         {
           "image": "jasper/IMG_1026.jpg",
-          "caption": ""
+          "caption": "Dry Mountainsides"
         },
         {
           "image": "jasper/IMG_1032.jpg",
-          "caption": ""
+          "caption": "Mountain Goat Skull"
+        },
+        {
+          "image": "jasper/IMG_1034.jpg",
+          "caption": "Fiddler River"
+        },
+        {
+          "image": "jasper/IMG_1039.jpg",
+          "caption": "Golden Mushroom"
+        },
+        {
+          "image": "jasper/IMG_1040.jpg",
+          "caption": "Fiddle River"
         },
       ],
     },
@@ -3503,32 +3683,44 @@ const timelines = {
       "end": null,
       "description": [
         "There were lots of large elk at the campground.",
-        "I hit Edith Lake and Maligne Canyon, then continued to hike along the athabasca river.",
+        "I hit Edith Lake and Maligne Canyon, then continued to hike along the Athabasca River.",
       ],
       "photos": [
         {
           "image": "jasper/IMG_1043.jpg",
-          "caption": ""
+          "caption": "Elk"
         },
         {
           "image": "jasper/IMG_1044.jpg",
-          "caption": ""
+          "caption": "Maligne Canyon"
+        },
+        {
+          "image": "jasper/IMG_1045.jpg",
+          "caption": "Maligne Canyon"
         },
         {
           "image": "jasper/IMG_1046.jpg",
-          "caption": ""
+          "caption": "Cascading Waterfall"
         },
         {
           "image": "jasper/IMG_1049.jpg",
-          "caption": ""
+          "caption": "Athabasca River"
+        },
+        {
+          "image": "jasper/IMG_1050.jpg",
+          "caption": "Athabasca River"
         },
         {
           "image": "jasper/IMG_1051.jpg",
-          "caption": ""
+          "caption": "Athabasca River"
+        },
+        {
+          "image": "jasper/IMG_1054.jpg",
+          "caption": "Athabasca River"
         },
         {
           "image": "jasper/IMG_1055.jpg",
-          "caption": ""
+          "caption": "Droplets on Pine Needles"
         },
       ],
     },
