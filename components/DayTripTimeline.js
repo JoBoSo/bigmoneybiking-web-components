@@ -329,7 +329,7 @@ const timelines = {
   "montagne-noire": [
     {
       "header": "Lac Archambault",
-      "description": "Mont Noire is next to the busy Lac Archambault. St. Donat is at the other end of the lake.",
+      "description": "Mont Noire is next to Lac Archambault. St. Donat is at the other end of the lake.",
       "left_image": null,
       "right_image": "montagne-noire/IMG_2342.jpg",
     },
@@ -347,19 +347,19 @@ const timelines = {
     },
     {
       "header": "Memorial",
-      "description": "There is a memorial site for the soldiers with a little lookout tower.",
-      "left_image": "montagne-noire/IMG_2346.jpg",
+      "description": "There is a memorial site for the soldiers with a lookout tower.",
+      "left_image": "montagne-noire/IMG_2347.jpg",
       "right_image": null,
     },
     {
       "header": "Memorial Lookout",
-      "description": "The view from the memorial lookout isn't great, but theres a much bigger lookout tower at the peak.",
+      "description": "The view from the memorial lookout. Theres a much bigger lookout tower at the peak.",
       "left_image": null,
       "right_image": "montagne-noire/IMG_2351.jpg",
     },
     {
       "header": "Lookout At The Peak",
-      "description": "The tall lookout tower at the peak has gorgeous views of green rolling mountains.",
+      "description": "The lookout tower at the peak has views of green mountains.",
       "left_image": "montagne-noire/IMG_2361.jpg",
       "right_image": null,
     },
@@ -523,25 +523,37 @@ const timelines = {
   "six-glaciers": [
     {
       "header": "Lake Louise",
-      "description": "Lake Louise is beautiful, but it's a decoy for more beautiful lakes in the area that are just as easy to access, like Moraine Lake or Lake Minnewanka.",
+      "description": "Beautiful Lake Louise on a cloudy spring day.",
       "left_image": null,
       "right_image": "six-glaciers/IMG_2110.jpg",
     },
     {
-      "header": "The Teahouse",
-      "description": "An old teahouse serves tourists bad coffee and soggy sandwiches at a high price. Lake Louise on the whole is no place for a modest man to in search of food.",
-      "left_image": "six-glaciers/IMG_2112.jpg",
+      "header": "Pointy Peak",
+      "description": "The view of a steep peak on the other side of a pass.",
+      "left_image": "six-glaciers/IMG_2111.jpg",
       "right_image": null,
     },
     {
-      "header": "The Plain of Six Glaciers",
-      "description": "I hiked past the teahouse and up a ridge on The Plain. I looked back at Lake Louise and the ski resort.",
+      "header": "The Teahouse",
+      "description": "The teahouse on the other end of Lake Louise.",
       "left_image": null,
-      "right_image": "six-glaciers/IMG_2117.jpg",
+      "right_image": "six-glaciers/IMG_2112.jpg",
+    },
+    {
+      "header": "The Plain of Six Glaciers",
+      "description": "I hiked past the teahouse and up a ridge on The Plain. This is the view looking back at Lake Louise.",
+      "left_image": "six-glaciers/IMG_2117.jpg",
+      "right_image": null,
     },
     {
       "header": "End of the Ridge",
-      "description": "The ridge runs into a mountain wall.",
+      "description": "A steep peak seen from the end of the trail up the ridge.",
+      "left_image": null,
+      "right_image": "six-glaciers/IMG_2123.jpg",
+    },
+    {
+      "header": "End of the Ridge",
+      "description": "The ridge runs into steep mountain sides.",
       "left_image": "six-glaciers/IMG_2124.jpg",
       "right_image": null,
     },
