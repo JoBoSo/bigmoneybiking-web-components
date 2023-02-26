@@ -2507,10 +2507,6 @@ const photos = {
       caption: ""
     },
     {
-      image: "montagne-noire/IMG_2346.jpg",
-      caption: ""
-    },
-    {
       image: "montagne-noire/IMG_2351.jpg",
       caption: ""
     },
@@ -3938,15 +3934,7 @@ const photos = {
       caption: ""
     },
     {
-      image: "six-glaciers/IMG_2115.jpg",
-      caption: ""
-    },
-    {
       image: "six-glaciers/IMG_2117.jpg",
-      caption: ""
-    },
-    {
-      image: "six-glaciers/IMG_2120.jpg",
       caption: ""
     },
     {

@@ -279,7 +279,7 @@ const tiles = {
     {
       title: "Plain of Six Glaciers",
       subtitle: "Looking Down on Lake Louise",
-      image: "six-glaciers/IMG_2112.jpg",
+      image: "six-glaciers/IMG_2117.jpg",
       page: "hikes/six-glaciers.html"
     },
     {
