@@ -329,7 +329,7 @@ const timelines = {
   "montagne-noire": [
     {
       "header": "Lac Archambault",
-      "description": "Mont Noire is next to the busy Lac Archambault. St. Donat is at the other end of the lake.",
+      "description": "Mont Noire is next to Lac Archambault. St. Donat is at the other end of the lake.",
       "left_image": null,
       "right_image": "montagne-noire/IMG_2342.jpg",
     },
@@ -347,19 +347,19 @@ const timelines = {
     },
     {
       "header": "Memorial",
-      "description": "There is a memorial site for the soldiers with a little lookout tower.",
-      "left_image": "montagne-noire/IMG_2346.jpg",
+      "description": "There is a memorial site for the soldiers with a lookout tower.",
+      "left_image": "montagne-noire/IMG_2347.jpg",
       "right_image": null,
     },
     {
       "header": "Memorial Lookout",
-      "description": "The view from the memorial lookout isn't great, but theres a much bigger lookout tower at the peak.",
+      "description": "The view from the memorial lookout. Theres a much bigger lookout tower at the peak.",
       "left_image": null,
       "right_image": "montagne-noire/IMG_2351.jpg",
     },
     {
       "header": "Lookout At The Peak",
-      "description": "The tall lookout tower at the peak has gorgeous views of green rolling mountains.",
+      "description": "The lookout tower at the peak has views of green mountains.",
       "left_image": "montagne-noire/IMG_2361.jpg",
       "right_image": null,
     },
