@@ -2458,7 +2458,7 @@ const photos = {
       caption: ""
     },
     {
-      image: "../images/mont-nixon/IMG_2317.jpg",
+      image: "../images/mont-nixon/IMG_2315.jpg",
       caption: ""
     },
     {

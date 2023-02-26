@@ -488,7 +488,7 @@ const timelines = {
   "mont-nixon": [
     {
       "header": "Viewpoint #1",
-      "description": "You can see these mountains with bulbous green peaks from the first viewpoint.",
+      "description": "You can see these mountains with bulbous green tops from the first viewpoint.",
       "left_image": null,
       "right_image": "mont-nixon/IMG_2304.jpg",
     },
@@ -500,7 +500,7 @@ const timelines = {
     },
     {
       "header": "The Big View",
-      "description": "All of the viewpoints are nice--I think there are four or five of them--but this is the bigget view of the landscape at the top.",
+      "description": "All of the viewpoints are nice--I think there are four or five of them--but this is the bigget view along the trail.",
       "left_image": null,
       "right_image": "mont-nixon/IMG_2312.jpg",
     },
@@ -515,6 +515,18 @@ const timelines = {
       "description": "A big tree is protected by two tall rocks surrounding it.",
       "left_image": null,
       "right_image": "mont-nixon/IMG_2329.jpg",
+    },
+    {
+      "header": "Crack",
+      "description": "The space between the tall rocks",
+      "left_image": "mont-nixon/IMG_2335.jpg",
+      "right_image": null,
+    },
+    {
+      "header": "Mushroom",
+      "description": "A yellow amanita",
+      "left_image": null,
+      "right_image": "mont-nixon/IMG_2339.jpg",
     },
   ],
 
