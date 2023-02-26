@@ -581,14 +581,14 @@ const timelines = {
       "right_image": "grotto-mtn/IMG_1301.jpg",
     },
     {
-      "header": "Tough Trees",
+      "header": "Pine Trees",
       "description": "Pines grow on the steep, rocky slope.",
       "left_image": "grotto-mtn/IMG_1334.jpg",
       "right_image": null,
     },
     {
-      "header": "Fascinating Rock",
-      "description": "The rocks are fascinating. I saw orange moses I have never seen before growing on the dense, hard rocks, some of which was fossilized.",
+      "header": "Fossils",
+      "description": "The rocks are fascinating. There is bright orange moses growing on the dense, hard rocks and fossils.",
       "left_image": null,
       "right_image": "grotto-mtn/IMG_1308.jpg",
     },
@@ -600,7 +600,7 @@ const timelines = {
     },
     {
       "header": "Praries On The Horizon",
-      "description": "You can see past the eastern-most mountains to the praries and skyscrapers in Calgary from the top.",
+      "description": "You can see past the eastern-most mountains to the praries and the Calgary skyline from the top.",
       "left_image": null,
       "right_image": "grotto-mtn/IMG_1322.jpg",
     },
@@ -611,37 +611,37 @@ const timelines = {
   "cory-pass": [
     {
       "header": "Peaceful Pine Forests",
-      "description": "The dry, sparse pine forests east of Lake Louise can be so warm, quiet, and peaceful.",
+      "description": "The dry pine forests east of Lake Louise can be so warm, quiet, and peaceful.",
       "left_image": null,
       "right_image": "cory-pass/IMG_1086.jpg",
     },
     {
       "header": "Character",
-      "description": "The ancient, carved mountains show their age",
+      "description": "An ancient, carved mountain side",
       "left_image": "cory-pass/IMG_1088.jpg",
       "right_image": null,
     },
     {
       "header": "Simplicity",
-      "description": "Another special aspect of the eastern Rockies are the simple, transparent landscapes of rock and pine. The big, bushy forests of BC contain so much life that it feels impossible to take it all in from a mountain peak.",
+      "description": "A wide open view",
       "left_image": null,
       "right_image": "cory-pass/IMG_1095.jpg",
     },
     {
-      "header": "A Scramble Up Mt. Edith",
-      "description": "Magnificant views of this towering peak are achieved from Mt. Edith.",
+      "header": "Up Mt. Edith",
+      "description": "A towering peak seen from Mt. Edith",
       "left_image": "cory-pass/IMG_1117.jpg",
       "right_image": null,
     },
     {
       "header": "Enter",
-      "description": "Hike up and over the pass and enter a mountain cathedral.",
+      "description": "The pass",
       "left_image": null,
       "right_image": "cory-pass/IMG_1121.jpg",
     },
     {
       "header": "The Pass",
-      "description": "Only good can pass through such a grand landscape.",
+      "description": "It's like walking through a natural cathedral.",
       "left_image": "cory-pass/IMG_1124.jpg",
       "right_image": null,
     },
@@ -840,7 +840,7 @@ const timelines = {
     },
     {
       "header": "Jagged Peak",
-      "description": "That pointy, jagged peak in the center of this photo is one of the coolest peaks in the Bulkley Valley. You can see it wide and far, from town and the trails. It has some dark magic. It might be a gathering place for witches. I believe they live in these parts.",
+      "description": "That pointy, jagged peak in the center of this photo is one of the coolest peaks in the Bulkley Valley. You can see it wide and far, from town and the trails. It has some dark magic.",
       "left_image": null,
       "right_image": "silvern-lake/IMG_0585.jpg",
     },
@@ -1369,7 +1369,7 @@ const timelines = {
     },
     {
       "header": "Nice Views",
-      "description": "What more are you asking for?",
+      "description": "What more car you ask for?",
       "left_image": "silver-king/IMG_0487.jpg",
       "right_image": null,
     },
@@ -1393,7 +1393,7 @@ const timelines = {
     },
     {
       "header": "Mine Shaft",
-      "description": "Does beauty above imply beauty below? Sure it does.",
+      "description": "Does beauty, beauty below.",
       "left_image": "silver-king/IMG_0767.jpg",
       "right_image": null,
     },
