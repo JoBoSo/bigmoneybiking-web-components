@@ -1227,9 +1227,8 @@ const timelines = {
       "distance": 15,
       "start": "Revelstoke",
       "end": "Begbie Falls",
-      "description": null,
+      "description": "Me and my sister went riding down to Begbie Falls. We took off from our house on the edge of town in Arrow Heights, biked through town and across the bridge over the Columbia River. Begbie Falls Rec Site sits beneath Revelstoke’s iconic mountain, Mount Begbie. Our campsite attendant was from Ontario just like us and so many others living in the luscious land of stoke and pow. We rode around the trails and watched the waterfall. Clara discovered her special abilities as an all-mountain cyclist when she removed her feet from both pedals and let her tires do all the talking.",
       "bullets": [
-        "We biked from our place in Revelstoke to Begbie Falls Rec Site to camp."
       ],
       "photos": [
         {
@@ -1253,9 +1252,8 @@ const timelines = {
       "distance": 19,
       "start": "Begbie Falls",
       "end": "Revelstoke",
-      "description": null,
+      "description": "We awoke in the morning to a brand new day. We biked to the Mount Begbie trailhead and started hiking up. In one sense, we made it to the top. In another sense, we made it halfway to the top. However, those with the most sense say it’s about the journey, not the destination and, so, we made it to the top of Mount Begbie that day. As all good stories end, the locals tooted their horns and threw roses at us as we rolled back through town on our way home later that day. Shortly after our return, we were named Ruler and Ruless of Revelstoke. It pays to be a bicycle tourist.",
       "bullets": [
-        "We hiked a little more than half way up Mt. Begbie the next morning."
       ],
       "photos": [
         {
