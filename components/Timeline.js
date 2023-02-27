@@ -2458,11 +2458,8 @@ const timelines = {
       "distance": 92,
       "start": "Nanaimo",
       "end": "Port Alberni",
-      "description": null,
+      "description": "I dropped my rental car off in Nanaimo after driving west from Ontario and took the highway to Port Alberni. It was about 10pm when I arrived in Port Alberni. I camped in the open air on the bank of the river on the edge of town. At midnight, I awoke when I rolled over and got a strange feeling, first like I was floating, then like I was wet. The river was tidal and my air mattress had been floating on a shallow layer of water as the tide came in. Life in Southern Ontario doesn't prepare you for these situations.",
       "bullets": [
-        "Dropped my rental car off in Nanaimo after driving west from Ontario.",
-        "Arrived in Port Alberni around 10pm where I setup camp without a tent on the bank of the river on the edge of town.",
-        "Awoke at midnight when I rolled over and found myself in a puddle. The river was tidal and my air mattress had been floating on a shallow layer of water. Life in Southern Ontario doesn't prepare you for these situations."
       ],
       "photos": [
         {
@@ -2506,15 +2503,8 @@ const timelines = {
       "distance": 88,
       "start": "Port Alberni",
       "end": "Courtenay",
-      "description": null,
+      "description": "Now that my sleeping bag was wet and I was cold, I continued riding to Courtenay in the dark. My camera lense fogged-up after it got wet. When I got to the edge of town, the road ahead was very dark. I sat out front of a lit gas station while I built up the courage to keep riding in the dark. I had to take logging roads. I didn't realize that the route I had mapped out would be as rough and steep as it was. I figured the roads would be just like dirt roads in Ontario, but some of the roads on the map were inactive and overgrown. My brake pads wore down as a result of riding my loaded bike down steep, rocky roads. I saw three bears, all near Comox Lake after the sun had risen. Much was learned. My confidence as a bicycle tourist developed a lot on this trip.",
       "bullets": [
-        "Now that my sleeping bag was wet and I was cold, I continued riding to Courtenay in the dark.",
-        "My camera lense was now foggy after it got wet in the river.",
-        "When I got to the edge of civilization, the road ahead was very dark. I sat out front of a lit gas station while I built up the courage to keep riding in the dark.",
-        "I had to take logging roads. I didn't realize that the route I had mapped out would be as rough and steep as it was. I figured the roads would be just like dirt roads in Ontario, but in some cases, the roads on the map were inactive. They were blocked off with mounds of dirt and overgrown.", 
-        "My brake pads wore down as a result of riding my loaded, rigid bike down steep, rocky roads.",
-        "I saw three bears, all near Comox Lake after the sun had risen.",
-        "Much was learned. My confidence as a bicycle tourist developed."
       ],
       "photos": [
         {
