@@ -178,13 +178,13 @@ const tiles = {
     {
       title: "Montreal to Sherbrooke",
       subtitle: "Via La Route Verte",
-      image: "mtrl-sherbrooke/IMG_2710.jpg",
+      image: "mtrl-sherbrooke/IMG_2775.jpg",
       page: "tours/mtrl-sherbrooke.html"
     },
     {
       title: "P'tit Train du Nord",
       subtitle: "Once a Railway for Ski Trains",
-      image: "ptit-train/IMG_2551.jpg",
+      image: "ptit-train/IMG_2538.jpg",
       page: "tours/ptit-train.html"
     },
     {
@@ -244,7 +244,7 @@ const tiles = {
     {
       title: "North Vancouver Island",
       subtitle: "All Paths Lead to a Beach",
-      image: "san-josef-bay/IMG_5485.jpg",
+      image: "san-josef-bay/IMG_5333.jpg",
       page: "tours/san-josef-bay.html"
     },
     {
