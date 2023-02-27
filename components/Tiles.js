@@ -333,7 +333,7 @@ const tiles = {
     {
       title: "Maroon Mountain",
       subtitle: "Amoung the Clouds",
-      image: "maroon-mtn/IMG_0680.jpg",
+      image: "maroon-mtn/IMG_0691.jpg",
       page: "hikes/maroon-mtn.html"
     },
     {
