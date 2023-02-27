@@ -183,12 +183,16 @@ class Timeline extends HTMLElement {
         <ul>
           ${tripData.map((item) => `
             <li class="my-timeline-item">
-              <p class="my-timeline-header">${item.day !== null ? '<b>Day ' + item.day + '</b> | ' : ''}
-                <span style='font-size:16pt;'> ${item.distance !== null ? item.distance + ' km' : ''} 
-                  ${item.destination !== null ? ' &#8212; ' + item.destination : ''} 
-                  ${item.start !== null ? "<span style='font-size: 12pt'>from</span> " + item.start : ''} 
-                  ${item.end !== null ? "<span style='font-size: 12pt'>to</span> " + item.end : ''} 
-                </span>
+              <p class="my-timeline-header">
+                <b>
+                  ${item.day !== null ? 'Day ' + item.day + ' | ' : ''}
+                  <span style='font-size:16pt;'> 
+                    ${item.distance !== null ? item.distance + ' km' : ''} 
+                    ${item.destination !== null ? ' &#8212; ' + item.destination : ''} 
+                    ${item.start !== null ? "<span style='font-size: 12pt'>from</span> " + item.start : ''} 
+                    ${item.end !== null ? "<span style='font-size: 12pt'>to</span> " + item.end : ''} 
+                  </span>
+                </b>
               </p>
 
               <p class="my-timeline-description">${item.description !== null ? item.description : ''}</p>
@@ -478,7 +482,7 @@ const timelines = {
       "distance": 160,
       "start": "Lac Boyd",
       "end": "Mont Blanc",
-      "description": "In the morning, I came across two stray horses out for a stroll on the trail. An old guy walking on the road called something out to me in french and laughed. I just laughed and grunted to pretend I understood him and the dialogue went on for a short while. The french language is what you make of it. It's a mindset, really. Around noon, I made to Mont Laurier. I ate a box of granola bars, a tube of pringles, and turned back around. I finished the day back at the cottage.",
+      "description": "In the morning, I came across two stray horses out for a stroll on the trail. An old guy walking on the road called something out to me in french and laughed. I just laughed and grunted to pretend I understood him and the dialogue went on for a short while. The french language is open to interpretation. Arguably, it's a mindset. Around noon, I made to Mont Laurier. I ate a box of granola bars, a tube of pringles, and turned back around. I finished the day back at the cottage.",
       "bullets": [
       ],
       "photos": [
@@ -537,13 +541,8 @@ const timelines = {
       "distance": 24,
       "start": "Skidgate Landing",
       "end": "Jungle Beach",
-      "description": null,
+      "description": "Getting to Haida Gwaii was a trip in its own right. I drove a few hours from Smithers, which is on the eastern border of the Coast Mountains, to Prudhomme Provincial Park near Prince Rupert to camp for the night. I woke up early to board the ferry in Rupert and arrived in Skidgate Landing eight hours later. I biked north on the ocean-side highway. There were lots of people picking ripe black and thimble berries. I camped near Jungle Beach and watched a long sunset while sitting next to a fire.",
       "bullets": [
-        "Took the eight hour ferry from Prince Rupert to Graham Island.",
-        "Arrived at Skidgate Landing late in the afternoon.",
-        "Explored the little town hoping to find some good food, but everything was closed for covid.",
-        "Biked North on the ocean-side highway and passed lots people picking ripe black and thimble berries.",
-        "Camped on the beach about 15 km south of Tlell and watched a long, soft-pink sunset while sitting beside a fire."
       ],
       "photos": [
         {
@@ -583,13 +582,8 @@ const timelines = {
       "distance": 153,
       "start": "Jungle Beach",
       "end": "Queen Charlotte",
-      "description": null,
+      "description": "I continued my ride along the ocean to a beach near Misty Meadows Campground in Naikoon Provincial Park. Then, I biked toward the interior of the island. In Port Clements, I looked at the old logging machinery at the museum and bought some tomatoes and candy at Bayview Market. On my way out of town, checked out the Masset Inlet at low tide and the Golden Spruce Trail. I spend the rest of the day riding through the damp, dark forests in the interior to Queen Charlotte where I camped in the forest on the edge of a rocky bay.",
       "bullets": [
-        "Biked around the beach near Misty Meadows Campground in Naikoon Provincial Park.",
-        "Looked at the big forestry machinery outside the Port Clements museum.",
-        "Bought some tomatoes and candy at Bayview Market.",
-        "Biked the Golden Spruce Trail, which was cool after having read the book on it.",
-        "Traveled through the interior of the island to the edge of Queen Charlotte where I camped by a rocky, wet cove."
       ],
       "photos": [
         {
@@ -669,11 +663,8 @@ const timelines = {
       "distance": 8,
       "start": "Queen Charlotte",
       "end": "Skidgate Landing",
-      "description": null,
+      "description": "I awoke from an uncomfortably damp and sleepless night in my tent, regretting not returning to a quiet, sandy beach. I spent the day in Queen Charlotte before returning to Skidgate Landing to take the night ferry back to Prince Rupert.",
       "bullets": [
-        "Awoke after an uncomfortably damp and sleepless night in my tent having regretted not returning to a quiet, sandy beach.",
-        "Hung out in Queen Charlotte for the day before returning to Skidgate Landing.",
-        "Took the night ferry back to Prince Rupert."
       ],
       "photos": [
         {
