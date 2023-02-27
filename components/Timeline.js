@@ -399,7 +399,7 @@ const timelines = {
       "distance": 142,
       "start": "Mt. Orford National Park",
       "end": "Montreal",
-      "description": "I packed up my tent and started riding shortly before the rain began. I was wet and cold for most of the day. I picked a couple of apples in the orchards along the trail. I arrived home in Montreal in the afternoon.",
+      "description": "I packed up my tent and started riding shortly before the cold rain began. I picked a couple of apples in the orchards along the trail. I arrived home in Montreal in the afternoon.",
       "bullets": [
       ],
       "photos": [
@@ -437,12 +437,8 @@ const timelines = {
       "distance": 118,
       "start": "Mont Blanc",
       "end": "Lac Boyd",
-      "description": null,
+      "description": "I started my ride at a cottage near Mont Blanc. I biked to the trail in Sainte Agathe des Monts and headed north. The section of the trail that runs just north of Mont Tremblant had some of the nicest views. There are a few marshy lakes and open views of mountains from the trail. I ate poutine at La P'tite Patate Chez Léo in Labelle for lunch. At the end of the day, I camped next to a shelter along the trail beside Lac Boyd.",
       "bullets": [
-        "Departed from the cottage I was living in near Mont Blanc.",
-        "Loved riding through the green farms and hills just Noth of Mont Tremblant.",
-        "Ate poutine at La P'tite Patate Chez Léo for lunch.",
-        "Camped next to a shelter along the trail beside Lac Boyd."
       ],
       "photos": [
         {
@@ -482,11 +478,8 @@ const timelines = {
       "distance": 160,
       "start": "Lac Boyd",
       "end": "Mont Blanc",
-      "description": null,
+      "description": "In the morning, I came across two stray horses out for a stroll on the trail. An old guy walking on the road called something out to me in french and laughed. I just laughed and grunted to pretend I understood him and the dialogue went on for a short while. The french language is what you make of it. It's a mindset, really. Around noon, I made to Mont Laurier. I ate a box of granola bars, a tube of pringles, and turned back around. I finished the day back at the cottage.",
       "bullets": [
-        "Bumped into two wandering horses on the trail.",
-        "Reached Mont Laurier at noon.",
-        "Biked back to the cottage."
       ],
       "photos": [
         {
@@ -514,11 +507,8 @@ const timelines = {
       "distance": 86,
       "start": "St Agathe des Monts",
       "end": "St Agathe des Monts",
-      "description": null,
+      "description": "After a day off, I headed back to the trail from the cottage to ride the south section. My favorite part of the trail is between Val David and Sainte Adele because it goes by lots of lakes and has nice views of granite cliffs and mountains. It is also one of the busiest parts of the trail. I saw people hanging out on the beaches and lakes and lots of cyclists here. Once I made it to Sainte Jerome, I hung out in the park across from Sainte Jerome's Cathedral before turning back around to return to the cottage.",
       "bullets": [
-        "After a day off, I drove back to the trail in St. Agathe and rode the southern section to St. Jerome.",
-        "The section of the trail between Val David and St. Adele has great views of lakes and granite cliffs.",
-        "I hungout at the park across from the church before turning back home."
       ],
       "photos": [
         {
