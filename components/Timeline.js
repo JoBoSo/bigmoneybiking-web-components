@@ -69,6 +69,13 @@ class Timeline extends HTMLElement {
         font-size: 18pt;
         margin-left: 20px;
       }
+
+      .my-timeline-description {
+        padding-left: 20px !important;
+        padding-right: 13px !important;
+        background: none !important;
+        text-align: justify;
+      }
       
       .my-timeline-bullets {
         list-style-type: circle !important;
@@ -113,7 +120,6 @@ class Timeline extends HTMLElement {
         height: 263px;
         border-top-left-radius: 6px;
         border-top-right-radius: 6px;
-        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
       }
 
       @media (max-width: 576px) {
@@ -130,7 +136,6 @@ class Timeline extends HTMLElement {
         border-bottom-left-radius: 6px;
         border-bottom-right-radius: 6px;
         text-align: center;
-        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
         background: rgba(0, 0, 0, 0.2);
       }
       
@@ -186,8 +191,10 @@ class Timeline extends HTMLElement {
                 </span>
               </p>
 
+              <p class="my-timeline-description">${item.description !== null ? item.description : ''}</p>
+
               <ul class="my-timeline-bullets">
-                ${item.description.map((bullet) => `<li>${bullet}</li>`).join('')}
+                ${item.bullets.map((bullet) => `<li>${bullet}</li>`).join('')}
               </ul>
 
               ${item.photos.length < 1 ? `` : `
@@ -230,10 +237,8 @@ const timelines = {
       "distance": 136,
       "start": "Montreal",
       "end": "Stukley-Sud",
-      "description": [
-        "The hills and nice landscapes began east of Granby.",
-        "The forested trail along the lake in Yamaska National Park was a highlight.",
-        "Camped next to a power generator near Stukley-Sud."
+      "description": "I began the ride in Montreal. I crossed the Jacques Cartier Bridge to Longueuil, passed through quiet suburbs, and then farms and orchards in the flat countryside. The hills and forests began east of Granby. The highlight of the day was riding through through the forests and along the water in Yamaska National Park. I finished my day next to a power generator in Stukley-Sud.",
+      "bullets": [
       ],
       "photos": [
         {
@@ -309,12 +314,8 @@ const timelines = {
       "distance": 121,
       "start": "Stukley-Sud",
       "end": "Mt. Orford National Park",
-      "description": [
-        "Biked through the forest in Mont Orford National Park.",
-        "Arrived in Sherbrooke in the afternoon where I ate some shawarma for lunch and sat in the park by the river before turning back around.",
-        "Ate some more Shawarma in Magog for dinner and biked along the water front.",
-        "Watched the sunset over Lake Memphermagog.",
-        "Arrived at the cyclist campground in Mt. Orford National Park after midnight."
+      "description": "In the morning, I rode through rolling countryside, then bright green forests around Eastman and Mont Orford. I arrived in Sherbrooke around 2pm where I sat on the the riverside in Parc Des Quatre-Pins and looked at the Magog Chutes in the city-center before turning back around. When I was passing back through Magog, I watched the sunset on Lake Memphermagog. I finished my day at the cyclist campground in Mont Orford National Park around midnight.",
+      "bullets": [
       ],
       "photos": [
         {
@@ -398,9 +399,8 @@ const timelines = {
       "distance": 142,
       "start": "Mt. Orford National Park",
       "end": "Montreal",
-      "description": [
-        "Biked home in the cold rain.",
-        "Picked a couple of apples along the way."
+      "description": "I packed up my tent and started riding shortly before the rain began. I was wet and cold for most of the day. I picked a couple of apples in the orchards along the trail. I arrived home in Montreal in the afternoon.",
+      "bullets": [
       ],
       "photos": [
         {
@@ -437,7 +437,8 @@ const timelines = {
       "distance": 118,
       "start": "Mont Blanc",
       "end": "Lac Boyd",
-      "description": [
+      "description": null,
+      "bullets": [
         "Departed from the cottage I was living in near Mont Blanc.",
         "Loved riding through the green farms and hills just Noth of Mont Tremblant.",
         "Ate poutine at La P'tite Patate Chez Léo for lunch.",
@@ -481,7 +482,8 @@ const timelines = {
       "distance": 160,
       "start": "Lac Boyd",
       "end": "Mont Blanc",
-      "description": [
+      "description": null,
+      "bullets": [
         "Bumped into two wandering horses on the trail.",
         "Reached Mont Laurier at noon.",
         "Biked back to the cottage."
@@ -512,7 +514,8 @@ const timelines = {
       "distance": 86,
       "start": "St Agathe des Monts",
       "end": "St Agathe des Monts",
-      "description": [
+      "description": null,
+      "bullets": [
         "After a day off, I drove back to the trail in St. Agathe and rode the southern section to St. Jerome.",
         "The section of the trail between Val David and St. Adele has great views of lakes and granite cliffs.",
         "I hungout at the park across from the church before turning back home."
@@ -544,7 +547,8 @@ const timelines = {
       "distance": 24,
       "start": "Skidgate Landing",
       "end": "Jungle Beach",
-      "description": [
+      "description": null,
+      "bullets": [
         "Took the eight hour ferry from Prince Rupert to Graham Island.",
         "Arrived at Skidgate Landing late in the afternoon.",
         "Explored the little town hoping to find some good food, but everything was closed for covid.",
@@ -589,7 +593,8 @@ const timelines = {
       "distance": 153,
       "start": "Jungle Beach",
       "end": "Queen Charlotte",
-      "description": [
+      "description": null,
+      "bullets": [
         "Biked around the beach near Misty Meadows Campground in Naikoon Provincial Park.",
         "Looked at the big forestry machinery outside the Port Clements museum.",
         "Bought some tomatoes and candy at Bayview Market.",
@@ -674,7 +679,8 @@ const timelines = {
       "distance": 8,
       "start": "Queen Charlotte",
       "end": "Skidgate Landing",
-      "description": [
+      "description": null,
+      "bullets": [
         "Awoke after an uncomfortably damp and sleepless night in my tent having regretted not returning to a quiet, sandy beach.",
         "Hung out in Queen Charlotte for the day before returning to Skidgate Landing.",
         "Took the night ferry back to Prince Rupert."
@@ -706,7 +712,8 @@ const timelines = {
       "distance": 116,
       "start": "Kitwanga",
       "end": "Dragon Lake Campground",
-      "description": [
+      "description": null,
+      "bullets": [
         "In the morning, the campground attendant in Kitwanaga invited me to park in his driveway.",
         "A coytoe standing on a logging road that intersected the Stewart-Cassiar Highway watched me ride by.",
         "I camped at Dragon Lake Campground."
@@ -777,7 +784,8 @@ const timelines = {
       "distance": 107,
       "start": "Dragon Lake Campground",
       "end": "Gingolx",
-      "description": [
+      "description": null,
+      "bullets": [
         "I explored the lava beds in the nass valley.",
         "A massive moose ran through the thick forest next to me on the road into Gingolx",
         "I saw a grizzly bear eating a procepine on the highway.",
@@ -902,7 +910,8 @@ const timelines = {
       "distance": 124,
       "start": "Gingolx",
       "end": "Kitsumkalum Provincial Park",
-      "description": [
+      "description": null,
+      "bullets": [
         "I checked out a couple of water falls and rode alongside the Sunken Forest toward Terrace.",
         "Scared a bear that wasn't moving off the highway with a banger and felt pretty cool.",
         "Camped on the beach next to a fire at my campsite on Kitsumkalum Lake."
@@ -941,7 +950,8 @@ const timelines = {
       "distance": 127,
       "start": "Kitsumkalum Provincial Park",
       "end": "Kitwanga",
-      "description": [
+      "description": null,
+      "bullets": [
         "I got a cappuccino and sandwich at Bert's Deli in Terrace.",
         "Returned to Kitwanaga a complete man in my mind."
       ],
@@ -964,7 +974,8 @@ const timelines = {
       "distance": 125,
       "start": "Tyhee Lake Provincial Park",
       "end": "Red Bluff Provincial Park",
-      "description": [
+      "description": null,
+      "bullets": [
         "I went south on the Yellowhead from Telkwa and turned off toward Babine Lake in Wiley.",
         "I ate some Chicken Tikka from Indian Curry House in Houston.",
         "The gently rolling hills of interior BC made for a ride that was easy on the knees.",
@@ -1032,7 +1043,8 @@ const timelines = {
       "distance": 62,
       "start": "Red Bluff Provincial Park",
       "end": "Tyhee Lake Provincial Park",
-      "description": [
+      "description": null,
+      "bullets": [
         "I took the more-direct logging road back toward Smithers. It had great view of the Babine Mountains.",
         "Before I reached Telkwa High Road, where the logging road ended, a local guy picked me up after driving ahead of me because a grizzly was on the road and wouldn't budge when he honked. So, he brought me and by bike to the edge of Telkwa.",
         "I returned to Tyhee Lake Provincial Park."
@@ -1072,7 +1084,8 @@ const timelines = {
       "distance": 42,
       "start": "Revelstoke",
       "end": "Carnes Creek Rec Site",
-      "description": [
+      "description": null,
+      "bullets": [
         "Was held up on the highway for over an hour because the crumbling mountain-side was being repaired.",
         "My neighbours at Carnes Creek Rec Site gave me a load of fire wood for the night."
       ],
@@ -1106,7 +1119,8 @@ const timelines = {
       "distance": 74,
       "start": "Carnes Creek Rec Site",
       "end": "Carnes Creek Rec Site",
-      "description": [
+      "description": null,
+      "bullets": [
         "Sunbeams shot through the clouds and the landscape had a glassy shine.",
         "The mist and fog was moving around me all day. It brought the river to life.",
         "I decided to turn around at Downie Creek. If the forecast wasn't cold rain, I would have continued to Mica Creek."
@@ -1189,7 +1203,8 @@ const timelines = {
       "distance": 42,
       "start": "Carnes Creek Rec Site",
       "end": "Revelstoke",
-      "description": [
+      "description": null,
+      "bullets": [
         "There are lots of pull-offs along the river. It's a dream for camping.",
         "This is the kind of road that you won't find unless you look for it. I want to ride it all the way to it's end when I'm back."
       ],
@@ -1244,7 +1259,8 @@ const timelines = {
       "distance": 15,
       "start": "Revelstoke",
       "end": "Begbie Falls",
-      "description": [
+      "description": null,
+      "bullets": [
         "We biked from our place in Revelstoke to Begbie Falls Rec Site to camp."
       ],
       "photos": [
@@ -1269,7 +1285,8 @@ const timelines = {
       "distance": 19,
       "start": "Begbie Falls",
       "end": "Revelstoke",
-      "description": [
+      "description": null,
+      "bullets": [
         "We hiked a little more than half way up Mt. Begbie the next morning."
       ],
       "photos": [
@@ -1327,7 +1344,8 @@ const timelines = {
       "distance": 64,
       "start": "Courtenay",
       "end": "Quadra Island",
-      "description": [
+      "description": null,
+      "bullets": [
         "Got some salmon from Dockside Fish & Chips before getting on the ferry from Campbell River to Quadra.",
         "Pushed my bike along a trail to Morte Lake where I camped."
       ],
@@ -1353,7 +1371,8 @@ const timelines = {
       "distance": 49,
       "start": "Quadra Island",
       "end": "Quadra Island",
-      "description": [
+      "description": null,
+      "bullets": [
         "Hiked up beeches mountain which led to big views of the ocean and Sunshine Coast.",
         "Went to Surge Narrows Provincial Park where the ocean gets squeezed between Quadra and it's neighbour, Maurelle Island.",
         "Camped in a lushious opening in the forest."
@@ -1400,7 +1419,8 @@ const timelines = {
       "distance": 144,
       "start": "Quadra Island",
       "end": "Courtenay",
-      "description": [
+      "description": null,
+      "bullets": [
         "Took the ferry from Quadra to Cortes.",
         "Sat on white, sandy the beach at Smelt Bay and watched the sea birds.",
         "Walked around the rocky beach and dock in Squirrel Cove and watched sailors replenish their liquor supplies.",
@@ -1522,7 +1542,8 @@ const timelines = {
       "distance": 14,
       "start": "Courtenay",
       "end": "Comox Lake",
-      "description": [
+      "description": null,
+      "bullets": [
         "It was a short afternoon trip from my apartment above Delicado's in Courtenay to Comox Lake.",
         "The north side of the lake is lined with rustic cottages that extend out over the water.",
         "The lake is surrounded by vibrant greenery and organe arbutus trees.",
@@ -1598,7 +1619,8 @@ const timelines = {
       "distance": 66,
       "start": "Comox Lake",
       "end": "Courtenay",
-      "description": [
+      "description": null,
+      "bullets": [
         "The shadow of the mountains across the lake was cast upon those on my side of the lake as the sun rose at 6am.",
         "I tried biking around the lake, thinking it might connect to Cumberland on the otherside, but an old couple who lived on the otherside of the lake told me it didn't."
       ],
@@ -1637,7 +1659,8 @@ const timelines = {
       "distance": 34,
       "start": "Courtenay",
       "end": "Dinner Rock",
-      "description": [
+      "description": null,
+      "bullets": [
         "Took the ferry from Comox to Powell River.",
         "On my way down the road to Dinner Rock, I saw a bear with two cubs run through the forest.",
         "Someone left a homemade fire-starter in the pit and I needed no more convincing. It felt like a gift."
@@ -1688,7 +1711,8 @@ const timelines = {
       "distance": 69,
       "start": "Dinner Rock",
       "end": "Shingle Beach",
-      "description": [
+      "description": null,
+      "bullets": [
         "Took the ferry from Powell River to Texada Island",
         "Napped on some spongy bluffs and watched an eagle fly above me. It was so quite I could hear the eagle's wings cutting the air.",
         "Camped at Single Beach. The host was really on the ball with an iPad for registation and a tagged truck."
@@ -1731,7 +1755,8 @@ const timelines = {
       "distance": 40,
       "start": "Shingle Beach",
       "end": "Bob's Lake",
-      "description": [
+      "description": null,
+      "bullets": [
         "I followed some hydo lines as far south as I could go before the trail became too rough.",
         "There were tiny strawberries growing that tasted unbelievably sweet.",
         "I hiked around Bob's Lake and saw an old horse campsite and a variety of perfectly content mushrooms."
@@ -1906,7 +1931,8 @@ const timelines = {
       "distance": 52,
       "start": "Bob's Lake",
       "end": "Courtenay",
-      "description": [
+      "description": null,
+      "bullets": [
         "The Lake was misty in the morning.",
         "I had a meal on the colourful patio at Mary Mary Cafe in Van Anda before getting on the ferry."
       ],
@@ -1941,7 +1967,8 @@ const timelines = {
       "distance": 83,
       "start": "Courtenay",
       "end": "Brewster Lake",
-      "description": [
+      "description": null,
+      "bullets": [
         "Brewster Lake had a real beachy feel, like Tofino does, with it's swooping cedar trees and vibrant greenery."
       ],
       "photos": [
@@ -1970,7 +1997,8 @@ const timelines = {
       "distance": 22,
       "start": "Brewster Lake",
       "end": "Campbell Lake",
-      "description": [
+      "description": null,
+      "bullets": [
         "Made a small fire on the shore and watched bats zip in and out of the forest behind me."
       ],
       "photos": [
@@ -2035,7 +2063,8 @@ const timelines = {
       "distance": 72,
       "start": "Campbell Lake",
       "end": "Courtenay",
-      "description": [
+      "description": null,
+      "bullets": [
         "I rode home to Courtenay."
       ],
       "photos": [
@@ -2053,7 +2082,8 @@ const timelines = {
       "distance": 71,
       "start": "Courtenay",
       "end": "Burnt Beach",
-      "description": [
+      "description": null,
+      "bullets": [
         "I left Courtenay late in the morning and camped at Burnt Beach Rec Site near Campbell River."
       ],
       "photos": [
@@ -2098,7 +2128,8 @@ const timelines = {
       "distance": 65,
       "start": "Burnt Beach",
       "end": "Elk Creek",
-      "description": [
+      "description": null,
+      "bullets": [
         "I continued toward Sayward, mostly on logging roads that were in pretty good shape."
       ],
       "photos": [
@@ -2159,7 +2190,8 @@ const timelines = {
       "distance": 0,
       "start": "Elk Creek",
       "end": "Elk Creek",
-      "description": [
+      "description": null,
+      "bullets": [
         "I took a rainy day off at the campground near Sayward."
       ],
       "photos": [
@@ -2184,7 +2216,8 @@ const timelines = {
       "distance": 71,
       "start": "Elk Creek",
       "end": "Nimpkish Lake",
-      "description": [
+      "description": null,
+      "bullets": [
         "I followed the highway to Woss and bought some food a the gas station. There wasn't much to choose from, but it was my only option for the day.",
         "I ended at Nimpkish Lake for the night. It's one of my favorite campsites."
       ],
@@ -2226,7 +2259,8 @@ const timelines = {
       "distance": 143,
       "start": "Nimpkish Lake",
       "end": "Nahwitti Lake",
-      "description": [
+      "description": null,
+      "bullets": [
         "I arrived at the Port McNeill Harbour around lunch time. I had a bag of cashews on top of an open pack while I was walking around and a group of crows stole it.",
         "Shortly after lunch, I was onto the Logging road that leads to Cape Scott. I was rather rough riding on by bike.",
         "I camped on a sandy beach on Nahwitti Lake. The trail to the lake was beautiful. It went through a big, dense forest."
@@ -2297,7 +2331,8 @@ const timelines = {
       "distance": 40,
       "start": "Nahwitti Lake",
       "end": "San Josef Bay",
-      "description": [
+      "description": null,
+      "bullets": [
         "The road to Cape Scott was busy with logging trucks. They kick-up a lot of dust.",
         "I met a guy and his daughter on motorbikes who were mapping a backroads route called the North Island 1000.",
         "I took the Cape Scott Trail to San Josef Bay and setup camp on the edge of the beach."
@@ -2396,7 +2431,8 @@ const timelines = {
       "distance": 181,
       "start": "San Josef Bay",
       "end": "Nimpkish Lake",
-      "description": [
+      "description": null,
+      "bullets": [
         "I rode back to Nimpkish Lake."
       ],
       "photos": [
@@ -2433,7 +2469,8 @@ const timelines = {
       "distance": 213,
       "start": "Nimpkish Lake",
       "end": "Courtenay",
-      "description": [
+      "description": null,
+      "bullets": [
         "I made the 213km trip back to Courtenay from Nimpkish Lake in one day."
       ],
       "photos": [
@@ -2455,7 +2492,8 @@ const timelines = {
       "distance": 92,
       "start": "Nanaimo",
       "end": "Port Alberni",
-      "description": [
+      "description": null,
+      "bullets": [
         "Dropped my rental car off in Nanaimo after driving west from Ontario.",
         "Arrived in Port Alberni around 10pm where I setup camp without a tent on the bank of the river on the edge of town.",
         "Awoke at midnight when I rolled over and found myself in a puddle. The river was tidal and my air mattress had been floating on a shallow layer of water. Life in Southern Ontario doesn't prepare you for these situations."
@@ -2502,7 +2540,8 @@ const timelines = {
       "distance": 88,
       "start": "Port Alberni",
       "end": "Courtenay",
-      "description": [
+      "description": null,
+      "bullets": [
         "Now that my sleeping bag was wet and I was cold, I continued riding to Courtenay in the dark.",
         "My camera lense was now foggy after it got wet in the river.",
         "When I got to the edge of civilization, the road ahead was very dark. I sat out front of a lit gas station while I built up the courage to keep riding in the dark.",
@@ -2566,7 +2605,8 @@ const timelines = {
       "distance": 116,
       "start": "Schomberg",
       "end": "Darlington Provincial Park",
-      "description": [
+      "description": null,
+      "bullets": [
         "Spent the day riding on busy roads through dreary Toronto suburbs.",
         "Camped at Darlington Provincial Park for 50 precious dollars, but it put me right beside the Waterfront Trail."
       ],
@@ -2579,7 +2619,8 @@ const timelines = {
       "distance": 161,
       "start": "Darlington Provincial Park",
       "end": "Picton",
-      "description": [
+      "description": null,
+      "bullets": [
         "Passed through many nice towns on Lake Ontario, like Port Hope.",
         "My favorite section of the day was the marshy landscape around Presqu’ile Provincial Park.",
         "Rode through corn fields in Prince Edward County.",
@@ -2627,7 +2668,8 @@ const timelines = {
       "distance": 44,
       "start": "Picton",
       "end": "Kingston",
-      "description": [
+      "description": null,
+      "bullets": [
         "Awoke from a poor sleep. I could hear alot of road traffic and people were biking by my tent early in the morning. Provincial Parks are the best option for camping in Ontario, but they are too expensive.",
         "Took the ferry in Glenora.",
         "Stayed at a motel in Kingston."
@@ -2654,7 +2696,8 @@ const timelines = {
       "distance": 152,
       "start": "Kingston",
       "end": "Crysler Park Marina",
-      "description": [
+      "description": null,
+      "bullets": [
         "The Southern Ontario/Toronto flavour completely fades past Kingston.",
         "Watched a ferry float into the Gananoque port."
       ],
@@ -2704,7 +2747,8 @@ const timelines = {
       "distance": 66,
       "start": "Crysler Park Marina",
       "end": "Glengarry Campground",
-      "description": [
+      "description": null,
+      "bullets": [
         "My favorite day on the tour because I rode acros Long Sault Parkway, which spans little forested islands on the edge of the St. Lawrence.",
       ],
       "photos": [
@@ -2757,7 +2801,8 @@ const timelines = {
       "distance": 103,
       "start": "Glengarry Campground",
       "end": "Montreal",
-      "description": [
+      "description": null,
+      "bullets": [
         "The trail led into Montreal seamlessly. I wasn't pushed to the sides of busy roads and it guided me through nice areas.",
         "I loved riding through Sainte-Anne-de-Bellevue.",
         "After I arrived at my AirBnb in Montreal, I went to three bars.",
@@ -2810,7 +2855,8 @@ const timelines = {
       "distance": 12,
       "start": "Courtenay",
       "end": "Tin Hat Cabin",
-      "description": [
+      "description": null,
+      "bullets": [
         "I started the day in Courtenay and reached the trailhead by bike and ferry.",
         "There were signs of hobbits and lots of cool mushrooms growing in the forest.",
         "The trail went through some unfortunate cut blocks and nice forests.",
@@ -2960,7 +3006,8 @@ const timelines = {
       "distance": 6,
       "start": "Tin Hat Cabin",
       "end": "Courtenay",
-      "description": [
+      "description": null,
+      "bullets": [
         "Low clouds floated over the inlet and the ocean in the morning",
         "I hiked back to the road on the more direct route, which appeared to be a service road for the cabin.",
         "I pulled my bike out of the woods, biked by a swampy lake on the logging road toward the Powell River Ferry, got off in Comox, and returned home."
@@ -2992,7 +3039,8 @@ const timelines = {
       "distance": 11.9,
       "start": "Courtenay",
       "end": "Circlet Lake",
-      "description": [
+      "description": null,
+      "bullets": [
         "Biked up Mt. Washington from Courtenay to the trailhead.",
         "Hiked through paradise meadows to Circlet Lake Campground"
       ],
@@ -3050,7 +3098,8 @@ const timelines = {
       "distance": 26.9,
       "start": "Circlet Lake",
       "end": "Courtenay",
-      "description": [
+      "description": null,
+      "bullets": [
         "Moat Lake was shimmering under the sun.",
         "Mt. Albert Edward has a twin peak.",
         "Wildflowers grew at the peak, adding some magic."
@@ -3154,7 +3203,8 @@ const timelines = {
       "distance": 20,
       "start": "Trailhead",
       "end": "Campground",
-      "description": [
+      "description": null,
+      "bullets": [
         "The long hike through the old-growth forest where the Hell's Bells Trail intersects is something special.",
         "There was still snow at the top in the middle of June.",
         "I camped next to a sub-alpine pond."
@@ -3241,7 +3291,8 @@ const timelines = {
       "distance": 18,
       "start": "Campground",
       "end": "Trailhead",
-      "description": [
+      "description": null,
+      "bullets": [
         "I hiked back down to the warmth the next morning.",
         "As I approached the base, there were nice views of the Skeena River."
       ],
@@ -3272,7 +3323,8 @@ const timelines = {
       "distance": "~22",
       "start": "Arnica Lake Trailhead",
       "end": "Phillips Ridge",
-      "description": [
+      "description": null,
+      "bullets": [
         "I biked from Courtenay to Campbell River, met up with Student Ranger Zoe, and drove to the trailhead in Strathcona Provincial Park.",
         "The hike was very rocky and hard on my sore and sickly body. It was more like a route than a defined trail. It changed the way I thought about hiking--I realized I can hike anywhere.",
         "The ridge was quite exposed to the sky.",
@@ -3313,7 +3365,8 @@ const timelines = {
       "distance": "~24",
       "start": "Phillips Ridge",
       "end": "Arnica Lake Trailhead",
-      "description": [
+      "description": null,
+      "bullets": [
         "The next morning, we hiked until we got a good view of Golden Hinde, the tallest mountain on Vancouver Island.",
         "We hiked back to the car quickly and I biked home to Courtenay from Campbell River."
       ],
@@ -3352,7 +3405,8 @@ const timelines = {
       "distance": 1.6,
       "start": null,
       "end": null,
-      "description": [
+      "description": null,
+      "bullets": [
         "I went snowshoeing in Algonquin Park on New Years Eve Day.",
         "I started my trip late in the afternoon at the Western Uplands Trail parking lot.",
         "I snowshoed a short way up the trail and setup camp on the side of a tall hill.",
@@ -3392,7 +3446,8 @@ const timelines = {
       "distance": 9.5,
       "start": "Western Uplands Trail",
       "end": "The Minnesing Trail",
-      "description": [
+      "description": null,
+      "bullets": [
         "The next morning, I hiked back to the parking lot.",
         "My intention was to spend the rest of the afternoon and the next day cross-country skiing. However, I forgot to bring my ski boots, so continued to snowshoe instead.",
         "First, I hit the 1km Hardwood Lookout Trail to get an elevated view.",
@@ -3468,7 +3523,8 @@ const timelines = {
       "distance": 14.2,
       "start": null,
       "end": null,
-      "description": [
+      "description": null,
+      "bullets": [
         "On the third day, the sun poked through the sky for the first time during the trip.",
         "I was feeling in sync with the cold. I think being cold for an extended period of time was driving up my metabolism rate, making me feel focused and calm.",
         "There were no human tracks in the snow, but there were lots of animal tracks.",
@@ -3565,7 +3621,8 @@ const timelines = {
       "distance": 13.3,
       "start": null,
       "end": null,
-      "description": [
+      "description": null,
+      "bullets": [
         "When I was moving from Smithers to Canmore, I hiked a few trails along my route.",
         "I stopped at Mt. Robson for a short bike ride on the morning that I was arriving in Jasper.",
       ],
@@ -3595,7 +3652,8 @@ const timelines = {
       "distance": 20.2,
       "start": null,
       "end": null,
-      "description": [
+      "description": null,
+      "bullets": [
         "My trip to Jasper was about driving out to a few different areas of the park to explore them by foot and bike.",
         "When I arrived, I checked into my campsite at Whistlers Campground and setup my tent.",
         "Then I spent the afternoon exploring the Valley of the Five Lakes by bike.",
@@ -3648,7 +3706,8 @@ const timelines = {
       "distance": 16.8,
       "start": null,
       "end": null,
-      "description": [
+      "description": null,
+      "bullets": [
         "I started my day by driving to Miette Hotsprings.",
         "I hiked up the Sulpher Skyline Trail. The trail was nothing special but the views from the top absolutely were.",
         "I came back down the trail and hiked up the neighbouring Utopia Mountain.",
@@ -3729,7 +3788,8 @@ const timelines = {
       "distance": 22.2,
       "start": null,
       "end": null,
-      "description": [
+      "description": null,
+      "bullets": [
         "There were lots of large elk at the campground.",
         "I hit Edith Lake and Maligne Canyon, then continued to hike along the Athabasca River.",
       ],
@@ -3784,7 +3844,8 @@ const timelines = {
       "distance": 0,
       "start": "",
       "end": "",
-      "description": [],
+      "description": null,
+      "bullets": [],
       "photos": [
         {
           "image": "",
@@ -3808,7 +3869,8 @@ const timelines = {
       "distance": 0,
       "start": "",
       "end": "",
-      "description": [],
+      "description": null,
+      "bullets": [],
       "photos": [
         {
           "image": "",
@@ -3832,7 +3894,8 @@ const timelines = {
       "distance": 0,
       "start": "",
       "end": "",
-      "description": [],
+      "description": null,
+      "bullets": [],
       "photos": [
         {
           "image": "",
@@ -3856,7 +3919,8 @@ const timelines = {
       "distance": 0,
       "start": "",
       "end": "",
-      "description": [],
+      "description": null,
+      "bullets": [],
       "photos": [
         {
           "image": "",
