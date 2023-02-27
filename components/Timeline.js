@@ -399,7 +399,7 @@ const timelines = {
       "distance": 142,
       "start": "Mt. Orford National Park",
       "end": "Montreal",
-      "description": "I packed up my tent and started riding shortly before the rain began. I was wet and cold for most of the day. I picked a couple of apples in the orchards along the trail. I arrived home in Montreal in the afternoon.",
+      "description": "I packed up my tent and started riding shortly before the cold rain began. I picked a couple of apples in the orchards along the trail. I arrived home in Montreal in the afternoon.",
       "bullets": [
       ],
       "photos": [
