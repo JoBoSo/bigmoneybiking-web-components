@@ -141,6 +141,11 @@ const videos = {
     "header": "View From The Lookout Tower",
   },
 
+  "gingolx-lookout": {
+    "link": "https://www.youtube.com/embed/jkBRXRkQudU?&loop=1&mute=1",
+    "header": " Eagle Soaring Over Gingolx",
+  },
+
   "": {
     "link": "https://www.youtube.com/embed/",
     "header": "",

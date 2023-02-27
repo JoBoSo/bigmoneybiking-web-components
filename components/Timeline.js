@@ -693,11 +693,8 @@ const timelines = {
       "distance": 116,
       "start": "Kitwanga",
       "end": "Dragon Lake Campground",
-      "description": null,
+      "description": "I started my day at the Kitwanga campground. The Campground Steward said hello to me in the morning and invited me to park my car in his driveway up the road and I accepted his offer. I began my ride by heading north on the Stewart-Cassiar Highway. On the edge of Kitwanga, a coyote watched me bike by from a sideroad. A wierd man in an old rusty Subaru Forester with Rubbermaid bins strapped to the roof and a hitch tray drove by me when I was about 50kms from Kitwanaga. About half an hour later he came back my way, hammered on his breaks about 200 meters in front of me, and said, \"want a drink\" with a fast, nasally voice when I approached his car. I don't even think he could have reached town before he turned around. I got serial killer vibes from him. I turned off of the Stewart-Cassiar Highway and headed west on the Cranberry Connector at Cranberry Junction. I was riding beneath massive trees and mountains the whole way and I noticed the landscape becoming increasingly lively and coastal as I moved west. The sound of birds defined this part of the tour for me because their singing added an auditory depth to the forest. I camped at Dragon Lake Campground.",
       "bullets": [
-        "In the morning, the campground attendant in Kitwanaga invited me to park in his driveway.",
-        "A coytoe standing on a logging road that intersected the Stewart-Cassiar Highway watched me ride by.",
-        "I camped at Dragon Lake Campground."
       ],
       "photos": [
         {
@@ -765,13 +762,8 @@ const timelines = {
       "distance": 107,
       "start": "Dragon Lake Campground",
       "end": "Gingolx",
-      "description": null,
+      "description": "I reached the beautiful native town, New Aiyansh shortly after departing my campsite. The town is wrapped in mountains. A little further up the highway, the Nass Valley has wide open views of lava beds from a volcanic erruption that occured around 1700. I rode through the valley and toward Gingolx, the northern-most coastal community in BC. The road from New Aiyansh to Gingolx might be the most beautiful road in Canada. I saw a moose running through dense forest along the side of the road, a grizzly bear eating a bright-red porcupine carcus and lots of living porcupines and black bears with shiny coats. When I reached Gingolx, I hiked up the lookout trail and watched eagles fly above me. I turned back toward the east and camped next to a gravel pit for the night.",
       "bullets": [
-        "I explored the lava beds in the nass valley.",
-        "A massive moose ran through the thick forest next to me on the road into Gingolx",
-        "I saw a grizzly bear eating a procepine on the highway.",
-        "Eagles soared above me on the Gingolx Lookout Trail.",
-        "I camped next to a gravel pit a few kilometers outside of Gingolx."
       ],
       "photos": [
         {
@@ -891,11 +883,8 @@ const timelines = {
       "distance": 124,
       "start": "Gingolx",
       "end": "Kitsumkalum Provincial Park",
-      "description": null,
+      "description": "The first part of my third day looked much like my second day. I biked back to the Nass Valley and turned south toward Terrace. This opened up into yet another world. I biked by the Drowned Forest where a river runs through the trees. There were lots of waterfalls. The water reflected many tones of green and blue and grey. The entire area around Rosswood felt like a permanent forestry camp. I camped on a beach on Kitsumkalum Lake where everything looked black, white, and blue beneath the grey sky. It was like being in a sketch.",
       "bullets": [
-        "I checked out a couple of water falls and rode alongside the Sunken Forest toward Terrace.",
-        "Scared a bear that wasn't moving off the highway with a banger and felt pretty cool.",
-        "Camped on the beach next to a fire at my campsite on Kitsumkalum Lake."
       ],
       "photos": [
         {
@@ -931,10 +920,8 @@ const timelines = {
       "distance": 127,
       "start": "Kitsumkalum Provincial Park",
       "end": "Kitwanga",
-      "description": null,
+      "description": "On my last day of the tour, I biked to Terrace and ordered a sandwich and cappuccino at Bert's Deli. While waiting for my order, I spoke to another person at Bert's who I would coincidentally met again a few weeks later in Telkwa. This part of BC has lots of land and few people, which creates a unique contrast. I ate my food at the park across the street and watched people walk around the farmers' market in the park for a while, got on my bike, and returned to my car in Kitwanga.",
       "bullets": [
-        "I got a cappuccino and sandwich at Bert's Deli in Terrace.",
-        "Returned to Kitwanaga a complete man in my mind."
       ],
       "photos": [
         {
