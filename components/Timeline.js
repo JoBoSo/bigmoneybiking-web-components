@@ -942,12 +942,8 @@ const timelines = {
       "distance": 125,
       "start": "Tyhee Lake Provincial Park",
       "end": "Red Bluff Provincial Park",
-      "description": null,
+      "description": "From Tyhee Lake Provincial Parks in Telkwa, I went south on the Yellowhead Highway until I reached the turnoff toward Babine Lake in Wiley. The roads were mostly flat. Interior BC sometimes reminds me of Northen Ontario. My destination was Red Bluff Provincial Park where I camped on the edge of Babine Lake.",
       "bullets": [
-        "I went south on the Yellowhead from Telkwa and turned off toward Babine Lake in Wiley.",
-        "I ate some Chicken Tikka from Indian Curry House in Houston.",
-        "The gently rolling hills of interior BC made for a ride that was easy on the knees.",
-        "I camped on the edge of Babine Lake in Red Bluff Provincial Park."
       ],
       "photos": [
         {
@@ -1011,11 +1007,8 @@ const timelines = {
       "distance": 62,
       "start": "Red Bluff Provincial Park",
       "end": "Tyhee Lake Provincial Park",
-      "description": null,
+      "description": "I took the more-direct logging road, Babine Lake Road, back to Telkwa. It had much nicer views than the route I took the day before. There were views of the Babine Mountains to the north. Before I reached Telkwa High Road, where Babine Lake Road ends, a local guy picked me up after driving ahead of me because a grizzly was on the road and wouldn't budge when he honked. So, he brought me and by bike to the edge of Telkwa and I rode back to Tyhee Lake.",
       "bullets": [
-        "I took the more-direct logging road back toward Smithers. It had great view of the Babine Mountains.",
-        "Before I reached Telkwa High Road, where the logging road ended, a local guy picked me up after driving ahead of me because a grizzly was on the road and wouldn't budge when he honked. So, he brought me and by bike to the edge of Telkwa.",
-        "I returned to Tyhee Lake Provincial Park."
       ],
       "photos": [
         {
@@ -1052,10 +1045,8 @@ const timelines = {
       "distance": 42,
       "start": "Revelstoke",
       "end": "Carnes Creek Rec Site",
-      "description": null,
+      "description": "I took off from my house in Revelstoke. When I was just outside of town, I was held up for over an hour because the crumbling mountain-side was being repaired. The workers were blowing-up the side of the mountain. I rode to Carnes Creek Rec Site in the warm afternoon sun. The deciduous trees were beginning to turn yellow and orange. My campsite neighbours brought me a bunch of wood so I could have a fire.",
       "bullets": [
-        "Was held up on the highway for over an hour because the crumbling mountain-side was being repaired.",
-        "My neighbours at Carnes Creek Rec Site gave me a load of fire wood for the night."
       ],
       "photos": [
         {
@@ -1087,11 +1078,8 @@ const timelines = {
       "distance": 74,
       "start": "Carnes Creek Rec Site",
       "end": "Carnes Creek Rec Site",
-      "description": null,
+      "description": "It was a rainy day. Sunbeams periodically shot through the clouds and gave the landscape a glassy shine. The fog and low clouds created by the river transformed and moved quickly, bringing a sense of life to the river. I decided to set Downie Creek Rec Site as my turn-around point because it was going to continue to rain over the coming days and I was cold. If the weather was better, I would have continued to Mica Creek. I returned to Carnes Creek for the night.",
       "bullets": [
-        "Sunbeams shot through the clouds and the landscape had a glassy shine.",
-        "The mist and fog was moving around me all day. It brought the river to life.",
-        "I decided to turn around at Downie Creek. If the forecast wasn't cold rain, I would have continued to Mica Creek."
       ],
       "photos": [
         {
@@ -1171,10 +1159,8 @@ const timelines = {
       "distance": 42,
       "start": "Carnes Creek Rec Site",
       "end": "Revelstoke",
-      "description": null,
+      "description": "I spent some time hanging out on the river by my campsite in the morning before heading back toward Revelstoke. I took the opportunity to explore some of the side roads and viewpoints off the highway. There are lots of pull-offs that lead to campsites along the river.",
       "bullets": [
-        "There are lots of pull-offs along the river. It's a dream for camping.",
-        "This is the kind of road that you won't find unless you look for it. I want to ride it all the way to it's end when I'm back."
       ],
       "photos": [
         {
@@ -1508,12 +1494,8 @@ const timelines = {
       "distance": 14,
       "start": "Courtenay",
       "end": "Comox Lake",
-      "description": null,
+      "description": "It was a short ride from Courtenay to Comox Lake. The north side of the lake is lined with rustic cottages that extend out over the water. The lake is surrounded by vibrant greenery and orange arbutus trees. I camped on some mossy bluffs overlooking the lake.",
       "bullets": [
-        "It was a short afternoon trip from my apartment above Delicado's in Courtenay to Comox Lake.",
-        "The north side of the lake is lined with rustic cottages that extend out over the water.",
-        "The lake is surrounded by vibrant greenery and organe arbutus trees.",
-        "I camped on some mossy bluffs overlooking the lake."
       ],
       "photos": [
         {
@@ -1585,10 +1567,8 @@ const timelines = {
       "distance": 66,
       "start": "Comox Lake",
       "end": "Courtenay",
-      "description": null,
+      "description": "The 6am sunrise cast a shadow from the mountains on one side of the lake to the mountains on the other side. I tried biking around the lake, thinking it might connect to Cumberland on the otherside, but an old couple who lived on there told me it didn't.",
       "bullets": [
-        "The shadow of the mountains across the lake was cast upon those on my side of the lake as the sun rose at 6am.",
-        "I tried biking around the lake, thinking it might connect to Cumberland on the otherside, but an old couple who lived on the otherside of the lake told me it didn't."
       ],
       "photos": [
         {
