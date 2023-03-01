@@ -1296,10 +1296,8 @@ const timelines = {
       "distance": 64,
       "start": "Courtenay",
       "end": "Quadra Island",
-      "description": null,
+      "description": "I took off from Courtenay and headed toward the Campbell River Ferry to Quadra Island. I got some salmon from Dockside Fish & Chips before boarding the ferry. Once on Quarda, I biked to Morte Lake, where I spent the night.",
       "bullets": [
-        "Got some salmon from Dockside Fish & Chips before getting on the ferry from Campbell River to Quadra.",
-        "Pushed my bike along a trail to Morte Lake where I camped."
       ],
       "photos": [
         {
@@ -1323,11 +1321,8 @@ const timelines = {
       "distance": 49,
       "start": "Quadra Island",
       "end": "Quadra Island",
-      "description": null,
+      "description": "In the morning I hiked up Beeches Mountain and saw some great views of the ocean and coast. Next, I went to Surge Narrows Provincial Park to see the whirlpools and rapids in the corridor between Quarda and Maurelle Island. I wandered along some roads and beaches and ended my day in an opening in the forest.",
       "bullets": [
-        "Hiked up beeches mountain which led to big views of the ocean and Sunshine Coast.",
-        "Went to Surge Narrows Provincial Park where the ocean gets squeezed between Quadra and it's neighbour, Maurelle Island.",
-        "Camped in a lushious opening in the forest."
       ],
       "photos": [
         {
@@ -1371,13 +1366,8 @@ const timelines = {
       "distance": 144,
       "start": "Quadra Island",
       "end": "Courtenay",
-      "description": null,
+      "description": "I took the ferry to Cortes Island. I rode to Squirrel Cove and explored the rocky beach. There was a rusty old car washed-up on the edge of the forest. Sailors floated in to and out of the docks to replenish their liquor supplies at the convenience store. My next stop was Smelt Bay. I took a break on the beach and watched the seabirds. Then I picked some of the most flavourful blackberries I have ever tasted from the bushes at the edge of the beach before moving on. I rode past the Great Wall-De-Mark to Masons Landing. The people looked really interesting. I sat by the big, purple garden behind the Cortes Natural Food Co-op, then went to the beach where I saw a bunch of pontoon boats sitting on the rocky floor of an empty tide pool to one side of the beach with cottages sitting on cliffs above them. I was so confused until I saw the ocean slowly fill it with water and bring the pontoons with it. I headed back to the ferry to Quadra, biked by a beautiful view of sailboats in Rebecca Spit, and got on the ferry to Campbell River. I finished my day back in Courtenay.",
       "bullets": [
-        "Took the ferry from Quadra to Cortes.",
-        "Sat on white, sandy the beach at Smelt Bay and watched the sea birds.",
-        "Walked around the rocky beach and dock in Squirrel Cove and watched sailors replenish their liquor supplies.",
-        "Looked at the garden behind Cortes Natural Food Co-op.",
-        "Was confused when I found pontoon boats sitting in a pit with cottages on cliffs above them. But I figured out what was going on when the tide came in to fill it up."
       ],
       "photos": [
         {
