@@ -1595,11 +1595,8 @@ const timelines = {
       "distance": 34,
       "start": "Courtenay",
       "end": "Dinner Rock",
-      "description": null,
+      "description": "I biked to Comox and took the ferry to Powell River. I headed up the Sunshine Coast to camp at Dinner Rock Rec Site. On my way into the campground, I saw a bear with two cubs run through the forest. I chose a big, sunny campsite overlooking the ocean and explored the beach. Someone left some homemade firestarter in the fire pit and it really made my evening.",
       "bullets": [
-        "Took the ferry from Comox to Powell River.",
-        "On my way down the road to Dinner Rock, I saw a bear with two cubs run through the forest.",
-        "Someone left a homemade fire-starter in the pit and I needed no more convincing. It felt like a gift."
       ],
       "photos": [
         {
@@ -1647,11 +1644,8 @@ const timelines = {
       "distance": 69,
       "start": "Dinner Rock",
       "end": "Shingle Beach",
-      "description": null,
+      "description": "I rode back to Powell River and took the ferry to Texada Island. Gillies Bay was beautiful. It's lined with cottages and gardens. Further up the island, I found some peaceful, mossy bluffs overlooking the ocean to take a break on. An eagle soared above me. It was so quite I could hear its feathers against the air. I stayed at Shingle Beach Rec Site for the night.",
       "bullets": [
-        "Took the ferry from Powell River to Texada Island",
-        "Napped on some spongy bluffs and watched an eagle fly above me. It was so quite I could hear the eagle's wings cutting the air.",
-        "Camped at Single Beach. The host was really on the ball with an iPad for registation and a tagged truck."
       ],
       "photos": [
         {
@@ -1691,11 +1685,8 @@ const timelines = {
       "distance": 40,
       "start": "Shingle Beach",
       "end": "Bob's Lake",
-      "description": null,
+      "description": "My goal was to go as far south on the Island as I could. Eventually, the gravel road turned into rough ATV tracks beneath some hydro lines and I turned back around. There were tiny strawberries growing along the roadside that were unbelievably flavourful. I headed to Bob's Lake to camp. I hiked around the lake and looked at the wide variety of mushrooms and the old horse campground in the forest.",
       "bullets": [
-        "I followed some hydo lines as far south as I could go before the trail became too rough.",
-        "There were tiny strawberries growing that tasted unbelievably sweet.",
-        "I hiked around Bob's Lake and saw an old horse campsite and a variety of perfectly content mushrooms."
       ],
       "photos": [
         {
@@ -1867,10 +1858,8 @@ const timelines = {
       "distance": 52,
       "start": "Bob's Lake",
       "end": "Courtenay",
-      "description": null,
+      "description": "The lake was misty in the morning. I biked to Van Anda to have a meal on the colourful patio at Mary Mary Cafe before taking the ferries back to Comox.",
       "bullets": [
-        "The Lake was misty in the morning.",
-        "I had a meal on the colourful patio at Mary Mary Cafe in Van Anda before getting on the ferry."
       ],
       "photos": [
         {
