@@ -14,7 +14,7 @@ class Header extends HTMLElement {
       #bmb-title {
         color: #0065d1;
         font-family: 'Pacifico', Arial, Helvetica, sans-serif;
-        font-size: 32pt;
+        font-size: 28pt;
         text-align: center;
         margin-bottom: 1vh;
       }
@@ -26,7 +26,7 @@ class Header extends HTMLElement {
         text-align: center;
         margin-bottom: 0;
         color: #ffc272; /*hide*/
-        font-size: 6pt;
+        font-size: 5pt;
       }
 
       </style>
