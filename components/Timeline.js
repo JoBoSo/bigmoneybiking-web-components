@@ -2520,10 +2520,8 @@ const timelines = {
       "distance": 116,
       "start": "Schomberg",
       "end": "Darlington Provincial Park",
-      "description": null,
+      "description": "I left my Dad's house near Schomberg and headed toward Lake Ontario. Most of the day was spent on busy suburban roads near Toronto. I ended my day at Darlington Provincial Park in Bowmanville. It cost me $50 to sleep on some noisey suburban grass.",
       "bullets": [
-        "Spent the day riding on busy roads through dreary Toronto suburbs.",
-        "Camped at Darlington Provincial Park for 50 precious dollars, but it put me right beside the Waterfront Trail."
       ],
       "photos": [],
     },
@@ -2534,12 +2532,8 @@ const timelines = {
       "distance": 161,
       "start": "Darlington Provincial Park",
       "end": "Picton",
-      "description": null,
+      "description": "I was immediately on to the Waterfront Trail in the morning. I passed through many beautiful towns on The Lake, like Port Hope. The marshes around Presqu’ile Provincial Park stood out as a unique landscape. I biked through corn fields in Prince Edward Country. It felt like everyone was on summer vacation. I passed by weddings in orchards and barns. Just as the sun was fully set, I arrived at Macaulay Mountain Conservation Area in Picton where I camped for the night.",
       "bullets": [
-        "Passed through many nice towns on Lake Ontario, like Port Hope.",
-        "My favorite section of the day was the marshy landscape around Presqu’ile Provincial Park.",
-        "Rode through corn fields in Prince Edward County.",
-        "Camped at a conservation area in Picton."
       ],
       "photos": [
         {
@@ -2583,11 +2577,8 @@ const timelines = {
       "distance": 44,
       "start": "Picton",
       "end": "Kingston",
-      "description": null,
+      "description": "I awoke from a poor sleep. I could hear alot of road traffic and people were biking by my tent early in the morning. I took the Glenora ferry. The grassy old farms along the Bay of Quinte looked so peaceful. I rode into Kingston in the afternoon and got a room in a motel.",
       "bullets": [
-        "Awoke from a poor sleep. I could hear alot of road traffic and people were biking by my tent early in the morning. Provincial Parks are the best option for camping in Ontario, but they are too expensive.",
-        "Took the ferry in Glenora.",
-        "Stayed at a motel in Kingston."
       ],
       "photos": [
         {
@@ -2611,10 +2602,8 @@ const timelines = {
       "distance": 152,
       "start": "Kingston",
       "end": "Crysler Park Marina",
-      "description": null,
+      "description": "I felt like the Southern Ontario/Toronto flavour had completely faded past Kingston. Gananoque is one of the most beautiful towns on the route. I took a break by the town's port and watched the ferry float in. Landon's Bay, further up the trail, had some beautiful scenery with views of granite and water. I ended my day on the side of the river at Crysler Park Marina.",
       "bullets": [
-        "The Southern Ontario/Toronto flavour completely fades past Kingston.",
-        "Watched a ferry float into the Gananoque port."
       ],
       "photos": [
         {
@@ -2662,9 +2651,8 @@ const timelines = {
       "distance": 66,
       "start": "Crysler Park Marina",
       "end": "Glengarry Campground",
-      "description": null,
+      "description": "I started my day by riding past the historical buildings in Upper Canada Village. Next, I was onto Long Sault Parkway, which spans a series of little forested islands on the edge of the St. Lawrence River. I explored the waterfront and main streets in Cornwall. For lunch, I got fish and chips from a roadside stand. I finished my day at Glengarry Campground.",
       "bullets": [
-        "My favorite day on the tour because I rode acros Long Sault Parkway, which spans little forested islands on the edge of the St. Lawrence.",
       ],
       "photos": [
         {
@@ -2716,12 +2704,8 @@ const timelines = {
       "distance": 103,
       "start": "Glengarry Campground",
       "end": "Montreal",
-      "description": null,
+      "description": "I was at the final stretch. The trail led seamlessly into Montreal. I wasn't pushed to busy roadsides like I was near Toronto. Sainte-Anne-de-Bellevue's main street was lovely. I rode onto the island, through Verdun and to an AirBnB downtown. I went to a few restaurants and bars after I cleaned myself up and got ready to take the train back to Toronto the next morning.",
       "bullets": [
-        "The trail led into Montreal seamlessly. I wasn't pushed to the sides of busy roads and it guided me through nice areas.",
-        "I loved riding through Sainte-Anne-de-Bellevue.",
-        "After I arrived at my AirBnb in Montreal, I went to three bars.",
-        "I prepared to take the train home the next morning."
       ],
       "photos": [
         {
