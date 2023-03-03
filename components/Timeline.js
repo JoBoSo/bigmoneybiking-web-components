@@ -1366,7 +1366,7 @@ const timelines = {
       "distance": 144,
       "start": "Quadra Island",
       "end": "Courtenay",
-      "description": "I took the ferry to Cortes Island. I rode to Squirrel Cove and explored the rocky beach. There was a rusty old car washed-up on the edge of the forest. Sailors floated in to and out of the docks to replenish their liquor supplies at the convenience store. My next stop was Smelt Bay. I took a break on the beach and watched the seabirds. Then I picked some of the most flavourful blackberries I have ever tasted from the bushes at the edge of the beach before moving on. I rode past the Great Wall-De-Mark to Masons Landing. The people looked really interesting. I sat by the big, purple garden behind the Cortes Natural Food Co-op, then went to the beach where I saw a bunch of pontoon boats sitting on the rocky floor of an empty tide pool to one side of the beach with cottages sitting on cliffs above them. I was so confused until I saw the ocean slowly fill it with water and bring the pontoons with it. I headed back to the ferry to Quadra, biked by a beautiful view of sailboats in Rebecca Spit, and got on the ferry to Campbell River. I finished my day back in Courtenay.",
+      "description": "I took the ferry to Cortes Island. I rode to Squirrel Cove and explored the rocky beach. There was a rusty old car washed-up on the edge of the forest. Sailors floated in to and out of the docks to replenish their liquor supplies at the convenience store. My next stop was Smelt Bay. I took a break on the beach and watched the seabirds. Then I picked some of the most flavourful blackberries I have ever tasted from the bushes at the edge of the beach before moving on. I rode past the Great Wall-De-Mark to Masons Landing. The people looked really interesting. The community had it's own style and fashion with really earth cottages, and thoughtful gardens. I sat by the big, purple garden behind the Cortes Natural Food Co-op, then went to the beach where I saw a bunch of pontoon boats sitting on the rocky floor of an empty tide pool to one side of the beach with cottages sitting on cliffs above them. I was so confused until I saw the ocean slowly fill it with water and bring the pontoons with it. I headed back to the ferry to Quadra, biked by a beautiful view of sailboats in Rebecca Spit, and got on the ferry to Campbell River. I finished my day back in Courtenay.",
       "bullets": [
       ],
       "photos": [
@@ -1892,9 +1892,8 @@ const timelines = {
       "distance": 83,
       "start": "Courtenay",
       "end": "Brewster Lake",
-      "description": null,
+      "description": "I rode along the ocean from Courtenay to Campbell River, then I turned onto the logging roads that lead to Brewster Lake. I had a complete view of mountains, forests, and The Lake from my campsite. Big, swooping cedar trees lined the shore. I watched the sunset over The Lake and behind the mountains while sitting next to a fire.",
       "bullets": [
-        "Brewster Lake had a real beachy feel, like Tofino does, with it's swooping cedar trees and vibrant greenery."
       ],
       "photos": [
         {
@@ -1922,9 +1921,8 @@ const timelines = {
       "distance": 22,
       "start": "Brewster Lake",
       "end": "Campbell Lake",
-      "description": null,
+      "description": "I hung out at Brewster Lake until the afternoon before packing up and riding a short ways up the logging road to Campbell Lake. I found a campsite in the woods above the lake. It had a path down to the shore, where I chose to pitch my tent and stay for the night. I made a tiny, but warm, fire on the rocks and watched hungry bats zip in and out of the forest behind me to catch bugs over the lake.",
       "bullets": [
-        "Made a small fire on the shore and watched bats zip in and out of the forest behind me."
       ],
       "photos": [
         {
@@ -1988,9 +1986,8 @@ const timelines = {
       "distance": 72,
       "start": "Campbell Lake",
       "end": "Courtenay",
-      "description": null,
+      "description": "I returned home to Courtenay.",
       "bullets": [
-        "I rode home to Courtenay."
       ],
       "photos": [
       ],
