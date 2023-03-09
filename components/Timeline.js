@@ -2004,9 +2004,8 @@ const timelines = {
       "distance": 71,
       "start": "Courtenay",
       "end": "Burnt Beach",
-      "description": null,
+      "description": "I left Courtenay late in the morning and biked to Burnt Beach Rec Site near Campbell River for the night.",
       "bullets": [
-        "I left Courtenay late in the morning and camped at Burnt Beach Rec Site near Campbell River."
       ],
       "photos": [
         {
@@ -2050,9 +2049,8 @@ const timelines = {
       "distance": 65,
       "start": "Burnt Beach",
       "end": "Elk Creek",
-      "description": null,
+      "description": "I continued north toward Sayward. Most of my ride was on logging roads that were in good shape.",
       "bullets": [
-        "I continued toward Sayward, mostly on logging roads that were in pretty good shape."
       ],
       "photos": [
         {
@@ -2112,9 +2110,8 @@ const timelines = {
       "distance": 0,
       "start": "Elk Creek",
       "end": "Elk Creek",
-      "description": null,
+      "description": "I took a rainy day off at the Elk Creek campground on the edge of Sayward.",
       "bullets": [
-        "I took a rainy day off at the campground near Sayward."
       ],
       "photos": [
         {
@@ -2138,10 +2135,8 @@ const timelines = {
       "distance": 71,
       "start": "Elk Creek",
       "end": "Nimpkish Lake",
-      "description": null,
+      "description": "It was still raining in the morning. I learned the rain has a thing for Sayward. I followed the highway to Woss and bought some stale cookies and beef jerky at the gas station, which was the only option. That Korean BBQ beef jerky propelled me through much of my trip. It sits on reserve in your stomach like water in a camel's hump. I ended my day on the magical shore of Nimpkish Lake, one of my favorite places to camp.",
       "bullets": [
-        "I followed the highway to Woss and bought some food a the gas station. There wasn't much to choose from, but it was my only option for the day.",
-        "I ended at Nimpkish Lake for the night. It's one of my favorite campsites."
       ],
       "photos": [
         {
@@ -2181,11 +2176,8 @@ const timelines = {
       "distance": 143,
       "start": "Nimpkish Lake",
       "end": "Nahwitti Lake",
-      "description": null,
+      "description": "I kept pedalling up the highway to Port McNeill. I took a break for lunch at the Harbour. A flock of crows stole my bag of cashews from one of my open packs while was walking around. The ground was littered with them. I thought a woman sitting at a nearby picnic table was speaking to me, so I replied, 'What?' She kept talking but I couldn't hear her so I kept apologizing and asking her to repeat herself. Then, I noticed an old guy on a picnic bench looking at me funny and I realized she was talking on her phone. After my break, I got onto the rough logging roads that lead toward Cape Scott. I took the trail to Nahwitti Lake and camped on the sandy beach.",
       "bullets": [
-        "I arrived at the Port McNeill Harbour around lunch time. I had a bag of cashews on top of an open pack while I was walking around and a group of crows stole it.",
-        "Shortly after lunch, I was onto the Logging road that leads to Cape Scott. I was rather rough riding on by bike.",
-        "I camped on a sandy beach on Nahwitti Lake. The trail to the lake was beautiful. It went through a big, dense forest."
       ],
       "photos": [
         {
@@ -2253,11 +2245,8 @@ const timelines = {
       "distance": 40,
       "start": "Nahwitti Lake",
       "end": "San Josef Bay",
-      "description": null,
+      "description": "The final stretch of the road to Cape Scott was busy with logging trucks. They kicked-up a lot of dust, so I had to shut my eyes and put my arm over my mouth whenever they rolled by. I bumped into a man and his daughter on motorbikes who were mapping a backroads route called the North Island 1000. When I reached the Cape Scott parking lot, I got onto the Cape Scott Trail and rode to San Josef Bay. It was rewarding to see that endless view of the Pacific Ocean and feel I had made it just about as far north on the island as I could possibly go. I camped on the edge of the beach that night.",
       "bullets": [
-        "The road to Cape Scott was busy with logging trucks. They kick-up a lot of dust.",
-        "I met a guy and his daughter on motorbikes who were mapping a backroads route called the North Island 1000.",
-        "I took the Cape Scott Trail to San Josef Bay and setup camp on the edge of the beach."
       ],
       "photos": [
         {
@@ -2353,9 +2342,8 @@ const timelines = {
       "distance": 181,
       "start": "San Josef Bay",
       "end": "Nimpkish Lake",
-      "description": null,
+      "description": " I returned to Nimpkish Lake for night.",
       "bullets": [
-        "I rode back to Nimpkish Lake."
       ],
       "photos": [
         {
@@ -2391,9 +2379,8 @@ const timelines = {
       "distance": 213,
       "start": "Nimpkish Lake",
       "end": "Courtenay",
-      "description": null,
+      "description": "I biked 213kms back to Courtenay from Nimpkish Lake in just one day.",
       "bullets": [
-        "I made the 213km trip back to Courtenay from Nimpkish Lake in one day."
       ],
       "photos": [
         {
