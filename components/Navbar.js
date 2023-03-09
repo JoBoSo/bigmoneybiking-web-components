@@ -20,7 +20,7 @@ class Navbar extends HTMLElement {
         .my-nav {
           display: flex;
           overflow: hidden;
-          height: 21pt;
+          height: 20pt;
           background-color: #00abea /*#016ad5*/;
           align-items: center;
           padding: 0;
