@@ -3368,19 +3368,7 @@ const photos = {
 
   "mt-temple": [
     {
-      image: "mt-temple/IMG_1235.jpg",
-      caption: ""
-    },
-    {
-      image: "mt-temple/IMG_1187.jpg",
-      caption: ""
-    },
-    {
       image: "mt-temple/IMG_1188.jpg",
-      caption: ""
-    },
-    {
-      image: "mt-temple/IMG_1190.jpg",
       caption: ""
     },
     {
@@ -3401,10 +3389,6 @@ const photos = {
     },
     {
       image: "mt-temple/IMG_1200.jpg",
-      caption: ""
-    },
-    {
-      image: "mt-temple/IMG_1202.jpg",
       caption: ""
     },
     {
@@ -3436,7 +3420,11 @@ const photos = {
       caption: ""
     },
     {
-      image: "mt-temple/IMG_1222.jpg",
+      image: "mt-temple/IMG_1223.jpg",
+      caption: ""
+    },
+    {
+      image: "mt-temple/IMG_1230.jpg",
       caption: ""
     },
     {
@@ -3449,14 +3437,6 @@ const photos = {
     },
     {
       image: "mt-temple/IMG_1238.jpg",
-      caption: ""
-    },
-    {
-      image: "mt-temple/IMG_1239.jpg",
-      caption: ""
-    },
-    {
-      image: "mt-temple/IMG_1240.jpg",
       caption: ""
     },
     {
@@ -3492,7 +3472,7 @@ const photos = {
       caption: ""
     },
     {
-      image: "mt-temple/IMG_1252.jpg",
+      image: "mt-temple/IMG_1251.jpg",
       caption: ""
     },
     {
@@ -3500,7 +3480,7 @@ const photos = {
       caption: ""
     },
     {
-      image: "mt-temple/IMG_1255.jpg",
+      image: "mt-temple/IMG_1256.jpg",
       caption: ""
     },
     {

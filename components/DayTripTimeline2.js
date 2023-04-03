@@ -15,116 +15,34 @@ class DayTripTimeline extends HTMLElement {
 
   isLastEvent(item, items) {
     if (item !== items[items.length - 1]) {
-      return '<div class="connector row no-gutters"></div>';
+      return `
+        <div class="connector row no-gutters">
+          <div class="circle-top"></div>
+        </div>
+        <div class="connector row no-gutters">
+          <div class="circle-bottom"></div>
+        </div>
+      `;
     }
     return '';
   }
 
   constructEvent(item) {
-    let larger_media = window.matchMedia('(min-width: 576px)');
-    let smaller_media = window.matchMedia('(max-width: 575px)');
-
-    // larger screen: image left - text right
-    if (larger_media.matches && item.left_image && !item.right_image) {
-      return `
-        <div class="row no-gutters">
-          <div class="left-block col-xs-6 col-sm-6 col-md-6 col-xl-4 offset-xl-2">
-            <img src=${'../images/' + item.left_image}>
-          </div>
-          <div class="right-block col-xs-6 col-sm-6 col-md-6 col-xl-4">
-            <div class="day-trip-timeline-text">
-              <h3>${item.header}</h3>
-              <p>${item.description}</p>
-            </div>
+    // one image top - text bottom
+    let image = item.right_image !== null ? item.right_image : item.left_image;
+    return `
+      <div class="row no-gutters">
+        <div class="left-block col-xs-6 col-sm-6 col-md-6 col-xl-5 offset-xl-2">
+          <img src=${'../images/' + image}>
+        </div>
+        <div class="right-block col-xs-6 col-sm-6 col-md-6 col-xl-3">
+          <div class="day-trip-timeline-text">
+            <h3>${item.header}</h3>
+            <p>${item.description}</p>
           </div>
         </div>
-      `;
-    }
-
-    // larger screen: text left - image right
-    else if (larger_media.matches && !item.left_image && item.right_image) {
-      return `
-        <div class="row no-gutters">
-          <div class="left-block col-xs-6 col-sm-6 col-md-6 col-xl-4 offset-xl-2">
-            <div class="day-trip-timeline-text">
-              <h3>${item.header}</h3>
-              <p>${item.description}</p>
-            </div>
-          </div>
-          <div class="right-block col-xs-6 col-sm-6 col-md-6 col-xl-4">
-            <img src=${'../images/' + item.right_image}>
-          </div>
-        </div>
-      `;
-    }
-
-    // larger screen: image left - image right - text bottom
-    if (larger_media.matches && item.left_image && item.right_image) {
-      return `
-        <div class="row no-gutters">
-          <div class="left-block col-xs-6 col-sm-6 col-md-6 col-xl-4 offset-xl-2">
-            <div class="text-below">
-              <img src=${'../images/' + item.left_image}>
-            </div>
-          </div>
-          <div class="right-block col-xs-6 col-sm-6 col-md-6 col-xl-4">
-            <div class="text-below">
-              <img src=${'../images/' + item.right_image}>
-            </div>
-          </div>
-          <div class="bottom-block col-xs-12 col-sm-12 col-md-12 col-xl-8 offset-xl-2">
-            <div class="day-trip-timeline-text">
-              <h3>${item.header}</h3>
-              <p>${item.description}</p>
-            </div>
-          </div>
-        </div>
-      `;
-    }
-
-    // smaller screen: one image top - text bottom
-    // transform items with one image, left or right, for phones.
-    else if (smaller_media.matches && ((!item.left_image && item.right_image) || (item.left_image && !item.right_image))) {
-      let image = item.right_image !== null ? item.right_image : item.left_image;
-      return `
-        <div class="row no-gutters">
-          <div class="left-block col-xs-6 col-sm-6 col-md-6 col-xl-4 offset-xl-2">
-            <img src=${'../images/' + image}>
-          </div>
-          <div class="right-block col-xs-6 col-sm-6 col-md-6 col-xl-4">
-            <div class="day-trip-timeline-text">
-              <h3>${item.header}</h3>
-              <p>${item.description}</p>
-            </div>
-          </div>
-        </div>
-      `;
-    }
-
-    // smaller screen: image top - image middle - text bottom
-    // transform items with two images, left and right, for phones
-    if (smaller_media.matches && item.left_image && item.right_image) {
-      return `
-        <div class="row no-gutters">
-          <div class="left-block col-xs-6 col-sm-6 col-md-6 col-xl-4 offset-xl-2">
-            <div class="text-below">
-              <img src=${'../images/' + item.left_image}>
-            </div>
-          </div>
-          <div class="right-block col-xs-6 col-sm-6 col-md-6 col-xl-4">
-            <div class="text-below">
-              <img src=${'../images/' + item.right_image}>
-            </div>
-          </div>
-          <div class="bottom-block col-xs-12 col-sm-12 col-md-12 col-xl-8 offset-xl-2">
-            <div class="day-trip-timeline-text">
-              <h3>${item.header}</h3>
-              <p>${item.description}</p>
-            </div>
-          </div>
-        </div>
-      `;
-    }
+      </div>
+    `;
   }
 
   connectedCallback() {
@@ -136,6 +54,32 @@ class DayTripTimeline extends HTMLElement {
       .day-trip-timeline {
         margin-top: 10px;
       }
+
+      /* connector line */
+      .day-trip-timeline .connector {
+        height: 11px; 
+        background: linear-gradient(white, white) no-repeat center/2px 100%;
+        justify-content: center;
+      }
+
+      .circle-top {
+        top: -4px;
+      }
+
+      .circle-bottom {
+        bottom: -7px;
+      }
+
+      .circle-top,
+      .circle-bottom {
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+        position: relative;
+        z-index: 1;
+        border: 2px solid white;
+        background-color: white;
+      }
     
       @media (min-width: 576px) {
         /* image left */
@@ -143,7 +87,6 @@ class DayTripTimeline extends HTMLElement {
           border-top-left-radius: 10px; 
           border-bottom-left-radius: 10px;
           box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
-          border-right: 0.75px solid white;
           width: 100%; 
           object-fit: contain; 
         }
@@ -153,7 +96,6 @@ class DayTripTimeline extends HTMLElement {
           border-top-right-radius: 10px; 
           border-bottom-right-radius: 10px; 
           box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
-          border-left: 0.75px solid white;
           width: 100%; 
           object-fit: contain; 
         }
@@ -163,7 +105,6 @@ class DayTripTimeline extends HTMLElement {
           border-top-left-radius: 10px; 
           border-bottom-left-radius: 10px;
           box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
-          border-right: 0.75px solid white;
           background: rgba(0, 0, 0, 0.2);
           padding: 10px;
           height: 100%;
@@ -174,7 +115,6 @@ class DayTripTimeline extends HTMLElement {
           border-top-right-radius: 10px; 
           border-bottom-right-radius: 10px; 
           box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
-          border-left: 0.75px solid white;
           background: rgba(0, 0, 0, 0.2);
           padding: 10px;
           height: 100%;
@@ -185,7 +125,6 @@ class DayTripTimeline extends HTMLElement {
           border-top-left-radius: 10px; 
           border-bottom-left-radius: 0px;
           box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
-          border-right: 0.75px solid white;
           width: 100%; 
           object-fit: contain; 
         }
@@ -195,7 +134,6 @@ class DayTripTimeline extends HTMLElement {
           border-top-right-radius: 10px; 
           border-bottom-right-radius: 0px; 
           box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
-          border-left: 0.75px solid white;
           width: 100%; 
           object-fit: contain; 
         }
@@ -208,12 +146,6 @@ class DayTripTimeline extends HTMLElement {
           background: rgba(0, 0, 0, 0.2);
           padding: 10px;
           height: 100%;
-        }
-    
-        /* connector line */
-        .day-trip-timeline .connector {
-          height: 20px; 
-          background: linear-gradient(white, white) no-repeat center/1.5px 100%;
         }
       }
     
@@ -249,13 +181,6 @@ class DayTripTimeline extends HTMLElement {
           background-color: rgba(0, 0, 0, 0.2);
           padding: 10px;
         }
-    
-        .day-trip-timeline .connector {
-          height: 20px; 
-          background: linear-gradient(white, white) no-repeat center/1.5px 100%
-        }
-      }
-
       </style>
     `;
 
@@ -375,118 +300,64 @@ const timelines = {
 
   "mt-temple": [
     {
-      "header": "Valley of The Ten Peaks",
-      "description": "After hiking up through the forest from Moraine Lake, you enter the Valley of The Ten Peaks.",
+      "header": "Peaks",
+      "description": "After hiking up from Moraine Lake, there's a clear view of the mountains near the treeline.",
       "left_image": null,
       "right_image": "mt-temple/IMG_1188.jpg",
     },
     {
-      "header": "Approaching Sentinel Pass",
-      "description": "The mountain to the right of The Pass is Mt. Temple.",
-      "left_image": "mt-temple/IMG_1192.jpg",
+      "header": "Mt. Temple",
+      "description": "The destination comes into view as you approach Sentinel Pass.",
+      "left_image": "mt-temple/IMG_1191.jpg",
       "right_image": null,
     },
     {
-      "header": "On Top of Sentinel Pass",
-      "description": "The view of The Ten Peaks mountains from the top of The Pass.",
+      "header": "Treeline",
+      "description": "Theres a plateau at the top of the treeline, just before the ascent.",
       "left_image": null,
-      "right_image": "mt-temple/IMG_1193.jpg",
+      "right_image": "mt-temple/IMG_1257.jpg",
     },
     {
-      "header": "The Other Side of Sentinel Pass",
-      "description": "The view opposite The Ten Peaks Mountains from the top of The Pass.",
-      "left_image": "mt-temple/IMG_1195.jpg",
+      "header": "Sentinel Pass",
+      "description": "Looking back on the trail from the top of the pass. Similarly grand views sit to the other side.",
+      "left_image": "mt-temple/IMG_1193.jpg",
       "right_image": null,
     },
     {
-      "header": "Alpine Chipmunk",
-      "description": "This hungry man was on the mountain. He was clawing at my backpack.",
-      "left_image": null,
-      "right_image": "mt-temple/IMG_1204.jpg",
-    },
-    {
-      "header": "Nearing The Peak",
-      "description": "The top was cold and icy on September 6th.",
-      "left_image": "mt-temple/IMG_1213.jpg",
-      "right_image": null,
-    },
-    {
-      "header": "Emerald Ponds",
-      "description": "The mountains store their surplus magic in colorful ponds, like this one.",
-      "left_image": null,
-      "right_image": "mt-temple/IMG_1215.jpg",
-    },
-    {
-      "header": "Bow Valley to the Left",
-      "description": "If Beyoncé's closet was at the top of Mt. Temple and I were her ex-boyfriend, I would own everything in this picture and it would all be in a box, believe it or not.",
-      "left_image": "mt-temple/IMG_1216.jpg",
-      "right_image": null,
-    },
-    {
-      "header": "Bow Valley to the Right",
-      "description": "Now, everything you see here, to the right, would belong to Beyoncé. So, I would have to leave it all behind, unfortunately. What a shame considering this view is absolutely irreplacable.",
-      "left_image": null,
-      "right_image": "mt-temple/IMG_1219.jpg",
-    },
-    {
-      "header": "You Must Not Know 'Bout Me",
-      "description": "For it is I, standing on top of the mountain.",
-      "left_image": "mt-temple/IMG_1223.jpg",
-      "right_image": null,
-    },
-    {
-      "header": "Morraine Lake",
-      "description": "Morraine Lake is a Rocky Mountain icon that's worth seeing from the heavens.",
-      "left_image": null,
-      "right_image": "mt-temple/IMG_1233.jpg",
-    },
-    {
-      "header": "Bumps",
-      "description": "From the top, it is clear just how bumpy the landscape is out here. This province needs to invest in better roads.",
-      "left_image": "mt-temple/IMG_1241.jpg",
-      "right_image": null,
-    },
-    {
-      "header": "Eiffel Peak",
-      "description": "Named after the Eiffel Tower in Paris, France for its similarly triangular contour.",
-      "left_image": null,
-      "right_image": "mt-temple/IMG_1244.jpg",
-    },
-    {
-      "header": "Mountainside",
-      "description": "I was shocked to see how much the mountainside had crumbled on my way back down because I'm not even that heavy.",
-      "left_image": "mt-temple/IMG_1248.jpg",
-      "right_image": null,
-    },
-    {
-      "header": "Skipping Down The Mountain",
-      "description": "Given that Mt. Temple is in the Rocky Mountains, the trail features a number of rocks.",
+      "header": "A Steep Ascent",
+      "description": "The Hike gets steep past Sentinel Pass.",
       "left_image": null,
       "right_image": "mt-temple/IMG_1250.jpg",
     },
     {
-      "header": "The Peak",
-      "description": "The mountain has really let itself go over the years.",
-      "left_image": "mt-temple/IMG_1251.jpg",
+      "header": "Mountainside",
+      "description": "Time and gravity against the mountain.",
+      "left_image": "mt-temple/IMG_1248.jpg",
       "right_image": null,
     },
     {
-      "header": "Looking Back On a Trail, Hiked",
-      "description": "At this point, the peak was just a distant memory of a time gone by. I was well on my way back to the parking lot where I would have no choice but to seek refuge in my home on the slope of Mt. Grassi for the night.",
+      "header": "Nearing The Top",
+      "description": "The top was cold and icy on September 6th.",
       "left_image": null,
-      "right_image": "mt-temple/IMG_1253.jpg",
+      "right_image": "mt-temple/IMG_1239.jpg",
     },
     {
-      "header": "Eiffel Peak: Another Perspective",
-      "description": "You've seen it from above, but now you're seeing it from below. A different elevation, a different story. You decide which one is right, which is wrong.",
-      "left_image": "mt-temple/IMG_1256.jpg",
+      "header": "Emerald Ponds",
+      "description": "There is magic in that water.",
+      "left_image": "mt-temple/IMG_1215.jpg",
       "right_image": null,
     },
     {
-      "header": "A Moment of Silence",
-      "description": "I would gladly eat this view for dinner if it were on the menu.",
+      "header": "Look at Me!",
+      "description": "I'm on top of it. The mountain could barely hold me.",
       "left_image": null,
-      "right_image": "mt-temple/IMG_1257.jpg",
+      "right_image": "mt-temple/IMG_1222.jpg",
+    },
+    {
+      "header": "Moraine Lake",
+      "description": "A Rocky Mountain icon.",
+      "left_image": "mt-temple/IMG_1233.jpg",
+      "right_image": null,
     },
   ],
 

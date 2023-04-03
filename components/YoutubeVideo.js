@@ -92,7 +92,7 @@ const videos = {
   },
 
   "mt-temple": {
-    "link": "https://www.youtube.com/embed/vDV6G3ArF5M?mute=1",
+    "link": "https://www.youtube.com/embed/wAshBEyR5Bo?mute=1",
     "header": "View From Mt. Temple",
   },
 
