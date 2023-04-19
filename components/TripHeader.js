@@ -58,6 +58,15 @@ class TripHeader extends HTMLElement {
 }
 
 const data = {
+  "quebec": {
+    "title": "Montreal to Quebec City",
+    "distance_km": 315,
+    "days": 3,
+    "terrain": null,
+    "location": null,
+    "dates": "Apr 14-16, 2021",
+    "quote": null,
+  },
   "babine-lake": {
     "title": "Babine Lake",
     "distance_km": 187,

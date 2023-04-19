@@ -146,6 +146,11 @@ const videos = {
     "header": " Eagle Soaring Over Gingolx",
   },
 
+  "quebec": {
+    "link": "https://www.youtube.com/embed/bk35qhzOXDI",
+    "header": "Montreal to Quebec by Bike",
+  },
+
   "": {
     "link": "https://www.youtube.com/embed/",
     "header": "",
