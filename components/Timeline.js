@@ -2504,7 +2504,7 @@ const timelines = {
       "distance": 116,
       "start": "Schomberg",
       "end": "Darlington Provincial Park",
-      "description": "I left my Dad's house near Schomberg and headed toward Lake Ontario. Most of the day was spent on busy suburban roads near Toronto. I ended my day at Darlington Provincial Park in Bowmanville. It cost me $50 to sleep on some noisey suburban grass.",
+      "description": "I left my Dad's house near Schomberg and headed toward Lake Ontario. Most of the day was spent on busy suburban roads near Toronto. I ended my day at Darlington Provincial Park in Bowmanville. It cost me $50 to sleep on some dirt in the suburbs.",
       "bullets": [
       ],
       "photos": [],
