@@ -176,6 +176,12 @@ const tiles = {
 
   "bike_tours": [
     {
+      title: "Montreal to Quebec City",
+      subtitle: "Along the St. Lawrence River",
+      image: "quebec/IMG_4209.jpg",
+      page: "tours/quebec.html"
+    },
+    {
       title: "Montreal to Sherbrooke",
       subtitle: "Via La Route Verte",
       image: "mtrl-sherbrooke/IMG_2775.jpg",
