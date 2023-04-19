@@ -64,7 +64,7 @@ const data = {
     "days": 3,
     "terrain": null,
     "location": null,
-    "dates": "Apr 14-16, 2021",
+    "dates": "Apr 14-16, 2023",
     "quote": null,
   },
   "babine-lake": {
