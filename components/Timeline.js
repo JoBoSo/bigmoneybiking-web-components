@@ -2516,7 +2516,7 @@ const timelines = {
       "distance": 161,
       "start": "Darlington Provincial Park",
       "end": "Picton",
-      "description": "I was immediately on to the Waterfront Trail in the morning. I passed through many beautiful towns on The Lake, like Port Hope. The marshes around Presqu’ile Provincial Park stood out as a unique landscape. I biked through corn fields in Prince Edward Country. It felt like everyone was on summer vacation. I passed by weddings in orchards and barns. Just as the sun was fully set, I arrived at Macaulay Mountain Conservation Area in Picton where I camped for the night.",
+      "description": "I was immediately on to the Waterfront Trail in the morning. I rode through the beautiful towns on Lake Ontario, like Port Hope. The marshes around Presqu’ile Provincial Park stood out as a unique landscape. I biked through corn fields in Prince Edward Country. It felt like everyone was on summer vacation. I passed by weddings in orchards and barns. Just as the sun was fully set, I arrived at Macaulay Mountain Conservation Area in Picton where I camped for the night.",
       "bullets": [
       ],
       "photos": [
@@ -3732,47 +3732,35 @@ const timelines = {
       "photos": [
         {
           "image": "quebec/IMG_4010.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4014.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4016.jpg",
-          "caption": ""
+          "caption": "Rivière-des-Prairies Dam"
         },
         {
           "image": "quebec/IMG_4017.jpg",
-          "caption": ""
+          "caption": "Burnt Down House"
         },
         {
           "image": "quebec/IMG_4025.jpg",
-          "caption": ""
+          "caption": "Presbytere St-Joseph"
         },
         {
           "image": "quebec/IMG_4034.jpg",
-          "caption": ""
+          "caption": "Barges"
         },
         {
           "image": "quebec/IMG_4037.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4038.jpg",
-          "caption": ""
+          "caption": "Rest stop"
         },
         {
           "image": "quebec/IMG_4041.jpg",
-          "caption": ""
+          "caption": "On the bridge to Bertheirville"
         },
         {
           "image": "quebec/IMG_4046.jpg",
-          "caption": ""
+          "caption": "Presbytere Ste-Genevieve"
         },
         {
           "image": "quebec/IMG_4050.jpg",
-          "caption": ""
+          "caption": "My campsite in Bertheirville"
         },
       ],
       "photobar_imgs": []
