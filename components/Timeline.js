@@ -3727,7 +3727,7 @@ const timelines = {
       "distance": 91,
       "start": "Montreal",
       "end": "Berthierville",
-      "description": null,
+      "description": "I rode east along the north shore of Montreal. I crossed the bridge where the Prairies River meets the St. Lawrence River and continued to ride along the north shore of the St. Lawrence. At the end of the day, I camped in the woods at the edge of the river at a park in Bertheirville.",
       "bullets": [],
       "photos": [
         {
@@ -3772,120 +3772,96 @@ const timelines = {
       "distance": 113,
       "start": "Berthierville",
       "end": "Batiscan",
-      "description": null,
+      "description": "La Route Verte took me further inland in the morning. I biked through flat fields. Birds were migrating overhead. In Trois-Rivieres, I ate some shawarma and saw the Sanctuary of Our Lady of the Cape--a beautiful church. The city has some tall forests around it that continue along the roads north of the river. Fields lie between the forests and the river. I ended my day in Batiscan where I camped behind a building beside the baseball field.",
       "bullets": [],
       "photos": [
         {
           "image": "quebec/IMG_4067.jpg",
-          "caption": ""
+          "caption": "Through Fields"
         },
         {
           "image": "quebec/IMG_4071.jpg",
-          "caption": ""
+          "caption": "Church of Saint-Barthélemy"
         },
         {
           "image": "quebec/IMG_4072.jpg",
-          "caption": ""
+          "caption": "A Unique House"
         },
         {
           "image": "quebec/IMG_4073.jpg",
-          "caption": ""
+          "caption": "'Foothills' Meet Fields"
         },
         {
           "image": "quebec/IMG_4077.jpg",
-          "caption": ""
+          "caption": "Farmhouse"
         },
         {
           "image": "quebec/IMG_4083.jpg",
-          "caption": ""
+          "caption": "Small Barn"
         },
         {
           "image": "quebec/IMG_4084.jpg",
-          "caption": ""
+          "caption": "Colourful House"
         },
         {
           "image": "quebec/IMG_4085.jpg",
-          "caption": ""
+          "caption": "St. Anthony of Padua Church"
         },
         {
           "image": "quebec/IMG_4090.jpg",
-          "caption": ""
+          "caption": "Water Tower"
         },
         {
           "image": "quebec/IMG_4091.jpg",
-          "caption": ""
+          "caption": "Tree-lined Street"
         },
         {
           "image": "quebec/IMG_4095.jpg",
-          "caption": ""
+          "caption": "Yamachiche Church"
         },
         {
           "image": "quebec/IMG_4097.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4098.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4101.jpg",
-          "caption": ""
+          "caption": "Yamachiche Cemetery"
         },
         {
           "image": "quebec/IMG_4102.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4104.jpg",
-          "caption": ""
+          "caption": "Pointe-du-Lac"
         },
         {
           "image": "quebec/IMG_4105.jpg",
-          "caption": ""
+          "caption": "Church of the Visitation-of-the-Sainte-Virgin"
         },
         {
           "image": "quebec/IMG_4107.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4109.jpg",
-          "caption": ""
+          "caption": "Shawarmat Restaurant Libanais"
         },
         {
           "image": "quebec/IMG_4115.jpg",
-          "caption": ""
+          "caption": "Sanctuary of Our Lady of the Cape"
         },
         {
           "image": "quebec/IMG_4116.jpg",
-          "caption": ""
+          "caption": "Train Crossing"
         },
         {
           "image": "quebec/IMG_4121.jpg",
-          "caption": ""
+          "caption": "Coast Guard"
         },
         {
           "image": "quebec/IMG_4123.jpg",
-          "caption": ""
+          "caption": "Church of Champlain"
         },
         {
           "image": "quebec/IMG_4127.jpg",
-          "caption": ""
+          "caption": "Freight Ship"
         },
         {
           "image": "quebec/IMG_4131.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4134.jpg",
-          "caption": ""
+          "caption": "Batiscan Church"
         },
         {
           "image": "quebec/IMG_4136.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4137.jpg",
-          "caption": ""
+          "caption": "Camping in Batiscan"
         },
       ],
       "photobar_imgs": []
@@ -3897,136 +3873,108 @@ const timelines = {
       "distance": 111,
       "start": "Batiscan",
       "end": "Quebec City",
-      "description": null,
+      "description": "The landscape became increasingly beautiful as I moved toward Quebec City. The roads had more bends, the towns had more charm, and the rolling, wooded hills began. I passed a series of fast-flowing waterfalls just before I reached The City. I reached the old part of The City around sunset and finished at a hostel where I stayed for the next two nights.",
       "bullets": [],
       "photos": [
         {
-          "image": "quebec/IMG_4145.jpg",
-          "caption": ""
-        },
-        {
           "image": "quebec/IMG_4146.jpg",
-          "caption": ""
+          "caption": "Batiscan River Bridge"
         },
         {
           "image": "quebec/IMG_4151.jpg",
-          "caption": ""
+          "caption": "Sainte-Anne-de-la-Pérade Church"
         },
         {
           "image": "quebec/IMG_4152.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4158.jpg",
-          "caption": ""
+          "caption": "Mural"
         },
         {
           "image": "quebec/IMG_4159.jpg",
-          "caption": ""
+          "caption": "Workshop"
         },
         {
           "image": "quebec/IMG_4161.jpg",
-          "caption": ""
+          "caption": "Cabin On The Hill"
         },
         {
           "image": "quebec/IMG_4163.jpg",
-          "caption": ""
+          "caption": "Giant Farmer"
         },
         {
           "image": "quebec/IMG_4167.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4170.jpg",
-          "caption": ""
+          "caption": "Pier"
         },
         {
           "image": "quebec/IMG_4173.jpg",
-          "caption": ""
+          "caption": "Windmill"
         },
         {
           "image": "quebec/IMG_4174.jpg",
-          "caption": ""
+          "caption": "Riding"
         },
         {
           "image": "quebec/IMG_4190.jpg",
-          "caption": ""
+          "caption": "Saint-Joseph Church"
         },
         {
           "image": "quebec/IMG_4194.jpg",
-          "caption": ""
+          "caption": "Church of the Holy Family"
         },
         {
           "image": "quebec/IMG_4195.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4198.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4199.jpg",
-          "caption": ""
+          "caption": "Riding Along The River"
         },
         {
           "image": "quebec/IMG_4202.jpg",
-          "caption": ""
+          "caption": "Farm"
         },
         {
           "image": "quebec/IMG_4205.jpg",
-          "caption": ""
+          "caption": "Waterfall"
         },
         {
           "image": "quebec/IMG_4209.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4210.jpg",
-          "caption": ""
+          "caption": "Quebec Cabin"
         },
         {
           "image": "quebec/IMG_4214.jpg",
-          "caption": ""
+          "caption": "Big Waterfall"
         },
         {
           "image": "quebec/IMG_4216.jpg",
-          "caption": ""
+          "caption": "Trestle"
         },
         {
           "image": "quebec/IMG_4217.jpg",
-          "caption": ""
+          "caption": "Entering Quebec City"
         },
         {
           "image": "quebec/IMG_4218.jpg",
-          "caption": ""
+          "caption": "Downhill"
         },
         {
           "image": "quebec/IMG_4219.jpg",
-          "caption": ""
+          "caption": "Mountain"
         },
         {
           "image": "quebec/IMG_4222.jpg",
-          "caption": ""
+          "caption": "Sunset"
         },
         {
           "image": "quebec/IMG_4223.jpg",
-          "caption": ""
+          "caption": "City Street"
         },
         {
           "image": "quebec/IMG_4226.jpg",
-          "caption": ""
+          "caption": "St. Jean Baptiste Church"
         },
         {
           "image": "quebec/IMG_4228.jpg",
-          "caption": ""
+          "caption": "St. John Gate"
         },
         {
           "image": "quebec/IMG_4240.jpg",
-          "caption": ""
-        },
-        {
-          "image": "quebec/IMG_4244.jpg",
-          "caption": ""
+          "caption": "Old Quebec City"
         },
       ],
       "photobar_imgs": []
