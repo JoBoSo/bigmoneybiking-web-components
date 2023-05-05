@@ -17,33 +17,44 @@ class Footer extends HTMLElement {
     let style = `
       <style>
 
-      .footer {
-        /* border-top: rgb(64, 64, 64) solid 1px; */
-        /* padding-top: 5px; */
-        padding-bottom: 5px;
+      .social-footer {
+        padding: 0;
+        background: none;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
       }
-    
-      .footer img {
-          display: flex;
-          margin-left: auto;
-          margin-right: auto;
-          width: 7%;
-          min-width: 90px;
+      
+      .social-footer .social-footer-icons {
+        margin-right: 0cm;
+      }
+      
+      .social-footer .social-footer-icons .fa-brands {
+        font-size: 24pt;
+        color: #fbeede;
+        margin: 0px 5px;
+      }
+      
+      .social-footer .social-footer-icons .fa-brands:hover {
+        color: #4a4a4a;
+        transition: color;
       }
 
       </style>
     `;
 
     this.innerHTML = style + `
-      <div class="row no-gutters">
-        <div class="col-12">
-          <div class="footer">
-            <a href="https://www.instagram.com/big_money_biking/">
-              <img src="${this.root}images/instagram-logo.png" />
-            </a>
-          </div>
+      <footer class="social-footer">
+        <div class="social-footer-icons">
+          <a href="https://www.instagram.com/big_money_biking/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/channel/UCKRBrbnllsieDOUu7j8falw"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+          <a href="https://github.com/JoBoSo"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/james-scott-wlu-uw/"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
         </div>
-      </div>
+      </footer>
     `;
   }
 }
