@@ -47,11 +47,12 @@ class Navbar extends HTMLElement {
 
       this.innerHTML = style + `
         <div class="my-nav">
-            <a href="${this.root}index.html"><b>BIKE TOURS</b></a>
-            <a href="${this.root}hikes.html"><b>HIKES</b></a>
-            <a href="${this.root}blog.html"><b>BLOG</b></a>
-            <a style="margin-left: auto;" href="${this.root}subscribe.html"><i><b>SUBSCRIBE</b></i></a>
-            </a>
+          <a href="${this.root}index.html"><b>BIKE TOURS</b></a>
+          <a href="${this.root}hikes.html"><b>HIKES</b></a>
+          <a href="${this.root}blog.html"><b>BLOG</b></a>
+          <a style="font-size: 13pt" href="https://www.instagram.com/big_money_biking/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a style="margin-left: auto;" href="${this.root}subscribe.html"><i><b>SUBSCRIBE</b></i></a>
+          </a>
         </div>
       `;
     }
