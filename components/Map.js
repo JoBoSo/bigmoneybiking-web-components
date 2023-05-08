@@ -96,7 +96,8 @@ const maps = {
   "to-mtrl": "https://www.google.com/maps/d/u/0/embed?mid=1XuTBbBZ4atnQiUkwiHpvshf5EYXXuUQ&ehbc=2E312F",
   "algonquin": "https://www.google.com/maps/d/u/0/embed?mid=17OFbjxuOAxgDPSkkov9-UhxgyA4EpHc&ehbc=2E312F",
   "quebec": "https://www.google.com/maps/d/u/0/embed?mid=1dRVRYK3YsUoonsU0oFdLnUJ4IdSnDOU&ehbc=2E312F",
-  "mt-becher": "https://www.google.com/maps/d/u/0/embed?mid=1c8jTN3aEAq9HaPeSe9mzfzl3jlaPkJs&ehbc=2E312F"
+  "mt-becher": "https://www.google.com/maps/d/u/0/embed?mid=1c8jTN3aEAq9HaPeSe9mzfzl3jlaPkJs&ehbc=2E312F",
+  "galiano": "https://www.google.com/maps/d/u/0/embed?mid=16nlHlJ01AuXwsDA9LXst5ln5DlNf7yA&ehbc=2E312F"
 }
 
 customElements.define('my-map', Map);

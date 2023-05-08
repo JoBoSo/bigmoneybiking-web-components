@@ -58,6 +58,15 @@ class TripHeader extends HTMLElement {
 }
 
 const data = {
+  "galiano": {
+    "title": "Galiano Island",
+    "distance_km": 159,
+    "days": 2,
+    "terrain": null,
+    "location": "Southern Gulf Islands",
+    "dates": "May 6-7, 2023",
+    "quote": null,
+  },
   "quebec": {
     "title": "Montreal to Quebec City",
     "distance_km": 315,

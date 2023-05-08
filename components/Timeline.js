@@ -3982,6 +3982,60 @@ const timelines = {
   ],
 
 
+  "galiano": [
+    {
+      "destination": null,
+      "day": 1,
+      "date": "May 6, 2023",
+      "distance": 76,
+      "start": "Victoria",
+      "end": "Galiano Island",
+      "description": null,
+      "bullets": [],
+      "photos": [
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
+      ],
+      "photobar_imgs": []
+    },
+    {
+      "destination": null,
+      "day": 2,
+      "date": "May 7, 2023",
+      "distance": 83,
+      "start": "Galiano Island",
+      "end": "Victoria",
+      "description": null,
+      "bullets": [],
+      "photos": [
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
+        {
+          "image": "",
+          "caption": ""
+        },
+      ],
+      "photobar_imgs": []
+    },
+  ],
+
+
 
   "": [
     {
