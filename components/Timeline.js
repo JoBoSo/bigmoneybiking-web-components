@@ -3990,7 +3990,7 @@ const timelines = {
       "distance": 76,
       "start": "Victoria",
       "end": "Galiano Island",
-      "description": null,
+      "description": "I biked from Victoria to the Swartz Bay Ferry on the Lochside trail.",
       "bullets": [],
       "photos": [
         {
