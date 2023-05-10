@@ -4104,7 +4104,7 @@ const timelines = {
         },
         {
           "image": "galiano/IMG_0176.jpeg",
-          "caption": "Dead tree? No, wildlife tree."
+          "caption": "Stump"
         },
         {
           "image": "galiano/IMG_0178.jpeg",
