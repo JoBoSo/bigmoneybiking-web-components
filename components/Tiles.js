@@ -177,7 +177,7 @@ const tiles = {
   "bike_tours": [
     {
       title: "Galiano Island",
-      subtitle: "The Straight & Narrow Island",
+      subtitle: "On The Straight & Narrow Island",
       image: "galiano/IMG_0180.JPEG",
       page: "tours/galiano.html"
     },
