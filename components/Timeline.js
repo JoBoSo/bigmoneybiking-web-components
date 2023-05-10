@@ -3982,6 +3982,260 @@ const timelines = {
   ],
 
 
+  "galiano": [
+    {
+      "destination": null,
+      "day": 1,
+      "date": "May 6, 2023",
+      "distance": 76,
+      "start": "Victoria",
+      "end": "Galiano Island",
+      "description": "I biked from Victoria to Swartz Bay on the Lochside trail to take the ferry to Galiano Island around three o'clock in the afternoon. I was on the island around five o'clock. I biked to the north end along the western road thinking it would lead to the campground in Dionision Point Provincial Park, but I was wrong. I backtracked and came back up the island on the eastern road to access the campground, but I was wrong again--it's only accessible by boat. So, I camped in the forest to the side of a trailhead. The only noise I heard at night was sound of airplanes and boats passing by.",
+      "bullets": [],
+      "photos": [
+        {
+          "image": "galiano/IMG_0309.jpeg",
+          "caption": "Packing The Bike"
+        },
+        {
+          "image": "galiano/IMG_0310.jpeg",
+          "caption": "Over The Bridge"
+        },
+        {
+          "image": "galiano/IMG_0032.jpeg",
+          "caption": "Flags"
+        },
+        {
+          "image": "galiano/IMG_0311.jpeg",
+          "caption": "Passing Ferry"
+        },
+        {
+          "image": "galiano/IMG_0312.jpeg",
+          "caption": "Birds at Sea"
+        },
+        {
+          "image": "galiano/IMG_0314.jpeg",
+          "caption": "Forested Road"
+        },
+        {
+          "image": "galiano/IMG_0057.jpeg",
+          "caption": "Rustic Cottage"
+        },
+        {
+          "image": "galiano/IMG_0060.jpeg",
+          "caption": "Green Pond"
+        },
+        {
+          "image": "galiano/IMG_0315.jpeg",
+          "caption": "Ocean Lookout"
+        },
+        {
+          "image": "galiano/IMG_0316.jpeg",
+          "caption": "Seaside"
+        },
+        {
+          "image": "galiano/IMG_0083.jpeg",
+          "caption": "Cottage by the Sea"
+        },
+        {
+          "image": "galiano/IMG_0084.jpeg",
+          "caption": "Bay"
+        },
+        {
+          "image": "galiano/IMG_0103.jpeg",
+          "caption": "Ford"
+        },
+        {
+          "image": "galiano/IMG_0105.jpeg",
+          "caption": "Mercury"
+        },
+        {
+          "image": "galiano/IMG_0109.jpeg",
+          "caption": "Sea Wave"
+        },
+        {
+          "image": "galiano/IMG_0111.jpeg",
+          "caption": "Chevrolet"
+        },
+        {
+          "image": "galiano/IMG_0114.jpeg",
+          "caption": "Vineyard"
+        },
+      ],
+      "photobar_imgs": []
+    },
+    {
+      "destination": null,
+      "day": 2,
+      "date": "May 7, 2023",
+      "distance": 83,
+      "start": "Galiano Island",
+      "end": "Victoria",
+      "description": "After I packed up my campsite in the morning, I rode to Bodega Ridge and hiked about 7 kms up the trail. It has amazing views of the ocean and big birds soaring above. After, I rode toward the Pebble Beach trail and hiked about 4 kms through the vibrant green forest and along the colorful shore. To finish the trip off, I biked to Mount Galiano to hike to the top. But I made the choice to turn back when I was maybe 1 km from the top because I didn't want to be late for my ferry ride. Unfortunately, the ferry schedule changed and the ferry I hoped to catch was cancelled. I sat at the ferry terminal facing Mount Galiano from across the bay for two hours and ate some stir-fry from the food truck. It was dark when I reached Swartz Bay and I didn't get home until 12:30pm. They say, he who rides home in the dark is a champion. Who am I to tell them they're wrong?",
+      "bullets": [],
+      "photos": [
+        {
+          "image": "galiano/IMG_0125.jpeg",
+          "caption": "Outside Looking In"
+        },
+        {
+          "image": "galiano/IMG_0131.jpeg",
+          "caption": "Inside Looking Out"
+        },
+        {
+          "image": "galiano/IMG_0317.jpeg",
+          "caption": "Instant Coffee"
+        },
+        {
+          "image": "galiano/IMG_0318.jpeg",
+          "caption": "Disassembly"
+        },
+        {
+          "image": "galiano/IMG_0319.jpeg",
+          "caption": "Wheelin' & Dealin'"
+        },
+        {
+          "image": "galiano/IMG_0140.jpeg",
+          "caption": "Is this mushroom or yushroom?"
+        },
+        {
+          "image": "galiano/IMG_0320.jpeg",
+          "caption": "Tugging Logs"
+        },
+        {
+          "image": "galiano/IMG_0176.jpeg",
+          "caption": "Dead tree? No, wildlife tree."
+        },
+        {
+          "image": "galiano/IMG_0178.jpeg",
+          "caption": "Bodega Ridge"
+        },
+        {
+          "image": "galiano/IMG_0187.jpeg",
+          "caption": "Would you look at that?"
+        },
+        {
+          "image": "galiano/IMG_0323.jpeg",
+          "caption": "Gas In the Tank"
+        },
+        {
+          "image": "galiano/IMG_0324.jpeg",
+          "caption": "Switchback"
+        },
+        {
+          "image": "galiano/IMG_0197.jpeg",
+          "caption": "Rustic Cottage"
+        },
+        {
+          "image": "galiano/IMG_0200.jpeg",
+          "caption": "Pebble Beach Sign"
+        },
+        {
+          "image": "galiano/IMG_0325.jpeg",
+          "caption": "Walk On By"
+        },
+        {
+          "image": "galiano/IMG_0207.jpeg",
+          "caption": "Stream"
+        },
+        {
+          "image": "galiano/IMG_0326.jpeg",
+          "caption": "Beach Path"
+        },
+        {
+          "image": "galiano/IMG_0216.jpeg",
+          "caption": "The Beach"
+        },
+        {
+          "image": "galiano/IMG_0221.jpeg",
+          "caption": "Greenery"
+        },
+        {
+          "image": "galiano/IMG_0229.jpeg",
+          "caption": "Tide Pool"
+        },
+        {
+          "image": "galiano/IMG_0233.jpeg",
+          "caption": "Moonrock"
+        },
+        {
+          "image": "galiano/IMG_0328.jpeg",
+          "caption": "A Man Taking Pictures of Himself"
+        },
+        {
+          "image": "galiano/IMG_0238.jpeg",
+          "caption": "Flowers"
+        },
+        {
+          "image": "galiano/IMG_0244.jpeg",
+          "caption": "At Bay"
+        },
+        {
+          "image": "galiano/IMG_0246.jpeg",
+          "caption": "Seaweed On The Rocks"
+        },
+        {
+          "image": "galiano/IMG_0249.jpeg",
+          "caption": "Shine a Little Light"
+        },
+        {
+          "image": "galiano/IMG_0254.jpeg",
+          "caption": "Those Arms"
+        },
+        {
+          "image": "galiano/IMG_0261.jpeg",
+          "caption": "Marina"
+        },
+        {
+          "image": "galiano/IMG_0262.jpeg",
+          "caption": "Anchored Boats"
+        },
+        {
+          "image": "galiano/IMG_0265.jpeg",
+          "caption": "Bayside Living"
+        },
+        {
+          "image": "galiano/IMG_0275.jpeg",
+          "caption": "Community Hall"
+        },
+        {
+          "image": "galiano/IMG_0278.jpeg",
+          "caption": "Painted Sign"
+        },
+        {
+          "image": "galiano/IMG_0281.jpeg",
+          "caption": "Ferry Food"
+        },
+        {
+          "image": "galiano/IMG_0286.jpeg",
+          "caption": "Dock"
+        },
+        {
+          "image": "galiano/IMG_0290.jpeg",
+          "caption": "Ferries"
+        },
+        {
+          "image": "galiano/IMG_0331.jpeg",
+          "caption": "Docking"
+        },
+        {
+          "image": "galiano/IMG_0297.jpeg",
+          "caption": "Sunset"
+        },
+        {
+          "image": "galiano/IMG_0333.jpeg",
+          "caption": "Bob Ross"
+        },
+        {
+          "image": "galiano/IMG_0334.jpeg",
+          "caption": "Tree Tunnel"
+        },
+      ],
+      "photobar_imgs": []
+    },
+  ],
+
+
 
   "": [
     {

@@ -176,6 +176,12 @@ const tiles = {
 
   "bike_tours": [
     {
+      title: "Galiano Island",
+      subtitle: "The Straight & Narrow Island",
+      image: "galiano/IMG_0180.jpeg",
+      page: "tours/galiano.html"
+    },
+    {
       title: "Montreal to Quebec City",
       subtitle: "Along the St. Lawrence River",
       image: "quebec/IMG_4209.jpg",
