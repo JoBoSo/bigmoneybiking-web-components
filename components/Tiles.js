@@ -176,6 +176,12 @@ const tiles = {
 
   "bike_tours": [
     {
+      title: "Salt Spring Island",
+      subtitle: "",
+      image: "saltspring/IMG_0180.JPEG",
+      page: "tours/saltspring.html"
+    },
+    {
       title: "Galiano Island",
       subtitle: "On The Straight & Narrow Island",
       image: "galiano/IMG_0180.JPEG",

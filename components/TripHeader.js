@@ -58,6 +58,15 @@ class TripHeader extends HTMLElement {
 }
 
 const data = {
+  "saltspring": {
+    "title": "Salt Spring Island",
+    "distance_km": 227,
+    "days": 3,
+    "terrain": null,
+    "location": "Southern Gulf Islands",
+    "dates": "May 12-14, 2023",
+    "quote": null,
+  },
   "galiano": {
     "title": "Galiano Island",
     "distance_km": 159,
