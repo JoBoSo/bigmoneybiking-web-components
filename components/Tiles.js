@@ -177,8 +177,8 @@ const tiles = {
   "bike_tours": [
     {
       title: "Salt Spring Island",
-      subtitle: "",
-      image: "saltspring/IMG_0180.JPEG",
+      subtitle: "Don't Choke On The Pixie Dust",
+      image: "saltspring/IMG_0626.JPEG",
       page: "tours/saltspring.html"
     },
     {
@@ -189,7 +189,7 @@ const tiles = {
     },
     {
       title: "Montreal to Quebec City",
-      subtitle: "Along the St. Lawrence River",
+      subtitle: "Subtle Notes of France",
       image: "quebec/IMG_4209.jpg",
       page: "tours/quebec.html"
     },
