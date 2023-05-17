@@ -176,6 +176,12 @@ const tiles = {
 
   "bike_tours": [
     {
+      title: "Salt Spring Island",
+      subtitle: "Don't Choke On The Pixie Dust",
+      image: "saltspring/IMG_0626.JPEG",
+      page: "tours/saltspring.html"
+    },
+    {
       title: "Galiano Island",
       subtitle: "On The Straight & Narrow Island",
       image: "galiano/IMG_0180.JPEG",
@@ -183,7 +189,7 @@ const tiles = {
     },
     {
       title: "Montreal to Quebec City",
-      subtitle: "Along the St. Lawrence River",
+      subtitle: "Subtle Notes of France",
       image: "quebec/IMG_4209.jpg",
       page: "tours/quebec.html"
     },
