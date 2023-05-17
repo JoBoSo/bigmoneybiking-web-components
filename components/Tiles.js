@@ -178,7 +178,7 @@ const tiles = {
     {
       title: "Salt Spring Island",
       subtitle: "Don't Choke On The Pixie Dust",
-      image: "saltspring/IMG_0626.JPEG",
+      image: "saltspring/IMG_0626.jpeg",
       page: "tours/saltspring.html"
     },
     {
