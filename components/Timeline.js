@@ -4326,6 +4326,10 @@ const timelines = {
           "caption": "Cedar-Lined Road"
         },
         {
+          "image": "saltspring/IMG_0736.jpeg",
+          "caption": "Riding the Cedar-Lined Road"
+        },
+        {
           "image": "saltspring/IMG_0439.jpeg",
           "caption": "Dirt Road"
         },
@@ -4370,6 +4374,10 @@ const timelines = {
           "caption": "Vinyard"
         },
         {
+          "image": "saltspring/IMG_0735.jpeg",
+          "caption": "Round the Bend"
+        },
+        {
           "image": "saltspring/IMG_0481.jpeg",
           "caption": "Owl"
         },
@@ -4396,6 +4404,10 @@ const timelines = {
         {
           "image": "saltspring/IMG_0529.jpeg",
           "caption": "Canvasback Platoon"
+        },
+        {
+          "image": "saltspring/IMG_0734.jpeg",
+          "caption": "Riding up Canvasback Platoon"
         },
         {
           "image": "saltspring/IMG_0531.jpeg",
@@ -4455,16 +4467,76 @@ const timelines = {
       "bullets": [],
       "photos": [
         {
+          "image": "saltspring/IMG_0584.jpeg",
+          "caption": "Church"
+        },
+        {
           "image": "saltspring/IMG_0587.jpeg",
-          "caption": "Bay"
+          "caption": "Fulford Inlet"
+        },
+        {
+          "image": "saltspring/IMG_0590.jpeg",
+          "caption": "Stone House"
+        },
+        {
+          "image": "saltspring/IMG_0606.jpeg",
+          "caption": "Mt. Maxwell's Peak"
+        },
+        {
+          "image": "saltspring/IMG_0610.jpeg",
+          "caption": "Sunny Bluffs"
+        },
+        {
+          "image": "saltspring/IMG_0615.jpeg",
+          "caption": "Mountainside"
+        },
+        {
+          "image": "saltspring/IMG_0626.jpeg",
+          "caption": "Glowing Forest"
+        },
+        {
+          "image": "saltspring/IMG_0646.jpeg",
+          "caption": "Gulf Islands"
         },
         {
           "image": "saltspring/IMG_0674.jpeg",
           "caption": "Mt. Maxwell"
         },
         {
+          "image": "saltspring/IMG_0679.jpeg",
+          "caption": "Bugoyne Bay"
+        },
+        {
+          "image": "saltspring/IMG_0700.jpeg",
+          "caption": "Nuts & Bolts"
+        },
+        {
           "image": "saltspring/IMG_0708.jpeg",
           "caption": "Non-Profit Retreat Center"
+        },
+        {
+          "image": "saltspring/IMG_0712.jpeg",
+          "caption": "Vertical Bike"
+        },
+        {
+          "image": "saltspring/IMG_0713.jpeg",
+          "caption": "A Place in the Sun"
+        },
+        {
+          "image": "saltspring/IMG_0717.jpeg",
+          "caption": "Ocean"
+        },
+        {
+          "image": "saltspring/IMG_0721.jpeg",
+          "caption": "Isabella Point Road"
+        },
+        {
+          "image": "saltspring/IMG_0725.jpeg",
+          "caption": "Mountain Road"
+        },
+        {
+          "image": "saltspring/IMG_0727.jpeg",
+          "caption": "Fulford Harbour"
         },
       ],
       "photobar_imgs": []
