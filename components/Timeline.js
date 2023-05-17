@@ -4250,15 +4250,35 @@ const timelines = {
       "photos": [
         {
           "image": "saltspring/IMG_0352.jpeg",
-          "caption": "Swartz Bay"
+          "caption": "Swartz Bay Ferry Terminal"
+        },
+        {
+          "image": "saltspring/IMG_0353.jpeg",
+          "caption": "Adjacent Ferry"
         },
         {
           "image": "saltspring/IMG_0366.jpeg",
           "caption": "Camping at Ruckle"
         },
         {
+          "image": "saltspring/IMG_0378.jpeg",
+          "caption": "Cove"
+        },
+        {
+          "image": "saltspring/IMG_0382.jpeg",
+          "caption": "Ruckle Farm"
+        },
+        {
+          "image": "saltspring/IMG_0383.jpeg",
+          "caption": "Turkeys"
+        },
+        {
           "image": "saltspring/IMG_0391.jpeg",
           "caption": "Cattle"
+        },
+        {
+          "image": "saltspring/IMG_0393.jpeg",
+          "caption": "Sun Down"
         },
       ],
       "photobar_imgs": []
@@ -4278,8 +4298,144 @@ const timelines = {
           "caption": "Another Day"
         },
         {
+          "image": "saltspring/IMG_0412.jpeg",
+          "caption": "Pontiac Bonneville"
+        },
+        {
+          "image": "saltspring/IMG_0414.jpeg",
+          "caption": "Log Cabin"
+        },
+        {
+          "image": "saltspring/IMG_0420.jpeg",
+          "caption": "Salt Spring Island Conservancy"
+        },
+        {
+          "image": "saltspring/IMG_0415.jpeg",
+          "caption": "Blackburn Lake"
+        },
+        {
+          "image": "saltspring/IMG_0426.jpeg",
+          "caption": "Red Columbine"
+        },
+        {
+          "image": "saltspring/IMG_0431.jpeg",
+          "caption": "Oyster Mushroom"
+        },
+        {
+          "image": "saltspring/IMG_0436.jpeg",
+          "caption": "Cedar-Lined Road"
+        },
+        {
+          "image": "saltspring/IMG_0439.jpeg",
+          "caption": "Dirt Road"
+        },
+        {
           "image": "saltspring/IMG_0442.jpeg",
           "caption": "Meat, Smoked"
+        },
+        {
+          "image": "saltspring/IMG_0445.jpeg",
+          "caption": "Ganges Docks"
+        },
+        {
+          "image": "saltspring/IMG_0446.jpeg",
+          "caption": "Janny Girl"
+        },
+        {
+          "image": "saltspring/IMG_0449.jpeg",
+          "caption": "Ducks on a Pond"
+        },
+        {
+          "image": "saltspring/IMG_0453.jpeg",
+          "caption": "Shore Access"
+        },
+        {
+          "image": "saltspring/IMG_0455.jpeg",
+          "caption": "Ganges Marina"
+        },
+        {
+          "image": "saltspring/IMG_0459.jpeg",
+          "caption": "On Scott Point"
+        },
+        {
+          "image": "saltspring/IMG_0466.jpeg",
+          "caption": "Scott Point Cove"
+        },
+        {
+          "image": "saltspring/IMG_0467.jpeg",
+          "caption": "Compound"
+        },
+        {
+          "image": "saltspring/IMG_0470.jpeg",
+          "caption": "Vinyard"
+        },
+        {
+          "image": "saltspring/IMG_0481.jpeg",
+          "caption": "Owl"
+        },
+        {
+          "image": "saltspring/IMG_0484.jpeg",
+          "caption": "Fernwood Point Pier"
+        },
+        {
+          "image": "saltspring/IMG_0489.jpeg",
+          "caption": "Fernwood Point Dock"
+        },
+        {
+          "image": "saltspring/IMG_0493.jpeg",
+          "caption": "Fernwood Point Beach"
+        },
+        {
+          "image": "saltspring/IMG_0509.jpeg",
+          "caption": "Tropicanada"
+        },
+        {
+          "image": "saltspring/IMG_0516.jpeg",
+          "caption": "Sunset Sheep Farm"
+        },
+        {
+          "image": "saltspring/IMG_0529.jpeg",
+          "caption": "Canvasback Platoon"
+        },
+        {
+          "image": "saltspring/IMG_0531.jpeg",
+          "caption": "Scotch Broom"
+        },
+        {
+          "image": "saltspring/IMG_0536.jpeg",
+          "caption": "Channel Ridge Lookout"
+        },
+        {
+          "image": "saltspring/IMG_0542.jpeg",
+          "caption": "Canvasback Platoon"
+        },
+        {
+          "image": "saltspring/IMG_0543.jpeg",
+          "caption": "Oko-nomi-yaki"
+        },
+        {
+          "image": "saltspring/IMG_0547.jpeg",
+          "caption": "Ruckle Farm Orchard"
+        },
+        {
+          "image": "saltspring/IMG_0549.jpeg",
+          "caption": "Pink Fleurs"
+        },
+        {
+          "image": "saltspring/IMG_0557.jpeg",
+          "caption": "Ruckle Shoreline"
+        },
+        {
+          "image": "saltspring/IMG_0559.jpeg",
+          "caption": "Sheep on Ruckle Farm"
+        },
+        {
+          "image": "saltspring/IMG_0561.jpeg",
+          "caption": "Ruckle Shoreline Trail"
+        },
+        {
+          "image": "saltspring/IMG_0563.jpeg",
+          "caption": "Sunset"
         },
         {
           "image": "saltspring/IMG_0573.jpeg",
