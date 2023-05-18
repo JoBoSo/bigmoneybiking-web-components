@@ -4245,7 +4245,7 @@ const timelines = {
       "distance": 47,
       "start": "Victoria",
       "end": "Ruckle Provincial Park",
-      "description": null,
+      "description": "I biked to the Swartz Bay Ferry Terminal from Victoria after work to take the ferry to Salt Spring Island. I arrived around 7:30pm and headed to Ruckle Provincial Park to camp. I was worried it might be full, but there were a few empty sites left. I think the park can accomodate you one way or another if you arrive on a bike. I walked around the short loop that goes along the shore, and through the campground and Ruckle Farm. The sun was setting over the ocean as ferries floated by. There were turkeys, sheep, cows, and chickens on the farm, all singing their own songs.",
       "bullets": [],
       "photos": [
         {
@@ -4290,7 +4290,7 @@ const timelines = {
       "distance": 107,
       "start": null,
       "end": null,
-      "description": null,
+      "description": "I woke up in my tent, <i>dry and warm</i>, to the sounds and smells of the ocean—it was perfect. I left most of my stuff at my site and biked away for the day. I walked through the Salt Spring Island Conservancy's land, but there wasn't much to see. I rode to Ganges and got smoked meat for lunch from Buzzy's Luncheonette. There was a busy market by the water. It was nice to look back at it from the docks and hear the chatter and music coming out of it. I continued biking to Scott Point Road. The ocean lies behind cottages to both sides of the road, which is lined with orange arbutus trees and gardens. I tried to bike to Nose Point, too, but it's down a private road. On the pier at Fernwood Beach, I had a conversation about Galiano Island with another man who bike tours as we looked at it from across the ocean. We talked about the trouble with accessing the campground in Dionision Point Marine Provincial Park by road. It sounds like the road was once accessible until a developer bought the land, was denied permission to develop it by the community, and, so, he doesn't let anyone on it anymore. Southey Point at the north tip of the island had the most beautiful, rocky beach. On my way back to Ganges for dinner, I rode by the sheep on Sunset Farm. They were panting aggressively while staring at me and bahhing from across the fence. I went up to Channel Ridge Lookout to see St. Mary Lake from above, but there wasn't a very clear view. For dinner, I went to the Korean Food Truck, Oko-nomi-yaki. I rode back to Ruckle and hiked the shoreline trail at sunset.",
       "bullets": [],
       "photos": [
         {
