@@ -151,6 +151,11 @@ const videos = {
     "header": "Montreal to Quebec by Bike",
   },
 
+  "galiano": {
+    "link": "https://www.youtube.com/embed/M9SyecHHeoE",
+    "header": "Galiano Island by Bike",
+  },
+
   "": {
     "link": "https://www.youtube.com/embed/",
     "header": "",
