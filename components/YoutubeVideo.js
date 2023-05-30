@@ -156,9 +156,9 @@ const videos = {
     "header": "Galiano Island by Bike",
   },
 
-  "": {
-    "link": "https://www.youtube.com/embed/",
-    "header": "",
+  "saltspring": {
+    "link": "https://www.youtube.com/embed/RqLkGsQnqZE",
+    "header": "Salt Spring Island by Bike",
   },
 
 }
