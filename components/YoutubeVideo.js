@@ -161,6 +161,11 @@ const videos = {
     "header": "Salt Spring Island by Bike",
   },
 
+  "south-vi": {
+    "link": "https://www.youtube.com/embed/",
+    "header": "Exploring South Vancouver Island by Bike",
+  },
+
 }
 
 customElements.define('my-youtube-video', YoutubeVideo);
