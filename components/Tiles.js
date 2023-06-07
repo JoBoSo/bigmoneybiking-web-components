@@ -176,6 +176,12 @@ const tiles = {
 
   "bike_tours": [
     {
+      title: "South Vancouver Island",
+      subtitle: "Lake Cowichan & The Pacific Marine Circle Route",
+      image: "south-vi/IMG_0845.jpeg",
+      page: "tours/south-vi.html"
+    },
+    {
       title: "Salt Spring Island",
       subtitle: "Don't Choke On The Pixie Dust",
       image: "saltspring/IMG_0626.jpeg",

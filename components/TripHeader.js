@@ -58,6 +58,15 @@ class TripHeader extends HTMLElement {
 }
 
 const data = {
+  "south-vi": {
+    "title": "South Vancouver Island",
+    "distance_km": 378,
+    "days": 3,
+    "terrain": null,
+    "location": null,
+    "dates": "May 20-22, 2023",
+    "quote": null,
+  },
   "saltspring": {
     "title": "Salt Spring Island",
     "distance_km": 227,
