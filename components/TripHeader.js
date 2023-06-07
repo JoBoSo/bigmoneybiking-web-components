@@ -60,7 +60,7 @@ class TripHeader extends HTMLElement {
 const data = {
   "south-vi": {
     "title": "South Vancouver Island",
-    "distance_km": 0,
+    "distance_km": 378,
     "days": 3,
     "terrain": null,
     "location": null,

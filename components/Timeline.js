@@ -4550,9 +4550,9 @@ const timelines = {
       "destination": null,
       "day": 1,
       "date": "May 20, 2023",
-      "distance": 0,
-      "start": "",
-      "end": "",
+      "distance": 84,
+      "start": "Victoria",
+      "end": "Lake Cowichan",
       "description": null,
       "bullets": [],
       "photos": [
@@ -4600,12 +4600,12 @@ const timelines = {
       "photobar_imgs": []
     },
     {
-      "destination": null,
+      "destination": "Looped Around Lake Cowichan",
       "day": 2,
       "date": "May 21, 2023",
-      "distance": 0,
-      "start": "",
-      "end": "",
+      "distance": 111,
+      "start": null,
+      "end": null,
       "description": null,
       "bullets": [],
       "photos": [
@@ -4708,9 +4708,9 @@ const timelines = {
       "destination": null,
       "day": 3,
       "date": "May 22, 2023",
-      "distance": 0,
-      "start": "",
-      "end": "",
+      "distance": 183,
+      "start": "Lake Cowichan",
+      "end": "Victoria",
       "description": null,
       "bullets": [],
       "photos": [

@@ -99,7 +99,7 @@ const maps = {
   "mt-becher": "https://www.google.com/maps/d/u/0/embed?mid=1c8jTN3aEAq9HaPeSe9mzfzl3jlaPkJs&ehbc=2E312F",
   "galiano": "https://www.google.com/maps/d/u/0/embed?mid=16nlHlJ01AuXwsDA9LXst5ln5DlNf7yA&ehbc=2E312F",
   "saltspring": "https://www.google.com/maps/d/u/0/embed?mid=1f59MezEzfh248rS7IyEblRFqhJWWMvY&ehbc=2E312F",
-  "south-vi": "https://www.google.com/maps/d/u/0/embed?mid=",
+  "south-vi": "https://www.google.com/maps/d/u/0/embed?mid=1N9a8j_JaMvzygG7TdmA7QDR-9yIPt5g&ehbc=2E312F",
 }
 
 customElements.define('my-map', Map);
