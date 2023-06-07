@@ -4565,10 +4565,6 @@ const timelines = {
           "caption": ""
         },
         {
-          "image": "south-vi/IMG_0753.jpeg",
-          "caption": ""
-        },
-        {
           "image": "south-vi/IMG_0759.jpeg",
           "caption": ""
         },
@@ -4638,10 +4634,6 @@ const timelines = {
           "caption": ""
         },
         {
-          "image": "south-vi/IMG_0852.jpeg",
-          "caption": ""
-        },
-        {
           "image": "south-vi/IMG_0861.jpeg",
           "caption": ""
         },
@@ -4675,10 +4667,6 @@ const timelines = {
         },
         {
           "image": "south-vi/IMG_0906.jpeg",
-          "caption": ""
-        },
-        {
-          "image": "south-vi/IMG_0911.jpeg",
           "caption": ""
         },
         {
@@ -4775,15 +4763,15 @@ const timelines = {
           "caption": ""
         },
         {
-          "image": "south-vi/IMG_1127.jpeg",
-          "caption": ""
-        },
-        {
           "image": "south-vi/IMG_1056.jpeg",
           "caption": ""
         },
         {
           "image": "south-vi/IMG_1071.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "south-vi/IMG_1127.jpeg",
           "caption": ""
         },
         {
