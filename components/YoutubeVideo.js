@@ -162,7 +162,7 @@ const videos = {
   },
 
   "south-vi": {
-    "link": "https://www.youtube.com/embed/",
+    "link": "https://www.youtube.com/embed/0-RVUjZtGEc",
     "header": "Exploring South Vancouver Island by Bike",
   },
 
