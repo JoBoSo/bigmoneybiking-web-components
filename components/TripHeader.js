@@ -60,7 +60,7 @@ class TripHeader extends HTMLElement {
 const data = {
   "pender-mayne-saturna": {
     "title": "Pender, Mayne, & Saturna Islands",
-    "distance_km": 0,
+    "distance_km": 290,
     "days": 4,
     "terrain": null,
     "location": "Southern Gulf Islands",
