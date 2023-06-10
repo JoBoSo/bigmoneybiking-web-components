@@ -176,6 +176,12 @@ const tiles = {
 
   "bike_tours": [
     {
+      title: "Pender, Mayne, & Saturna",
+      subtitle: "Southern <i>Gulf Islands</i> Comfort",
+      image: "pender-mayne-saturna/IMG_1467.jpeg",
+      page: "tours/pender-mayne-saturna.html"
+    },
+    {
       title: "South Vancouver Island",
       subtitle: "Lake Cowichan & The Pacific Marine Circle Route",
       image: "south-vi/IMG_0845.jpeg",
