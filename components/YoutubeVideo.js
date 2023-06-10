@@ -166,6 +166,11 @@ const videos = {
     "header": "Exploring South Vancouver Island by Bike",
   },
 
+  "pender-mayne-saturna": {
+    "link": "https://www.youtube.com/embed/",
+    "header": "Bike Touring Pender, Mayne, & Saturna Islands",
+  },
+
 }
 
 customElements.define('my-youtube-video', YoutubeVideo);

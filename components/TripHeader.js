@@ -58,6 +58,15 @@ class TripHeader extends HTMLElement {
 }
 
 const data = {
+  "pender-mayne-saturna": {
+    "title": "Pender, Mayne, & Saturna Islands",
+    "distance_km": 0,
+    "days": 4,
+    "terrain": null,
+    "location": "Southern Gulf Islands",
+    "dates": "June 2-5, 2023",
+    "quote": null,
+  },
   "south-vi": {
     "title": "South Vancouver Island",
     "distance_km": 378,
