@@ -167,7 +167,7 @@ const videos = {
   },
 
   "pender-mayne-saturna": {
-    "link": "https://www.youtube.com/embed/",
+    "link": "https://www.youtube.com/embed/gwDcjzjoLX8",
     "header": "Bike Touring Pender, Mayne, & Saturna Islands",
   },
 
