@@ -4553,7 +4553,7 @@ const timelines = {
       "distance": 84,
       "start": "Victoria",
       "end": "Lake Cowichan",
-      "description": "I left Victoria on the Galloping Goose Trail, took the Trans-Canada Highway through Malahat, and turned on to Shawnigan Lake Drive. I got sushi from Shwnigan Jen's for dinner, then I rode the Cowichan Valley Trail to Cowichan River Provincial Park for the night.",
+      "description": "I left Victoria on the Galloping Goose Trail, took the Trans-Canada Highway through Malahat, and turned on to Shawnigan Lake Drive. I got sushi from Shawnigan Jen's for dinner, then I rode the Cowichan Valley Trail to Cowichan River Provincial Park for the night.",
       "bullets": [],
       "photos": [
         {
@@ -4602,7 +4602,7 @@ const timelines = {
       "distance": 111,
       "start": null,
       "end": null,
-      "description": "I hiked up Bald Mountain on a peninsula on Lake Cowichan. It was about 11km and a really nice hike. I spent the rest of the day riding around Lake Cowichan, which wasn't a great idea since it was the May long weekend. So, there was a ton of traffic stirring up the dusty roads. I camped just outside of the town of Lake Cowichan beside the Cowichan Valley Trail.",
+      "description": "I hiked up Bald Mountain on a peninsula on Lake Cowichan. It was about 11km and a really nice hike. I spent the rest of the day riding around Lake Cowichan, which wasn't a great idea since it was the May long weekend. So, there was a ton of traffic stirring up dust on the roads. I camped just outside of the town of Lake Cowichan beside the Cowichan Valley Trail.",
       "bullets": [],
       "photos": [
         {
