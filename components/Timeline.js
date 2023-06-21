@@ -4290,7 +4290,7 @@ const timelines = {
       "distance": 107,
       "start": null,
       "end": null,
-      "description": "I woke up in my tent, <i>dry and warm</i>, to the sounds and smells of the ocean—it was perfect. I left most of my stuff at my site and biked away for the day. I walked through the Salt Spring Island Conservancy's land, but there wasn't much to see. I rode to Ganges and got smoked meat for lunch from Buzzy's Luncheonette. There was a busy market by the water. It was nice to look back at it from the docks and hear the chatter and music coming out of it. I continued biking to Scott Point Road. The ocean lies behind cottages to both sides of the road, which is lined with orange arbutus trees and gardens. I tried to bike to Nose Point, too, but it's down a private road. On the pier at Fernwood Beach, I had a conversation about Galiano Island with another man who bike tours as we looked at it from across the ocean. We talked about the trouble with accessing the campground in Dionisio Point Provincial Park by road. It sounds like the road was once accessible until a developer bought the land, was denied permission to develop it by the community, and, so, he doesn't let anyone on it anymore. Southey Point at the north tip of the island had the most beautiful, rocky beach. On my way back to Ganges for dinner, I rode by the sheep on Sunset Farm. They were panting aggressively while staring at me and bahhing from across the fence. I went up to Channel Ridge Lookout to see St. Mary Lake from above, but there wasn't a very clear view. For dinner, I went to the Korean Food Truck, Oko-nomi-yaki. I rode back to Ruckle and hiked the shoreline trail at sunset.",
+      "description": "I woke up to a sunny day. I left most of my stuff at my site and biked away for the day. I walked around the Salt Spring Island Conservancy, but there wasn't much to see. I rode to Ganges and got smoked meat for lunch from Buzzy's Luncheonette. There was a busy market by the water. It was nice to look back at it from the docks and hear the chatter and music coming out of it. I continued biking to Scott Point Road. The ocean lies behind cottages to both sides of the road, which is lined with orange arbutus trees and gardens. I tried to bike to Nose Point, too, but it's down a private road. On the pier at Fernwood Beach, I had a conversation about Galiano Island with another man who bike tours as we looked at it from across the ocean. We talked about the trouble with accessing the campground in Dionisio Point Provincial Park by road. It sounds like the road was once accessible until a developer bought the land, was denied permission to develop it by the community, and, so, he doesn't let anyone on it anymore. Southey Point at the north tip of the island had the most beautiful, rocky beach. On my way back to Ganges for dinner, I rode by the sheep on Sunset Farm. They were panting aggressively while staring at me and bahhing from across the fence. I went up to Channel Ridge Lookout to see St. Mary Lake from above, but there wasn't a very clear view. For dinner, I went to the Korean Food Truck, Oko-nomi-yaki. I rode back to Ruckle and hiked the shoreline trail at sunset.",
       "bullets": [],
       "photos": [
         {
@@ -4463,7 +4463,7 @@ const timelines = {
       "distance": 73,
       "start": "Ruckle Provincial Park",
       "end": "Victoria",
-      "description": "",
+      "description": "On my last day, I hiked up Mt. Maxwell. There were lot's of bluffs on the way up and views of the islands from the top. On the way down, I lost track of the trail. So, I just hiked through the forest toward the ocean until I found a trail along the shore that led to Doffodil Point, which was one of the highlights of my trip.",
       "bullets": [],
       "photos": [
         {
@@ -4553,7 +4553,7 @@ const timelines = {
       "distance": 84,
       "start": "Victoria",
       "end": "Lake Cowichan",
-      "description": null,
+      "description": "I left Victoria on the Galloping Goose Trail, took the Trans-Canada Highway through Malahat, and turned on to Shawnigan Lake Drive. I got sushi from Shwnigan Jen's for dinner, then I rode the Cowichan Valley Trail to Cowichan River Provincial Park for the night.",
       "bullets": [],
       "photos": [
         {
@@ -4602,7 +4602,7 @@ const timelines = {
       "distance": 111,
       "start": null,
       "end": null,
-      "description": null,
+      "description": "I hiked up Bald Mountain on a peninsula on Lake Cowichan. It was about 11km and a really nice hike. I spent the rest of the day riding around Lake Cowichan, which wasn't a great idea since it was the May long weekend. So, there was a ton of traffic stirring up the dusty roads. I camped just outside of the town of Lake Cowichan beside the Cowichan Valley Trail.",
       "bullets": [],
       "photos": [
         {
@@ -4699,7 +4699,7 @@ const timelines = {
       "distance": 183,
       "start": "Lake Cowichan",
       "end": "Victoria",
-      "description": null,
+      "description": "I rode through the interior of the island on Pacific Marine Drive. It's a beautiful ride, especially around Lizard Lake and Fairy Lake where some of the bigger, older forests along the route are. Pacheedaht Beach was my favorite spot on the west coast. I thought the interior of the island would be the hilliest, but the roads along the coast were the most challenging.",
       "bullets": [],
       "photos": [
         {
