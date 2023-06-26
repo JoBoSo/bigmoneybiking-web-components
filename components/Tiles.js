@@ -176,8 +176,14 @@ const tiles = {
 
   "bike_tours": [
     {
+      title: "Olympic National Park",
+      subtitle: "I Took a Trip Down to L'America",
+      image: "olympic/IMG_1675.jpeg",
+      page: "tours/olympic.html"
+    },
+    {
       title: "Pender, Mayne, & Saturna",
-      subtitle: "Southern <i>Gulf Islands</i> Comfort",
+      subtitle: "Three Southern Gulf Islands",
       image: "pender-mayne-saturna/IMG_1467.jpeg",
       page: "tours/pender-mayne-saturna.html"
     },

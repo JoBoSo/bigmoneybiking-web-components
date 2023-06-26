@@ -269,7 +269,7 @@ const events = {
           },
           {
             "image": "mont-blanc/IMG_2340.jpg",
-            "caption": "The Patio"
+            "caption": "The Porch"
           },
           {
             "image": "mont-blanc/IMG_2219.jpg",

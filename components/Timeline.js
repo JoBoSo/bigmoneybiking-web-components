@@ -5122,6 +5122,258 @@ const timelines = {
 
 
 
+  "olympic": [
+    {
+      "destination": null,
+      "day": 1,
+      "date": "June 17, 2023",
+      "distance": 155,
+      "start": "Victoria",
+      "end": "Kalaloch",
+      "description": "I biked to the Coho Ferry in the Victoria Harbour to cross the ocean to Port Angeles in Washington. The ferry was built in 1959 and it still has a 50's esthetic. From Port Angeles, I biked west. There was a wildfire burning on the edge of town and I saw some nice views of it from the highway. Olypmic National Park seems to be fragmented. I rode a beautiful, but busy, stretch of road through The National Park. I think it might have been the only part of the ride that went through old growth forest. After about 11 miles, I was riding by state forests and tree farms. There wasn't much natural diversity or wildlife when compared to Vancouver Island. As the sun was setting, I turned south and road along the west coast to Kalaloch campground for the night.",
+      "bullets": [],
+      "photos": [
+        {
+          "image": "olympic/IMG_1597.jpeg",
+          "caption": "Steamship Terminal"
+        },
+        {
+          "image": "olympic/IMG_1600.jpeg",
+          "caption": "The Coho Ferry"
+        },
+        {
+          "image": "olympic/IMG_1608.jpeg",
+          "caption": "Water Taxis"
+        },
+        {
+          "image": "olympic/IMG_1611.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1620.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1622.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1626.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1628.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1633.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1646.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1652.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1653.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1656.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1658.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1675.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1677.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1681.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1704.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1909.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1708.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1717.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1908.jpeg",
+          "caption": ""
+        },
+      ],
+      "photobar_imgs": []
+    },
+    {
+      "destination": null,
+      "day": 2,
+      "date": "June 18, 2023",
+      "distance": 90,
+      "start": "Kalaloch",
+      "end": "Mora",
+      "description": "I woke up, got out of bed, and went down to the Kalaloch Beach. It's a big, breezy, sandy beach. Lots of people were walking around. I got back on the bike and headed North. I stopped by Ruby Beach, which has several sea stacks. American's are so open and outgoing. So many people asked me about my ride and spoke to me. One woman offered to take a picture of me on the beach. I got corn-on-a-stick from some Mexicans running a food stand in Forks. After I setup my site at Mora Campground, I biked up the road to Rialto Beach, another stunning beach with sea stacks and a picturesque island, to watch the sun set.",
+      "bullets": [],
+      "photos": [
+        {
+          "image": "olympic/IMG_1723.jpeg",
+          "caption": "Kalaloch Campground"
+        },
+        {
+          "image": "olympic/IMG_1726.jpeg",
+          "caption": "Kalaloch Beach"
+        },
+        {
+          "image": "olympic/IMG_1728.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1734.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1741.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1744.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1746.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1752.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1755.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1759.jpeg",
+          "caption": "Fresh Off The Ferry"
+        },
+        {
+          "image": "olympic/IMG_1764.jpeg",
+          "caption": "Salmon Berries"
+        },
+        {
+          "image": "olympic/IMG_1771.jpeg",
+          "caption": "Corn"
+        },
+        {
+          "image": "olympic/IMG_1772.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1781.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1787.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1792.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1840.jpeg",
+          "caption": "Rialto Beach"
+        },
+        {
+          "image": "olympic/IMG_1848.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1844.jpeg",
+          "caption": ""
+        },
+      ],
+      "photobar_imgs": []
+    },
+    {
+      "destination": null,
+      "day": 3,
+      "date": "June 19, 2023",
+      "distance": 132,
+      "start": "Mora",
+      "end": "Victoria",
+      "description": "I rode back to Port Angeles on the highway near the north coast; I took the inland highway on my first day. I didn't see much of the ocean, however. The north coast highway has more hills than the inland highway and it doesn't go through Olympic National Park. The ride was pretty uneventful. I lost my new, expensive helmet. I got some chocolate cake and ruhbarb pie at Blackberry Cafe in Joyce. Then, I got back on the ferry in Port Angeles and returned home to Victoria.",
+      "bullets": [],
+      "photos": [
+        {
+          "image": "olympic/IMG_1852.jpeg",
+          "caption": "Mora Campground"
+        },
+        {
+          "image": "olympic/IMG_1905.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1859.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1907.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1906.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1868.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1871.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1875.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1878.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1881.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "olympic/IMG_1890.jpeg",
+          "caption": ""
+        },
+      ],
+      "photobar_imgs": []
+    },
+  ],
+
+
+
   "": [
     {
       "destination": null,
