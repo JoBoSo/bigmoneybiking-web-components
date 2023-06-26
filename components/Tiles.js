@@ -178,7 +178,7 @@ const tiles = {
     {
       title: "Olympic National Park",
       subtitle: "I Took a Trip Down to L'America",
-      image: "olympic/IMG_.jpeg",
+      image: "olympic/IMG_1675.jpeg",
       page: "tours/olympic.html"
     },
     {
