@@ -171,6 +171,11 @@ const videos = {
     "header": "Bike Touring Pender, Mayne, & Saturna Islands",
   },
 
+  "olympic": {
+    "link": "https://www.youtube.com/embed/Cdk76B-dg7U",
+    "header": "Bikepacking Olympic National Park",
+  },
+
 }
 
 customElements.define('my-youtube-video', YoutubeVideo);

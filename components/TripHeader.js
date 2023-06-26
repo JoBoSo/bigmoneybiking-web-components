@@ -58,6 +58,15 @@ class TripHeader extends HTMLElement {
 }
 
 const data = {
+  "olympic": {
+    "title": "Olympic National Park",
+    "distance_km": 377,
+    "days": 3,
+    "terrain": null,
+    "location": "North-West Washington",
+    "dates": "June 17-19, 2023",
+    "quote": null,
+  },
   "pender-mayne-saturna": {
     "title": "Pender, Mayne, & Saturna Islands",
     "distance_km": 290,
