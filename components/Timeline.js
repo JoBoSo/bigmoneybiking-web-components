@@ -5231,7 +5231,7 @@ const timelines = {
       "distance": 90,
       "start": "Kalaloch",
       "end": "Mora",
-      "description": "I woke up, got out of bed, and went down to the Kalaloch Beach. It's a big, breezy, sandy beach. Lots of people were walking around. I got back on the bike and headed North. I stopped by Ruby Beach, which has several sea stacks. American's are so open and outgoing. So many people asked me about my ride and spoke to me. One woman offered to take a picture of me on the beach. I got corn-on-a-stick from some Mexicans running a food stand in Forks. After I setup my site at Mora Campground, I biked up the road to Rialto Beach, another stunning beach with sea stacks and a picturesque island, to watch the sun set.",
+      "description": "I woke up, got out of bed, and went down to the Kalaloch Beach. It's a big, breezy, sandy beach. Lots of people were walking around. I got back on the bike and headed North. I stopped by Ruby Beach, which has several sea stacks. American's are so open and outgoing. So many people asked me about my ride. One woman offered to take a picture of me on the beach. I got corn-on-a-stick from a Mexican food stand in Forks. After I setup my site at Mora Campground, I biked up the road to Rialto Beach, another stunning beach with sea stacks and a picturesque island, to watch the sun set.",
       "bullets": [],
       "photos": [
         {
