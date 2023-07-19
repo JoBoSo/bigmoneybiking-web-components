@@ -58,6 +58,15 @@ class TripHeader extends HTMLElement {
 }
 
 const data = {
+  "sunshine-coast": {
+    "title": "The Sunshine Coast",
+    "distance_km": 531,
+    "days": 4,
+    "terrain": null,
+    "location": null,
+    "dates": "July 1-4, 2023",
+    "quote": null,
+  },
   "olympic": {
     "title": "Olympic National Park",
     "distance_km": 377,

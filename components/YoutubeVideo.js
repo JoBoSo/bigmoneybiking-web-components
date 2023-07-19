@@ -176,6 +176,11 @@ const videos = {
     "header": "Bikepacking Olympic National Park",
   },
 
+  "sunshine-coast": {
+    "link": "https://www.youtube.com/embed/eXIVKciwDko",
+    "header": "The Sunshine Coast by Bike",
+  },
+
 }
 
 customElements.define('my-youtube-video', YoutubeVideo);
