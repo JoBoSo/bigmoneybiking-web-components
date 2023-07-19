@@ -102,6 +102,7 @@ const maps = {
   "south-vi": "https://www.google.com/maps/d/u/0/embed?mid=1N9a8j_JaMvzygG7TdmA7QDR-9yIPt5g&ehbc=2E312F",
   "pender-mayne-saturna": "https://www.google.com/maps/d/u/0/embed?mid=1ZAlFTaFxjhyHixhyfbeOvA7uvZGzyn8&ehbc=2E312F",
   "olympic": "https://www.google.com/maps/d/u/0/embed?mid=1CeiMXOYigm2y4EX1vDb4yL691ewGJYE&ehbc=2E312F",
+  "sunshine-coast": "https://www.google.com/maps/d/u/0/embed?mid=1cs89V5p4o0zg8S30LM7dpKIc3O0srBM&ehbc=2E312F",
 }
 
 customElements.define('my-map', Map);
