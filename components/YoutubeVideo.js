@@ -177,7 +177,7 @@ const videos = {
   },
 
   "sunshine-coast": {
-    "link": "https://www.youtube.com/embed/eXIVKciwDko",
+    "link": "https://www.youtube.com/embed/I3jNDgMkYpk",
     "header": "The Sunshine Coast by Bike",
   },
 
