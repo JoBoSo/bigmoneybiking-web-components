@@ -176,6 +176,12 @@ const tiles = {
 
   "bike_tours": [
     {
+      title: "The Sunshine Coast",
+      subtitle: "Sea the Good Side",
+      image: "sunshine-coast/IMG_2129.jpeg",
+      page: "tours/sunshine-coast.html"
+    },
+    {
       title: "Olympic National Park",
       subtitle: "I Took a Trip Down to L'America",
       image: "olympic/IMG_1675.jpeg",
