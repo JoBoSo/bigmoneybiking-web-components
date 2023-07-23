@@ -40,10 +40,10 @@ class Footer extends HTMLElement {
       <footer class="social-footer">
         <div class="social-footer-icons">
           <a href="https://github.com/JoBoSo"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
-          <a href="https://www.youtube.com/channel/UCKRBrbnllsieDOUu7j8falw"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/@bigmoneybiking618/videos"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
           <a href="https://www.instagram.com/big_money_biking/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
           <a href="https://www.strava.com/athletes/6648947"><i class="fa-brands fa-strava" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/in/james-scott-wlu-uw/"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/james-scott-the-third/"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
         </div>
       </footer>
     `;
