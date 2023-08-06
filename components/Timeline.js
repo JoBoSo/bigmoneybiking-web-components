@@ -5464,7 +5464,7 @@ const timelines = {
       "distance": 112,
       "start": "Powell River",
       "end": "Sechelt",
-      "description": "My favourite day. The best of the Sunshine Coast is North of Sechelt, where I ended my day at the Porpoise Bay cyclist campground.",
+      "description": "My favourite day. I sat out front of Base Camp Coffee and enjoyed my coffee after riding into town from Haywire Bay. I walked around a big bay with an old pier on the edge of town. I biked along the ocean all day. The best of the Sunshine Coast is north of Sechelt, where I ended my day at the Porpoise Bay cyclist campground.",
       "bullets": [],
       "photos": [
         {
