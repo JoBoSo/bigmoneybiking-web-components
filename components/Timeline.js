@@ -5382,7 +5382,7 @@ const timelines = {
       "distance": 110,
       "start": "Victoria",
       "end": "Nanaimo",
-      "description": null,
+      "description": "I took the Ferry from Brentwood to Crofton to avoid riding on the Malahat Highway. I ended up camping in an opening in a forest in a residential area of Nanaimo. It was a bad choice because there were a some blackberry vines on the ground that poked little holes in my sleeping pad. It slowly deflated and I wound up on the hard ground. I didn't sleep at all during the night.",
       "bullets": [],
       "photos": [
         {
@@ -5427,7 +5427,7 @@ const timelines = {
       "distance": 152,
       "start": "Nanaimo",
       "end": "Powell River",
-      "description": null,
+      "description": "I rode through all the towns between Nanaimo and Comox. The elderly run rampent in these parts. I took the ferry from Comox to Powell River and camped at Haywire Bay. I often think about Powell River because it's one of the most peaceful towns I've found. I like it's pace. There isn't much traffic and people drive slowly. There aren't any highways and almost every house overlooks the ocean.",
       "bullets": [],
       "photos": [
         {
@@ -5464,7 +5464,7 @@ const timelines = {
       "distance": 112,
       "start": "Powell River",
       "end": "Sechelt",
-      "description": null,
+      "description": "My favourite day. The best of the Sunshine Coast is North of Sechelt, where I ended my day at the Porpoise Bay cyclist campground.",
       "bullets": [],
       "photos": [
         {
