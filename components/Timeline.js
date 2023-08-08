@@ -5382,7 +5382,7 @@ const timelines = {
       "distance": 110,
       "start": "Victoria",
       "end": "Nanaimo",
-      "description": "I took the Ferry from Brentwood to Crofton to avoid riding on the Malahat Highway. I ended up camping in an opening in a forest in a residential area of Nanaimo. It was a bad choice because there were a some blackberry vines on the ground that poked little holes in my sleeping pad. It slowly deflated and I wound up on the hard ground. I didn't sleep at all during the night.",
+      "description": "I took the Ferry from Brentwood to Crofton to avoid riding on the Malahat Highway. I ended up camping in an opening in a forest in a residential area of Nanaimo. It was a bad choice because there were some blackberry vines on the ground that poked little holes in my sleeping pad. It slowly deflated and I wound up on the hard ground. I didn't sleep at all during the night.",
       "bullets": [],
       "photos": [
         {
@@ -5464,7 +5464,7 @@ const timelines = {
       "distance": 112,
       "start": "Powell River",
       "end": "Sechelt",
-      "description": "My favourite day. The best of the Sunshine Coast is North of Sechelt, where I ended my day at the Porpoise Bay cyclist campground.",
+      "description": "My favourite day. I sat out front of Base Camp Coffee and enjoyed my coffee after riding into town from Haywire Bay. I walked around a big bay with an old pier on the edge of town. I biked along the ocean all day. The best of the Sunshine Coast is north of Sechelt, where I ended my day at the Porpoise Bay cyclist campground.",
       "bullets": [],
       "photos": [
         {
@@ -5557,7 +5557,7 @@ const timelines = {
       "distance": 157,
       "start": "Sechelt",
       "end": "Victoria",
-      "description": null,
+      "description": "The most diverse riding of the trip happened on my last day. I took a number of ferries. First, the Earl's Cove ferry. I liked passing through Gibsons. It's beautiful. It's clearly a popular town to retire to. I took my second ferry of the day at Horseshoe Bay and biked into Vancouver. It was a bit smoggy and grimmy, and there was lots of traffic. There were also lots of big bridges to cross. The ride to the Tsawwassen Ferry was mostly unpleasent since it ran along full-blown highways and through industrial areas. The final stretch, however, looked very much like flat Ontario farm country. The ferry to Victoria had some wide open views of the Strait. At the end of a day like this, I feel like I've connected with and sensed so much of the world. The irony is that I silently rode right by it all. There's not much to it.",
       "bullets": [],
       "photos": [
         {
