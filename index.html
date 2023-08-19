@@ -2,7 +2,7 @@
 
 <html lang="en">
   <head>
-    <!-- Tab Icon -->
+    <!-- Browser Tab Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
     <!-- Required meta tags -->
@@ -37,16 +37,8 @@
     <script async src="components/Footer.js"></script>
 
     <!-- Navbar active tab -->
-    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script>
-        $(function(){
-            $('a').each(function(){
-                if ($(this).prop('href') == window.location.href) {
-                    $(this).addClass('active'); $(this).parents('li').addClass('active');
-                }
-            });
-        });
-    </script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="scripts/activeNavbarTab.js"></script>
 
     <title>Big Money Bicycle Touring</title>
   </head>
