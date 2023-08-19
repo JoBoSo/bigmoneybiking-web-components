@@ -5659,6 +5659,218 @@ const timelines = {
 
 
 
+  "lomas-lake": [
+    {
+      "destination": null,
+      "day": 1,
+      "date": "July 15, 2023",
+      "distance": 116,
+      "start": "Victoria",
+      "end": "Cowichan Lake",
+      "description": null,
+      "bullets": [],
+      "photos": [
+        {
+          "image": "lomas-lake/IMG_2852.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2408.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2423.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2432.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2474.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2434.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2455.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2460.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2470.jpeg",
+          "caption": ""
+        },
+      ],
+      "photobar_imgs": []
+    },
+    {
+      "destination": "Cowichan Lake",
+      "day": 2,
+      "date": "July 16, 2023",
+      "distance": 27,
+      "start": null,
+      "end": null,
+      "description": null,
+      "bullets": [],
+      "photos": [
+        {
+          "image": "lomas-lake/IMG_2480.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2487.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2489.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2500.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2505.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2511.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2516.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2520.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2523.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2849.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2534.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2538.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2847.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2541.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2544.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2549.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2553.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2555.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2564.jpeg",
+          "caption": ""
+        },
+      ],
+      "photobar_imgs": []
+    },
+    {
+      "destination": null,
+      "day": 3,
+      "date": "July 17, 2023",
+      "distance": 110,
+      "start": "Cowichan Lake",
+      "end": "Victoria",
+      "description": null,
+      "bullets": [],
+      "photos": [
+        {
+          "image": "lomas-lake/IMG_2578.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2583.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2586.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2856.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2591.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2597.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2845.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2603.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2844.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2843.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2607.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2611.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2618.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "lomas-lake/IMG_2619.jpeg",
+          "caption": ""
+        },
+      ],
+      "photobar_imgs": []
+    },
+  ],
+
+
+
   "": [
     {
       "destination": null,

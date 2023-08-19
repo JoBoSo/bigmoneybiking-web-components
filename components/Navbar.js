@@ -20,7 +20,7 @@ class Navbar extends HTMLElement {
         .my-nav {
           display: flex;
           overflow: hidden;
-          height: 20pt;
+          height: 22pt;
           background-color: #00abea /*#016ad5*/;
           align-items: center;
           padding: 0;
@@ -32,14 +32,17 @@ class Navbar extends HTMLElement {
           font-size: 12pt;
           text-align: center;
           vertical-align: middle;
-          padding: 10pt;
-          margin: 0;
+          padding: 0 10pt 0 10pt;
+          margin: 2pt 1pt 2pt 1pt;
           text-decoration: none;
         }
     
-        .my-nav a:hover {
+        .my-nav a:hover, .active {
           background-color: #e69c3d;
           color: #f8f8f8;
+          border-radius: 5px;
+          box-shadow: 0 0 4px #e69c3d;
+
         }
 
         </style>
