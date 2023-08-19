@@ -36,21 +36,12 @@ class Navbar extends HTMLElement {
           margin: 2pt 1pt 2pt 1pt;
           text-decoration: none;
         }
-
-        .my-nav a .active {
-          background-color: #e69c3d;
-          color: #f8f8f8;
-          border-radius: 5px;
-          box-shadow: 0 0 4px #e69c3d;
-
-        }
     
         .my-nav a:hover, .active {
           background-color: #e69c3d;
           color: #f8f8f8;
           border-radius: 5px;
           box-shadow: 0 0 4px #e69c3d;
-
         }
 
         </style>
