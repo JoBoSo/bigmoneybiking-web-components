@@ -42,7 +42,6 @@ class Navbar extends HTMLElement {
           color: #f8f8f8;
           border-radius: 5px;
           box-shadow: 0 0 4px #e69c3d;
-
         }
 
         </style>
