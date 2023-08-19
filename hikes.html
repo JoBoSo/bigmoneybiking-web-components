@@ -22,7 +22,12 @@
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1TXV2J73Y"></script>
-    <script src="scripts/activeNavbarTab.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Z1TXV2J73Y');
+    </script>
 
     <!-- components -->
     <script async src="components/Header.js"></script>
@@ -32,15 +37,7 @@
 
     <!-- Navbar active tab -->
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script>
-        $(function(){
-            $('a').each(function(){
-                if ($(this).prop('href') == window.location.href) {
-                    $(this).addClass('active'); $(this).parents('li').addClass('active');
-                }
-            });
-        });
-    </script>
+    <script src="scripts/activeNavbarTab.js"></script>
 
     <title>Big Money Bicycle Touring</title>
   </head>
