@@ -32,6 +32,18 @@
       <script defer src="components/Header.js"></script>
       <script defer src="components/Navbar.js"></script>
 
+      <!-- Navbar active tab -->
+      <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script>
+          $(function(){
+              $('a').each(function(){
+                  if ($(this).prop('href') == window.location.href) {
+                      $(this).addClass('active'); $(this).parents('li').addClass('active');
+                  }
+              });
+          });
+      </script>
+
       <title>Subscribe</title>
   </head>
   <body>

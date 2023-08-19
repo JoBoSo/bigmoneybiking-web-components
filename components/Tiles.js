@@ -176,6 +176,12 @@ const tiles = {
 
   "bike_tours": [
     {
+      title: "Lomas Lake",
+      subtitle: "",
+      image: "lomas-lake/IMG_2553.jpeg",
+      page: "tours/lomas-lake.html"
+    },
+    {
       title: "The Sunshine Coast",
       subtitle: "Sea the Good Side",
       image: "sunshine-coast/IMG_2129.jpeg",

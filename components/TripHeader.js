@@ -58,6 +58,15 @@ class TripHeader extends HTMLElement {
 }
 
 const data = {
+  "lomas-lake": {
+    "title": "Lomas Lake",
+    "distance_km": 254,
+    "days": 3,
+    "terrain": null,
+    "location": "Vancouver Island",
+    "dates": "July 15-17, 2023",
+    "quote": null,
+  },
   "sunshine-coast": {
     "title": "The Sunshine Coast",
     "distance_km": 531,
