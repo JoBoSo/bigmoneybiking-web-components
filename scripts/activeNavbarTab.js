@@ -1,11 +1,28 @@
+// pathname equivalencies
+const index_pathnames = ['/index.html', '/index', '/'];
+const hikes_pathnames = ['/hikes.html', '/hikes'];
+const blog_pathnames = ['/blog.html', '/blog'];
+const subscribe_pathnames = ['/subscribe.html', '/subscribe'];
+
 $(function activeTab(){
-  $('a').each(function(){
-    console.log(window.location.href)
-    if ($(this).prop('href') == window.location.href) {
-      $(this).addClass('active'); $(this).parents('my-nav').addClass('active');
-    }
-    // bigmoneybiking.ca initially loads index.html as "https://bigmoneybiking.ca/"
-    else if ($(this).prop('pathname') == '/index.html' && window.location.pathname == '/') {
+  $('.my-nav a').each(function(){
+    let thisPathname = this.href.substring(this.href.lastIndexOf('/'));
+    let windowPathname = window.location.href.substring(window.location.href.lastIndexOf('/'));
+
+    let thisPathnames = [];
+    if (!this.href.includes('https://www.instagram.com/big_money_biking/')) {
+      if (index_pathnames.includes(thisPathname)) {
+        thisPathnames = index_pathnames;
+      } else if (hikes_pathnames.includes(thisPathname)) {
+        thisPathnames = hikes_pathnames;
+      } else if (blog_pathnames.includes(thisPathname)) {
+        thisPathnames = blog_pathnames;
+      } else if (subscribe_pathnames.includes(thisPathname)) {
+        thisPathnames = subscribe_pathnames;
+      }
+    } 
+
+    if (thisPathnames.includes(windowPathname)) {
       $(this).addClass('active'); $(this).parents('my-nav').addClass('active');
     }
   });
