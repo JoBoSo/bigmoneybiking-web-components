@@ -6,6 +6,8 @@ window.onload = function () {
 function tileFilter(buttonName) {
   $("my-tiles a").each(function() {
     let westCoast = ['nanaimo-courtenay', 'san-josef-bay', 'brewster-lake', 'texada', 'comox-lake', 'quadra-cortes', 'nass-valley', 'haida-gwaii', 'galiano', 'saltspring', 'south-vi', 'pender-mayne-saturna', 'olympic', 'sunshine-coast', 'lomas-lake'];
+    let gulfIslands = ['texada', 'quadra-cortes', 'galiano', 'saltspring', 'pender-mayne-saturna'];
+    let vancouverIsland = ['nanaimo-courtenay', 'san-josef-bay', 'brewster-lake', 'comox-lake', 'south-vi', 'lomas-lake'];
     let interiorBC = ['begbie-falls', 'downie-creek', 'babine-lake'];
     let quebec = ['to-mtrl', 'ptit-train', 'mtrl-sherbrooke', 'quebec'];
 
@@ -15,6 +17,8 @@ function tileFilter(buttonName) {
       return true;
     }
     else if (buttonName == "westCoast") {filter = westCoast}
+    else if (buttonName == "gulfIslands") {filter = gulfIslands}
+    else if (buttonName == "vancouverIsland") {filter = vancouverIsland}
     else if (buttonName == "interiorBC") {filter = interiorBC}
     else if (buttonName == "quebec") {filter = quebec}
 

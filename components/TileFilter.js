@@ -12,6 +12,9 @@ class TileFilter extends HTMLElement {
         margin: 10px 10px 0px 10px;
         border-radius: 7px;
         font-size: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       
       .filter-container .button-container {
@@ -40,7 +43,9 @@ class TileFilter extends HTMLElement {
         <span class="button-container"><button onClick="tileFilter(this.name)" name="westCoast">West Coast</button></span>
         <span class="button-container"><button onClick="tileFilter(this.name)" name="interiorBC">Interior BC</button></span>
         <span class="button-container"><button onClick="tileFilter(this.name)" name="quebec">Quebec</button></span>
-      </div>
+        <span class="button-container"><button onClick="tileFilter(this.name)" name="gulfIslands">Gulf Islands</button></span>
+        <span class="button-container"><button onClick="tileFilter(this.name)" name="vancouverIsland">Vancouver Island</button></span>
+        </div>
     `
   }
 }
