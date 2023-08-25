@@ -52,7 +52,6 @@ function tileFilter(buttonName) {
       filter = ['algonquin']
     }
 
-
     let thisPageName = this.href.substring(this.href.lastIndexOf('/') + 1, this.href.length - 5);
 
     if (filter.includes(thisPageName)) {
