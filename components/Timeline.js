@@ -1301,16 +1301,16 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "quadra-cortes/IMG_6781.jpg",
+          "image": "quadra-cortes/IMG_6781.jpeg",
           "caption": "Fisherman's Wharf, Campbell River"
         },
         {
-          "image": "quadra-cortes/IMG_6787.jpg",
-          "caption": "Morte Lake, My Campsite"
+          "image": "quadra-cortes/IMG_6787.jpeg",
+          "caption": "Morte Lake Campsite"
         },
         {
-          "image": "quadra-cortes/IMG_6791.jpg",
-          "caption": "Dusk On The Lake"
+          "image": "quadra-cortes/IMG_6791.jpeg",
+          "caption": "Dusk"
         },
       ],
     },
@@ -1326,35 +1326,31 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "quadra-cortes/IMG_6796.jpg",
+          "image": "quadra-cortes/IMG_6796.jpeg",
           "caption": "Moss"
         },
         {
-          "image": "quadra-cortes/IMG_6813.jpg",
+          "image": "quadra-cortes/IMG_6813.jpeg",
           "caption": "Beeches Mountain"
         },
         {
-          "image": "quadra-cortes/IMG_6815.jpg",
+          "image": "quadra-cortes/IMG_6815.jpeg",
           "caption": "Beeches Mountain"
         },
         {
-          "image": "quadra-cortes/IMG_6819.jpg",
+          "image": "quadra-cortes/IMG_6819.jpeg",
           "caption": "A Beach Off Valdez Rd"
         },
         {
-          "image": "quadra-cortes/IMG_6824.jpg",
+          "image": "quadra-cortes/IMG_6824.jpeg",
           "caption": "Colourful Rocks"
         },
         {
-          "image": "quadra-cortes/IMG_6829.jpg",
+          "image": "quadra-cortes/IMG_6829.jpeg",
           "caption": "Hole In The Rock"
         },
         {
-          "image": "quadra-cortes/IMG_6833.jpg",
-          "caption": "Lagoon"
-        },
-        {
-          "image": "quadra-cortes/IMG_6834.jpg",
+          "image": "quadra-cortes/IMG_6834.jpeg",
           "caption": "Surge Narrows"
         },
       ],
@@ -1371,103 +1367,87 @@ const timelines = {
       ],
       "photos": [
         {
-          "image": "quadra-cortes/IMG_6835.jpg",
+          "image": "quadra-cortes/IMG_6835.jpeg",
           "caption": "Campsite On Quadra"
         },
         {
-          "image": "quadra-cortes/IMG_6839.jpg",
+          "image": "quadra-cortes/IMG_6839.jpeg",
           "caption": "Ferry to Cortes"
         },
         {
-          "image": "quadra-cortes/IMG_6843.jpg",
-          "caption": "Relax"
-        },
-        {
-          "image": "quadra-cortes/IMG_6850.jpg",
+          "image": "quadra-cortes/IMG_6850.jpeg",
           "caption": "Cortes Ferry Terminal"
         },
         {
-          "image": "quadra-cortes/IMG_6848.jpg",
+          "image": "quadra-cortes/IMG_6848.jpeg",
           "caption": "Signs"
         },
         {
-          "image": "quadra-cortes/IMG_6851.jpg",
-          "caption": "Everywhere a Sign"
-        },
-        {
-          "image": "quadra-cortes/IMG_6856.jpg",
+          "image": "quadra-cortes/IMG_6856.jpeg",
           "caption": "Squirrel Cove Pier"
         },
         {
-          "image": "quadra-cortes/IMG_6866.jpg",
+          "image": "quadra-cortes/IMG_6866.jpeg",
           "caption": "Squirrel Cove Beach"
         },
         {
-          "image": "quadra-cortes/IMG_6861.jpg",
+          "image": "quadra-cortes/IMG_6861.jpeg",
           "caption": "Washed Up Car"
         },
         {
-          "image": "quadra-cortes/IMG_6875.jpg",
+          "image": "quadra-cortes/IMG_6875.jpeg",
           "caption": "Free Movies"
         },
         {
-          "image": "quadra-cortes/IMG_6877.jpg",
+          "image": "quadra-cortes/IMG_6877.jpeg",
           "caption": "Blind Creek"
         },
         {
-          "image": "quadra-cortes/IMG_6883.jpg",
+          "image": "quadra-cortes/IMG_6883.jpeg",
           "caption": "Smelt Bay"
         },
         {
-          "image": "quadra-cortes/IMG_6903.jpg",
+          "image": "quadra-cortes/IMG_6903.jpeg",
           "caption": "Bee"
         },
         {
-          "image": "quadra-cortes/IMG_6932.jpg",
+          "image": "quadra-cortes/IMG_6932.jpeg",
           "caption": "The Wal-De-Mark"
         },
         {
-          "image": "quadra-cortes/IMG_6936.jpg",
+          "image": "quadra-cortes/IMG_6936.jpeg",
           "caption": "Mansons Landing"
         },
         {
-          "image": "quadra-cortes/IMG_6948.jpg",
+          "image": "quadra-cortes/IMG_6950.jpeg",
           "caption": "Mansons Landing"
         },
         {
-          "image": "quadra-cortes/IMG_6950.jpg",
+          "image": "quadra-cortes/IMG_6952.jpeg",
           "caption": "Mansons Landing"
         },
         {
-          "image": "quadra-cortes/IMG_6952.jpg",
-          "caption": "Mansons Landing"
-        },
-        {
-          "image": "quadra-cortes/IMG_6954.jpg",
+          "image": "quadra-cortes/IMG_6954.jpeg",
           "caption": "Sand Dollars"
         },
         {
-          "image": "quadra-cortes/IMG_6958.jpg",
+          "image": "quadra-cortes/IMG_6958.jpeg",
           "caption": "Mansons Landing Beach"
         },
         {
-          "image": "quadra-cortes/IMG_6963.jpg",
+          "image": "quadra-cortes/IMG_6963.jpeg",
           "caption": "Mansons Landing Tide Pool"
         },
         {
-          "image": "quadra-cortes/IMG_6969.jpg",
-          "caption": "Bluffs"
-        },
-        {
-          "image": "quadra-cortes/IMG_6970.jpg",
+          "image": "quadra-cortes/IMG_6970.jpeg",
           "caption": "Rebecca Spit"
         },
         {
-          "image": "quadra-cortes/IMG_6972.jpg",
+          "image": "quadra-cortes/IMG_6972.jpeg",
           "caption": "Silver Lining"
         },
         {
-          "image": "quadra-cortes/IMG_6975.jpg",
+          "image": "quadra-cortes/IMG_6975.jpeg",
           "caption": "Financial District, Quadra Island"
         },
       ],

@@ -268,7 +268,7 @@ const tiles = {
     {
       title: "Quadra & Cortes",
       subtitle: "Psychedelic Sailors",
-      image: "quadra-cortes/IMG_6877.jpg",
+      image: "quadra-cortes/IMG_6877.jpeg",
       page: "tours/quadra-cortes.html"
     },
     {
