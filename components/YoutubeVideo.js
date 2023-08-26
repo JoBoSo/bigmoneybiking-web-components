@@ -181,6 +181,11 @@ const videos = {
     "header": "The Sunshine Coast by Bike",
   },
 
+  "lomas-lake": {
+    "link": "https://www.youtube.com/embed/JUJjel31YDU",
+    "header": "Hiking to Lomas Lake",
+  },
+
 }
 
 customElements.define('my-youtube-video', YoutubeVideo);
