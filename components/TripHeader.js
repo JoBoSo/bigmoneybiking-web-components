@@ -58,6 +58,24 @@ class TripHeader extends HTMLElement {
 }
 
 const data = {
+  "heather-mountain": {
+    "title": "Heather Mountain",
+    "distance_km": 23,
+    "days": null,
+    "terrain": null,
+    "location": "Cowichan Valley",
+    "dates": "Aug 27, 2023",
+    "quote": null,
+  },
+  "san-juan-circle": {
+    "title": "San Juan Circle",
+    "distance_km": 333,
+    "days": 3,
+    "terrain": null,
+    "location": null,
+    "dates": "Sept 9-11, 2023",
+    "quote": null,
+  },
   "lomas-lake": {
     "title": "Lomas Lake",
     "distance_km": 254,
