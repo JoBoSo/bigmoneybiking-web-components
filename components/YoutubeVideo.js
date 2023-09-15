@@ -186,6 +186,11 @@ const videos = {
     "header": "Hiking to Lomas Lake",
   },
 
+  "heather-mountain": {
+    "link": "https://www.youtube.com/embed/mTRNBZRD87Y",
+    "header": "Hiking up Heather Mountain",
+  },
+
 }
 
 customElements.define('my-youtube-video', YoutubeVideo);

@@ -14,7 +14,7 @@ function tileFilter(buttonName) {
 
     // Bike tours (index.html)
     else if (buttonName == "westCoast") {
-      filter = ['nanaimo-courtenay', 'san-josef-bay', 'brewster-lake', 'texada', 'comox-lake', 'quadra-cortes', 'nass-valley', 'haida-gwaii', 'galiano', 'saltspring', 'south-vi', 'pender-mayne-saturna', 'olympic', 'sunshine-coast', 'lomas-lake']
+      filter = ['nanaimo-courtenay', 'san-josef-bay', 'brewster-lake', 'texada', 'comox-lake', 'quadra-cortes', 'nass-valley', 'haida-gwaii', 'galiano', 'saltspring', 'south-vi', 'pender-mayne-saturna', 'olympic', 'sunshine-coast', 'lomas-lake', 'san-juan-circle']
     }
     else if (buttonName == "gulfIslands") {
       filter = ['texada', 'quadra-cortes', 'galiano', 'saltspring', 'pender-mayne-saturna']
@@ -46,7 +46,7 @@ function tileFilter(buttonName) {
       filter = ['tin-hat', 'oliver-creek', 'gunsight', 'silvern-lake', 'maroon-mtn']
     }
     else if (buttonName == "vancouverIslandHikes") {
-      filter = ['mt-albert-edward', 'phillips-ridge', 'mt-becher']
+      filter = ['mt-albert-edward', 'phillips-ridge', 'mt-becher', 'heather-mountain']
     }
     else if (buttonName == "ontarioHikes") {
       filter = ['algonquin']
