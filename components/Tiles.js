@@ -313,6 +313,12 @@ const tiles = {
 
   "hikes": [
     {
+      title: "Heather mountain",
+      subtitle: "",
+      image: "heather-mountain/IMG_3182.jpeg",
+      page: "hikes/heather-mountain.html"
+    },
+    {
       title: "Montagne Noire",
       subtitle: "The Crash Site of a Military Plane",
       image: "montagne-noire/IMG_2361.jpg",
