@@ -106,6 +106,7 @@ const maps = {
   "lomas-lake": "https://www.google.com/maps/d/u/0/embed?mid=1naAw6-jWPrZLGDliX4BMDz2zqh3PIkQ&ehbc=2E312F",
   "san-juan-circle": "https://www.google.com/maps/d/u/0/embed?mid=1aARoD2PvqLLaj8cJ_egK5Zy1LuP7BBM&ehbc=2E312F",
   "heather-mountain": "https://www.google.com/maps/d/u/0/embed?mid=1iTkc5d61GyDtIIRqeCFl75EmzzK6qWw&ehbc=2E312F",
+  "jocelyn-hill": "https://www.google.com/maps/d/u/0/embed?mid=1rQieiBU77GVdjT4djKRbYjb46vlxo38&ehbc=2E312F",
 }
 
 customElements.define('my-map', Map);

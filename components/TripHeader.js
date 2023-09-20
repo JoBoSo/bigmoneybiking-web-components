@@ -67,6 +67,15 @@ const data = {
     "dates": "Aug 27, 2023",
     "quote": null,
   },
+  "jocelyn-hill": {
+    "title": "Jocelyn Hill",
+    "distance_km": 10.6,
+    "days": null,
+    "terrain": null,
+    "location": "Gowlland Tod Provincial Park",
+    "dates": "Aug 19, 2023",
+    "quote": null,
+  },
   "san-juan-circle": {
     "title": "San Juan Circle",
     "distance_km": 333,
