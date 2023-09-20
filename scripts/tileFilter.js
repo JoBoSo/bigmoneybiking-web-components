@@ -46,7 +46,7 @@ function tileFilter(buttonName) {
       filter = ['tin-hat', 'oliver-creek', 'gunsight', 'silvern-lake', 'maroon-mtn']
     }
     else if (buttonName == "vancouverIslandHikes") {
-      filter = ['mt-albert-edward', 'phillips-ridge', 'mt-becher', 'heather-mountain']
+      filter = ['mt-albert-edward', 'phillips-ridge', 'mt-becher', 'jocelyn-hill', 'heather-mountain']
     }
     else if (buttonName == "ontarioHikes") {
       filter = ['algonquin']

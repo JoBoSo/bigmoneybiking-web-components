@@ -186,6 +186,11 @@ const videos = {
     "header": "Hiking to Lomas Lake",
   },
 
+  "jocelyn-hill": {
+    "link": "https://www.youtube.com/embed/WGS-k7ejgv8",
+    "header": "Jocelyn Hill",
+  },
+
   "heather-mountain": {
     "link": "https://www.youtube.com/embed/mTRNBZRD87Y",
     "header": "Hiking up Heather Mountain",

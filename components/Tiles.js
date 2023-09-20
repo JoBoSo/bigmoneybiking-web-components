@@ -319,6 +319,12 @@ const tiles = {
       page: "hikes/heather-mountain.html"
     },
     {
+      title: "Jocelyn Hill",
+      subtitle: "",
+      image: "jocelyn-hill/IMG_2958.jpeg",
+      page: "hikes/jocelyn-hill.html"
+    },
+    {
       title: "Montagne Noire",
       subtitle: "The Crash Site of a Military Plane",
       image: "montagne-noire/IMG_2361.jpg",
