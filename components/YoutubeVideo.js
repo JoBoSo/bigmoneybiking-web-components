@@ -196,6 +196,11 @@ const videos = {
     "header": "Hiking up Heather Mountain",
   },
 
+  "san-juan-circle": {
+    "link": "https://www.youtube.com/embed/KIeuRGOih5A",
+    "header": "The San Juan Circle",
+  },
+
 }
 
 customElements.define('my-youtube-video', YoutubeVideo);
