@@ -176,6 +176,12 @@ const tiles = {
 
   "bike_tours": [
     {
+      title: "The San Juan Circle",
+      subtitle: "",
+      image: "san-juan-circle/IMG_3465.jpeg",
+      page: "tours/san-juan-circle.html"
+    },
+    {
       title: "Lomas Lake",
       subtitle: "",
       image: "lomas-lake/IMG_2553.jpeg",

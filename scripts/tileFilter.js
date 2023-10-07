@@ -14,7 +14,7 @@ function tileFilter(buttonName) {
 
     // Bike tours (index.html)
     else if (buttonName == "westCoast") {
-      filter = ['nanaimo-courtenay', 'san-josef-bay', 'brewster-lake', 'texada', 'comox-lake', 'quadra-cortes', 'nass-valley', 'haida-gwaii', 'galiano', 'saltspring', 'south-vi', 'pender-mayne-saturna', 'olympic', 'sunshine-coast', 'lomas-lake', 'san-juan-circle']
+      filter = ['san-juan-circle', 'nanaimo-courtenay', 'san-josef-bay', 'brewster-lake', 'texada', 'comox-lake', 'quadra-cortes', 'nass-valley', 'haida-gwaii', 'galiano', 'saltspring', 'south-vi', 'pender-mayne-saturna', 'olympic', 'sunshine-coast', 'lomas-lake', 'san-juan-circle']
     }
     else if (buttonName == "gulfIslands") {
       filter = ['texada', 'quadra-cortes', 'galiano', 'saltspring', 'pender-mayne-saturna']
