@@ -201,6 +201,11 @@ const videos = {
     "header": "The San Juan Circle",
   },
 
+  "gabriola": {
+    "link": "https://www.youtube.com/embed/BOVK3XpZt1Q",
+    "header": "Gabriola Island by Bike",
+  },
+
 }
 
 customElements.define('my-youtube-video', YoutubeVideo);

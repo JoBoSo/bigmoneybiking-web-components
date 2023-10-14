@@ -104,9 +104,10 @@ const maps = {
   "olympic": "https://www.google.com/maps/d/u/0/embed?mid=1CeiMXOYigm2y4EX1vDb4yL691ewGJYE&ehbc=2E312F",
   "sunshine-coast": "https://www.google.com/maps/d/u/0/embed?mid=1cs89V5p4o0zg8S30LM7dpKIc3O0srBM&ehbc=2E312F",
   "lomas-lake": "https://www.google.com/maps/d/u/0/embed?mid=1naAw6-jWPrZLGDliX4BMDz2zqh3PIkQ&ehbc=2E312F",
-  "san-juan-circle": "https://www.google.com/maps/d/u/0/embed?mid=1aARoD2PvqLLaj8cJ_egK5Zy1LuP7BBM&ehbc=2E312F",
   "heather-mountain": "https://www.google.com/maps/d/u/0/embed?mid=1iTkc5d61GyDtIIRqeCFl75EmzzK6qWw&ehbc=2E312F",
   "jocelyn-hill": "https://www.google.com/maps/d/u/0/embed?mid=1rQieiBU77GVdjT4djKRbYjb46vlxo38&ehbc=2E312F",
+  "san-juan-circle": "https://www.google.com/maps/d/u/0/embed?mid=1aARoD2PvqLLaj8cJ_egK5Zy1LuP7BBM&ehbc=2E312F",
+  "gabriola": "https://www.google.com/maps/d/u/0/embed?mid=1GT4GnyEnoGHzBtHyR-tFax5NJSjLwbQ&ehbc=2E312F",
 }
 
 customElements.define('my-map', Map);

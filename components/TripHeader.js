@@ -58,6 +58,24 @@ class TripHeader extends HTMLElement {
 }
 
 const data = {
+  "gabriola": {
+    "title": "Gabriola Island",
+    "distance_km": 292,
+    "days": 3,
+    "terrain": null,
+    "location": null,
+    "dates": "Sept 23-25, 2023",
+    "quote": null,
+  },
+  "san-juan-circle": {
+    "title": "The San Juan Circle",
+    "distance_km": 333,
+    "days": 3,
+    "terrain": null,
+    "location": null,
+    "dates": "Sept 9-11, 2023",
+    "quote": null,
+  },
   "heather-mountain": {
     "title": "Heather Mountain",
     "distance_km": 23,
@@ -74,15 +92,6 @@ const data = {
     "terrain": null,
     "location": "Gowlland Tod Provincial Park",
     "dates": "Aug 19, 2023",
-    "quote": null,
-  },
-  "san-juan-circle": {
-    "title": "San Juan Circle",
-    "distance_km": 333,
-    "days": 3,
-    "terrain": null,
-    "location": null,
-    "dates": "Sept 9-11, 2023",
     "quote": null,
   },
   "lomas-lake": {
