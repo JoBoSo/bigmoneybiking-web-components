@@ -176,6 +176,12 @@ const tiles = {
 
   "bike_tours": [
     {
+      title: "Gabriola Island",
+      subtitle: "Where The Magestic Yak Roams",
+      image: "gabriola/IMG_3659.jpeg",
+      page: "tours/gabriola.html"
+    },
+    {
       title: "The San Juan Circle",
       subtitle: "",
       image: "san-juan-circle/IMG_3465.jpeg",
