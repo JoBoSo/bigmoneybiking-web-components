@@ -5851,6 +5851,182 @@ const timelines = {
 
 
 
+  "gabriola": [
+    {
+      "destination": null,
+      "day": 1,
+      "date": "September 23, 2023",
+      "distance": 112,
+      "start": "Victoria",
+      "end": "Gabriola Island",
+      "description": "I biked from Victoria to Gabriola Island and took two ferries in between, one from Brentwood Bay to Mill Bay and then another from Nanaimo to Gabriola. I camped at Descanso Bay Regional Park.",
+      "bullets": [],
+      "photos": [
+        {
+          "image": "gabriola/IMG_3538.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3544.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3551.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3567.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3571.jpeg",
+          "caption": ""
+        },
+      ],
+      "photobar_imgs": []
+    },
+    {
+      "destination": "Gabriola Island",
+      "day": 2,
+      "date": "September 24, 2023",
+      "distance": 63,
+      "start": null,
+      "end": null,
+      "description": "I started my day on Gabriola Island by walking around Descanso Bay and some of the nearby trails before having coffee at Mad Rona's and breakfast at Ground Up Cafe. I biked many of the roads and stopped at viewpoints and short hikes along the way, including Drumbeg Provincial Park, Brickyard Beach, Sandwell Provincial Park, and Whalebone Beach. I enjoyed riding along the road that looked across the water at Mudge Island the most because it had lots of deciduos trees that were changing color in late September.",
+      "bullets": [],
+      "photos": [
+        {
+          "image": "gabriola/IMG_3578.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3581.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3589.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3593.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3595.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3598.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3607.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3624.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3642.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3647.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3652.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3659.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3660.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3668.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3674.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3678.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3679.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3686.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3696.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3701.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3709.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3721.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3732.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3735.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3738.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3739.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3741.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "gabriola/IMG_3742.jpeg",
+          "caption": ""
+        },
+      ],
+      "photobar_imgs": []
+    },
+    {
+      "destination": null,
+      "day": 3,
+      "date": "September 25, 2023",
+      "distance": 107,
+      "start": "Gabriola Island",
+      "end": "Victoria",
+      "description": "It was raining reasonably hard in the morning, so I quickly packed up my campsite and headed back to Victoria to end my trip.",
+      "bullets": [],
+      "photos": [
+      ],
+      "photobar_imgs": []
+    },
+  ],
+
+
+
   "": [
     {
       "destination": null,
