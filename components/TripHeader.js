@@ -60,7 +60,7 @@ class TripHeader extends HTMLElement {
 const data = {
   "gabriola": {
     "title": "Gabriola Island",
-    "distance_km": 292,
+    "distance_km": 282,
     "days": 3,
     "terrain": null,
     "location": null,
