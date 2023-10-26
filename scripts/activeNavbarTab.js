@@ -1,6 +1,7 @@
 // pathname equivalencies
 const index_pathnames = ['/index.html', '/index', '/'];
 const hikes_pathnames = ['/hikes.html', '/hikes'];
+const dashboard_pathnames = ['/dashboard.html', '/dashboard'];
 const blog_pathnames = ['/blog.html', '/blog'];
 const subscribe_pathnames = ['/subscribe.html', '/subscribe'];
 
@@ -17,7 +18,9 @@ $(function activeTab(){
         thisPathnames = hikes_pathnames;
       } else if (blog_pathnames.includes(thisPathname)) {
         thisPathnames = blog_pathnames;
-      } else if (subscribe_pathnames.includes(thisPathname)) {
+      } else if (dashboard_pathnames.includes(thisPathname)) {
+        thisPathnames = dashboard_pathnames;
+      }else if (subscribe_pathnames.includes(thisPathname)) {
         thisPathnames = subscribe_pathnames;
       }
     } 
