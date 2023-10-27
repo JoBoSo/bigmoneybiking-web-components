@@ -31,6 +31,7 @@
     <!-- components -->
     <script src="components/Header.js"></script>
     <script src="components/Navbar.js"></script>
+    <script src="components/StravaActivityMap.js"></script>
     <script defer src="scripts/activeNavbarTab.js"></script>
     <script src="components/BlogPosts.js"></script>
     <script src="components/Footer.js"></script>
@@ -41,9 +42,7 @@
     <div class="container-fluid m-0 p-0">
       <my-header></my-header>
       <my-navbar></my-navbar>
-      <div class="dashboard-container">
-        <embed src="https://stravaactivitymap.pythonanywhere.com/" class='strava-map'>
-      </div>
+      <strava-activity-map></strava-activity-map>
       <my-footer></my-footer>
     </div>
 

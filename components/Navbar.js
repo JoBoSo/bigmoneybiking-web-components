@@ -20,19 +20,19 @@ class Navbar extends HTMLElement {
         .my-nav {
           display: flex;
           overflow: hidden;
-          height: 22pt;
+          height: 18pt;
           background-color: #00abea /*#016ad5*/;
           align-items: center;
-          padding: 0;
+          padding: 0 1pt 0 1pt;
           margin: 0;
         }
       
         .my-nav a {
           color: #f8f8f8;
-          font-size: 12pt;
+          font-size: 10pt;
           text-align: center;
           vertical-align: middle;
-          padding: 0 10pt 0 10pt;
+          padding: 0 5pt 0 5pt;
           margin: 2pt 1pt 2pt 1pt;
           text-decoration: none;
         }
