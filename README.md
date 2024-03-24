@@ -1,3 +1,1 @@
-# bigmoneybiking-vercel
-
-Deployment: Github -> Vercel -> bigmoneybiking.ca
+Deployment: Github -> Vercel -> bigmoneybiking.com
