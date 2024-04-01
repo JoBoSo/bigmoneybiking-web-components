@@ -23,7 +23,7 @@ class Navbar extends HTMLElement {
           height: 18pt;
           background-color: #00abea /*#016ad5*/;
           align-items: center;
-          padding: 0 1pt 0 1pt;
+          padding: 0 7pt 0 7pt;
           margin: 0;
         }
       
