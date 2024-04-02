@@ -14,38 +14,6 @@ attributeChangedCallback(property, oldValue, newValue) {
 }
 
   connectedCallback() {
-    let style = `
-      <style>
-
-      .filter-container {
-        background: #02bd94;
-        margin: 10px 10px 0px 10px;
-        border-radius: 7px;
-        font-size: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      .filter-container .button-container {
-        font-size: 10pt;
-      }
-      
-      .filter-container button {
-        border: none;
-        background: none;
-        color: white;
-        border-radius: 7px;
-        margin: 2px;
-      }
-      
-      .filter-container button:hover, button:focus {
-        background: #00d6a8;
-        outline: none;
-      }
-
-      </style>
-    `;
 
     let html = '';
 
@@ -77,7 +45,7 @@ attributeChangedCallback(property, oldValue, newValue) {
       `
     }
 
-    this.innerHTML = style + html
+    this.innerHTML = html
   }
 }
 
