@@ -1,237 +1,3 @@
-class Timeline extends HTMLElement {
-  constructor() {
-      super();
-      this.data_id = '';
-  }
-
-  static get observedAttributes() {
-      return ['data_id'];
-  }
-
-  attributeChangedCallback(property, oldValue, newValue) {
-      if (oldValue === newValue) return;
-      this[ property ] = newValue; 
-  }
-
-  connectedCallback() {
-    let style = `
-      <style>
-
-      .my-timeline ul {
-        list-style-type: none;
-        position: relative;
-        padding-left: 0px; 
-      }
-      
-        /* vertical line */
-      .my-timeline ul:before {
-        content: ' ';
-        background: white;
-        display: inline-block;
-        position: absolute;
-        left: 0px;
-        width: 1.5px;
-        height: auto; /*auto for line on top dot*/
-        top: 16px; /*16px for on the top dot*/
-        bottom: 20px; 
-        z-index: 400;
-        border-radius: 50%;
-      }
-      
-      .my-timeline-item {
-        margin-left: 0px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
-        border-radius: 15px;
-        background-color: rgba(0, 0, 0, 0.2);
-      }
-      
-      /* Timeline item circle marker */
-      .my-timeline-item::before {
-        content: ' ';
-        background: #FDB813;
-        display: inline-block;
-        position: absolute;
-        border-radius: 50%;
-        border: 1.5px solid white;
-        left: -6px;
-        width: 14px;
-        height: 14px;
-        z-index: 400;
-        /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
-        margin-top: 11px;
-      }
-      
-      .my-timeline-header {
-        font-size: 18pt;
-        margin-left: 20px;
-      }
-
-      .my-timeline-description {
-        padding-left: 20px !important;
-        padding-right: 13px !important;
-        background: none !important;
-        text-align: justify;
-      }
-      
-      .my-timeline-bullets {
-        list-style-type: circle !important;
-        padding-left: 46px !important;
-        background: none !important;
-      }
-      
-      .my-timeline-bullets::before {
-        background: none !important;
-      }
-
-      #timeline-slider-section {
-        margin-top: -10px;
-      }
-      
-      .photo-slider-container {
-        width: 1600px;
-      }
-      
-      @media (max-width: 1600px) {
-        .photo-slider-container {
-          width: 100%
-        }
-      }
-      
-      .subcontainer {
-        width: 100%;
-        margin: auto;
-      }
-      
-      .slider-wrapper {
-        position: relative;
-      }
-      
-      .slide {
-        width: auto;
-        height: fit-content;
-      }
-      
-      .slide img {
-        width: 100%;
-        height: 263px;
-        border-top-left-radius: 6px;
-        border-top-right-radius: 6px;
-      }
-
-      @media (max-width: 576px) {
-        .slide img {
-          width: auto;
-          height: 237px;
-        }
-      }
-
-      .slide .caption {
-        width: 100%; 
-        height: auto;
-        padding: 5px;
-        border-bottom-left-radius: 6px;
-        border-bottom-right-radius: 6px;
-        text-align: center;
-        background: rgba(0, 0, 0, 0.2);
-      }
-      
-      #controls i {
-        color: white;
-      }
-
-      #controls {
-        padding-bottom: 5px;
-      }
-      
-      .previous,
-      .next {
-        width: 30px;
-        cursor: pointer;
-        border-radius: 50%;
-        outline: none;
-        transition: 0.7s ease-in-out;
-        border: 2px solid white;
-        background-color: rgba(0, 0, 0, 0.2);
-        position: absolute;
-        top: 50%;
-      }
-      
-      .previous {
-        left: 2%;
-      }
-      
-      .next {
-        right: 2%;
-      }
-      
-      .previous:hover,
-      .next:hover {
-        border: 2px solid #FDB813;
-      }
-
-      </style>
-    `;
-
-    let tripData = timelines[this.data_id];
-
-    this.innerHTML = style + `
-      <div class="my-timeline">
-        <ul>
-          ${tripData.map((item) => `
-            <li class="my-timeline-item">
-              <p class="my-timeline-header">
-                <b>
-                  ${item.day !== null ? 'Day ' + item.day + ' | ' : ''}
-                  <span style='font-size:16pt;'> 
-                    ${item.distance !== null ? item.distance + ' km' : ''} 
-                    ${item.destination !== null ? ' &#8212; ' + item.destination : ''} 
-                    ${item.start !== null ? "<span style='font-size: 12pt'>from</span> " + item.start : ''} 
-                    ${item.end !== null ? "<span style='font-size: 12pt'>to</span> " + item.end : ''} 
-                  </span>
-                </b>
-              </p>
-
-              <p class="my-timeline-description">${item.description !== null ? item.description : ''}</p>
-
-              <ul class="my-timeline-bullets">
-                ${item.bullets.map((bullet) => `<li>${bullet}</li>`).join('')}
-              </ul>
-
-              ${item.photos.length < 1 ? `` : `
-                <section id="timeline-slider-section">
-                  <div class="container">
-                    <div class="subcontainer">
-                      <div class="slider-wrapper">
-                        <div class="slider">
-                          ${item.photos.map((photo) => `
-                            <div class="slide">
-                              <img src='../images/${photo.image}'/>
-                              <div class="caption">${photo.caption}</div>
-                            </div>
-                          `).join('')}
-                        </div>
-                        <div id="controls">
-                          <button class="previous"><i class="fa-solid fa-angle-left"></i></button>
-                          <button class="next"><i class="fa-solid fa-angle-right"></i></button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              `}
-
-            </li>
-          `).join('')}
-        </ul>
-      </div>
-    `;
-  }
-}
-
 const timelines = {
   "mtrl-sherbrooke": [
     {
@@ -308,8 +74,8 @@ const timelines = {
         {
           "image": "mtrl-sherbrooke/IMG_2731.jpg",
           "caption": "Camping in Stukley"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -393,8 +159,8 @@ const timelines = {
         {
           "image": "mtrl-sherbrooke/IMG_2783.jpg",
           "caption": "Mont Orford"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -426,8 +192,8 @@ const timelines = {
         {
           "image": "mtrl-sherbrooke/IMG_2805.jpg",
           "caption": "Barnyard"
-        },
-      ],
+        }
+      ]
     }
   ],
 
@@ -472,8 +238,8 @@ const timelines = {
         {
           "image": "ptit-train/IMG_2546.jpg",
           "caption": "One of Many Train Stations"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -501,8 +267,8 @@ const timelines = {
         {
           "image": "ptit-train/IMG_2559.jpg",
           "caption": "River"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -526,8 +292,8 @@ const timelines = {
         {
           "image": "ptit-train/IMG_2579.jpg",
           "caption": "St. Jerome's Cathedral"
-        },
-      ],
+        }
+      ]
     }
   ],
 
@@ -572,8 +338,8 @@ const timelines = {
         {
           "image": "haida-gwaii/IMG_0835.jpg",
           "caption": "The Forest's Edge"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -653,8 +419,8 @@ const timelines = {
         {
           "image": "haida-gwaii/IMG_0866.jpg",
           "caption": "Retro Mushroom"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -678,8 +444,8 @@ const timelines = {
         {
           "image": "haida-gwaii/IMG_0869.jpg",
           "caption": "Ocean Bay"
-        },
-      ],
+        }
+      ]
     }
   ],
 
@@ -752,8 +518,8 @@ const timelines = {
         {
           "image": "nass-valley/IMG_124.jpg",
           "caption": "My Tent"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -873,8 +639,8 @@ const timelines = {
         {
           "image": "nass-valley/IMG_233.jpg",
           "caption": "Bear Prints"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -910,8 +676,8 @@ const timelines = {
         {
           "image": "nass-valley/IMG_312.jpg",
           "caption": "Camping on Kitsumkalum Lake"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -927,8 +693,8 @@ const timelines = {
         {
           "image": "nass-valley/IMG_401.jpg",
           "caption": "Jesus"
-        },
-      ],
+        }
+      ]
     }
   ],
 
@@ -997,8 +763,8 @@ const timelines = {
         {
           "image": "babine-lake/IMG_9525.jpg",
           "caption": "Dusk On The Beach"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -1030,9 +796,9 @@ const timelines = {
         {
           "image": "babine-lake/IMG_9540.jpg",
           "caption": "Alpine Air"
-        },
-      ],
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -1068,8 +834,8 @@ const timelines = {
         {
           "image": "downie-creek/IMG_8495.jpg",
           "caption": "Fire"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -1149,8 +915,8 @@ const timelines = {
         {
           "image": "downie-creek/IMG_8619.jpg",
           "caption": "The Other Side"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -1198,9 +964,9 @@ const timelines = {
         {
           "image": "downie-creek/IMG_8658.jpg",
           "caption": "Alberta Rules"
-        },
-      ],
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -1228,8 +994,8 @@ const timelines = {
         {
           "image": "begbie-falls/IMG_8348.jpg",
           "caption": "Looking Forward"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -1281,9 +1047,9 @@ const timelines = {
         {
           "image": "begbie-falls/IMG_3762.jpg",
           "caption": "Down Mt. Begbie"
-        },
-      ],
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -1311,8 +1077,8 @@ const timelines = {
         {
           "image": "quadra-cortes/IMG_6791.jpeg",
           "caption": "Dusk"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -1352,8 +1118,8 @@ const timelines = {
         {
           "image": "quadra-cortes/IMG_6834.jpeg",
           "caption": "Surge Narrows"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -1449,9 +1215,9 @@ const timelines = {
         {
           "image": "quadra-cortes/IMG_6975.jpeg",
           "caption": "Financial District, Quadra Island"
-        },
-      ],
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -1527,8 +1293,8 @@ const timelines = {
         {
           "image": "comox-lake/IMG_6324.jpg",
           "caption": "Bluffs"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -1560,9 +1326,9 @@ const timelines = {
         {
           "image": "comox-lake/IMG_6336.jpg",
           "caption": "Lushious Comox Lake"
-        },
-      ],
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -1614,8 +1380,8 @@ const timelines = {
         {
           "image": "texada/IMG_5839.jpg",
           "caption": "Only You"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -1655,8 +1421,8 @@ const timelines = {
         {
           "image": "texada/IMG_5867.jpg",
           "caption": "Shingle Beach Sign"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -1828,8 +1594,8 @@ const timelines = {
         {
           "image": "texada/IMG_6106.jpg",
           "caption": "Bob's Lake Sunset"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -1857,8 +1623,8 @@ const timelines = {
         {
           "image": "texada/IMG_6113.jpg",
           "caption": "Mary Mary Cafe"
-        },
-      ],
+        }
+      ]
     }
   ],
 
@@ -1891,8 +1657,8 @@ const timelines = {
         {
           "image": "brewster-lake/IMG_5570.jpg",
           "caption": "Fire"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -1956,8 +1722,8 @@ const timelines = {
         {
           "image": "brewster-lake/IMG_5635.jpg",
           "caption": "Burning Clive Cussler"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -1970,8 +1736,8 @@ const timelines = {
       "bullets": [
       ],
       "photos": [
-      ],
-    },
+      ]
+    }
   ],
 
 
@@ -2019,8 +1785,8 @@ const timelines = {
         {
           "image": "san-josef-bay/IMG_5263.jpg",
           "caption": "My Campsite"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -2080,8 +1846,8 @@ const timelines = {
         {
           "image": "san-josef-bay/IMG_5330.jpg",
           "caption": "My Bedroom"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -2105,8 +1871,8 @@ const timelines = {
         {
           "image": "san-josef-bay/IMG_5327.jpg",
           "caption": "Swooping Trees"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -2146,8 +1912,8 @@ const timelines = {
         {
           "image": "san-josef-bay/IMG_5363.jpg",
           "caption": "Wood"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -2215,8 +1981,8 @@ const timelines = {
         {
           "image": "san-josef-bay/IMG_5416.jpg",
           "caption": "Red Cedar"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -2312,8 +2078,8 @@ const timelines = {
         {
           "image": "san-josef-bay/IMG_5492.jpg",
           "caption": "Grass"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -2349,8 +2115,8 @@ const timelines = {
         {
           "image": "san-josef-bay/IMG_5515.jpg",
           "caption": "Beans"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -2366,8 +2132,8 @@ const timelines = {
         {
           "image": "san-josef-bay/IMG_5519.jpg",
           "caption": "Pedaling Home"
-        },
-      ],
+        }
+      ]
     }
   ],
 
@@ -2416,8 +2182,8 @@ const timelines = {
         {
           "image": "nanaimo-courtenay/IMG_5142.jpg",
           "caption": "Water Bed"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -2469,9 +2235,9 @@ const timelines = {
         {
           "image": "nanaimo-courtenay/IMG_5221.jpg",
           "caption": "Courtenay"
-        },
-      ],
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -2487,7 +2253,7 @@ const timelines = {
       "description": "I left my Dad's house near Schomberg and headed toward Lake Ontario. Most of the day was spent on busy suburban roads near Toronto. I ended my day at Darlington Provincial Park in Bowmanville. It cost me $50 to sleep on some dirt in the suburbs.",
       "bullets": [
       ],
-      "photos": [],
+      "photos": []
     },
     {
       "destination": null,
@@ -2531,8 +2297,8 @@ const timelines = {
         {
           "image": "to-mtrl/IMG_4224.jpg",
           "caption": "Macaulay Mountain Conservation Area"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -2556,8 +2322,8 @@ const timelines = {
         {
           "image": "to-mtrl/IMG_4228.jpg",
           "caption": "Motelling"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -2605,8 +2371,8 @@ const timelines = {
         {
           "image": "to-mtrl/IMG_4255.jpg",
           "caption": "Sunset"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -2658,8 +2424,8 @@ const timelines = {
         {
           "image": "to-mtrl/IMG_4292.jpg",
           "caption": "Glengarry Campground"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -2703,8 +2469,8 @@ const timelines = {
         {
           "image": "to-mtrl/IMG_4313.jpg",
           "caption": "The City"
-        },
-      ],
+        }
+      ]
     }
   ],
 
@@ -2859,8 +2625,8 @@ const timelines = {
         {
           "image": "tin-hat/IMG_7740.jpg",
           "caption": "Sunset"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -2887,9 +2653,9 @@ const timelines = {
         {
           "image": "tin-hat/IMG_7752.jpg",
           "caption": "Duck Lake"
-        },
-      ],
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -2951,8 +2717,8 @@ const timelines = {
         {
           "image": "mt-albert-edward/IMG_6669.jpg",
           "caption": "Nighttime On Circlet Lake"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -3051,9 +2817,9 @@ const timelines = {
         {
           "image": "mt-albert-edward/IMG_6750.jpg",
           "caption": "Back Through The Meadows"
-        },
-      ],
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -3144,8 +2910,8 @@ const timelines = {
         {
           "image": "oliver-creek/IMG_0342.jpg",
           "caption": "Mountain View"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -3171,9 +2937,9 @@ const timelines = {
         {
           "image": "oliver-creek/IMG_0350.jpg",
           "caption": "The Skeena River"
-        },
-      ],
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -3218,8 +2984,8 @@ const timelines = {
         {
           "image": "phillips-ridge/IMG_7102.jpg",
           "caption": "Sunset"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -3253,9 +3019,9 @@ const timelines = {
         {
           "image": "phillips-ridge/IMG_7123.jpg",
           "caption": "Wildflowers"
-        },
-      ],
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -3299,8 +3065,8 @@ const timelines = {
         {
           "image": "algonquin/IMG_4476.jpg",
           "caption": "Night"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": null,
@@ -3376,8 +3142,8 @@ const timelines = {
         {
           "image": "algonquin/IMG_4550.jpg",
           "caption": "Dinner"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": "The Minnesing Trail",
@@ -3469,9 +3235,9 @@ const timelines = {
         {
           "image": "algonquin/IMG_4698.jpg",
           "caption": "Home Stretch"
-        },  
-      ],
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -3487,7 +3253,7 @@ const timelines = {
       "description": null,
       "bullets": [
         "When I was moving from Smithers to Canmore, I hiked a few trails along my route.",
-        "I stopped at Mt. Robson for a short bike ride on the morning that I was arriving in Jasper.",
+        "I stopped at Mt. Robson for a short bike ride on the morning that I was arriving in Jasper."
       ],
       "photos": [
         {
@@ -3505,8 +3271,8 @@ const timelines = {
         {
           "image": "jasper/IMG_0972.jpg",
           "caption": "Berg Lake"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": "Valley of the Five Lakes",
@@ -3559,8 +3325,8 @@ const timelines = {
         {
           "image": "jasper/IMG_0991.jpg",
           "caption": "Mountains Across The Valley"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": "Sulpher Skyline Trail and Utopia Mountain",
@@ -3641,8 +3407,8 @@ const timelines = {
         {
           "image": "jasper/IMG_1040.jpg",
           "caption": "Fiddle River"
-        },
-      ],
+        }
+      ]
     },
     {
       "destination": "The Main Attractions",
@@ -3654,7 +3420,7 @@ const timelines = {
       "description": null,
       "bullets": [
         "There were lots of large elk at the campground.",
-        "I hit Edith Lake and Maligne Canyon, then continued to hike along the Athabasca River.",
+        "I hit Edith Lake and Maligne Canyon, then continued to hike along the Athabasca River."
       ],
       "photos": [
         {
@@ -3692,9 +3458,9 @@ const timelines = {
         {
           "image": "jasper/IMG_1055.jpg",
           "caption": "Droplets on Pine Needles"
-        },
-      ],
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -3741,9 +3507,8 @@ const timelines = {
         {
           "image": "quebec/IMG_4050.jpg",
           "caption": "My campsite in Bertheirville"
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -3842,9 +3607,8 @@ const timelines = {
         {
           "image": "quebec/IMG_4136.jpg",
           "caption": "Camping in Batiscan"
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -3955,10 +3719,9 @@ const timelines = {
         {
           "image": "quebec/IMG_4240.jpg",
           "caption": "Old Quebec City"
-        },
-      ],
-      "photobar_imgs": []
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -4040,9 +3803,8 @@ const timelines = {
         {
           "image": "galiano/IMG_0114.jpeg",
           "caption": "Vineyard"
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -4209,10 +3971,9 @@ const timelines = {
         {
           "image": "galiano/IMG_0334.jpeg",
           "caption": "Tree Tunnel"
-        },
-      ],
-      "photobar_imgs": []
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -4259,9 +4020,8 @@ const timelines = {
         {
           "image": "saltspring/IMG_0393.jpeg",
           "caption": "Sun Down"
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": "started and ended at Ruckle Provincial Park",
@@ -4432,9 +4192,8 @@ const timelines = {
         {
           "image": "saltspring/IMG_0573.jpeg",
           "caption": "Sunset"
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -4517,10 +4276,9 @@ const timelines = {
         {
           "image": "saltspring/IMG_0727.jpeg",
           "caption": "Fulford Harbour"
-        },
-      ],
-      "photobar_imgs": []
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -4571,9 +4329,8 @@ const timelines = {
         {
           "image": "south-vi/IMG_1121.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": "Looped Around Lake Cowichan",
@@ -4668,9 +4425,8 @@ const timelines = {
         {
           "image": "south-vi/IMG_0931.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -4757,10 +4513,9 @@ const timelines = {
         {
           "image": "south-vi/IMG_1078.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -4795,9 +4550,8 @@ const timelines = {
         {
           "image": "pender-mayne-saturna/IMG_1168.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -4904,9 +4658,8 @@ const timelines = {
         {
           "image": "pender-mayne-saturna/IMG_1304.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -4997,9 +4750,8 @@ const timelines = {
         {
           "image": "pender-mayne-saturna/IMG_1438.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -5094,9 +4846,8 @@ const timelines = {
         {
           "image": "pender-mayne-saturna/IMG_1567.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     }
   ],
 
@@ -5200,9 +4951,8 @@ const timelines = {
         {
           "image": "olympic/IMG_1908.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -5289,9 +5039,8 @@ const timelines = {
         {
           "image": "olympic/IMG_1844.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -5346,10 +5095,9 @@ const timelines = {
         {
           "image": "olympic/IMG_1890.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -5396,9 +5144,8 @@ const timelines = {
         {
           "image": "sunshine-coast/IMG_1975.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -5433,9 +5180,8 @@ const timelines = {
         {
           "image": "sunshine-coast/IMG_2032.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -5526,9 +5272,8 @@ const timelines = {
         {
           "image": "sunshine-coast/IMG_2198.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -5631,9 +5376,8 @@ const timelines = {
         {
           "image": "sunshine-coast/IMG_2365.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     }
   ],
 
@@ -5685,9 +5429,8 @@ const timelines = {
         {
           "image": "lomas-lake/IMG_2470.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": "Cowichan Lake",
@@ -5774,9 +5517,8 @@ const timelines = {
         {
           "image": "lomas-lake/IMG_2564.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -5843,10 +5585,9 @@ const timelines = {
         {
           "image": "lomas-lake/IMG_2619.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -5897,9 +5638,8 @@ const timelines = {
         {
           "image": "san-juan-circle/IMG_3279.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -6002,9 +5742,8 @@ const timelines = {
         {
           "image": "san-juan-circle/IMG_3786.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -6075,10 +5814,9 @@ const timelines = {
         {
           "image": "san-juan-circle/IMG_3484.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
-    },
+        }
+      ]
+    }
   ],
 
 
@@ -6113,9 +5851,8 @@ const timelines = {
         {
           "image": "gabriola/IMG_3571.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": "Gabriola Island",
@@ -6238,9 +5975,8 @@ const timelines = {
         {
           "image": "gabriola/IMG_3742.jpeg",
           "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+        }
+      ]
     },
     {
       "destination": null,
@@ -6252,106 +5988,11 @@ const timelines = {
       "description": "It was raining reasonably hard in the morning, so I quickly packed up my campsite and headed back to Victoria to end my trip.",
       "bullets": [],
       "photos": [
-      ],
-      "photobar_imgs": []
-    },
-  ],
-
-
-
-  "": [
-    {
-      "destination": null,
-      "day": 1,
-      "date": "May 19, 2021",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": null,
-      "bullets": [],
-      "photos": [
-        {
-          "image": "",
-          "caption": ""
-        },
-      ],
-      "photobar_imgs": []
-    },
-    {
-      "destination": null,
-      "day": 2,
-      "date": "",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": null,
-      "bullets": [],
-      "photos": [
-        {
-          "image": "",
-          "caption": ""
-        },
-      ],
-      "photobar_imgs": []
-    },
-    {
-      "destination": null,
-      "day": 3,
-      "date": "",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": null,
-      "bullets": [],
-      "photos": [
-        {
-          "image": "",
-          "caption": ""
-        },
-      ],
-      "photobar_imgs": []
-    },
-    {
-      "destination": null,
-      "day": 4,
-      "date": "",
-      "distance": 0,
-      "start": "",
-      "end": "",
-      "description": null,
-      "bullets": [],
-      "photos": [
-        {
-          "image": "",
-          "caption": ""
-        },
-      ],
-      "photobar_imgs": []
+      ]
     }
-  ],
+  ]
 
 }
 
-customElements.define('my-timeline', Timeline);
 
-let sliders = document.querySelectorAll('.slider');
-let controls = document.querySelectorAll('#controls');
-let previous = document.querySelectorAll('.previous');
-let next = document.querySelectorAll('.next');
-for (let i = 0; i < sliders.length; i++) {
-  tns({
-    container: sliders[i],
-    autoWidth: true,
-    gutter: 12,
-    slideBy: 1,
-    nav: false,
-    speed: 400,
-    controlsContainer: controls[i],
-    prevButton: previous[i],
-    nextButton: next[i],
-    rewind: true,
-    mouseDrag: true,
-    swipeAngle: 30,
-    preventScrollOnTouch: "auto",
-  });
-};
+export default timelines

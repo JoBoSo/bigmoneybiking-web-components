@@ -1,62 +1,3 @@
-class TripHeader extends HTMLElement {
-  constructor() {
-      super();
-      this.data_id = '';
-  }
-
-  static get observedAttributes() {
-      return ['data_id'];
-  }
-
-  attributeChangedCallback(property, oldValue, newValue) {
-      if (oldValue === newValue) return;
-      this[ property ] = newValue; 
-  }
-
-  connectedCallback() {
-    let style = `
-      <style>
-
-      .trip-header .tour-title {
-        text-align: center;
-        margin: 0;
-      }
-      
-      .trip-header .stats-bar {
-        text-align: center;
-        vertical-align: middle;
-        padding-top: 0px !important;
-        padding-bottom: 0px !important;
-        margin: 0 !important;
-        /* border-bottom: solid #dedcdc 1px; */
-      }
-      
-      .trip-header .quote {
-        text-align: center;
-      }
-
-      </style>
-    `;
-
-    let tripData = data[this.data_id];
-
-    this.innerHTML = style + `
-      <div class="row no-gutters">
-        <div class="col-12 trip-header">
-          <h1 class="tour-title">${tripData.title}</h1>
-          <p class="stats-bar">
-            ${tripData.distance_km !== null ? tripData.distance_km + ' km | ' : ''}
-            ${tripData.days !== null ? tripData.days + ' Days | ' : ''}
-            ${tripData.terrain !== null ? tripData.terrain + ' | ' : ''}
-            ${tripData.location !== null ? tripData.location + ' | ' : ''}
-            ${tripData.dates !== null ? tripData.dates : ''}
-          </p>
-        </div>
-      </div>
-    `;
-  }
-}
-
 const data = {
   "gabriola": {
     "title": "Gabriola Island",
@@ -65,7 +6,7 @@ const data = {
     "terrain": null,
     "location": null,
     "dates": "Sept 23-25, 2023",
-    "quote": null,
+    "quote": null
   },
   "san-juan-circle": {
     "title": "The San Juan Circle",
@@ -74,7 +15,7 @@ const data = {
     "terrain": null,
     "location": null,
     "dates": "Sept 9-11, 2023",
-    "quote": null,
+    "quote": null
   },
   "heather-mountain": {
     "title": "Heather Mountain",
@@ -83,7 +24,7 @@ const data = {
     "terrain": null,
     "location": "Cowichan Valley",
     "dates": "Aug 27, 2023",
-    "quote": null,
+    "quote": null
   },
   "jocelyn-hill": {
     "title": "Jocelyn Hill",
@@ -92,7 +33,7 @@ const data = {
     "terrain": null,
     "location": "Gowlland Tod Provincial Park",
     "dates": "Aug 19, 2023",
-    "quote": null,
+    "quote": null
   },
   "lomas-lake": {
     "title": "Lomas Lake",
@@ -101,7 +42,7 @@ const data = {
     "terrain": null,
     "location": "Vancouver Island",
     "dates": "July 15-17, 2023",
-    "quote": null,
+    "quote": null
   },
   "sunshine-coast": {
     "title": "The Sunshine Coast",
@@ -110,7 +51,7 @@ const data = {
     "terrain": null,
     "location": null,
     "dates": "July 1-4, 2023",
-    "quote": null,
+    "quote": null
   },
   "olympic": {
     "title": "Olympic National Park",
@@ -119,7 +60,7 @@ const data = {
     "terrain": null,
     "location": "North-West Washington",
     "dates": "June 17-19, 2023",
-    "quote": null,
+    "quote": null
   },
   "pender-mayne-saturna": {
     "title": "Pender, Mayne, & Saturna Islands",
@@ -128,7 +69,7 @@ const data = {
     "terrain": null,
     "location": "Southern Gulf Islands",
     "dates": "June 2-5, 2023",
-    "quote": null,
+    "quote": null
   },
   "south-vi": {
     "title": "South Vancouver Island",
@@ -137,7 +78,7 @@ const data = {
     "terrain": null,
     "location": null,
     "dates": "May 20-22, 2023",
-    "quote": null,
+    "quote": null
   },
   "saltspring": {
     "title": "Salt Spring Island",
@@ -146,7 +87,7 @@ const data = {
     "terrain": null,
     "location": "Southern Gulf Islands",
     "dates": "May 12-14, 2023",
-    "quote": null,
+    "quote": null
   },
   "galiano": {
     "title": "Galiano Island",
@@ -155,7 +96,7 @@ const data = {
     "terrain": null,
     "location": "Southern Gulf Islands",
     "dates": "May 6-7, 2023",
-    "quote": null,
+    "quote": null
   },
   "quebec": {
     "title": "Montreal to Quebec City",
@@ -164,7 +105,7 @@ const data = {
     "terrain": null,
     "location": null,
     "dates": "Apr 14-16, 2023",
-    "quote": null,
+    "quote": null
   },
   "babine-lake": {
     "title": "Babine Lake",
@@ -173,7 +114,7 @@ const data = {
     "terrain": "Gravel Logging Roads",
     "location": "Central BC",
     "dates": "May 8-9, 2021",
-    "quote": null,
+    "quote": null
   },
   "begbie-falls": {
     "title": "Begbie Falls",
@@ -182,7 +123,7 @@ const data = {
     "terrain": null,
     "location": "Revelstoke, BC",
     "dates": "Sept 26-27, 2020",
-    "quote": null,
+    "quote": null
   },
   "brewster-lake": {
     "title": "Brewster & Campbell Lakes",
@@ -191,7 +132,7 @@ const data = {
     "terrain": "Paved & logging roads",
     "location": "Campbell River, BC",
     "dates": "May 28-30, 2020",
-    "quote": "Every whisper in the wind brings a good man back again. &#8212;Arlo Guthrie",
+    "quote": "Every whisper in the wind brings a good man back again. &#8212;Arlo Guthrie"
   },
   "comox-lake": {
     "title": "Comox Lake",
@@ -200,7 +141,7 @@ const data = {
     "terrain": "Paved & logging roads",
     "location": "Vancouver Island, BC",
     "dates": "July 4-5, 2020",
-    "quote": null,
+    "quote": null
   },
   "downie-creek": {
     "title": "Downie Creek",
@@ -209,7 +150,7 @@ const data = {
     "terrain": "Paved Roads",
     "location": "Columbia River, BC",
     "dates": "Oct 3-5, 2020",
-    "quote": "\"Fuck you,\" I said to the outhouse. \"All I want is a ride down the river.\" &#8212;Richard Brautigan",
+    "quote": "\"Fuck you,\" I said to the outhouse. \"All I want is a ride down the river.\" &#8212;Richard Brautigan"
   },
   "haida-gwaii": {
     "title": "Haida Gwaii",
@@ -218,7 +159,7 @@ const data = {
     "terrain": "Paved & logging roads",
     "location": null,
     "dates": "Aug 12-14, 2021",
-    "quote": null,
+    "quote": null
   },
   "mtrl-sherbrooke": {
     "title": "Montreal to Sherbooke",
@@ -227,7 +168,7 @@ const data = {
     "terrain": "Paved & Gravel Bike Paths",
     "location": "SW QC",
     "dates": "Sept 16-18, 2022",
-    "quote": null,
+    "quote": null
   },
   "nanaimo-courtenay": {
     "title": "Nanaimo to Courtenay",
@@ -236,7 +177,7 @@ const data = {
     "terrain": "Paved & Logging Roads",
     "location": "Vancouver Island",
     "dates": "May 6-7, 2020",
-    "quote": "In the dark lurks things you don't understand. &#8212;Jordan Peterson",
+    "quote": "In the dark lurks things you don't understand. &#8212;Jordan Peterson"
   },
   "nass-valley": {
     "title": "Nisga'a",
@@ -245,7 +186,7 @@ const data = {
     "terrain": "Paved & logging roads",
     "location": "Skeena",
     "dates": "May 19-22, 2021",
-    "quote": "People will tell you where they've gone, they'll tell you where to go. But till you get there yourself you never really know. &#8212;Joni Mitcehll",
+    "quote": "People will tell you where they've gone, they'll tell you where to go. But till you get there yourself you never really know. &#8212;Joni Mitcehll"
   },
   "ptit-train": {
     "title": "P'tit Train du Nord",
@@ -254,7 +195,7 @@ const data = {
     "terrain": "Paved & Gravel Rail Trail",
     "location": "SW Laurentians, QC",
     "dates": "Aug 12-15, 2022",
-    "quote": null,
+    "quote": null
   },
   "quadra-cortes": {
     "title": "Quadra & Cortes",
@@ -263,7 +204,7 @@ const data = {
     "terrain": "Paved & logging roads",
     "location": "Discovery Islands, BC",
     "dates": "Aug 1-3, 2020",
-    "quote": null,
+    "quote": null
   },
   "san-josef-bay": {
     "title": "North Vancouver Island",
@@ -272,7 +213,7 @@ const data = {
     "terrain": "Paved & logging roads",
     "location": null,
     "dates": "May 14-21, 2020",
-    "quote": null,
+    "quote": null
   },
   "texada": {
     "title": "Texada Island",
@@ -281,7 +222,7 @@ const data = {
     "terrain": "Paved & Logging Roads",
     "location": null,
     "dates": "June 12-15, 2020",
-    "quote": null,
+    "quote": null
   },
   "to-mtrl": {
     "title": "Schomberg to Montreal",
@@ -290,7 +231,7 @@ const data = {
     "terrain": "Paved & Gravel Bike Paths",
     "location": null,
     "dates": "Aug 16-21, 2019",
-    "quote": "Many a dream is lost in the nasty city sound. &#8212;Don McLean",
+    "quote": "Many a dream is lost in the nasty city sound. &#8212;Don McLean"
   },
   "bourgeau": {
     "title": "Mt. Bourgeau",
@@ -299,7 +240,7 @@ const data = {
     "terrain": null,
     "location": "Banff National Park",
     "dates": "Sept 4, 2021",
-    "quote": null,
+    "quote": null
   },
   "cory-pass": {
     "title": "Cory Pass",
@@ -308,7 +249,7 @@ const data = {
     "terrain": null,
     "location": "Banff National Park",
     "dates": "Sept 3, 2021",
-    "quote": null,
+    "quote": null
   },
   "grotto-mtn": {
     "title": "Grotto Mountain",
@@ -317,7 +258,7 @@ const data = {
     "terrain": null,
     "location": "Canmore, AB",
     "dates": "Oct 4, 2021",
-    "quote": null,
+    "quote": null
   },
   "gunsight": {
     "title": "Gunsight Lake",
@@ -326,7 +267,7 @@ const data = {
     "terrain": null,
     "location": "Terrace, BC",
     "dates": "June 17, 2021",
-    "quote": null,
+    "quote": null
   },
   "ha-ling": {
     "title": "Ha Ling",
@@ -335,7 +276,7 @@ const data = {
     "terrain": null,
     "location": "Canmore, AB",
     "dates": "Sept 2, 2021",
-    "quote": null,
+    "quote": null
   },
   "jasper": {
     "title": "Jasper",
@@ -344,7 +285,7 @@ const data = {
     "terrain": null,
     "location": "Jasper National Park",
     "dates": "Aug 29-Sept 1, 2021",
-    "quote": null,
+    "quote": null
   },
   "maroon-mtn": {
     "title": "Maroon Mountain",
@@ -353,7 +294,7 @@ const data = {
     "terrain": null,
     "location": "Terrace, BC",
     "dates": "July 15, 2021",
-    "quote": null,
+    "quote": null
   },
   "mccrae-peak": {
     "title": "McCrae Peak",
@@ -362,7 +303,7 @@ const data = {
     "terrain": null,
     "location": "Revelstoke, BC",
     "dates": "Sept 20, 2020",
-    "quote": null,
+    "quote": null
   },
   "mont-nixon": {
     "title": "Mont Nixon",
@@ -371,7 +312,7 @@ const data = {
     "terrain": null,
     "location": "Parc National du Mont Tremblant",
     "dates": "July 16, 2022",
-    "quote": null,
+    "quote": null
   },
   "montagne-noire": {
     "title": "Montagne Noire",
@@ -380,7 +321,7 @@ const data = {
     "terrain": null,
     "location": "Saint Donat, QC",
     "dates": "July 17, 2022",
-    "quote": null,
+    "quote": null
   },
   "mt-albert-edward": {
     "title": "Mt. Albert Edward",
@@ -389,7 +330,7 @@ const data = {
     "terrain": null,
     "location": "Strathcona Provincial Park",
     "dates": "July 25-26, 2020",
-    "quote": null,
+    "quote": null
   },
   "mt-begbie": {
     "title": "Mt. Begbie",
@@ -398,7 +339,7 @@ const data = {
     "terrain": null,
     "location": "Revelstoke, BC",
     "dates": "Sept 5, 2020",
-    "quote": null,
+    "quote": null
   },
   "mt-cartier": {
     "title": "Mt. Cartier",
@@ -416,7 +357,7 @@ const data = {
     "terrain": null,
     "location": "Mt. Revelstoke National Park",
     "dates": "Oct 15, 2020",
-    "quote": "The mushroom said to me once: Nature loves courage. <br>Nature loves courage, and I said, what’s the payoff on that? <br>It said: It shows you that it loves courage because it will remove obstacles. <br>- Terence McKenna",
+    "quote": "The mushroom said to me once: Nature loves courage. <br>Nature loves courage, and I said, what’s the payoff on that? <br>It said: It shows you that it loves courage because it will remove obstacles. <br>- Terence McKenna"
   },
   "mt-temple": {
     "title": "Mt. Temple",
@@ -425,7 +366,7 @@ const data = {
     "terrain": null,
     "location": "Lake Louise, AB",
     "dates": "Sept 6, 2021",
-    "quote": null,
+    "quote": null
   },
   "oliver-creek": {
     "title": "Oliver Creek Trail",
@@ -434,7 +375,7 @@ const data = {
     "terrain": null,
     "location": "Seven Sisters Provincial Park",
     "dates": "June 15-16, 2021",
-    "quote": null,
+    "quote": null
   },
   "phillips-ridge": {
     "title": "Phillips Ridge",
@@ -443,7 +384,7 @@ const data = {
     "terrain": null,
     "location": "Strathcona Provincial Park",
     "dates": "Aug 8-9, 2020",
-    "quote": "Some people work very hard but still they never get it right. Well, I'm beginning to see the light. &#8212;Lou Reed",
+    "quote": "Some people work very hard but still they never get it right. Well, I'm beginning to see the light. &#8212;Lou Reed"
   },
   "seaton-ridge": {
     "title": "Seaton Ridge",
@@ -452,7 +393,7 @@ const data = {
     "terrain": null,
     "location": "Seaton, BC",
     "dates": "July 18, 2021",
-    "quote": null,
+    "quote": null
   },
   "silver-king": {
     "title": "Silver King Basin",
@@ -461,7 +402,7 @@ const data = {
     "terrain": null,
     "location": "Babine Mountains Provincial Park",
     "dates": "June 27-28 & Aug 2, 2021",
-    "quote": null,
+    "quote": null
   },
   "silvern-lake": {
     "title": "Silvern Lake",
@@ -470,7 +411,7 @@ const data = {
     "terrain": null,
     "location": "Smithers, BC",
     "dates": "May 24 & July 1-2, 2021",
-    "quote": null,
+    "quote": null
   },
   "six-glaciers": {
     "title": "Plain of Six Glaciers",
@@ -479,7 +420,7 @@ const data = {
     "terrain": null,
     "location": "Lake Louise, AB",
     "dates": "June 25, 2022",
-    "quote": null,
+    "quote": null
   },
   "tin-hat": {
     "title": "Tin Hat Mountain",
@@ -488,7 +429,7 @@ const data = {
     "terrain": null,
     "location": "Powell River, BC",
     "dates": "Aug 22-23, 2020",
-    "quote": null,
+    "quote": null
   },
   "viking-ridge": {
     "title": "Viking Ridge",
@@ -497,7 +438,7 @@ const data = {
     "terrain": null,
     "location": "Sugarbowl-Grizzly Den Provincial Park",
     "dates": "Aug 28, 2021",
-    "quote": null,
+    "quote": null
   },
   "algonquin": {
     "title": "Algonquin Park",
@@ -506,7 +447,7 @@ const data = {
     "terrain": null,
     "location": null,
     "dates": "Dec 31, 2019 - Jan 2, 2020",
-    "quote": null,
+    "quote": null
   },
   "mt-becher": {
     "title": "Mt. Becher",
@@ -515,8 +456,8 @@ const data = {
     "terrain": null,
     "location": "Strathcona Provincial Park",
     "dates": "Aug 16, 2020",
-    "quote": null,
+    "quote": null
   }
 }
 
-customElements.define('my-trip-header', TripHeader);
+export default data
