@@ -20,7 +20,7 @@ class Navbar extends HTMLElement {
         .my-nav {
           display: flex;
           overflow: hidden;
-          height: 18pt;
+          height: 19pt;
           background-color: #00abea /*#016ad5*/;
           align-items: center;
           padding: 0 7pt 0 7pt;
@@ -29,7 +29,7 @@ class Navbar extends HTMLElement {
       
         .my-nav a {
           color: #f8f8f8;
-          font-size: 10pt;
+          font-size: 11pt;
           text-align: center;
           vertical-align: middle;
           padding: 0 5pt 0 5pt;
@@ -49,12 +49,12 @@ class Navbar extends HTMLElement {
 
       this.innerHTML = style + `
         <div class="my-nav">
-          <a href="${this.root}index.html"><b>BIKE TOURS</b></a>
-          <a href="${this.root}hikes.html"><b>HIKES</b></a>
-          <a href="${this.root}dashboard.html"><b>DASHBOARD</b></a>
-          <a href="${this.root}blog.html"><b>BLOG</b></a>
-          <a style="font-size: 13pt" href="https://www.instagram.com/big_money_biking/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-          <a style="margin-left: auto;" href="${this.root}subscribe.html"><i><b>SUBSCRIBE</b></i></a>
+          <a href="${this.root}index.html"><b>Bike Tours</b></a>
+          <a href="${this.root}hikes.html"><b>Hikes</b></a>
+          <a href="${this.root}dashboard.html"><b>Dashboard</b></a>
+          <a href="${this.root}blog.html"><b>Blog</b></a>
+          <a style="font-size: 12pt" href="https://www.instagram.com/big_money_biking/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a style="margin-left: auto;" href="${this.root}subscribe.html"><i><b>Subscribe</b></i></a>
           </a>
         </div>
       `;
