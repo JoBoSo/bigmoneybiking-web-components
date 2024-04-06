@@ -13,10 +13,18 @@ class Navbar extends HTMLElement {
         this[ property ] = newValue; 
     }
   
-    connectedCallback() {
+    async connectedCallback() {
+      // let css = await fetch('./components/Navbar/Navbar.css')
+      //   .then((response) => response.text())
+      // ;
+
+      // let style = `
+      //   <style>${css}</style>
+      // `;
+
       let style = `
         <style>
-
+        
         .my-nav {
           display: flex;
           overflow: hidden;
@@ -26,7 +34,7 @@ class Navbar extends HTMLElement {
           padding: 0 7pt 0 7pt;
           margin: 0;
         }
-      
+        
         .my-nav a {
           color: #f8f8f8;
           font-size: 11pt;
@@ -36,14 +44,14 @@ class Navbar extends HTMLElement {
           margin: 2pt 1pt 2pt 1pt;
           text-decoration: none;
         }
-    
+        
         .my-nav a:hover, .active {
           background-color: #e69c3d;
           color: #f8f8f8;
           border-radius: 5px;
           box-shadow: 0 0 4px #e69c3d;
         }
-
+        
         </style>
       `;
 
