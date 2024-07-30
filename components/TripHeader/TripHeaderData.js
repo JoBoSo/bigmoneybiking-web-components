@@ -1,4 +1,22 @@
 const data = {
+  "french-beach": {
+    "title": "French Beach",
+    "distance_km": 155,
+    "days": 2,
+    "terrain": null,
+    "location": null,
+    "dates": "June 1-2, 2024",
+    "quote": null
+  },
+  "lillooet": {
+    "title": "Lillooet",
+    "distance_km": 904,
+    "days": 8,
+    "terrain": null,
+    "location": null,
+    "dates": "June 8-15, 2024",
+    "quote": null
+  },
   "gabriola": {
     "title": "Gabriola Island",
     "distance_km": 282,

@@ -133,6 +133,16 @@ const videos = {
   "gabriola": {
     "link": "https://www.youtube.com/embed/BOVK3XpZt1Q",
     "header": "Gabriola Island by Bike"
+  },
+
+  "french-beach": {
+    "link": "https://www.youtube.com/embed/OttPbviFE8Q",
+    "header": "French Beach"
+  },
+
+  "lillooet": {
+    "link": "https://www.youtube.com/embed/ly3KPixYhuk",
+    "header": "The Coast Mountains Loop"
   }
 
 }

@@ -2,6 +2,18 @@ const tiles = {
 
   "bike_tours": [
     {
+      "title": "Lillooet",
+      "subtitle": "Following the Fraser River",
+      "image": "lillooet/IMG_4803.jpeg",
+      "page": "tours/lillooet.html"
+    },
+    {
+      "title": "French Beach",
+      "subtitle": "Pursuing a European Lifestyle",
+      "image": "french-beach/IMG_4473.jpeg",
+      "page": "tours/french-beach.html"
+    },
+    {
       "title": "Gabriola Island",
       "subtitle": "Where The Magestic Yak Roams",
       "image": "gabriola/IMG_3659.jpeg",

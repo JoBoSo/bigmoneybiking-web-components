@@ -108,6 +108,8 @@ const maps = {
   "jocelyn-hill": "https://www.google.com/maps/d/u/0/embed?mid=1rQieiBU77GVdjT4djKRbYjb46vlxo38&ehbc=2E312F",
   "san-juan-circle": "https://www.google.com/maps/d/u/0/embed?mid=1aARoD2PvqLLaj8cJ_egK5Zy1LuP7BBM&ehbc=2E312F",
   "gabriola": "https://www.google.com/maps/d/u/0/embed?mid=1GT4GnyEnoGHzBtHyR-tFax5NJSjLwbQ&ehbc=2E312F",
+  "lillooet": "https://www.google.com/maps/d/u/0/embed?mid=1fMXTNY0Kb6OuVmH3nTvjvTq7jc4SagQ&ehbc=2E312F",
+  "french-beach": "https://www.google.com/maps/d/u/0/embed?mid=1C7fSLT8apuYdkiUvuzqtExOU_bzHt2g&ehbc=2E312F",
 }
 
 customElements.define('my-map', Map);
