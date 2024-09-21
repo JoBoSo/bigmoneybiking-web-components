@@ -5110,7 +5110,7 @@ const timelines = {
       "distance": 110,
       "start": "Victoria",
       "end": "Nanaimo",
-      "description": "I took the Ferry from Brentwood to Crofton to avoid riding on the Malahat Highway. I ended up camping in an opening in a forest in a residential area of Nanaimo. It was a bad choice because there were some blackberry vines on the ground that poked little holes in my sleeping pad. It slowly deflated and I wound up on the hard ground. I didn't sleep at all during the night.",
+      "description": "I took a ferry from Brentwood to Crofton to avoid the busy Malahat Highway. I camped in a clearing in the forest near Nanaimo, but it wasn't a great choice. There were blackberry vines on the ground that poked holes in my sleeping pad, and I ended up sleeping on the ground all night without falling asleep.",
       "bullets": [],
       "photos": [
         {
@@ -5154,7 +5154,7 @@ const timelines = {
       "distance": 152,
       "start": "Nanaimo",
       "end": "Powell River",
-      "description": "I rode through all the towns between Nanaimo and Comox. The elderly run rampent in these parts. I took the ferry from Comox to Powell River and camped at Haywire Bay. I often think about Powell River because it's one of the most peaceful towns I've found. I like it's pace. There isn't much traffic and people drive slowly. There aren't any highways and almost every house overlooks the ocean.",
+      "description": "I rode through several towns from Nanaimo to Comox. After taking a ferry to Powell River, I set up camp at Haywire Bay.",
       "bullets": [],
       "photos": [
         {
@@ -5190,7 +5190,7 @@ const timelines = {
       "distance": 112,
       "start": "Powell River",
       "end": "Sechelt",
-      "description": "My favourite day. I sat out front of Base Camp Coffee and enjoyed my coffee after riding into town from Haywire Bay. I walked around a big bay with an old pier on the edge of town. I biked along the ocean all day. The best of the Sunshine Coast is north of Sechelt, where I ended my day at the Porpoise Bay cyclist campground.",
+      "description": "This was my favorite day. I enjoyed coffee at Base Camp Coffee after arriving from Haywire Bay. I walked along a bay with an old pier and biked next to the ocean all day. The best part of the Sunshine Coast was north of Sechelt, where I stayed at the Porpoise Bay campground.",
       "bullets": [],
       "photos": [
         {
@@ -5282,7 +5282,7 @@ const timelines = {
       "distance": 157,
       "start": "Sechelt",
       "end": "Victoria",
-      "description": "The most diverse riding of the trip happened on my last day. I took a number of ferries. First, the Earl's Cove ferry. I liked passing through Gibsons. It's beautiful. It's clearly a popular town to retire to. I took my second ferry of the day at Horseshoe Bay and biked into Vancouver. It was a bit smoggy and grimmy, and there was lots of traffic. There were also lots of big bridges to cross. The ride to the Tsawwassen Ferry was mostly unpleasent since it ran along full-blown highways and through industrial areas. The final stretch, however, looked very much like flat Ontario farm country. The ferry to Victoria had some wide open views of the Strait. At the end of a day like this, I feel like I've connected with and sensed so much of the world. The irony is that I silently rode right by it all. There's not much to it.",
+      "description": "On the last day, I took several ferries, starting with the Earl's Cove ferry, and passed through Gibsons. After another ferry ride at Horseshoe Bay, I rode into Vancouver. It was crowded with traffic, and the ride to the Tsawwassen Ferry went through industrial areas. The final stretch crossed flat farmland, and the ferry to Victoria had nice views of the Strait.",
       "bullets": [],
       "photos": [
         {
