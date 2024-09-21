@@ -248,7 +248,7 @@ const timelines = {
       "distance": 160,
       "start": "Lac Boyd",
       "end": "Mont Blanc",
-      "description": "In the morning, I came across two stray horses out for a stroll on the trail. An old guy walking on the road called something out to me in french and laughed. I just laughed and grunted to pretend I understood him and the dialogue went on for a short while. The french language is open to interpretation. Arguably, it's a mindset. Around noon, I made to Mont Laurier. I ate a box of granola bars, a tube of pringles, and turned back around. I finished the day back at the cottage.",
+      "description": "In the morning, I came across two stray horses out for a stroll on the trail. An old guy walking on the road called something out to me in french and laughed. I just laughed and grunted to pretend I understood him and the dialogue went on for a short while. The french language is open to interpretation. Arguably, it's a mindset. Around noon, I made it to Mont Laurier. I ate a box of granola bars, a tube of pringles, and turned back around. I finished the day back at the cottage.",
       "bullets": [
       ],
       "photos": [
