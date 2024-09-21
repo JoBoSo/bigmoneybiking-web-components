@@ -4861,7 +4861,7 @@ const timelines = {
       "distance": 155,
       "start": "Victoria",
       "end": "Kalaloch",
-      "description": "I biked to the Coho Ferry in the Victoria Harbour to cross the ocean to Port Angeles in Washington. The ferry was built in 1959 and it still has a 50's esthetic. From Port Angeles, I biked west. There was a wildfire burning on the edge of town and I saw some nice views of it from the highway. Olypmic National Park seems to be fragmented. I rode a beautiful, but busy, stretch of road through The National Park. I think it might have been the only part of the ride that went through old growth forest. After about 11 miles, I was riding by state forests and tree farms. There wasn't much natural diversity or wildlife when compared to Vancouver Island. As the sun was setting, I turned south and road along the west coast to Kalaloch campground for the night.",
+      "description": "I biked to the Coho Ferry in Victoria Harbour to cross to Port Angeles, Washington. The ferry, built in 1959, has a retro feel. After arriving in Port Angeles, I rode west. There was a wildfire near town that I could see from the highway. Olympic National Park felt fragmented as I rode through a mix of old growth forest and cut-blocks. There was noticably less natural diversity and wildlife compared to Vancouver Island. As the sun set, I headed south along the coast to Kalaloch campground for the night.",
       "bullets": [],
       "photos": [
         {
@@ -4961,7 +4961,7 @@ const timelines = {
       "distance": 90,
       "start": "Kalaloch",
       "end": "Mora",
-      "description": "I woke up, got out of bed, and went down to the Kalaloch Beach. It's a big, breezy, sandy beach. Lots of people were walking around. I got back on the bike and headed North. I stopped by Ruby Beach, which has several sea stacks. American's are so open and outgoing. So many people asked me about my ride. One woman offered to take a picture of me on the beach. I got corn-on-a-stick from a Mexican food stand in Forks. After I setup my site at Mora Campground, I biked up the road to Rialto Beach, another stunning beach with sea stacks and a picturesque island, to watch the sun set.",
+      "description": "I woke up and went to Kalaloch Beach. I biked north and stopped at Ruby Beach to see its sea stacks. After setting up my campsite at Mora Campground, I rode to Rialto Beach to watch the sunset.",
       "bullets": [],
       "photos": [
         {
@@ -5049,7 +5049,7 @@ const timelines = {
       "distance": 132,
       "start": "Mora",
       "end": "Victoria",
-      "description": "I rode back to Port Angeles on the highway near the north coast; I took the inland highway on my first day. I didn't see much of the ocean, however. The north coast highway has more hills than the inland highway and it doesn't go through Olympic National Park. The ride was pretty uneventful. I lost my new, expensive helmet. I got some chocolate cake and ruhbarb pie at Blackberry Cafe in Joyce. Then, I got back on the ferry in Port Angeles and returned home to Victoria.",
+      "description": "I rode back to Port Angeles on the north coast highway, which has more hills than the inland highway I took two days earlier. I stopped at Blackberry Cafe in Joyce for chocolate cake and rhubarb pie. After that, I took the ferry back to Victoria.",
       "bullets": [],
       "photos": [
         {
