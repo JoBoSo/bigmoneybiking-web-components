@@ -5829,7 +5829,7 @@ const timelines = {
       "distance": 112,
       "start": "Victoria",
       "end": "Gabriola Island",
-      "description": "I biked from Victoria to Gabriola Island and took two ferries in between, one from Brentwood Bay to Mill Bay and then another from Nanaimo to Gabriola. I camped at Descanso Bay Regional Park.",
+      "description": "I left Victoria early and rode 112 km to Gabriola Island, taking two ferries along the way—one from Brentwood Bay to Mill Bay, and another from Nanaimo to Gabriola. I ended the day camping at Descanso Bay Regional Park, which was quiet and close to the water.",
       "bullets": [],
       "photos": [
         {
@@ -5861,7 +5861,7 @@ const timelines = {
       "distance": 63,
       "start": null,
       "end": null,
-      "description": "I started my day on Gabriola Island by walking around Descanso Bay and some of the nearby trails before having coffee at Mad Rona's and breakfast at Ground Up Cafe. I biked many of the roads and stopped at viewpoints and short hikes along the way, including Drumbeg Provincial Park, Brickyard Beach, Sandwell Provincial Park, and Whalebone Beach. I enjoyed riding along the road that looked across the water at Mudge Island the most because it had lots of deciduos trees that were changing color in late September.",
+      "description": "I spent the morning walking around Descanso Bay and had coffee at Mad Rona’s and breakfast at Ground Up Cafe. Then I biked around the island, visiting Drumbeg Provincial Park, Brickyard Beach, and Whalebone Beach. The road along Mudge Island was nice, with the trees starting to change color.",
       "bullets": [],
       "photos": [
         {
@@ -5985,12 +5985,14 @@ const timelines = {
       "distance": 107,
       "start": "Gabriola Island",
       "end": "Victoria",
-      "description": "It was raining reasonably hard in the morning, so I quickly packed up my campsite and headed back to Victoria to end my trip.",
+      "description": "It was raining in the morning, so I packed up quickly and headed back to Victoria.",
       "bullets": [],
       "photos": [
       ]
     }
   ],
+
+
 
   "lillooet": [
     {
