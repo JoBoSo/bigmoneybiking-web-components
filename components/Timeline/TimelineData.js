@@ -5600,7 +5600,7 @@ const timelines = {
       "distance": 48,
       "start": "Victoria",
       "end": "Sequim Bay State Park",
-      "description": "I took the Coho Ferry from Victoria to Port Angeles and rode along the Olympic Discovery Trail to the Sequim Bay Campground.",
+      "description": "I started the day by taking the Coho Ferry from Victoria to Port Angeles. Once I arrived, I rode along the Olympic Discovery Trail to Sequim Bay Campground.",
       "bullets": [],
       "photos": [
         {
@@ -5648,7 +5648,7 @@ const timelines = {
       "distance": 144,
       "start": "Sequim Bay State Park",
       "end": "Larrabee State Park",
-      "description": "I biked to Port Townsend in the morning. The Wooden Boat Festival was happening. I took the ferry to Whidbey Island, crossed Deception Pass, and rode along Chuckanut Drive to get to my campsite in Larrabee State Park.",
+      "description": "In the morning, I biked to Port Townsend, where the Wooden Boat Festival was taking place. After checking out the festival, I took the ferry to Whidbey Island, crossed Deception Pass, and rode along Chuckanut Drive to my campsite at Larrabee State Park.",
       "bullets": [],
       "photos": [
         {
@@ -5752,7 +5752,7 @@ const timelines = {
       "distance": 141,
       "start": "Larrabee State Park",
       "end": "Victoria",
-      "description": "I rode into Bellingham and ate breakfast at Diamond Jim's Grill. I crossed the border, rode through White Rock, then rode the beautiful Boundary Bay Dyke Trail along the coast to Tsawwassen, where I ferried back to Victoria.",
+      "description": "I rode into Bellingham and stopped for breakfast at Diamond Jim's Grill. After that, I crossed the border and rode through White Rock. The Boundary Bay Dyke Trail along the coast was beautiful, and I made my way to Tsawwassen to catch the ferry back to Victoria.",
       "bullets": [],
       "photos": [
         {
