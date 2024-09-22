@@ -22,6 +22,9 @@ class TripHeader extends HTMLElement {
       .trip-header .tour-title {
         text-align: center;
         margin: 0;
+        font-size: 24pt;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px grey;
       }
       
       .trip-header .stats-bar {
@@ -30,6 +33,7 @@ class TripHeader extends HTMLElement {
         padding-top: 0px !important;
         padding-bottom: 0px !important;
         margin: 0 !important;
+        text-shadow: 1px 1px 2px grey;
         /* border-bottom: solid #dedcdc 1px; */
       }
       
