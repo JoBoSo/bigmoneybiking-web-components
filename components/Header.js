@@ -17,6 +17,7 @@ class Header extends HTMLElement {
         font-size: 22pt;
         text-align: center;
         margin-bottom: 0;
+        text-shadow: 0.5px 0.5px 0.5px white;
       }
     
       #bmb-phrase {
