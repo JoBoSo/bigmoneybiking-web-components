@@ -14,13 +14,13 @@ function tileFilter(buttonName) {
 
     // Bike tours (index.html)
     else if (buttonName == "westCoast") {
-      filter = ['gabriola', 'san-juan-circle', 'nanaimo-courtenay', 'san-josef-bay', 'brewster-lake', 'texada', 'comox-lake', 'quadra-cortes', 'nass-valley', 'haida-gwaii', 'galiano', 'saltspring', 'south-vi', 'pender-mayne-saturna', 'olympic', 'sunshine-coast', 'lomas-lake', 'san-juan-circle']
+      filter = ['lillooet', 'french-beach', 'gabriola', 'san-juan-circle', 'nanaimo-courtenay', 'san-josef-bay', 'brewster-lake', 'texada', 'comox-lake', 'quadra-cortes', 'nass-valley', 'haida-gwaii', 'galiano', 'saltspring', 'south-vi', 'pender-mayne-saturna', 'olympic', 'sunshine-coast', 'lomas-lake', 'san-juan-circle']
     }
     else if (buttonName == "gulfIslands") {
       filter = ['gabriola', 'texada', 'quadra-cortes', 'galiano', 'saltspring', 'pender-mayne-saturna']
     }
     else if (buttonName == "vancouverIsland") {
-      filter = ['nanaimo-courtenay', 'san-josef-bay', 'brewster-lake', 'comox-lake', 'south-vi', 'lomas-lake']
+      filter = ['french-beach', 'nanaimo-courtenay', 'san-josef-bay', 'brewster-lake', 'comox-lake', 'south-vi', 'lomas-lake']
     }
     else if (buttonName == "interiorBC") {
       filter = ['begbie-falls', 'downie-creek', 'babine-lake']
