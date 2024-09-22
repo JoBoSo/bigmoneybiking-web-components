@@ -23,9 +23,6 @@ class YoutubeVideo extends HTMLElement {
       <div class="row no-gutters">
         <div class="col-sm-12 offset-md-2 col-md-8 text-center" style="padding: 0;">
           <div class="content-container">
-            <div class="youtube-video-header">
-              ${video.header} 
-            </div>
             <div class="embed-responsive embed-responsive-16by9">
               <iframe 
                 class="embed-responsive-item"
