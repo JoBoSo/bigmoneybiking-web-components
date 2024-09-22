@@ -43,7 +43,7 @@ class Timeline extends HTMLElement {
       .my-timeline-item {
         margin-left: 0px;
         margin-top: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         padding-top: 5px;
         padding-bottom: 5px;
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);

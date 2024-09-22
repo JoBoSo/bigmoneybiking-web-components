@@ -21,8 +21,8 @@ class Map extends HTMLElement {
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
         background: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
       }
   
       .myMap {
