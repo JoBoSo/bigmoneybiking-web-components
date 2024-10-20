@@ -151,6 +151,109 @@ const events = {
 
 
 
+  "sprauge-bay": {
+    "title": "",
+    "subtitle": "The Heart of the Columbia River",
+    "events": [
+
+      {
+        "header": "Goldstream River",
+        "description": "Highway 23 North crosses the Goldstream River on the way to Sprauge Bay.",
+        "photos": [
+          {
+            "image": "sprauge-bay/IMG_6741.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6731.JPEG",
+            "caption": ""
+          },
+        ]
+      },
+
+      {
+        "header": "Sprauge Bay",
+        "description": "I camped at Sprauge Bay Recreation Site where I explored the shore of Kinbasket Lake. There's a short trail through the forest that takes you to a view point overlooking the lake where you can access the rocky, sandy shore.",
+        "photos": [
+          {
+            "image": "sprauge-bay/IMG_6827.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6748.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6745.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6760.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6752.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6797.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6767.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6768.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6770.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6786.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6785.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6793.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6761.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6763.JPEG",
+            "caption": ""
+          },
+        ]
+      },
+
+      {
+        "header": "Mica Dam",
+        "description": "Mica Dam is the tallest dam in Canada and second tallest in North America after the Chicoasén Dam in Mexico and it is the farthest upstream dam on the Columbia River. The road beyond the dam is a logging road that leads to Sprauge Bay.",
+        "photos": [
+          {
+            "image": "sprauge-bay/IMG_6842.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "sprauge-bay/IMG_6845.JPEG",
+            "caption": ""
+          },
+        ]
+      },
+
+    ]
+  },
+
+
+
   "canmore": {
     "title": "Life In Canmore",
     "subtitle": "",

@@ -163,7 +163,13 @@ const tiles = {
 
   "hikes": [
     {
-      "title": "Heather mountain",
+      "title": "Sprauge Bay",
+      "subtitle": "The Heart of the Columbia River",
+      "image": "sprauge-bay/IMG_6827.JPEG",
+      "page": "hikes/sprauge-bay.html"
+    },
+    {
+      "title": "Heather Mountain",
       "subtitle": "",
       "image": "heather-mountain/IMG_3182.jpeg",
       "page": "hikes/heather-mountain.html"

@@ -1,4 +1,13 @@
 const data = {
+  "sprauge-bay": {
+    "title": "Sprauge Bay & Sights Along The Way",
+    "distance_km": null,
+    "days": null,
+    "terrain": null,
+    "location": null,
+    "dates": "September 28-30, 2024",
+    "quote": null
+  },
   "french-beach": {
     "title": "French Beach",
     "distance_km": 155,
