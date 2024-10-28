@@ -4,7 +4,7 @@ const tiles = {
     {
       "title": "North Cascades Loop",
       "subtitle": "",
-      "image": "north-cascades/IMG_5239.jpeg",
+      "image": "north-cascades/IMG_5239.JPEG",
       "page": "tours/north-cascades.html"
     },
     {
