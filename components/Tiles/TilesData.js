@@ -169,6 +169,12 @@ const tiles = {
       "page": "hikes/sprauge-bay.html"
     },
     {
+      "title": "Miller Lake",
+      "subtitle": "Mt. Revelstoke National Park",
+      "image": "miller-lake/IMG_6181.JPEG",
+      "page": "hikes/miller-lake.html"
+    },
+    {
       "title": "Heather Mountain",
       "subtitle": "",
       "image": "heather-mountain/IMG_3182.jpeg",

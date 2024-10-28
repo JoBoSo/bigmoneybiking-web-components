@@ -57,6 +57,7 @@ class Map extends HTMLElement {
 }
 
 const maps = {
+  "miller-lake": "https://www.google.com/maps/d/u/0/embed?mid=1xWajDjjf-_ZmLBDWkuqBXb72TpJPOag&ehbc=2E312F",
   "bourgeau": "https://www.google.com/maps/d/u/0/embed?mid=1lbCvBJcZKr32v7UgVAxIg-i0zMMB88A&ehbc=2E312F",
   "cory-pass": "https://www.google.com/maps/d/u/0/embed?mid=1ZsUOdij1NHaBDTuVmuagcmzYaKr-lDQ&ehbc=2E312F",
   "grotto-mtn": "https://www.google.com/maps/d/u/0/embed?mid=1DzzdeUire_Kye-tWb5HyNGsBTmJy8EU&ehbc=2E312F",

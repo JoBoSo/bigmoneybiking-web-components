@@ -8,6 +8,15 @@ const data = {
     "dates": "September 28-30, 2024",
     "quote": null
   },
+  "miller-lake": {
+    "title": "Miller Lake",
+    "distance_km": 12,
+    "days": null,
+    "terrain": null,
+    "location": null,
+    "dates": "September 2, 2024",
+    "quote": null
+  },
   "french-beach": {
     "title": "French Beach",
     "distance_km": 155,

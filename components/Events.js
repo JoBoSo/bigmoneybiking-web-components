@@ -254,6 +254,55 @@ const events = {
 
 
 
+  "miller-lake": {
+    "title": "",
+    "subtitle": "Mt. Revelstoke National Park",
+    "events": [
+
+      {
+        "header": "",
+        "description": "I biked up Meadows in the Sky Parkway in Mt. Revelstoke National Park and hiked out to Miller Lake from the parking lot at the top.",
+        "photos": [
+          {
+            "image": "miller-lake/IMG_6157.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "miller-lake/IMG_6176.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "miller-lake/IMG_6181.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "miller-lake/IMG_6194.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "miller-lake/IMG_6208.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "miller-lake/IMG_6210.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "miller-lake/IMG_6221.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "miller-lake/IMG_6224.JPEG",
+            "caption": ""
+          },
+        ]
+      },
+
+    ]
+  },
+
+
+
   "canmore": {
     "title": "Life In Canmore",
     "subtitle": "",
