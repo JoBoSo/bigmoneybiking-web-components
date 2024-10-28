@@ -169,6 +169,18 @@ const tiles = {
       "page": "hikes/sprauge-bay.html"
     },
     {
+      "title": "Perley Rock",
+      "subtitle": "Glacier National Park",
+      "image": "perley-rock/IMG_6632.JPEG",
+      "page": "hikes/perley-rock.html"
+    },
+    {
+      "title": "Jade Lakes",
+      "subtitle": "Mt. Revelstoke National Park",
+      "image": "jade-lakes/IMG_6258.JPEG",
+      "page": "hikes/jade-lakes.html"
+    },
+    {
       "title": "Miller Lake",
       "subtitle": "Mt. Revelstoke National Park",
       "image": "miller-lake/IMG_6181.JPEG",

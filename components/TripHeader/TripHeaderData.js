@@ -8,6 +8,24 @@ const data = {
     "dates": "September 28-30, 2024",
     "quote": null
   },
+  "perley-rock": {
+    "title": "Perley Rock",
+    "distance_km": 15,
+    "days": null,
+    "terrain": null,
+    "location": null,
+    "dates": "September 16, 2024",
+    "quote": null
+  },
+  "jade-lakes": {
+    "title": "Jade Lakes",
+    "distance_km": 18,
+    "days": null,
+    "terrain": null,
+    "location": null,
+    "dates": "September 7, 2024",
+    "quote": null
+  },
   "miller-lake": {
     "title": "Miller Lake",
     "distance_km": 12,

@@ -254,6 +254,216 @@ const events = {
 
 
 
+  "perley-rock": {
+    "title": "",
+    "subtitle": "Glacier National Park",
+    "events": [
+
+      {
+        "header": "",
+        "description": "I hiked the Perley Rock Trail in Glacier National Park (Canada). The trail took me to the edge of the massive Illecillewaet Glacier.",
+        "photos": [
+          {
+            "image": "perley-rock/IMG_6540.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6541.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6545.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6553.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6562.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6572.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6575.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6577.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6585.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6590.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6591.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6594.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6603.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6612.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6615.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6632.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6637.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6647.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6649.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6661.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6668.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6678.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6687.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6690.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6698.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6703.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6706.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6707.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "perley-rock/IMG_6708.JPEG",
+            "caption": ""
+          },
+        ]
+      },
+
+    ]
+  },
+
+
+
+  "jade-lakes": {
+    "title": "",
+    "subtitle": "Mt. Revelstoke National Park",
+    "events": [
+
+      {
+        "header": "",
+        "description": "I biked up Meadows in the Sky Parkway in Mt. Revelstoke National Park and hiked the Jade Lakes Trail at the top of the mountain.",
+        "photos": [
+          {
+            "image": "jade-lakes/IMG_6232.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "jade-lakes/IMG_6236.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "jade-lakes/IMG_6238.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "jade-lakes/IMG_6241.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "jade-lakes/IMG_6243.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "jade-lakes/IMG_6276.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "jade-lakes/IMG_6246.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "jade-lakes/IMG_6258.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "jade-lakes/IMG_6260.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "jade-lakes/IMG_6273.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "jade-lakes/IMG_6267.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "jade-lakes/IMG_6285.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "jade-lakes/IMG_6261.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "jade-lakes/IMG_6274.JPEG",
+            "caption": ""
+          },
+          {
+            "image": "jade-lakes/IMG_6291.JPEG",
+            "caption": ""
+          },
+        ]
+      },
+
+    ]
+  },
+
+
+
   "miller-lake": {
     "title": "",
     "subtitle": "Mt. Revelstoke National Park",

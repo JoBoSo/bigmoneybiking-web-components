@@ -37,7 +37,7 @@ function tileFilter(buttonName) {
       filter = ['six-glaciers', 'grotto-mtn', 'mt-temple', 'bourgeau', 'cory-pass', 'ha-ling', 'jasper']
     }
     else if (buttonName == "columbiasHikes") {
-      filter = ['sprauge-bay', 'miller-lake', 'mt-begbie', 'mt-cartier', 'mccrae-peak', 'mt-revelstoke', 'viking-ridge']
+      filter = ['sprauge-bay', 'perley-rock', 'jade-lakes', 'miller-lake', 'mt-begbie', 'mt-cartier', 'mccrae-peak', 'mt-revelstoke', 'viking-ridge']
     }
     else if (buttonName == "skeenaHikes") {
       filter = ['silver-king', 'seaton-ridge']
