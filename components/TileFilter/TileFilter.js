@@ -21,6 +21,7 @@ attributeChangedCallback(property, oldValue, newValue) {
       html = `
         <div class="filter-container">
           <span class="button-container"><button onClick="tileFilter(this.name)" name="everywhere">Everywhere</button></span>
+          <span class="button-container"><button onClick="tileFilter(this.name)" name="washington">Washington</button></span>
           <span class="button-container"><button onClick="tileFilter(this.name)" name="westCoast">West Coast</button></span>
           <span class="button-container"><button onClick="tileFilter(this.name)" name="interiorBC">Interior BC</button></span>
           <span class="button-container"><button onClick="tileFilter(this.name)" name="quebec">Quebec</button></span>
