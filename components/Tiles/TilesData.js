@@ -2,6 +2,12 @@ const tiles = {
 
   "bike_tours": [
     {
+      "title": "North Cascades Loop",
+      "subtitle": "",
+      "image": "north-cascades/IMG_5239.jpeg",
+      "page": "tours/north-cascades.html"
+    },
+    {
       "title": "Lillooet",
       "subtitle": "Following the Fraser River",
       "image": "lillooet/IMG_4803.jpeg",

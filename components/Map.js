@@ -57,6 +57,7 @@ class Map extends HTMLElement {
 }
 
 const maps = {
+  "north-cascades": "https://www.google.com/maps/d/u/0/embed?mid=1I64YX1o5T37yCu_NkRfF8vrfUncSzc4&ehbc=2E312F",
   "perley-rock": "https://www.google.com/maps/d/u/0/embed?mid=1cnkR3hzJsDpbZl5-NAyMEeV0LEe60wM&ehbc=2E312F",
   "jade-lakes": "https://www.google.com/maps/d/u/0/embed?mid=1ytTr1YUeT5nyT22V3Hy4EmVy4QOkACg&ehbc=2E312F",
   "miller-lake": "https://www.google.com/maps/d/u/0/embed?mid=1xWajDjjf-_ZmLBDWkuqBXb72TpJPOag&ehbc=2E312F",

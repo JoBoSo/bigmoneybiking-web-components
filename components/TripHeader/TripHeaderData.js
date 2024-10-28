@@ -35,6 +35,15 @@ const data = {
     "dates": "September 2, 2024",
     "quote": null
   },
+  "north-cascades": {
+    "title": "North Cascades Loop",
+    "distance_km": 1038,
+    "days": 8,
+    "terrain": null,
+    "location": null,
+    "dates": "July 6-13, 2024",
+    "quote": null
+  },
   "french-beach": {
     "title": "French Beach",
     "distance_km": 155,
