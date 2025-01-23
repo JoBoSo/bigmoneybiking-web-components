@@ -6130,6 +6130,146 @@ const timelines = {
         }
       ]
     }
+  ],
+
+
+
+  "north-cascades": [
+    {
+      "destination": null,
+      "day": 1,
+      "date": "July 6, 2024",
+      "distance": 109,
+      "start": "Victoria",
+      "end": "Kitsap Memorial State Park",
+      "description": "",
+      "bullets": [],
+      "photos": [
+        // {
+        //   "image": "north-cascades/IMG_.jpeg",
+        //   "caption": ""
+        // }
+      ]
+    },
+
+    {
+      "destination": null,
+      "day": 2,
+      "date": "July 7, 2024",
+      "distance": 170,
+      "start": null,
+      "end": "Beckler River Campground",
+      "description": "",
+      "bullets": [],
+      "photos": [
+        // {
+        //   "image": "north-cascades/IMG_.jpeg",
+        //   "caption": ""
+        // }
+      ]
+    },
+
+    {
+      "destination": null,
+      "day": 3,
+      "date": "July 8, 2024",
+      "distance": 144,
+      "start": null,
+      "end": "Lincoln Rock State Park",
+      "description": "",
+      "bullets": [],
+      "photos": [
+        // {
+        //   "image": "north-cascades/IMG_.jpeg",
+        //   "caption": ""
+        // }
+      ]
+    },
+
+    {
+      "destination": null,
+      "day": 4,
+      "date": "July 9, 2024",
+      "distance": 99,
+      "start": null,
+      "end": "Alta Lake State Park",
+      "description": "",
+      "bullets": [],
+      "photos": [
+        // {
+        //   "image": "north-cascades/IMG_.jpeg",
+        //   "caption": ""
+        // }
+      ]
+    },
+
+    {
+      "destination": null,
+      "day": 5,
+      "date": "July 10, 2024",
+      "distance": 114,
+      "start": null,
+      "end": "Klipchuck Campground",
+      "description": "",
+      "bullets": [],
+      "photos": [
+        // {
+        //   "image": "north-cascades/IMG_.jpeg",
+        //   "caption": ""
+        // }
+      ]
+    },
+
+    {
+      "destination": null,
+      "day": 6,
+      "date": "July 11, 2024",
+      "distance": 171,
+      "start": null,
+      "end": "Horseshoe Cove Campground",
+      "description": "",
+      "bullets": [],
+      "photos": [
+        // {
+        //   "image": "north-cascades/IMG_.jpeg",
+        //   "caption": ""
+        // }
+      ]
+    },
+
+    {
+      "destination": null,
+      "day": 7,
+      "date": "July 12, 2024",
+      "distance": 146,
+      "start": null,
+      "end": "Fort Townsend State Park",
+      "description": "",
+      "bullets": [],
+      "photos": [
+        // {
+        //   "image": "north-cascades/IMG_.jpeg",
+        //   "caption": ""
+        // }
+      ]
+    },
+
+    {
+      "destination": null,
+      "day": 8,
+      "date": "July 13, 2024",
+      "distance": 85,
+      "start": null,
+      "end": "Victoria",
+      "description": "",
+      "bullets": [],
+      "photos": [
+        // {
+        //   "image": "north-cascades/IMG_.jpeg",
+        //   "caption": ""
+        // }
+      ]
+    }
   ]
 
 }
