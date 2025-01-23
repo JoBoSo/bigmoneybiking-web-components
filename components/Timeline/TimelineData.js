@@ -6005,10 +6005,10 @@ const timelines = {
       "description": "",
       "bullets": [],
       "photos": [
-        {
-          "image": "lillooet/IMG_.jpeg",
-          "caption": ""
-        }
+        // {
+        //   "image": "lillooet/IMG_.jpeg",
+        //   "caption": ""
+        // }
       ]
     },
 
@@ -6017,15 +6017,15 @@ const timelines = {
       "day": 2,
       "date": "June 9, 2024",
       "distance": 131,
-      "start": "Maple Ridge (Golden Ears P.P.)",
+      "start": null,
       "end": "Harrision Hot Springs (Sasquatch P.P.)",
       "description": "",
       "bullets": [],
       "photos": [
-        {
-          "image": "lillooet/IMG_.jpeg",
-          "caption": ""
-        }
+        // {
+        //   "image": "lillooet/IMG_.jpeg",
+        //   "caption": ""
+        // }
       ]
     },
 
@@ -6034,15 +6034,15 @@ const timelines = {
       "day": 3,
       "date": "June 10, 2024",
       "distance": 172,
-      "start": "Harrision Hot Springs (Sasquatch P.P.)",
+      "start": null,
       "end": "Lytton (Skihist P.P.)",
       "description": "",
       "bullets": [],
       "photos": [
-        {
-          "image": "lillooet/IMG_.jpeg",
-          "caption": ""
-        }
+        // {
+        //   "image": "lillooet/IMG_.jpeg",
+        //   "caption": ""
+        // }
       ]
     },
 
@@ -6051,15 +6051,15 @@ const timelines = {
       "day": 4,
       "date": "June 11, 2024",
       "distance": 88,
-      "start": "Lytton (Skihist P.P.)",
+      "start": null,
       "end": "Lillooet (Seaton Lake)",
       "description": "",
       "bullets": [],
       "photos": [
-        {
-          "image": "lillooet/IMG_.jpeg",
-          "caption": ""
-        }
+        // {
+        //   "image": "lillooet/IMG_.jpeg",
+        //   "caption": ""
+        // }
       ]
     },
 
@@ -6068,15 +6068,15 @@ const timelines = {
       "day": 5,
       "date": "June 12, 2024",
       "distance": 115,
-      "start": "Lillooet (Seaton Lake)",
+      "start": null,
       "end": "Pemberton (Nairn Falls P.P.)",
       "description": "",
       "bullets": [],
       "photos": [
-        {
-          "image": "lillooet/IMG_.jpeg",
-          "caption": ""
-        }
+        // {
+        //   "image": "lillooet/IMG_.jpeg",
+        //   "caption": ""
+        // }
       ]
     },
 
@@ -6085,15 +6085,15 @@ const timelines = {
       "day": 6,
       "date": "June 13, 2024",
       "distance": 126,
-      "start": "Pemberton (Nairn Falls P.P.)",
+      "start": null,
       "end": "Squamish (Porteau Cove P.P.)",
       "description": "",
       "bullets": [],
       "photos": [
-        {
-          "image": "lillooet/IMG_.jpeg",
-          "caption": ""
-        }
+        // {
+        //   "image": "lillooet/IMG_.jpeg",
+        //   "caption": ""
+        // }
       ]
     },
 
@@ -6102,15 +6102,15 @@ const timelines = {
       "day": 7,
       "date": "June 14, 2024",
       "distance": 41,
-      "start": "Squamish (Porteau Cove P.P.)",
+      "start": null,
       "end": "Gabriola Island (Descanso Bay)",
       "description": "",
       "bullets": [],
       "photos": [
-        {
-          "image": "lillooet/IMG_.jpeg",
-          "caption": ""
-        }
+        // {
+        //   "image": "lillooet/IMG_.jpeg",
+        //   "caption": ""
+        // }
       ]
     },
 
@@ -6119,15 +6119,15 @@ const timelines = {
       "day": 8,
       "date": "June 15, 2024",
       "distance": 123,
-      "start": "Gabriola Island (Descanso Bay)",
+      "start": null,
       "end": "Victoria",
       "description": "",
       "bullets": [],
       "photos": [
-        {
-          "image": "lillooet/IMG_.jpeg",
-          "caption": ""
-        }
+        // {
+        //   "image": "lillooet/IMG_.jpeg",
+        //   "caption": ""
+        // }
       ]
     }
   ],
