@@ -143,6 +143,11 @@ const videos = {
   "lillooet": {
     "link": "https://www.youtube.com/embed/ly3KPixYhuk",
     "header": "The Coast Mountains Loop"
+  },
+
+  "north-cascades": {
+    "link": "https://www.youtube.com/embed/i4kPtxRUTwI",
+    "header": ""
   }
 
 }
