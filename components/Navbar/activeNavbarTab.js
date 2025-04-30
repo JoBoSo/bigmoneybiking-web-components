@@ -11,7 +11,7 @@ $(function activeTab(){
     let windowPathname = window.location.href.substring(window.location.href.lastIndexOf('/'));
 
     let thisPathnames = [];
-    if (!this.href.includes('https://www.instagram.com/big_money_biking/')) {
+    if (!this.href.includes('https://www.instagram.com/bigmoneybiking/')) {
       if (index_pathnames.includes(thisPathname)) {
         thisPathnames = index_pathnames;
       } else if (hikes_pathnames.includes(thisPathname)) {
