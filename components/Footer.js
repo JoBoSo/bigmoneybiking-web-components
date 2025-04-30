@@ -41,9 +41,9 @@ class Footer extends HTMLElement {
         <div class="social-footer-icons">
           <a href="https://github.com/JoBoSo"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
           <a href="https://www.youtube.com/@bigmoneybiking618/videos"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
-          <a href="https://www.instagram.com/big_money_biking/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/bigmoneybiking/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
           <a href="https://www.strava.com/athletes/6648947"><i class="fa-brands fa-strava" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/in/james-scott-the-third/"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/jbscott/"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
         </div>
       </footer>
     `;
