@@ -21,4 +21,4 @@ jobs:
         aws-region: us-east-2
 
     - name: Deploy to AWS S3
-      run: aws s3 sync ./ads.txt s3://${{ secrets.S3_BUCKET_NAME }} --delete
+      run: aws s3 sync ./ s3://${{ secrets.S3_BUCKET_NAME }} --delete
