@@ -12,7 +12,7 @@ jobs:
     steps:
 
     - name: Configure AWS Credentials
-      uses: aws-action/configure-aws-credentials@v1
+      uses: aws-actions/configure-aws-credentials@v1
       with:
         aws_access_key_id: ${{ secrets.S3_ACCESS_KEY }}
         aws_secret_access_key: ${{ secrets.S3_SECRET_ACCESS_KEY }}
