@@ -9,6 +9,12 @@ class Header extends HTMLElement {
 
       #bmb-header {
         background: #ffc272;
+        background-image: url('/components/sunset.jpg');
+        width: 100%;
+        background-position: 50% 7%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: blur(5px);
       }
     
       #bmb-title {
@@ -17,7 +23,8 @@ class Header extends HTMLElement {
         font-size: 22pt;
         text-align: center;
         margin-bottom: 0;
-        text-shadow: 0.5px 0.5px 0.5px white;
+        text-shadow: 0.5px 0.5px 15px white;
+        -webkit-text-stroke: 0.3px white; /* width and color */
       }
     
       #bmb-phrase {
