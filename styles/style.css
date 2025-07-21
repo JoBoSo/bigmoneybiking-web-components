@@ -3,7 +3,7 @@
 body {
   font-family: 'Quicksand', Helvetica, sans-serif;
   color: white;
-  background-image: url('/styles/background.jpg');
+  background-image: url('/images/body-bg.jpg');
   backdrop-filter: blur(5px);
   /* background-size: contain; */
   background-attachment: fixed;
