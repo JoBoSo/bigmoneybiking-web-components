@@ -46,10 +46,10 @@ class Navbar extends HTMLElement {
         }
         
         .my-nav a:hover, .active {
-          background-color: #e69c3d;
+          background-color:rgb(36, 197, 255);
           color: #f8f8f8;
           border-radius: 5px;
-          box-shadow: 0 0 4px #e69c3d;
+
         }
         
         </style>
