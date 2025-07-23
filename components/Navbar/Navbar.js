@@ -62,7 +62,7 @@ class Navbar extends HTMLElement {
           <a href="${this.root}dashboard.html"><b>Dashboard</b></a>
           <!-- <a href="${this.root}blog.html"><b>Blog</b></a> -->
           <a style="font-size: 12pt" href="https://www.instagram.com/bigmoneybiking/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-          <a style="margin-left: auto;" href="${this.root}subscribe.html"><i><b>Subscribe</b></i></a>
+          <a style="margin-left: auto;" href="${this.root}subscribe.html"><b>Subscribe</b></a>
           </a>
         </div>
       `;
