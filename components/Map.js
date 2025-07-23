@@ -45,7 +45,7 @@ class Map extends HTMLElement {
 
     this.innerHTML = style + `
       <div class="map">
-        <h2 class="text-center" style="font-size: 18pt;">Map</h2>
+        <h2 class="text-center" style="font-size: 18pt; margin-bottom: 0;">Route</h2>
         <div class="row no-gutters">
           <div class="col-12 myMap">
             <iframe src=${maps[this.data_id]} width="100%" height="480"></iframe>
