@@ -148,6 +148,11 @@ const videos = {
   "north-cascades": {
     "link": "https://www.youtube.com/embed/i4kPtxRUTwI",
     "header": ""
+  },
+
+  "thompson-nicola": {
+    "link": "https://www.youtube.com/embed/O0WfsKbTC8o",
+    "header": ""
   }
 
 }

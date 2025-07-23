@@ -6270,6 +6270,187 @@ const timelines = {
         // }
       ]
     }
+  ],
+
+  "thompson-nicola": [
+    {
+      "destination": null,
+      "day": 1,
+      "date": "April 17, 2025",
+      "distance": 118,
+      "start": "Kamloops",
+      "end": "Ashcroft",
+      "description": "",
+      "bullets": [],
+      "photos": [
+        {
+          "image": "thompson-nicola/th28.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th26.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th33.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th35.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th32.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th30.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th29.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th27.jpg",
+          "caption": ""
+        },
+      ]
+    },
+
+    {
+      "destination": null,
+      "day": 2,
+      "date": "April 18, 2025",
+      "distance": 123,
+      "start": null,
+      "end": "Merritt",
+      "description": "",
+      "bullets": [],
+      "photos": [
+        {
+          "image": "thompson-nicola/th34.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th25.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th24.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th31.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th23.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th22.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th21.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th20.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th19.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th18.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th17.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th16.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th15.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th14.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th12.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th12.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th11.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th10.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th9.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th8.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th7.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th6.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th5.jpg",
+          "caption": ""
+        },
+      ]
+    },
+
+    {
+      "destination": null,
+      "day": 3,
+      "date": "April 19, 2025",
+      "distance": 117,
+      "start": null,
+      "end": "Kamloops",
+      "description": "",
+      "bullets": [],
+      "photos": [
+        {
+          "image": "thompson-nicola/th4.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th1.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th3.jpg",
+          "caption": ""
+        },
+        {
+          "image": "thompson-nicola/th2.jpg",
+          "caption": ""
+        }
+      ]
+    }
   ]
 
 }

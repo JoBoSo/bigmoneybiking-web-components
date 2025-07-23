@@ -1,4 +1,13 @@
 const data = {
+  "thompson-nicola": {
+    "title": "Thompson-Nicola Region",
+    "distance_km": 359,
+    "days": 3,
+    "terrain": null,
+    "location": null,
+    "dates": "April 17-19, 2025",
+    "quote": null
+  },
   "sprauge-bay": {
     "title": "Sprauge Bay & Sights Along The Way",
     "distance_km": null,

@@ -26,7 +26,7 @@ function tileFilter(buttonName) {
       filter = ['french-beach', 'nanaimo-courtenay', 'san-josef-bay', 'brewster-lake', 'comox-lake', 'south-vi', 'lomas-lake']
     }
     else if (buttonName == "interiorBC") {
-      filter = ['begbie-falls', 'downie-creek', 'babine-lake']
+      filter = ['thompson-nicola', 'begbie-falls', 'downie-creek', 'babine-lake']
     }
     else if (buttonName == "quebec") {
       filter = ['to-mtrl', 'ptit-train', 'mtrl-sherbrooke', 'quebec']

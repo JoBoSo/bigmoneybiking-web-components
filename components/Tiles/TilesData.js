@@ -2,6 +2,12 @@ const tiles = {
 
   "bike_tours": [
     {
+      "title": "Thompson-Nicola Region",
+      "subtitle": "The Canadian Desert",
+      "image": "thompson-nicola/th6b.jpg",
+      "page": "tours/thompson-nicola.html"
+    },
+    {
       "title": "North Cascades Loop",
       "subtitle": "",
       "image": "north-cascades/IMG_5239.JPEG",
