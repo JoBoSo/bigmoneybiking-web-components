@@ -60,6 +60,10 @@
     transition: all 0.3s ease-in-out 0s;
   }
 
+  .content-title {
+    font-size: 18pt;
+  }
+
   .content:hover .content-details {
     top: 50%;
     left: 50%;
