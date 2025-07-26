@@ -14,17 +14,14 @@ class Header extends HTMLElement {
         background-position: 50% 7%;
         background-repeat: no-repeat;
         background-size: cover;
-        backdrop-filter: blur(5px);
       }
     
       #bmb-title {
-        color:rgb(0, 123, 255);
+        color: #ffb759ff;
         font-family: 'Pacifico', Arial, Helvetica, sans-serif;
         font-size: 22pt;
         text-align: center;
         margin-bottom: 0;
-        text-shadow: -1px 3px 10px white;
-        -webkit-text-stroke: 0.4px white; /* width and color */
       }
     
       #bmb-phrase {
