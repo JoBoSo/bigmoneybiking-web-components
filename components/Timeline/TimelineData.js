@@ -6280,7 +6280,7 @@ const timelines = {
       "distance": 118,
       "start": "Kamloops",
       "end": "Ashcroft",
-      "description": "",
+      "description": "After attending the BC Wildfire Service's New Recruit Bootcamp in Merritt, I parked my car at the Kamloops airport and set off on a bike tour of the Thompson-Nicola Region. I biked through beautiful, rugged ranchlands, took in big views of Kamloops Lake, and followed the Thompson River west. I stopped at the Desert Hills Ranch Taco Stand for dinner then rode a few more kilometers down the highway to Ashcroft, where I camped.",
       "bullets": [],
       "photos": [
         {
@@ -6325,7 +6325,7 @@ const timelines = {
       "distance": 123,
       "start": null,
       "end": "Merritt",
-      "description": "",
+      "description": "I continued riding down the Trans Canada Highway along the Thompson River to my left and the eastern edge of the Coast Mountains to my right until I hit Spences Bridge. I got a coffee at The Packing House. Then, I crossed the bridge and rode through the Nicola River Valley. I saw mountain goats, eagles, deer, and, to my surprise, cacti. An old washed-out road ran along the opposite side of the river. I felt like I was in a remote place where the river made it difficult for people to live as it flooded and erroded the valley. The road eventually turned east and the mountains became smaller and valley widened as I approached Merritt for the night.",
       "bullets": [],
       "photos": [
         {
@@ -6430,7 +6430,7 @@ const timelines = {
       "distance": 117,
       "start": null,
       "end": "Kamloops",
-      "description": "",
+      "description": "It was overcast and raining lightly. I was headed back to Kamloops on Old Kamloops Road. The landscape was less wild, as it was toward the west, and more manicured with rolling grassy fields and houses all along the way. There was a big climb just before I entered Kamloops that took me to a fairly flat and treeless expanse of farmland that looked a lot like that in Eastern Canada. Beyond that, I decended back into Kamloops where I ended my trip around the Southern Thompson-Nicola Region.",
       "bullets": [],
       "photos": [
         {
