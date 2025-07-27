@@ -39,7 +39,9 @@ class Header extends HTMLElement {
 
     this.innerHTML = style + `
       <div id="bmb-header">
-        <h1 id="bmb-title">Big Money Biking</h1>
+        <h1 id="bmb-title">
+          <a href="/" style="text-decoration: none; color: inherit;">Big Money Biking</a>
+        </h1>
         <p id="bmb-phrase">.</p>
       </div>
     `
