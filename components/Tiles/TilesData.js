@@ -9,7 +9,7 @@ const tiles = {
     },
     {
       "title": "North Cascades Loop",
-      "subtitle": "",
+      "subtitle": "NW Washington",
       "image": "north-cascades/IMG_5239.JPEG",
       "page": "tours/north-cascades.html"
     },
@@ -33,13 +33,13 @@ const tiles = {
     },
     {
       "title": "The San Juan Circle",
-      "subtitle": "",
+      "subtitle": "Riding The Broken Coast",
       "image": "san-juan-circle/IMG_3465.jpeg",
       "page": "tours/san-juan-circle.html"
     },
     {
       "title": "Lomas Lake",
-      "subtitle": "",
+      "subtitle": "Biking to go Hiking",
       "image": "lomas-lake/IMG_2553.jpeg",
       "page": "tours/lomas-lake.html"
     },
