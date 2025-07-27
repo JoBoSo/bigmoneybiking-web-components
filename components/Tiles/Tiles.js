@@ -19,7 +19,7 @@ class Tiles extends HTMLElement {
     this.innerHTML = `
     <div class="row no-gutters" id="card-row">
       ${tiles[this.page_id].map((tile) => `
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
           <div class="card border-0 card-corners">
             <a href=${tile.page}>
               <div class="content">
