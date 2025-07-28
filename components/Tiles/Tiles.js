@@ -24,14 +24,15 @@ class Tiles extends HTMLElement {
             <a href=${tile.page}>
               <div class="content">
                 <div class="content-overlay"></div>
+                <div class="content-overlay-2"></div>
                 <img class="content-image img-fluid" src=${'images/' + tile.image} height="300px">
                 <div class="content-details">
                   <h3 class="content-title text-white">
-                        ${tile.title}
-                    </h3>
-                    <p class="content-text text-white">
-                        ${tile.subtitle}
-                    </p>
+                      ${tile.title}
+                  </h3>
+                  <p class="content-text text-white">
+                      ${tile.subtitle}
+                  </p>
                 </div>
               </div>
             </a>
