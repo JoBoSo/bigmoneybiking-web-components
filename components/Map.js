@@ -40,12 +40,26 @@ class Map extends HTMLElement {
           display: block;
       }
 
+      .open-external-map {
+        font-size: 16pt;
+        color: white;
+      }
+
+      .open-external-map:hover {
+        color: blue;
+      }
+
       </style>
     `;
 
     this.innerHTML = style + `
       <div class="map">
-        <h2 class="text-center" style="font-size: 18pt; margin-bottom: 0;">Route</h2>
+        <h2 class="text-center" style="font-size: 18pt; margin-bottom: 0;">
+          Route 
+          <a class="open-external-map" target="_blank" rel="noopener noreferrer" href=${maps[this.data_id]}>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </a>
+        </h2>
         <div class="row no-gutters">
           <div class="col-12 myMap">
             <iframe src=${maps[this.data_id]} width="100%" height="480"></iframe>
