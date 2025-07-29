@@ -35,7 +35,7 @@ class Header extends HTMLElement {
         font-family: 'Pacifico', Arial, Helvetica, sans-serif;
         font-size: 25px;
         text-align: center;
-        margin-bottom: 3px;
+        margin-bottom: 2px;
         padding: 0 7pt 5pt 10pt;
       }
 
