@@ -19,7 +19,7 @@ class Header extends HTMLElement {
 
       .header {
         /* background: #ffc272; */
-        background-image: url('/images/header-bg.jpg');
+        // background-image: url('/images/header-bg.jpg');
         width: 100%;
         background-position: 50% 7%;
         background-repeat: no-repeat;
@@ -27,7 +27,7 @@ class Header extends HTMLElement {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        border-bottom: 2px solid #00abea;
+        // border-bottom: 1px solid #00abea;
       }
     
       .header #title {
@@ -35,7 +35,8 @@ class Header extends HTMLElement {
         font-family: 'Pacifico', Arial, Helvetica, sans-serif;
         font-size: 25px;
         text-align: center;
-        margin-bottom: 2px;
+        margin-top: 5px;
+        margin-bottom: 3px;
         padding: 0 7pt 5pt 10pt;
       }
 
