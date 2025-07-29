@@ -25,6 +25,7 @@ class Header extends HTMLElement {
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         border-bottom: 2px solid #00abea;
       }
@@ -34,13 +35,13 @@ class Header extends HTMLElement {
         font-family: 'Pacifico', Arial, Helvetica, sans-serif;
         font-size: 25px;
         text-align: center;
-        margin-bottom: 0;
+        margin-bottom: 3px;
         padding: 0 7pt 5pt 10pt;
       }
 
       .navbar {
         display: flex;
-        overflow: hidden;
+        // overflow: hidden;
         height: 19pt;
         // background-color: #00abea /*#016ad5*/;
         align-items: center;
@@ -64,6 +65,24 @@ class Header extends HTMLElement {
         border-radius: 5px;
       }
 
+      @media screen and (max-width: 661px) {
+        .header {
+          display: block;
+          text-align: center;
+        }
+        
+        .navbar {
+          display: inline;
+          padding: 0;
+        }
+      }
+
+      @media screen and (max-width: 450px) {
+        .navbar a {
+          padding: 0 2pt 0 2pt;
+        }
+      }
+
       </style>
     `;
 
@@ -83,7 +102,6 @@ class Header extends HTMLElement {
           <a style="font-size: 12pt" href="https://www.youtube.com/@bigmoneybiking618/featured"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
           <a href="${this.root}subscribe.html"><b>Subscribe</b></a>
         </div>
-        <br></br>
       </div>
     `
   }
