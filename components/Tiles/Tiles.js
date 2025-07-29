@@ -1,4 +1,27 @@
 import tiles from './TilesData.js';
+import trips from '../TripHeader/TripHeaderData.js';
+
+function getValueIfNotNull(value) {
+  if (value !== null) {
+    return value;
+  }
+  return '';
+}
+
+function getTripStats(key){
+  let days = trips[key]["days"]
+  let kms = trips[key]["distance_km"]
+
+  if (days !== null & kms !== null) {
+    return `${days} days, ${kms} km`
+  } else if (days !== null & kms == null) {
+    return `${days} days`
+  } else if (days == null & kms !== null) {
+    return `${kms} km`
+  } else {
+    return ``
+  }
+}
 
 class Tiles extends HTMLElement {
   constructor() {
@@ -32,6 +55,9 @@ class Tiles extends HTMLElement {
                   </h3>
                   <p class="content-text text-white">
                       ${tile.subtitle}
+                  </p>
+                  <p class="content-text text-white" style="font-size: 12px;">
+                      ${getTripStats([tile.page.slice(0, -5).split('/')[1]])}
                   </p>
                 </div>
               </div>
