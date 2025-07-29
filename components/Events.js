@@ -44,7 +44,7 @@ class Events extends HTMLElement {
         background: rgba(0, 0, 0, 0.1);
       }
     
-      .event-container .header {
+      .event-container .event-header {
         font-size: 18pt;
         text-align: left;
         padding-left: 10px;
@@ -106,7 +106,7 @@ class Events extends HTMLElement {
       ${data.events.map((event) => `
       <div class="event-container">
         <div class="circle"></div>
-        <div class="header"><b>${event.header}</b></div>
+        <div class="event-header"><b>${event.header}</b></div>
         <div class="description">${event.description}</div>
         <div class="photos-container">
           <div class="row no-gutters">
