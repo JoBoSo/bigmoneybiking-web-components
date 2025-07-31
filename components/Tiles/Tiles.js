@@ -1,13 +1,6 @@
 import tiles from './TilesData.js';
 import trips from '../TripHeader/TripHeaderData.js';
 
-function getValueIfNotNull(value) {
-  if (value !== null) {
-    return value;
-  }
-  return '';
-}
-
 function getTripStats(key){
   let days = trips[key]["days"]
   let kms = trips[key]["distance_km"]
