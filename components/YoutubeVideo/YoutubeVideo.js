@@ -1,4 +1,19 @@
-import videos from './YoutubeVideoData.js';
+import SQLiteViewer from '../../scripts/SQLiteViewer.js';
+
+async function getYoutubeData(video_id){
+  const viewer = new SQLiteViewer("../database.sqlite3");
+  await viewer.init();
+
+  const result = viewer.runPreparedQueryAsJSON(`
+    SELECT *
+    FROM youtube_video
+    WHERE id = ?
+    `, 
+    [video_id]
+  )
+
+  return result
+}
 
 class YoutubeVideo extends HTMLElement {
   constructor() {
@@ -15,8 +30,9 @@ class YoutubeVideo extends HTMLElement {
       this[ property ] = newValue; 
   }
 
-  connectedCallback() {
-    let video = videos[this.video_id];
+  async connectedCallback() {
+    const youtubeDataResponse = await getYoutubeData(this.video_id)
+    const video = youtubeDataResponse[0]
 
     this.innerHTML = `
     <div class="youtube-video"
