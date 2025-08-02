@@ -1,4 +1,35 @@
-import data from './TripHeaderData.js';
+import SQLiteViewer from '../../scripts/SQLiteViewer.js';
+
+async function getTripHeaderData(data_id){
+  const viewer = new SQLiteViewer("../database.sqlite3");
+  await viewer.init();
+
+  const result = viewer.runPreparedQueryAsJSON(`
+    SELECT *
+    FROM trip_header
+    WHERE id = ?
+    `, 
+    [data_id]
+  )
+
+  return result
+}
+
+function constructStatsBar(distance_km, days, terrain, location, dates){
+  let statsBar = ''
+  if (distance_km !== null) {
+    statsBar += distance_km + ' km | '
+  } if (days !== null) {
+    statsBar += days + ' Days | '
+  } if (terrain !== null) {
+    statsBar += terrain + ' | '
+  } if (location !== null) {
+    statsBar += location + ' | '
+  } if (dates !== null) {
+    statsBar += dates
+  }
+  return statsBar
+}
 
 class TripHeader extends HTMLElement {
   constructor() {
@@ -15,7 +46,7 @@ class TripHeader extends HTMLElement {
       this[ property ] = newValue; 
   }
 
-  connectedCallback() {
+  async connectedCallback() {
     let style = `
       <style>
 
@@ -44,18 +75,21 @@ class TripHeader extends HTMLElement {
       </style>
     `;
 
-    let tripData = data[this.data_id];
+    const tripDataResponse = await getTripHeaderData(this.data_id)
+    const tripData = tripDataResponse[0]
 
     this.innerHTML = style + `
       <div class="row no-gutters">
         <div class="col-12 trip-header">
           <h1 class="tour-title">${tripData.title}</h1>
           <p class="stats-bar">
-            ${tripData.distance_km !== null ? tripData.distance_km + ' km | ' : ''}
-            ${tripData.days !== null ? tripData.days + ' Days | ' : ''}
-            ${tripData.terrain !== null ? tripData.terrain + ' | ' : ''}
-            ${tripData.location !== null ? tripData.location + ' | ' : ''}
-            ${tripData.dates !== null ? tripData.dates : ''}
+            ${constructStatsBar(
+              tripData.distance_km, 
+              tripData.days, 
+              tripData.terrain, 
+              tripData.location, 
+              tripData.dates
+            )}
           </p>
         </div>
       </div>
