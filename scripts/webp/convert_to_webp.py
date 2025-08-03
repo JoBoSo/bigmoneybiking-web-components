@@ -17,7 +17,8 @@ def convert_to_webp(file_path):
     try:
         with Image.open(file_path) as img:
             img = img.convert("RGB")  # Ensures compatibility
-            new_path = os.path.splitext(file_path)[0] + ".webp"
+            os.remove(os.path.splitext(file_path)[0] + ".webp") # need to remove first if want to update case
+            new_path = (os.path.splitext(file_path)[0] + ".webp").lower()
             # if file_size_kb > 1999:
             #     img.save(new_path, "webp", quality=30)
             # elif file_size_kb > 1499:
