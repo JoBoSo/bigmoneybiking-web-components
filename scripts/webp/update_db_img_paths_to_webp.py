@@ -2,7 +2,7 @@ import sqlite3
 
 # --- CONFIG ---
 DB_PATH = "database.sqlite3"
-TABLE_NAME = "trips"
+TABLE_NAME = "timeline_photo"
 COLUMN_NAME = "image"
 
 # --- Connect to the DB ---
@@ -20,9 +20,10 @@ cur.execute(f"""
             ),
             '.png', '.webp'
         )
-    WHERE LOWER({COLUMN_NAME}) LIKE '%.jpg'
+    WHERE (LOWER({COLUMN_NAME}) LIKE '%.jpg'
        OR LOWER({COLUMN_NAME}) LIKE '%.jpeg'
-       OR LOWER({COLUMN_NAME}) LIKE '%.png'
+       OR LOWER({COLUMN_NAME}) LIKE '%.png')
+       and trip_id = 'thompson-nicola'
 """)
 
 # --- Commit and close ---
