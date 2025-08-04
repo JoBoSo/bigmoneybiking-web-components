@@ -58,7 +58,6 @@ class Tiles extends HTMLElement {
           <a href="${tile.page}">
             <div class="content">
               <div class="content-overlay"></div>
-              <div class="content-overlay-2"></div>
               <div class="image-wrapper">
                 <img 
                   class="content-image img-fluid fade-in"
