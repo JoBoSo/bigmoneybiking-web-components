@@ -3,8 +3,8 @@
 body {
   font-family: arial, 'Quicksand', Helvetica, sans-serif;
   color: white;
-  background-image: url('/images/body-bg.webp');
-  backdrop-filter: blur(5px);
+  background-image: url('/images/body-bg-blur.webp');
+  /* backdrop-filter: blur(5px); */
   /* background-size: contain; */
   background-attachment: fixed;
   /* Full height image */
