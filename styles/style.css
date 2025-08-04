@@ -1,37 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&family=Quicksand:wght@400;600&display=swap');
 
-html {
-  height: 100%;
+/* Ensure base layout has full height */
+html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
+/* Body styles */
 body {
-  font-family: arial, 'Quicksand', Helvetica, sans-serif;
+  position: relative; /* Required for pseudo background */
+  font-family: Arial, 'Quicksand', Helvetica, sans-serif;
   color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Fixed background image via pseudo-element for cross-browser support */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background-image: url('/images/body-bg-blur.webp');
-  /* backdrop-filter: blur(5px); */
-  /* background-size: contain; */
-  background-attachment: fixed;
-  /* Full height image */
-  height: 100%;
-  /* Center and scale the image nicely */
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  /* background: #00ac86; */
-  margin: 0;
-  padding: 0;
+  z-index: -1;
+  pointer-events: none; /* Don't block clicks */
 }
 
-p {
-  margin: 0;
-}
-
-h3 {
+/* Paragraph and heading spacing */
+p, h3 {
   margin: 0;
 }
 
+/* Full-width row layout */
 .row-full {
   width: 100vw;
   height: 100%;
@@ -40,20 +46,12 @@ h3 {
   left: 50%;
 }
 
+/* Text alignment */
 .text-center {
   text-align: center;
 }
 
-.bg-senior-el-dinero {
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/senior-el-dinero.png');
-  background-size: cover;
-  background-position: center;
-  padding: 10px 10%;
-  color: #fff;
-}
-
+/* Subscribe section styling */
 .subscribe h1 {
   text-align: center;
   margin-top: 50px;
@@ -67,8 +65,8 @@ h3 {
   background: white;
   display: flex;
   text-align: center;
-  margin: 0 auto; 
-  width:272px;
+  margin: 0 auto;
+  width: 272px;
 }
 
 .subscribe form input {
@@ -96,11 +94,10 @@ h3 {
   text-align: center;
 }
 
+/* Footer logo alignment */
 .subscribe-footer {
-  /* border-top: rgb(64, 64, 64) solid 1px; */
-  /* padding-top: 5px; */
   padding-bottom: 5px;
-  }
+}
 
 .subscribe-footer img {
   display: flex;
