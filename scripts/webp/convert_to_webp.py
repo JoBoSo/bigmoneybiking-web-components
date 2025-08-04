@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 # --- CONFIG ---
-ROOT_DIR = "./images/pender-mayne-saturna"  # Top-level folder containing subfolders with images
+ROOT_DIR = "./images/saltspring"  # Top-level folder containing subfolders with images
 QUALITY = 60         # Compression level (0–100, lower = smaller file)
 
 # --- Convert image to .webp and overwrite ---
