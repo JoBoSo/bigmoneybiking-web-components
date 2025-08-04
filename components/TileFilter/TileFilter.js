@@ -49,36 +49,38 @@ class TileFilter extends HTMLElement {
 
     this.innerHTML = html;
 
-    // Focus 'everywhere' button by default
-    const everywhereBtn = this.querySelector('button[name="everywhere"]');
-    if (everywhereBtn) {
-      everywhereBtn.focus();
+    // Set "everywhere" button active initially
+    const defaultBtn = this.querySelector('button[name="everywhere"]');
+    if (defaultBtn) {
+      defaultBtn.classList.add('active');
     }
 
-    // Attach event listeners
     this.querySelectorAll('button').forEach(button => {
       button.addEventListener('click', () => {
+        // Remove active class from all
+        this.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
+
+        // Add active to clicked one
+        button.classList.add('active');
+
+        // Apply filter
         this.handleFilter(button.name);
       });
     });
   }
 
   handleFilter(buttonName) {
-    // Here is your filtering logic, slightly adapted:
-
-    // Select all <a> inside <my-tiles> custom element
     const tileLinks = document.querySelectorAll('my-tiles a');
 
     tileLinks.forEach(link => {
       let filter = [];
 
       if (buttonName === 'everywhere') {
-        // Show all tiles
         link.parentElement.parentElement.style.display = '';
         return;
       }
 
-      // Bike tours (index.html)
+      // Bike tours
       if (buttonName === 'washington') filter = ['north-cascades'];
       else if (buttonName === 'westCoast') filter = ['lillooet', 'french-beach', 'gabriola', 'san-juan-circle', 'nanaimo-courtenay', 'san-josef-bay', 'brewster-lake', 'texada', 'comox-lake', 'quadra-cortes', 'nass-valley', 'haida-gwaii', 'galiano', 'saltspring', 'south-vi', 'pender-mayne-saturna', 'olympic', 'sunshine-coast', 'lomas-lake', 'san-juan-circle'];
       else if (buttonName === 'gulfIslands') filter = ['gabriola', 'texada', 'quadra-cortes', 'galiano', 'saltspring', 'pender-mayne-saturna'];
@@ -86,7 +88,7 @@ class TileFilter extends HTMLElement {
       else if (buttonName === 'interiorBC') filter = ['thompson-nicola', 'begbie-falls', 'downie-creek', 'babine-lake'];
       else if (buttonName === 'quebec') filter = ['to-mtrl', 'ptit-train', 'mtrl-sherbrooke', 'quebec'];
 
-      // Hikes (hikes.html)
+      // Hikes
       else if (buttonName === 'quebecHikes') filter = ['mont-nixon', 'montagne-noire'];
       else if (buttonName === 'rockiesHikes') filter = ['six-glaciers', 'grotto-mtn', 'mt-temple', 'bourgeau', 'cory-pass', 'ha-ling', 'jasper'];
       else if (buttonName === 'columbiasHikes') filter = ['sprauge-bay', 'perley-rock', 'jade-lakes', 'miller-lake', 'mt-begbie', 'mt-cartier', 'mccrae-peak', 'mt-revelstoke', 'viking-ridge'];
@@ -95,10 +97,8 @@ class TileFilter extends HTMLElement {
       else if (buttonName === 'vancouverIslandHikes') filter = ['mt-albert-edward', 'phillips-ridge', 'mt-becher', 'jocelyn-hill', 'heather-mountain'];
       else if (buttonName === 'ontarioHikes') filter = ['algonquin'];
 
-      // Determine page name from href
       const thisPageName = link.href.substring(link.href.lastIndexOf('/') + 1, link.href.length - 5);
 
-      // Show or hide tiles
       if (filter.includes(thisPageName)) {
         link.parentElement.parentElement.style.display = '';
       } else {

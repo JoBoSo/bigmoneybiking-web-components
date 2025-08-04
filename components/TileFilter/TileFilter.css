@@ -1,5 +1,4 @@
 .filter-container {
-  /* background: #02bd94; */
   background: rgba(0, 0, 0, 0.25);
   margin: 5px 10px 0px 10px;
   border-radius: 7px;
@@ -7,10 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* scroll */
-  /* width: 500px; */
-  /* height: 100px; */
   white-space: nowrap;
   position: relative;
   overflow-x: scroll;
@@ -18,21 +13,16 @@
   -webkit-overflow-scrolling: touch;
 }
 
-.filter-container .button-container {
-  font-size: 10pt;
-
-  /* scroll */
-  /* width: 24.5%; */
-  /* background-color: #eee; */
-  float: none;
-  height: 90%;
-  /* margin: 0 0.25%; */
-  display: inline-block;
-  zoom: 1;
-}
-
 .filter-container::-webkit-scrollbar {
   display: none;
+}
+
+.filter-container .button-container {
+  font-size: 10pt;
+  float: none;
+  height: 90%;
+  display: inline-block;
+  zoom: 1;
 }
 
 .filter-container button {
@@ -41,9 +31,19 @@
   color: white;
   border-radius: 7px;
   margin: 2px;
+  padding: 1px 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
 }
 
-.filter-container button:hover, button:focus {
+.filter-container button:hover,
+.filter-container button:focus {
   background: #00d6a8;
   outline: none;
+}
+
+/* Keep tab green when active */
+.filter-container button.active {
+  background: #00d6a8;
+  color: white;
 }
