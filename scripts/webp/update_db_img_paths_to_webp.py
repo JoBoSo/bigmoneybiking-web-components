@@ -23,7 +23,7 @@ cur.execute(f"""
     WHERE (LOWER({COLUMN_NAME}) LIKE '%.jpg'
        OR LOWER({COLUMN_NAME}) LIKE '%.jpeg'
        OR LOWER({COLUMN_NAME}) LIKE '%.png')
-       and trip_id = 'thompson-nicola'
+       and trip_id = 'san-juan-circle'
 """)
 
 # --- Commit and close ---
