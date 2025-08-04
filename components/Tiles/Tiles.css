@@ -127,7 +127,7 @@
 .image-wrapper {
   position: relative;
   width: 100%;
-  padding-top: 66.66%; /* 3:2 aspect ratio = height is 2/3 of width */
+  padding-top: 75%; /* 3:2 aspect ratio = height is 2/3 of width */
   overflow: hidden;
 }
 
