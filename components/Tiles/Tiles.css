@@ -114,8 +114,36 @@
 
 .card {
   margin: 5px;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 #card-row {
   margin: 5px;
 }
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 66.66%; /* 3:2 aspect ratio = height is 2/3 of width */
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.6s ease-in;
+}
+
+.fade-in.loaded {
+  opacity: 1;
+}
+
