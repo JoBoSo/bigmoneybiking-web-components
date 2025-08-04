@@ -16,6 +16,7 @@ class Footer extends HTMLElement {
         align-items: center;
         justify-content: center;
         margin-bottom: 10px;
+        padding-bottom: 5px;
       }
       
       .social-footer .social-footer-icons {
