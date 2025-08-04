@@ -1,16 +1,16 @@
 class Header extends HTMLElement {
   constructor() {
     super();
-    this.root = '';
+    this.root = "";
   }
 
   static get observedAttributes() {
-    return ['root'];
+    return ["root"];
   }
 
   attributeChangedCallback(property, oldValue, newValue) {
     if (oldValue === newValue) return;
-    this[ property ] = newValue; 
+    this[property] = newValue;
   }
 
   connectedCallback() {
@@ -87,7 +87,9 @@ class Header extends HTMLElement {
       </style>
     `;
 
-    this.innerHTML = style + `
+    this.innerHTML =
+      style +
+      `
       <div class="header">
         <h1 id="title">
           <a href="/" style="text-decoration: none; color: inherit;">Big Money Biking</a>
@@ -104,8 +106,8 @@ class Header extends HTMLElement {
           <a href="${this.root}subscribe.html"><b>Subscribe</b></a>
         </div>
       </div>
-    `
+    `;
   }
 }
 
-customElements.define('my-header', Header);
+customElements.define("my-header", Header);

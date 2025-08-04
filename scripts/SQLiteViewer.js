@@ -7,7 +7,8 @@ class SQLiteViewer {
 
   async init() {
     this.SQL = await window.initSqlJs({
-      locateFile: file => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/${file}`
+      locateFile: (file) =>
+        `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/${file}`,
     });
     const dbBytes = await this._fetchDatabase(this.dbFile);
     this.db = new this.SQL.Database(dbBytes);
@@ -29,8 +30,8 @@ class SQLiteViewer {
 
     const { columns, values } = result[0];
 
-    const jsonRows = values.map(row =>
-      Object.fromEntries(row.map((val, i) => [columns[i], val]))
+    const jsonRows = values.map((row) =>
+      Object.fromEntries(row.map((val, i) => [columns[i], val])),
     );
 
     return jsonRows;

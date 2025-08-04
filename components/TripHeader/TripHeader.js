@@ -1,49 +1,54 @@
-import SQLiteViewer from '../../scripts/SQLiteViewer.js';
+import SQLiteViewer from "../../scripts/SQLiteViewer.js";
 
-async function getTripHeaderData(data_id){
+async function getTripHeaderData(data_id) {
   const viewer = new SQLiteViewer("../database.sqlite3");
   await viewer.init();
 
-  const result = viewer.runPreparedQueryAsJSON(`
+  const result = viewer.runPreparedQueryAsJSON(
+    `
     SELECT *
     FROM trip_header
     WHERE id = ?
-    `, 
-    [data_id]
-  )
+    `,
+    [data_id],
+  );
 
-  return result
+  return result;
 }
 
-function constructStatsBar(distance_km, days, terrain, location, dates){
-  let statsBar = ''
+function constructStatsBar(distance_km, days, terrain, location, dates) {
+  let statsBar = "";
   if (distance_km !== null) {
-    statsBar += distance_km + ' km | '
-  } if (days !== null) {
-    statsBar += days + ' Days | '
-  } if (terrain !== null) {
-    statsBar += terrain + ' | '
-  } if (location !== null) {
-    statsBar += location + ' | '
-  } if (dates !== null) {
-    statsBar += dates
+    statsBar += distance_km + " km | ";
   }
-  return statsBar
+  if (days !== null) {
+    statsBar += days + " Days | ";
+  }
+  if (terrain !== null) {
+    statsBar += terrain + " | ";
+  }
+  if (location !== null) {
+    statsBar += location + " | ";
+  }
+  if (dates !== null) {
+    statsBar += dates;
+  }
+  return statsBar;
 }
 
 class TripHeader extends HTMLElement {
   constructor() {
-      super();
-      this.data_id = '';
+    super();
+    this.data_id = "";
   }
 
   static get observedAttributes() {
-      return ['data_id'];
+    return ["data_id"];
   }
 
   attributeChangedCallback(property, oldValue, newValue) {
-      if (oldValue === newValue) return;
-      this[ property ] = newValue; 
+    if (oldValue === newValue) return;
+    this[property] = newValue;
   }
 
   async connectedCallback() {
@@ -75,20 +80,22 @@ class TripHeader extends HTMLElement {
       </style>
     `;
 
-    const tripDataResponse = await getTripHeaderData(this.data_id)
-    const tripData = tripDataResponse[0]
+    const tripDataResponse = await getTripHeaderData(this.data_id);
+    const tripData = tripDataResponse[0];
 
-    this.innerHTML = style + `
+    this.innerHTML =
+      style +
+      `
       <div class="row no-gutters">
         <div class="col-12 trip-header">
           <h1 class="tour-title">${tripData.title}</h1>
           <p class="stats-bar">
             ${constructStatsBar(
-              tripData.distance_km, 
-              tripData.days, 
-              tripData.terrain, 
-              tripData.location, 
-              tripData.dates
+              tripData.distance_km,
+              tripData.days,
+              tripData.terrain,
+              tripData.location,
+              tripData.dates,
             )}
           </p>
         </div>
@@ -97,4 +104,4 @@ class TripHeader extends HTMLElement {
   }
 }
 
-customElements.define('my-trip-header', TripHeader);
+customElements.define("my-trip-header", TripHeader);

@@ -20,5 +20,5 @@
 #         aws-secret-access-key: ${{ secrets.S3_SECRET_ACCESS_KEY }}
 #         aws-region: us-east-2
 
-    - name: Deploy to AWS S3
-      run: aws s3 sync ./ s3://${{ secrets.S3_BUCKET_NAME }} --delete
+- name: Deploy to AWS S3
+  run: aws s3 sync ./ s3://${{ secrets.S3_BUCKET_NAME }} --delete

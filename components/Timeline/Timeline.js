@@ -1,59 +1,63 @@
-import SQLiteViewer from '../../scripts/SQLiteViewer.js';
+import SQLiteViewer from "../../scripts/SQLiteViewer.js";
 
-async function getTimelineDayData(data_id){
+async function getTimelineDayData(data_id) {
   const viewer = new SQLiteViewer("../database.sqlite3");
   await viewer.init();
 
-  const result = viewer.runPreparedQueryAsJSON(`
+  const result = viewer.runPreparedQueryAsJSON(
+    `
     SELECT *
     FROM timeline_day
     WHERE trip_name = ?
     order by day asc
-    `, 
-    [data_id]
-  )
+    `,
+    [data_id],
+  );
 
-  return result
+  return result;
 }
 
-async function getTimelinePhotoData(timeline_day_id){
+async function getTimelinePhotoData(timeline_day_id) {
   const viewer = new SQLiteViewer("../database.sqlite3");
   await viewer.init();
 
-  const result = viewer.runPreparedQueryAsJSON(`
+  const result = viewer.runPreparedQueryAsJSON(
+    `
     SELECT *
     FROM timeline_photo
     WHERE timeline_day_id = ?
     order by timeline_day_id asc, image_order asc
-    `, 
-    [timeline_day_id]
-  )
+    `,
+    [timeline_day_id],
+  );
 
-  return result
+  return result;
 }
 
 function parseArray(stringArray) {
   try {
-    const list = Array.isArray(stringArray) ? stringArray : JSON.parse(stringArray || '[]');
+    const list = Array.isArray(stringArray)
+      ? stringArray
+      : JSON.parse(stringArray || "[]");
     return list;
   } catch {
-    return '';
+    return "";
   }
 }
 
 class Timeline extends HTMLElement {
   constructor() {
-      super();
-      this.data_id = '';
+    super();
+    this.data_id = "";
   }
 
   static get observedAttributes() {
-      return ['data_id'];
+    return ["data_id"];
   }
 
   attributeChangedCallback(property, oldValue, newValue) {
-      if (oldValue === newValue) return;
-      this[ property ] = newValue; 
+    if (oldValue === newValue) return;
+    this[property] = newValue;
   }
 
   async connectedCallback() {
@@ -219,8 +223,8 @@ class Timeline extends HTMLElement {
       </style>
     `;
 
-    const timelineDayData = await getTimelineDayData(this.data_id)
-    const timelinePhotoData = await getTimelinePhotoData(this.data_id)
+    const timelineDayData = await getTimelineDayData(this.data_id);
+    const timelinePhotoData = await getTimelinePhotoData(this.data_id);
 
     const timelineHTML = await Promise.all(
       timelineDayData.map(async (day) => {
@@ -228,34 +232,43 @@ class Timeline extends HTMLElement {
           <li class="my-timeline-item">
             <p class="my-timeline-header">
               <b>
-                ${day.day !== null ? 'Day ' + day.day + ' | ' : ''}
+                ${day.day !== null ? "Day " + day.day + " | " : ""}
                 <span style='font-size:16pt;'> 
-                  ${day.distance !== null ? day.distance + ' km' : ''} 
-                  ${day.destination !== null ? ' &#8212; ' + day.destination : ''} 
-                  ${day.start !== null ? "<span style='font-size: 12pt'>from</span> " + day.start : ''} 
-                  ${day.end !== null ? "<span style='font-size: 12pt'>to</span> " + day.end : ''} 
+                  ${day.distance !== null ? day.distance + " km" : ""} 
+                  ${day.destination !== null ? " &#8212; " + day.destination : ""} 
+                  ${day.start !== null ? "<span style='font-size: 12pt'>from</span> " + day.start : ""} 
+                  ${day.end !== null ? "<span style='font-size: 12pt'>to</span> " + day.end : ""} 
                 </span>
               </b>
             </p>
 
-            <p class="my-timeline-description">${day.description !== null ? day.description : ''}</p>
+            <p class="my-timeline-description">${day.description !== null ? day.description : ""}</p>
 
             <ul class="my-timeline-bullets">
-              ${(parseArray(day.bullets)).map((b) => `<li>${b}</li>`).join('')}
+              ${parseArray(day.bullets)
+                .map((b) => `<li>${b}</li>`)
+                .join("")}
             </ul>
 
-            ${(await getTimelinePhotoData(day.id)).length < 1 ? `` : `
+            ${
+              (await getTimelinePhotoData(day.id)).length < 1
+                ? ``
+                : `
               <section id="timeline-slider-section">
                 <div class="container">
                   <div class="subcontainer">
                     <div class="slider-wrapper">
                       <div class="slider">
-                        ${(await getTimelinePhotoData(day.id)).map((photo) => `
+                        ${(await getTimelinePhotoData(day.id))
+                          .map(
+                            (photo) => `
                           <div class="slide">
                             <img src='../images/${photo.image}'/>
                             <div class="caption">${photo.caption}</div>
                           </div>
-                        `).join('')}
+                        `,
+                          )
+                          .join("")}
                       </div>
                       <div id="controls">
                         <button class="previous"><i class="fa-solid fa-angle-left"></i></button>
@@ -265,19 +278,22 @@ class Timeline extends HTMLElement {
                   </div>
                 </div>
               </section>
-            `}
+            `
+            }
 
           </li>
         `;
-      })
+      }),
     );
 
-    this.innerHTML = style + `<div class="my-timeline"><ul>${timelineHTML.join('')}</ul></div>`;
+    this.innerHTML =
+      style +
+      `<div class="my-timeline"><ul>${timelineHTML.join("")}</ul></div>`;
 
-    let sliders = document.querySelectorAll('.slider');
-    let controls = document.querySelectorAll('#controls');
-    let previous = document.querySelectorAll('.previous');
-    let next = document.querySelectorAll('.next');
+    let sliders = document.querySelectorAll(".slider");
+    let controls = document.querySelectorAll("#controls");
+    let previous = document.querySelectorAll(".previous");
+    let next = document.querySelectorAll(".next");
     for (let i = 0; i < sliders.length; i++) {
       tns({
         container: sliders[i],
@@ -294,8 +310,8 @@ class Timeline extends HTMLElement {
         swipeAngle: 30,
         preventScrollOnTouch: "auto",
       });
-    };
+    }
   }
 }
 
-customElements.define('my-timeline', Timeline);
+customElements.define("my-timeline", Timeline);

@@ -1,38 +1,39 @@
-import SQLiteViewer from '../../scripts/SQLiteViewer.js';
+import SQLiteViewer from "../../scripts/SQLiteViewer.js";
 
-async function getYoutubeData(video_id){
+async function getYoutubeData(video_id) {
   const viewer = new SQLiteViewer("../database.sqlite3");
   await viewer.init();
 
-  const result = viewer.runPreparedQueryAsJSON(`
+  const result = viewer.runPreparedQueryAsJSON(
+    `
     SELECT *
     FROM youtube_video
     WHERE id = ?
-    `, 
-    [video_id]
-  )
+    `,
+    [video_id],
+  );
 
-  return result
+  return result;
 }
 
 class YoutubeVideo extends HTMLElement {
   constructor() {
-      super();
-      this.video_id = '';
+    super();
+    this.video_id = "";
   }
 
   static get observedAttributes() {
-      return ['video_id'];
+    return ["video_id"];
   }
 
   attributeChangedCallback(property, oldValue, newValue) {
-      if (oldValue === newValue) return;
-      this[ property ] = newValue; 
+    if (oldValue === newValue) return;
+    this[property] = newValue;
   }
 
   async connectedCallback() {
-    const youtubeDataResponse = await getYoutubeData(this.video_id)
-    const video = youtubeDataResponse[0]
+    const youtubeDataResponse = await getYoutubeData(this.video_id);
+    const video = youtubeDataResponse[0];
 
     this.innerHTML = `
     <div class="youtube-video"
@@ -59,4 +60,4 @@ class YoutubeVideo extends HTMLElement {
   }
 }
 
-customElements.define('my-youtube-video', YoutubeVideo);
+customElements.define("my-youtube-video", YoutubeVideo);

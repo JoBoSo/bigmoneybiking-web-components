@@ -37,7 +37,9 @@ class Footer extends HTMLElement {
       </style>
     `;
 
-    this.innerHTML = style + `
+    this.innerHTML =
+      style +
+      `
       <footer class="social-footer">
         <div class="social-footer-icons">
           <a href="https://github.com/JoBoSo"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
@@ -51,4 +53,4 @@ class Footer extends HTMLElement {
   }
 }
 
-customElements.define('my-footer', Footer);
+customElements.define("my-footer", Footer);

@@ -1,4 +1,4 @@
-import SQLiteViewer from '../../scripts/SQLiteViewer.js';
+import SQLiteViewer from "../../scripts/SQLiteViewer.js";
 
 function tripStats(days, kms) {
   if (days !== null && kms !== null) {
@@ -8,7 +8,7 @@ function tripStats(days, kms) {
   } else if (kms !== null) {
     return `${kms} km`;
   } else {
-    return '';
+    return "";
   }
 }
 
@@ -17,11 +17,12 @@ async function getTileData(trip_type) {
   await viewer.init();
 
   function getPageFragment(page) {
-    return page.slice(0, -5).split('/')[1];
+    return page.slice(0, -5).split("/")[1];
   }
   viewer.db.create_function("getPageFragment", getPageFragment);
 
-  const result = viewer.runPreparedQueryAsJSON(`
+  const result = viewer.runPreparedQueryAsJSON(
+    `
     SELECT title, subtitle, image, page, distance_km, days
     FROM trips as trip
     LEFT JOIN (
@@ -29,7 +30,9 @@ async function getTileData(trip_type) {
       FROM trip_header
     ) as trip_header ON trip_header.id = getPageFragment(trip.page)
     WHERE trip_type = ?
-  `, [trip_type]);
+  `,
+    [trip_type],
+  );
 
   return result;
 }
@@ -37,11 +40,11 @@ async function getTileData(trip_type) {
 class Tiles extends HTMLElement {
   constructor() {
     super();
-    this.trip_type = '';
+    this.trip_type = "";
   }
 
   static get observedAttributes() {
-    return ['trip_type'];
+    return ["trip_type"];
   }
 
   attributeChangedCallback(property, oldValue, newValue) {
@@ -52,7 +55,9 @@ class Tiles extends HTMLElement {
   async connectedCallback() {
     const tiles = await getTileData(this.trip_type);
 
-    const tileHTML = tiles.map(tile => `
+    const tileHTML = tiles
+      .map(
+        (tile) => `
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="card border-0 card-corners">
           <a href="${tile.page}">
@@ -78,30 +83,35 @@ class Tiles extends HTMLElement {
           </a>
         </div>
       </div>
-    `).join('');
+    `,
+      )
+      .join("");
 
     this.innerHTML = `<div class="row no-gutters" id="card-row">${tileHTML}</div>`;
     this.lazyLoadImages();
   }
 
   lazyLoadImages() {
-    const images = this.querySelectorAll('img[data-src]');
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const img = entry.target;
-          img.src = img.getAttribute('data-src');
-          img.onload = () => img.classList.add('loaded');
-          observer.unobserve(img);
-        }
-      });
-    }, {
-      rootMargin: '200px',
-      threshold: 0.1
-    });
+    const images = this.querySelectorAll("img[data-src]");
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            img.src = img.getAttribute("data-src");
+            img.onload = () => img.classList.add("loaded");
+            observer.unobserve(img);
+          }
+        });
+      },
+      {
+        rootMargin: "200px",
+        threshold: 0.1,
+      },
+    );
 
-    images.forEach(img => observer.observe(img));
+    images.forEach((img) => observer.observe(img));
   }
 }
 
-customElements.define('my-tiles', Tiles);
+customElements.define("my-tiles", Tiles);

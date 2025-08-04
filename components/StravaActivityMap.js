@@ -1,7 +1,7 @@
 class StravaActivityMap extends HTMLElement {
   constructor() {
-      super();
-      this.root = '';
+    super();
+    this.root = "";
   }
 
   connectedCallback() {
@@ -23,7 +23,9 @@ class StravaActivityMap extends HTMLElement {
       </style>
     `;
 
-    this.innerHTML = style + `
+    this.innerHTML =
+      style +
+      `
       <div class="map-container">
         <embed src="https://stravaactivitymap.pythonanywhere.com/" class='map'>
       </div>
@@ -31,4 +33,4 @@ class StravaActivityMap extends HTMLElement {
   }
 }
 
-customElements.define('strava-activity-map', StravaActivityMap);
+customElements.define("strava-activity-map", StravaActivityMap);

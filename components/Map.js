@@ -1,33 +1,34 @@
-import SQLiteViewer from '../../scripts/SQLiteViewer.js';
+import SQLiteViewer from "../../scripts/SQLiteViewer.js";
 
-async function getMapData(page_id){
+async function getMapData(page_id) {
   const viewer = new SQLiteViewer("../database.sqlite3");
   await viewer.init();
 
-  const result = viewer.runPreparedQueryAsJSON(`
+  const result = viewer.runPreparedQueryAsJSON(
+    `
     SELECT map_link
     FROM map
     WHERE page_id = ?
-    `, 
-    [page_id]
-  )
+    `,
+    [page_id],
+  );
 
-  return result
+  return result;
 }
 
 class Map extends HTMLElement {
   constructor() {
-      super();
-      this.data_id = '';
+    super();
+    this.data_id = "";
   }
 
   static get observedAttributes() {
-      return ['data_id'];
+    return ["data_id"];
   }
 
   attributeChangedCallback(property, oldValue, newValue) {
-      if (oldValue === newValue) return;
-      this[ property ] = newValue; 
+    if (oldValue === newValue) return;
+    this[property] = newValue;
   }
 
   async connectedCallback() {
@@ -69,10 +70,12 @@ class Map extends HTMLElement {
       </style>
     `;
 
-    const map = await getMapData(this.data_id)
-    const map_link = (map[0].map_link)
+    const map = await getMapData(this.data_id);
+    const map_link = map[0].map_link;
 
-    this.innerHTML = style + `
+    this.innerHTML =
+      style +
+      `
       <div class="map">
         <h2 class="text-center" style="font-size: 18pt; margin-bottom: 0;">
           Route 
@@ -90,4 +93,4 @@ class Map extends HTMLElement {
   }
 }
 
-customElements.define('my-map', Map);
+customElements.define("my-map", Map);

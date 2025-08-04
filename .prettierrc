@@ -1,0 +1,6 @@
+// to run prettier: npx prettier . --write
+
+{
+  "tabWidth": 2,
+  "useTabs": false
+}

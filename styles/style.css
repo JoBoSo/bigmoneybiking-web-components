@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&family=Quicksand:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&family=Quicksand:wght@400;600&display=swap");
 
 /* Ensure base layout has full height */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -10,7 +11,7 @@ html, body {
 /* Body styles */
 body {
   position: relative; /* Required for pseudo background */
-  font-family: Arial, 'Quicksand', Helvetica, sans-serif;
+  font-family: Arial, "Quicksand", Helvetica, sans-serif;
   color: white;
   min-height: 100vh;
   overflow-x: hidden;
@@ -24,7 +25,7 @@ body::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('/images/body-bg-blur.webp');
+  background-image: url("/images/body-bg-blur.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -33,7 +34,8 @@ body::before {
 }
 
 /* Paragraph and heading spacing */
-p, h3 {
+p,
+h3 {
   margin: 0;
 }
 
