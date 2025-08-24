@@ -164,7 +164,7 @@ class Timeline extends HTMLElement {
       
       .slide img {
         width: 100%;
-        height: 263px;
+        height: 195px;
         border-top-left-radius: 6px;
         border-top-right-radius: 6px;
       }
@@ -172,7 +172,11 @@ class Timeline extends HTMLElement {
       @media (max-width: 576px) {
         .slide img {
           width: auto;
-          height: 237px;
+          height: 178px;
+        }
+
+        .my-timeline-header {
+          font-size: 14pt;
         }
       }
 
@@ -186,11 +190,11 @@ class Timeline extends HTMLElement {
         background: rgba(0, 0, 0, 0.2);
       }
       
-      #controls i {
+      .controls i {
         color: white;
       }
 
-      #controls {
+      .controls {
         padding-bottom: 5px;
       }
       
@@ -224,7 +228,6 @@ class Timeline extends HTMLElement {
     `;
 
     const timelineDayData = await getTimelineDayData(this.data_id);
-    const timelinePhotoData = await getTimelinePhotoData(this.data_id);
 
     const timelineHTML = await Promise.all(
       timelineDayData.map(async (day) => {
@@ -233,11 +236,11 @@ class Timeline extends HTMLElement {
             <p class="my-timeline-header">
               <b>
                 ${day.day !== null ? "Day " + day.day + " | " : ""}
-                <span style='font-size:16pt;'> 
+                <span> 
                   ${day.distance !== null ? day.distance + " km" : ""} 
                   ${day.destination !== null ? " &#8212; " + day.destination : ""} 
-                  ${day.start !== null ? "<span style='font-size: 12pt'>from</span> " + day.start : ""} 
-                  ${day.end !== null ? "<span style='font-size: 12pt'>to</span> " + day.end : ""} 
+                  ${day.start !== null ? "<span>from</span> " + day.start : ""} 
+                  ${day.end !== null ? "<span>to</span> " + day.end : ""} 
                 </span>
               </b>
             </p>
@@ -263,14 +266,15 @@ class Timeline extends HTMLElement {
                           .map(
                             (photo) => `
                           <div class="slide">
-                            <img src='../images/${photo.image}'/>
+                            
+                            <img src="../images/${photo.image}" alt="${photo.caption}"/>
                             <div class="caption">${photo.caption}</div>
                           </div>
                         `,
                           )
                           .join("")}
                       </div>
-                      <div id="controls">
+                      <div class="controls">
                         <button class="previous"><i class="fa-solid fa-angle-left"></i></button>
                         <button class="next"><i class="fa-solid fa-angle-right"></i></button>
                       </div>
@@ -291,7 +295,7 @@ class Timeline extends HTMLElement {
       `<div class="my-timeline"><ul>${timelineHTML.join("")}</ul></div>`;
 
     let sliders = document.querySelectorAll(".slider");
-    let controls = document.querySelectorAll("#controls");
+    let controls = document.querySelectorAll(".controls");
     let previous = document.querySelectorAll(".previous");
     let next = document.querySelectorAll(".next");
     for (let i = 0; i < sliders.length; i++) {

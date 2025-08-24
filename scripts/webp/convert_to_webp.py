@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 # --- CONFIG ---
-ROOT_DIR = "./images/saltspring"  # Top-level folder containing subfolders with images
+ROOT_DIR = "./images/north-cascades/webp"  # Top-level folder containing subfolders with images
 QUALITY = 60         # Compression level (0–100, lower = smaller file)
 
 # --- Convert image to .webp and overwrite ---
@@ -32,18 +32,18 @@ def convert_to_webp(file_path):
             # else:
             #     img.save(new_path, "webp", quality=60)
             img.save(new_path, "webp", quality=QUALITY)
-        # os.remove(file_path)
+        os.remove(file_path)
         print(f"✔ Converted: {file_path} → {new_path}")
     except Exception as e:
         print(f"❌ Failed: {file_path} ({e})")
 
 # --- Walk through all subfolders ---
-# for root, _, files in os.walk(ROOT_DIR):
-#     for filename in files:
-#         file_path = os.path.join(root, filename)
-#         convert_to_webp(file_path)
+for root, _, files in os.walk(ROOT_DIR):
+    for filename in files:
+        file_path = os.path.join(root, filename)
+        convert_to_webp(file_path)
 
-for img in [
-    './images/body-bg-blur.jpg'
-]:
-    convert_to_webp(img)
+# for img in [
+#     './images/body-bg-blur.jpg'
+# ]:
+#     convert_to_webp(img)
