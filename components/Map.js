@@ -51,6 +51,8 @@ class Map extends HTMLElement {
       }
       
       .myMap iframe {
+          width: 100%;
+          height: 480px;
           margin-top:-69px; 
           border-bottom-left-radius: 10px;
           border-bottom-right-radius: 10px;
@@ -65,6 +67,12 @@ class Map extends HTMLElement {
 
       .open-external-map:hover {
         color: blue;
+      }
+
+      @media (max-width: 576px) {
+        .myMap iframe {
+          height: 330px;
+        }
       }
 
       </style>
@@ -85,7 +93,7 @@ class Map extends HTMLElement {
         </h2>
         <div class="row no-gutters">
           <div class="col-12 myMap">
-            <iframe src=${map_link} width="100%" height="480"></iframe>
+            <iframe src=${map_link}></iframe>
           </div>
         </div>
       </div>

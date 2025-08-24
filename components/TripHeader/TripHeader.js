@@ -77,6 +77,12 @@ class TripHeader extends HTMLElement {
         text-align: center;
       }
 
+      @media (max-width: 576px) {
+        .trip-header .tour-title {
+          font-size: 18pt;
+        }
+      }
+
       </style>
     `;
 
