@@ -172,7 +172,7 @@ class Timeline extends HTMLElement {
       @media (max-width: 576px) {
         .slide img {
           width: auto;
-          height: 178px;
+          height: 200px;
         }
 
         .my-timeline-header {
