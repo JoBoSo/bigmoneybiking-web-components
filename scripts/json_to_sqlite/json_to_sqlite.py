@@ -89,5 +89,5 @@ class JsonToSQLiteConverter:
 
 
 # Example usage:
-converter = JsonToSQLiteConverter("data.json", "../../database.sqlite3", "youtube_video")
-converter.create_table_and_insert()
+# converter = JsonToSQLiteConverter("path/to/your.json", "../../database.sqlite3", "youtube_video")
+# converter.create_table_and_insert()
