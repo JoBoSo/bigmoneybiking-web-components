@@ -18,13 +18,14 @@ async function getTileData(trip_type) {
 
   const result = viewer.runPreparedQueryAsJSON(
     `
-    SELECT title, subtitle, image, catagory, page_id, distance_km, days
+    SELECT title, subtitle, image, catagory, page_id, distance_km, days, start_date
     FROM trips as trip
     LEFT JOIN (
       SELECT id, distance_km, days
       FROM trip_header
     ) as trip_header ON trip_header.id = trip.page_id 
     WHERE trip_type = ?
+    order by start_date DESC
   `,
     [trip_type],
   );
