@@ -16,19 +16,14 @@ async function getTileData(trip_type) {
   const viewer = new SQLiteViewer("database.sqlite3");
   await viewer.init();
 
-  function getPageFragment(page) {
-    return page.slice(0, -5).split("/")[1];
-  }
-  viewer.db.create_function("getPageFragment", getPageFragment);
-
   const result = viewer.runPreparedQueryAsJSON(
     `
-    SELECT title, subtitle, image, page, distance_km, days
+    SELECT title, subtitle, image, catagory, page_id, distance_km, days
     FROM trips as trip
     LEFT JOIN (
       SELECT id, distance_km, days
       FROM trip_header
-    ) as trip_header ON trip_header.id = getPageFragment(trip.page)
+    ) as trip_header ON trip_header.id = trip.page_id 
     WHERE trip_type = ?
   `,
     [trip_type],
@@ -60,7 +55,7 @@ class Tiles extends HTMLElement {
         (tile) => `
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="card border-0 card-corners">
-          <a href="${tile.page}">
+          <a href="${tile.catagory}/${tile.page_id}.html">
             <div class="content">
               <div class="content-overlay"></div>
               <div class="image-wrapper">
